@@ -1,0 +1,241 @@
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.dll
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.xml
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\EntityFramework.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\EntityFramework.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\GrandHotel\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\GrandHotel\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\GrandHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\Project\Mau-web-site-khach-san\GrandHotel\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\GrandHotel\ProjectLibrary\bin\Debug\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\ProjectLibrary\bin\Debug\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+C:\Users\Pham Phuong\Desktop\Project_V2\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Pham Phuong\Desktop\Project_V2\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\ProjectLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\ProjectLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+G:\Project_V2_Steck\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+G:\Project_V2_Steck\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+G:\Project_V2_Steck\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+G:\Project_V2_Steck\ProjectLibrary\bin\Debug\EntityFramework.dll
+G:\Project_V2_Steck\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+G:\Project_V2_Steck\ProjectLibrary\bin\Debug\EntityFramework.xml
+G:\Project_V2_Steck\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+G:\Project_V2_Steck\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+G:\Project_V2_Steck\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+G:\Project_V2_Steck\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.dll
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.xml
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CoreCompileInputs.cache
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - Kshalong\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.dll
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.xml
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CoreCompileInputs.cache
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+D:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.dll
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.xml
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CoreCompileInputs.cache
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\project phuong\Paos hotel satek - Kshalong\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.dll
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.xml
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CoreCompileInputs.cache
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\project phuong\Mau-sateck\Paos hotel satek - paos\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csprojAssemblyReference.cache
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CoreCompileInputs.cache
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CopyComplete
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csprojAssemblyReference.cache
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CoreCompileInputs.cache
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CopyComplete
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\EntityFramework.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\EntityFramework.xml
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Debug\ProjectLibrary.csprojAssemblyReference.cache
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CoreCompileInputs.cache
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CopyComplete
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Debug\ProjectLibrary.pdb

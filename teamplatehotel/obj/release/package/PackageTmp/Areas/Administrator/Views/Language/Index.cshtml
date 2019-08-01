@@ -1,0 +1,67 @@
+﻿@model TeamplateHotel.Areas.Administrator.EntityModel.ELanguage
+@{
+    Layout = "/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+<div id="jtable-main-container"></div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#jtable-main-container').jtable({
+            title: '@ViewBag.Title',
+            paging: true, //Enable paging
+            pageSize: 20, //Set page size (default: 10)
+            sorting: true, //Enable sorting
+            selecting: true, //Enable selecting
+            multiselect: true, //Allow multiple selecting
+            selectingCheckboxes: true, //Show checkboxes on first column
+            columnResizable: false, //Actually, no need to set true since it's default
+            columnSelectable: true, //Actually, no need to set true since it's default
+            saveUserPreferences: false, //Actually, no need to set true since it's default
+            actions: {
+                listAction: '@Url.Action("List", "Language")',
+                deleteAction: '@Url.Action("Delete", "Language")',
+                updateAction: '@Url.Action("Edit", "Language")',
+                createAction: '@Url.Action("Create", "Language")'
+            },
+            fields: {
+                ID: {
+                    key: true,
+                    create: true,
+                    title: '@Html.DisplayNameFor(c=>c.ID)',
+                    width: '10%',
+                    inputClass: 'full-width',
+                    sorting: false,
+                },
+                Name: {
+                    title: '@Html.DisplayNameFor(c=>c.Name)',
+                    width: '10%',
+                    inputClass: 'full-width',
+                    sorting: false,
+                },
+                Icon: {
+                    title: '@Html.DisplayNameFor(c => c.Icon)',
+                    display: function (data) {
+                        return ' <img src="' + data.record.Icon + '" width="40px" height="40px"/>';
+                    },
+                    sorting: false,
+                    width: '15%',
+                    inputClass: 'upload'
+                },
+                Default: {
+                    title: '@Html.DisplayNameFor(c=>c.Default)',
+                    width: '8%',
+                    type: 'checkbox',
+                    values: { 'false': 'Không', 'true': 'Có' },
+                    defaultValue: 'false'
+                }
+                
+            },
+            //deleteConfirmation: function (data) {
+            //    data.deleteConfirmMessage = 'Nếu xóa ngôn ngữ thành công bạn sẽ phải đăng nhập lại';
+            //},        
+        });
+        //Load data
+        $('#jtable-main-container').jtable('load');
+    });
+
+</script>
+

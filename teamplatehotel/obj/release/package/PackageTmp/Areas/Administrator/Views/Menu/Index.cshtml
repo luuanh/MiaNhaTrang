@@ -1,0 +1,95 @@
+﻿@using ProjectLibrary.Config
+@model TeamplateHotel.Areas.Administrator.ModelShow.ShowMenu
+@{
+    ViewBag.Title = "Trang chuyên mục";
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+    SystemMenuLocation menuLocation = ViewBag.MenuLocation ?? new SystemMenuLocation();
+}
+<form action="@Url.Action("UpdateIndex", "Menu")" method="POST" id="updateIndex">
+    <input type="hidden" name="locationID" value="@menuLocation.LocationId" />
+    <div id="jtable-main-container"></div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#jtable-main-container').jtable({
+                title: '@menuLocation.TitleMenu',
+                paging: true, //Enable paging
+                pageSize: 20, //Set page size (default: 10)
+                sorting: true, //Enable sorting
+                defaultSorting: 'Name ASC', //Set default sorting
+                selecting: true, //Enable selecting
+                multiselect: true, //Allow multiple selecting
+                selectingCheckboxes: true, //Show checkboxes on first column
+                columnResizable: true, //Actually, no need to set true since it's default
+                columnSelectable: true, //Actually, no need to set true since it's default
+                saveUserPreferences: true, //Actually, no need to set true since it's default
+                toolbar: {
+                    items: [{
+                            icon: '/Areas/Administrator/Content/img/add.png',
+                            text: 'Thêm mới',
+                            click: function () {
+                                window.location = '@Url.Action("Create","Menu")?location=@menuLocation.AliasMenu';
+                            }
+                        }, {
+                            icon: '/Areas/Administrator/Content/img/Ordering.png',
+                            text: 'Sắp xếp',
+                            click: function () {
+                                $("#updateIndex").submit();
+                            }
+                        }]
+                },
+                actions: {
+                    listAction: '@Url.Action("List", "Menu")',
+                    deleteAction: '@Url.Action("Delete", "Menu")',
+                },
+                fields: {
+                    ID: {
+                        key: true,
+                        create: false,
+                        edit: false,
+                        list: false
+                    },
+                    Title: {
+                        title: '@Html.DisplayNameFor(u => u.Title)',
+                        width: '20%',
+                        display: function(data) {
+                            return '<a href="/admin/Menu/Update/'+data.record.ID+'?location=@menuLocation.AliasMenu"><span class="gach-' + data.record.Level + '">' + data.record.Title + '</span></a>';
+                        },
+                    },
+                    TypeMenu: {
+                        title: '@Html.DisplayNameFor(c => c.TypeMenu)',
+                        width: '12%',
+                    },
+                    Index: {
+                        title: '@Html.DisplayNameFor(c=>c.Index)',
+                        width: '8%',
+                        sorting: false,
+                        display: function(data) {
+                            return '<input type="text" name="sort[' + data.record.ID + '].Index" style="width:40px" value="' + data.record.Index + '"/>';
+                        },
+                    },
+                    Status: {
+                        title: '@Html.DisplayNameFor(c => c.Status)',
+                        width: '8%',
+                        type: 'checkbox',
+                        values: { 'false': 'Không', 'true': 'Có' },
+                    },
+                    '':
+                        {
+                            title: '',
+                            width: '2%',
+                            sorting: false,
+                            display: function(data) {
+                                return '<button title="Edit" type="button" class="jtable-command-button jtable-edit-command-button" onclick="editRecord(' + data.record.ID + ')"><span>Edit</span></button>';
+                            }
+                        }
+                },
+            });
+            $('#jtable-main-container').jtable('load', { locationID: '@menuLocation.LocationId' });
+        });
+    </script>
+</form>
+<script>
+    function editRecord(menuid) {
+        window.location = '@Url.Action("Update","Menu")/' + menuid + "?location=@menuLocation.AliasMenu";
+    }    
+</script>

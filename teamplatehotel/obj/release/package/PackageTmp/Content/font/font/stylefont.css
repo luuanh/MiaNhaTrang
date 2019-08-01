@@ -1,0 +1,50 @@
+﻿@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url("Roboto-Light.ttf") format('truetype');
+}
+
+/* Bold */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	src: url("Roboto-Bold.ttf") format('truetype');
+}
+
+
+/*@font-face {
+	font-family: 'MyriadPro';
+	font-style: normal;
+	font-weight: 400;
+	src: url("MyriadPro-Regular.otf") format('truetype');
+}*/
+
+@font-face {
+    font-family: 'MyriadPro';
+    font-style: normal;
+    font-weight: 600;
+    src: url("MyriadPro-Bold.otf") format('truetype');
+}
+@font-face {
+    font-family: 'MyriadPro';
+    font-style: normal;
+    font-weight: 400;
+    src: url("MyriadPro-Light.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'UTM';
+	font-style: normal;
+	font-weight: 400;
+	src: url("UTM God's WordR.ttf") format('truetype');
+}
+
+/* Bold */
+@font-face {
+	font-family: 'UTM';
+	font-style: normal;
+	font-weight: 700;
+	src: url("UTM God's WordBold.ttf") format('truetype');
+}

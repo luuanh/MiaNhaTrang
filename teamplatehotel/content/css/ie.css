@@ -1,0 +1,29 @@
+.IE.dontSupportThisBrowser{
+	background-color: #000;
+}
+
+.IE.dontSupportThisBrowser #main{
+	display: none !important;
+}
+
+.IE video {
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
+}
+
+.IE header .logo img{
+  width: 166px;
+  height: 70px;
+}
+
+.IE .button{
+  padding: 10px 44px 6px;
+}
+
+
+@media screen and (max-width: 767px){
+  .IE header .logo img{
+    width: 90px;
+    height: 40px;
+  }
+}

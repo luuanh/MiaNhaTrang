@@ -1,0 +1,54 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Handler
+@model TeamplateHotel.Models.DetailArticle
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+}
+
+@*<section class="breadcrumb-area overlay-dark-2 bg-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              
+            </div>
+        </div>
+    </div>
+</section>*@
+@Html.Partial("Slider/sliderpage")
+<div class="container posts">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="aic-titel">@Model.Article.Title</h1>
+            <p style="text-align:justify">@Html.Raw(Model.Article.Content)</p>
+        </div>
+    </div>
+</div>
+@if (Model.Articles.Count > 0)
+{
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="room-details-title" style="text-align:left">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "RelatedArticle")</h3>
+                <div class="owl-carousel owl-theme slideshow owldemo" id="tour-detail" style="position:relative;">
+                    @foreach (Article item in Model.Articles)
+                        {
+                        <div class="col">
+                            <div class="thumbnail item">
+                                <img src="@item.Image" alt="@item.Title" />
+                                <div class="caption cap-img">
+                                    <div class="product-img">
+                                        <h3 class="price-title">@item.Title</h3>
+                                        <p class="price-sell">@Html.Raw(item.Description)</p>
+                                        <a href="/@item.MenuAlias/@item.ID/@item.Alias"><h4>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "ReadMore") </h4></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                </div>
+   
+        </div>
+    </div>
+</div>
+}

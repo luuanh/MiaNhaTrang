@@ -1,0 +1,96 @@
+﻿@model ProjectLibrary.Database.Hotel
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+    <div id="jtable-main-container"></div>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('#jtable-main-container').jtable({
+            title: '@ViewBag.Title',
+            paging: true, //Enable paging
+            pageSize: 30, //Set page size (default: 10)
+            sorting: true, //Enable sorting
+            defaultSorting: 'Name ASC', //Set default sorting
+            selecting: true, //Enable selecting
+            multiselect: true, //Allow multiple selecting
+            selectingCheckboxes: true, //Show checkboxes on first column
+            columnResizable: true, //Actually, no need to set true since it's default
+            columnSelectable: true, //Actually, no need to set true since it's default
+            saveUserPreferences: true, //Actually, no need to set true since it's default
+            toolbar: {
+                items: [{
+                    icon: '/Areas/Administrator/Content/img/add.png',
+                    text: 'Thêm mới',
+                    click: function () {
+                        window.location = '@Url.Action("Create", "Hotel")';
+                    }
+                }]
+            },
+            actions: {
+                listAction: '@Url.Action("List", "Hotel")',
+                deleteAction: '@Url.Action("Delete", "Hotel")',
+            },
+            fields: {
+                ID: {
+                    key: true,
+                    create: false,
+                    edit: false,
+                    list: false
+                },
+                Name: {
+                    title: 'Tên khách sạn',
+                    width: '13%',
+                    display: function (data) {
+                        return '<a href="/admin/Hotel/Update/' + data.record.ID + '">' + data.record.Name + '</a>';
+                    }
+                },
+                Logo: {
+                    title: 'Logo',
+                    width: '8%',
+                    display: function (data) {
+                        return '<img src="' + data.record.Logo + '" width="60px" height="60px"/>';
+                    },
+                    inputClass: 'upload'
+                },
+                Image: {
+                    title: 'Ảnh đại diện',
+                    width: '8%',
+                    display: function (data) {
+                        return '<img src="' + data.record.Image + '" width="60px" height="60px"/>';
+                    },
+                    inputClass: 'upload'
+                },
+                Email: {
+                    title: 'Địa chỉ email',
+                    width: '13%',
+                },
+                Tel: {
+                    title: 'Số điện thoại',
+                    width: '13%',
+                },
+                Address: {
+                    title: 'Địa chỉ',
+                    width: '13%',
+                },
+                '':
+                    {
+                        title: '',
+                        width: '2%',
+                        sorting: false,
+                        display: function (data) {
+                            return '<button title="Edit" type="button" class="jtable-command-button jtable-edit-command-button" onclick="editRecord(' + data.record.ID + ')"><span>Edit</span></button>';
+                        }
+                    }
+            }
+        });
+        $('#jtable-main-container').jtable('load');
+    });
+    </script>
+
+
+<script>   
+    function editRecord(advId) {
+        window.location = '@Url.Action("Update","Hotel")' + '/' + advId;
+    }
+
+</script>

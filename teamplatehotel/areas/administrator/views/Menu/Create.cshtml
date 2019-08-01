@@ -1,0 +1,120 @@
+﻿@using ProjectLibrary.Config
+@model TeamplateHotel.Areas.Administrator.EntityModel.EMenu
+@{
+    ViewBag.Title = "Trang thêm chuyên mục";
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+    SystemMenuLocation menuLocation = ViewBag.MenuLocation ?? new SystemMenuLocation();
+
+}
+<div class="span12">
+    <div class="widget ">
+        <div class="widget-header">
+            <i class=" icon-plus-sign"></i>
+            <h3>@ViewBag.Title</h3>
+        </div> <!-- /widget-header -->  
+            
+        <div class="widget-content">
+            @Html.ValidationSummary(true)
+            @using (Html.BeginForm("Create", "Menu", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                <div class="control-group">	
+                    <label class="control-label" for="Title">Tiêu đề<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Title, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.Title)
+                    </div>
+                </div>
+                <input type="hidden" name="Location" value="@menuLocation.LocationId" />
+
+                <div class="control-group">	
+                    @Html.LabelFor(c => c.Alias, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Alias, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.Alias)
+                    </div>
+                </div>
+                <div class="control-group" style="margin-top: 40px">
+                    @Html.LabelFor(c => c.Description, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextAreaFor(c => c.Description, new { @class = "basic-ckeditor" })
+                    </div>
+                </div>
+                <div class="control-group">
+                    @Html.LabelFor(c => c.ParentID, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.DropDownListFor(c => c.ParentID, new SelectList(ViewBag.ListParentMenu, "Value", "Text"), new { @class = "span3" })
+                        @Html.ValidationMessageFor(c => c.ParentID)
+                    </div>
+
+                </div>
+                
+                <div class="control-group">
+                    <label class="control-label" for="Type">Kiểu thiển thị<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.DropDownListFor(c => c.Type, new SelectList(ViewBag.ListTypeMenu, "Value", "Text"), new { @class = "span3" })
+                        @Html.ValidationMessageFor(c => c.Type)
+                    </div>
+                </div>
+
+                <div class="control-group linkoutsite">
+                    @Html.LabelFor(c => c.Link, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Link, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.Link)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <div class="controls">
+                        <label class="checkbox inline">
+                            <input data-val="true" id="Status" name="Status" type="checkbox" value="true" checked="checked"> Hiển thị
+                        </label>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.MetaTitle, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.MetaTitle, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.MetaTitle)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.MetaDescription, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextAreaFor(c => c.MetaDescription, new { @class = "span4", rows = "3" })
+                        @Html.ValidationMessageFor(c => c.MetaDescription)
+                    </div>
+                </div>
+                
+                <div class="form-actions">
+                    <input type="submit" value="Thêm mới" class="btn btn-primary"/>
+                    <a class="btn" href="@Url.Action(menuLocation.AliasMenu,"Menu")" >Cancel</a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        bindUl();
+        CreateCkEditor();
+        AutoAlias('Title', 'Alias');
+        
+        if ($("#Type").val() == 9) {
+            $(".linkoutsite").show();
+        } else {
+            $(".linkoutsite").hide();
+        }
+        
+        $("#Type").change(function() {
+            if ($(this).val() == 9) {
+                $(".linkoutsite").show();
+            } else {
+                $(".linkoutsite").hide();
+            }
+        });
+    });
+</script>

@@ -1,0 +1,123 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Handler
+@model TeamplateHotel.Models.DetailService
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+}
+<link href="~/Plugins/flexslider/flexslider.css" rel="stylesheet" />
+@*<section class="breadcrumb-area overlay-dark-2 bg-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               
+            </div>
+        </div>
+    </div>
+</section>*@
+@Html.Partial("Slider/sliderpage")
+<div class="container" style="margin-top:60px;">
+    <div class="">
+        <div class="col-md-6 col-sm-6">
+            <!-- Place somewhere in the <body> of your page -->
+            <div id="slider" class="flexslider" style="margin:0;">
+                <ul class="slides">
+                    @foreach (var item in Model.ServiceGalleries)
+                    {
+                        <li><img src="@item.ImageLarge"></li>
+                    }
+                    <!-- items mirrored twice, total of 12 -->
+                </ul>
+            </div>
+            <div id="carousel" class="flexslider" style="margin:0;">
+                <ul class="slides">
+                    @foreach (var item in Model.ServiceGalleries)
+                    {
+                        <li><img src="@item.ImageSmall"></li>
+                    }
+                    <!-- items mirrored twice, total of 12 -->
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="room-details-text">
+                <h3 class="room-details-title">@Model.Service.Title</h3>
+                <p>@Html.Raw(Model.Service.Content)</p>
+            </div>
+
+        </div>
+        
+    </div>
+</div>
+
+
+<!--Hotel Booking-->
+
+
+@if (Model.Services.Count > 0)
+{
+    <div class="container">
+        <div class="max-height-page">
+            <div class="col-md-12">
+                <div class="event old">
+                    <h3 class="room-details-title" style="text-align:left">Related article</h3>
+                    <div class="owl-carousel owl-theme slideshow owldemo" id="owl-demo4">
+                        @foreach (var item in Model.Services)
+                        {
+                            <div class="item-room ">
+                                <div class="item-room-list thumbnail">
+                                    <a href="/@item.MenuAlias/@item.ID/@item.Alias">
+                                        <img src="@item.Image" alt="@item.Title" />
+                                    </a>
+                                    <div class="room-infomation">
+                                        <a title="@item.Title" href="/@item.MenuAlias/@item.ID/@item.Alias">
+                                            <span class="room-title">@item.Title</span>
+                                        </a>
+                                        <div class="room-description">@Html.Raw(item.Description)</div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<script src="~/Plugins/flexslider/jquery.flexslider.js"></script>
+<script>
+    ///slider room detail
+    $(window).load(function () {
+        // The slider being synced must be initialized first
+        $('#carousel').flexslider({
+            animation: "slide",
+            controlNav: true,
+            animationLoop: false,
+            slideshow: false,
+            itemWidth: 110,
+            itemMargin: 5,
+            item: 6,
+            asNavFor: '#slider',
+            directionNav: false,
+            prevText: ['<span class="fa fa-angle-left"></span>'],
+            nextText: ['<span class="fa fa-angle-right"></span>']
+        });
+
+        $('#slider').flexslider({
+            animation: "slide",
+            controlNav: true,
+            animationLoop: false,
+            slideshow: false,
+            sync: "#carousel",
+            directionNav: true,
+            prevText: ['<span class="fa fa-angle-left"></span>'],
+            nextText: ['<span class="fa fa-angle-right"></span>']
+        });
+    });
+
+
+</script>
+

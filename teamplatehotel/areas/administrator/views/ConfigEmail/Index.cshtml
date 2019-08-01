@@ -1,0 +1,60 @@
+﻿@model TeamplateHotel.Areas.Administrator.EntityModel.EConfigEmail
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+<div id="jtable-main-container"></div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#jtable-main-container').jtable({
+            title: '@ViewBag.Title',
+            paging: true, //Enable paging
+            pageSize: 20, //Set page size (default: 10)
+            sorting: true, //Enable sorting
+            selecting: true, //Enable selecting
+            multiselect: true, //Allow multiple selecting
+            selectingCheckboxes: true, //Show checkboxes on first column
+            columnResizable: false, //Actually, no need to set true since it's default
+            columnSelectable: true, //Actually, no need to set true since it's default
+            saveUserPreferences: false, //Actually, no need to set true since it's default
+
+            actions: {
+                listAction: '@Url.Action("List", "ConfigEmail")',
+                createAction: '@Url.Action("Create", "ConfigEmail")',
+                updateAction: '@Url.Action("Edit", "ConfigEmail")',
+            },
+            fields: {
+                ID: {
+                    key: true,
+                    create: false,
+                    edit: false,
+                    list: false
+                },
+                Port: {
+                    title: '@Html.DisplayNameFor(c=>c.Port)<span class="asteriskjs">*</span>',
+                    sorting: false,
+                    width: '20%',
+                },
+                Email: {
+                    title: '@Html.DisplayNameFor(c=>c.Email)<span class="asteriskjs">*</span>',
+                    sorting: false,
+                    width: '20%',
+                },
+                Password: {
+                    title: '@Html.DisplayNameFor(c=>c.Password)<span class="asteriskjs">*</span>',
+                    list: false,
+                    width: '20%',
+                    type: 'password'
+                },
+                Host: {
+                    title: '@Html.DisplayNameFor(c=>c.Host)<span class="asteriskjs">*</span>',
+                    sorting: false,
+                    width: '20%',
+                },
+
+            }
+        });
+        //Load data
+        $('#jtable-main-container').jtable('load');
+    });
+
+</script>

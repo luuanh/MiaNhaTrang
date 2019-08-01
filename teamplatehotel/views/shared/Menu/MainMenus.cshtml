@@ -1,0 +1,17 @@
+﻿@using ProjectLibrary.Config
+@using ProjectLibrary.Database
+@using TeamplateHotel.Controllers
+@using TeamplateHotel.Handler
+@{
+    List<Menu> menus = CommentController.GetMainMenus(Request.Cookies["LanguageID"].Value);
+    Hotel hotel = CommentController.DetailHotel(Request.Cookies["LanguageID"].Value);
+    List<Language> languages = CommentController.GetLanguages();
+    List<Room> room = CommentController.GetRooms(Request.Cookies["languageID"].Value);
+
+    string alias = "";
+    int i = 0;
+    int a = 0;
+}
+
+
+

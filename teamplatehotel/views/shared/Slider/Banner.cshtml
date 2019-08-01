@@ -1,0 +1,26 @@
+﻿@using ProjectLibrary.Database
+@using ProjectLibrary.Security
+@using TeamplateHotel.Controllers
+@{
+    Menu menu = ViewBag.Menu ?? new Menu();
+    List<Slider> sliders = CommentController.ListBanner(menu.MenuId);
+}
+<ul class="slides">
+    @foreach(var item in sliders)
+    {
+        <li>
+            <a href="@item.Link">
+                      <div class="flex-caption">
+                          <div class="width-container">
+                              <div class="slider-container">
+                                  <div class="caption-text">Luxurious Single room</div>
+                                  <h2>Starting at $259</h2>
+                              </div><!-- close .slider-container -->
+                          </div><!-- close .width-container -->
+                      </div><!-- close .flex-caption -->
+                      <img src="@item.Image" alt="@item.Title"/>
+
+                  </a>
+        </li>  
+    }
+</ul>

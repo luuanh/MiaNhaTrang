@@ -1,0 +1,97 @@
+﻿@model TeamplateHotel.Areas.Administrator.EntityModel.EFeedBack
+
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<form >
+
+    <div id="jtable-main-container"></div>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('#jtable-main-container').jtable({
+            title: '@ViewBag.Title',
+            paging: true, //Enable paging
+            pageSize: 30, //Set page size (default: 10)
+            sorting: true, //Enable sorting
+            defaultSorting: 'Name ASC', //Set default sorting
+            selecting: true, //Enable selecting
+            multiselect: true, //Allow multiple selecting
+            selectingCheckboxes: true, //Show checkboxes on first column
+            columnResizable: true, //Actually, no need to set true since it's default
+            columnSelectable: true, //Actually, no need to set true since it's default
+            saveUserPreferences: true, //Actually, no need to set true since it's default
+            toolbar: {
+                items: [{
+                    icon: '/Areas/Administrator/Content/img/add.png',
+                    text: 'Thêm mới',
+                    click: function () {
+                        window.location = '@Url.Action("Create", "FeedBack")';
+                    }
+                }]
+            },
+            actions: {
+                listAction: '@Url.Action("List", "FeedBack")',
+                deleteAction: '@Url.Action("Delete", "FeedBack")',
+            },
+            fields: {
+                ID: {
+                    key: true,
+                    create: false,
+                    edit: false,
+                    list: false
+                },
+                LanguageID: {
+                    title: '@Html.DisplayNameFor(u => u.LanguageID)',
+                    width: '3%',
+                    display: function (data) {
+                        return '<a href="/admin/FeedBack/Update/' + data.record.ID + '">' + data.record.LanguageID + '</a>';
+                    }
+                },
+                Content: {
+                    title: '@Html.DisplayNameFor(c => c.Content)',
+                    width: '13%',
+                },
+                Status: {
+                    title: '@Html.DisplayNameFor(c => c.Status)',
+                    width: '3%',
+                    type: 'checkbox',
+                    values: { 'true': 'Có', 'false': 'Không' },
+                    defaultValue: 'true'
+                },
+                Home: {
+                    title: '@Html.DisplayNameFor(c => c.Home)',
+                    width: '3%',
+                    type: 'checkbox',
+                    values: { 'true': 'Có', 'false': 'Không' },
+                    defaultValue: 'true'
+                },
+                
+                '':
+                    {
+                        title: '',
+                        width: '1%',
+                        sorting: false,
+                        display: function (data) {
+                            return '<button title="Edit" type="button" class="jtable-command-button jtable-edit-command-button" onclick="editRecord(' + data.record.ID + ')"><span>Edit</span></button>';
+                        }
+                    }
+            }
+        });
+        $('#jtable-main-container').jtable('load');
+    });
+    </script>
+</form>
+
+
+<script>
+
+    function editRecord(advId) {
+        window.location = '@Url.Action("Update","FeedBack")' + '/' + advId;
+    }
+
+    $('#ListLanguage').change(function () {
+        $('#jtable-main-container').jtable('load', { languageId: $('#ListLanguage').val(), hotelId: $("#ListHotel").val() });
+    });
+</script>

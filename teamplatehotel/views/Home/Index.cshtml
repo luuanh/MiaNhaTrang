@@ -1,0 +1,269 @@
+﻿@using TeamplateHotel.Controllers
+@using TeamplateHotel.Handler
+@using TeamplateHotel.Models
+@using ProjectLibrary.Database
+@{
+    ViewBag.HomePage = true;
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    ShowObject article = CommentController.WellcomeArticle(Request.Cookies["LanguageID"].Value) ?? new ShowObject();
+
+    List<ShowObject> articleShowHome = CommentController.ShowHomeArticles(Request.Cookies["LanguageID"].Value);
+    //List<ShowObject> newArticle = CommentController.NewArticles(Request.Cookies["LanguageID"].Value);
+    List<ShowObject> roomShowHomes = CommentController.RoomShowHome(Request.Cookies["LanguageID"].Value);
+    List<FeedBack> feedBacks = CommentController.GetFeedBack(Request.Cookies["LanguageID"].Value);
+    Menu menu = ViewBag.Menu ?? new Menu();
+
+    //ShowObject articlesv = CommentController.WellcomeServer(Request.Cookies["LanguageID"].Value) ?? new ShowObject();
+    //List<ServiceGallery> galerlly = CommentController.listServer(articlesv.ID);
+    //List<Slider> sliders = CommentController.GetListSlider(Request.Cookies["LanguageID"].Value, menu.ID);
+    //List<Gallery> galleries = CommentController.Gallery();
+
+}
+
+
+<!-- use js to load popup.html -->
+<div id="popUp"></div>
+
+<!--check ie popup-->
+<div id="checkIEVersion">
+    <div class="title">your internet explorer is out of date</div>
+    <div class="content">To get the best possible experience using our website we recommend that you upgrade to a newer version or orther web browser. A list of the most popular web browsers can be found below.</div>
+    <div class="browserLinks">
+        Just click on the icons to get to the download page.
+        <img src="images/browserLinks.jpg"></img>
+    </div>
+</div>
+<!-- end check ie popup-->
+<!-- Your page here -->
+<div id="main" role="main">
+    <section id="homePage">
+        <div class="pContain" id="fullpage">
+
+            <div class="pageItem welcome section">
+                <div class="content container align-m">
+                    <h1>Welcome to</h1>
+                    <h2>MIA NHA TRANG</h2>
+                    <p class="des">A secluded beach resort nestled in the cliffs of the Nha Trang coastline.</p>
+                    <a href="#" class="button type5 experienceBtn">Experience a day in the life</a>
+                </div>
+
+                <video class="videoBG hide-mobile" loop="" muted="" data-autoplay="" videourl="~/Content/videos/Pool-web" poster="~/Content/images/welcome_poster.jpg">
+                    <source src="~/Content/videos/Pool-web.mp4" type="video/mp4">
+                    <source src="~/Content/videos/Pool-web.ogv" type="video/ogg">
+                </video>
+                <div class="arrowBtn"><img class="easing" src="~/Content/images/icon_arrow_down.svg"></div>
+            </div><!-- welcome -->
+
+            <div class="pageItem wakeUp section">
+                <div class="content container align-m">
+                    <h1>Rise and Shine</h1>
+                    <p class="des">Wake up to an ocean view, surrounded by manicured landscaped grounds. Our variety of accommodation come complete with modern amenities and designer furnishings.</p>
+
+                    <div class="roomType">
+                        <p class="title">SELECT A ROOM TYPE</p>
+                        <ul>
+                            <li>
+                                <div class="menu hasSubmenu">CONDO</div>
+                                <div class="submenu">
+                                    <a href="sleep/garden-condo.html">GARDEN</a>
+                                    <a href="sleep/oceanview-condo.html">OCEANVIEW</a>
+                                    <a href="sleep/family-condo.html">FAMILY</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="menu hasSubmenu">VILLA</div>
+                                <div class="submenu">
+                                    <a href="sleep/garden-villa.html">GARDEN</a>
+                                    <a href="sleep/beachfront-villa.html">BEACHFRONT</a>
+                                    <a href="sleep/cliff-villa.html">CLIFF</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="menu"><a href="sleep/suite.html">MIA SUITES</a></div>
+                            </li>
+                            <li>
+                                <div class="menu"><a href="sleep/five-br-villa.html">5 BR VILLA</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <video class="videoBG hide-mobile" loop="" muted="" data-autoplay="" videourl="~/Content/videos/Room-to-beach-web" poster="~/Content/images/wakeup_poster.jpg">
+                    <source src="~/Content/videos/Room-to-beach-web.mp4" type="video/mp4">
+                    <source src="~/Content/videos/Room-to-beach-web.ogv" type="video/ogg">
+                </video>
+
+                <div class="arrowBtn"><img class="easing" src="~/Content/images/icon_arrow_down.svg"></div>
+            </div><!-- wakeUp -->
+
+            <div class="pageItem getWet section" videourl="">
+                <div class="content container align-m">
+                    <h1>Get Wet</h1>
+                    <p class="des">No matter the room, our secluded private beach is only a few steps away. Ocean views and the cool breeze will add to a day of full relaxation.</p>
+
+                    <div class="steps">
+                        <!-- <ul>
+                            <li class="blue water-sports"><span>WATER<br>SPORTS</span></li>
+                            <li class="yellow scuba"><span>SCUBA</span></li>
+                            <li class="orange beach"><span>BEACH</span></li>
+                            <li class="green pool"><span>POOL</span></li>
+                        </ul> -->
+
+                        <ul>
+                            <li>
+                                <a href="unwind.html#activities">
+                                    <span class='revive-icon blue-bg'><img src="~/Content/images/icon-water-sports.svg" alt="" /></span><span class="revive-item-title">WATER<br>SPORTS</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="unwind.html#activities">
+                                    <span class="revive-icon orange-bg"><img src="~/Content/images/icon-scuba.svg"></span><span class="revive-item-title">SCUBA</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="unwind.html#activities">
+                                    <span class="revive-icon green-bg"><img src="~/Content/images/icon-beach.svg"></span><span class="revive-item-title">BEACH</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="unwind.html#activities">
+                                    <span class="revive-icon gold-bg"><img src="~/Content/images/icon-pool.svg"></span><span class="revive-item-title">POOL</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!-- <a href="unwind.html#activities" class="button type6">SEE OUR ACTIVITIES</a> -->
+                    </div>
+                </div>
+
+                <video class="videoBG hide-mobile" loop="" muted="" data-autoplay="" videourl="~/Content/videos/Feet-in-water-web" poster="~/Content/images/getWet_poster.jpg">
+                    <source src="~/Content/videos/Feet-in-water-web.mp4" type="video/mp4">
+                    <source src="~/Content/videos/Feet-in-water-web.ogv" type="video/ogg">
+                </video>
+
+                <div class="arrowBtn"><img class="easing" src="~/Content/images/icon_arrow_down.svg"></div>
+            </div><!-- getWet -->
+
+            <div class="pageItem induldge section" videourl="">
+                <div class="content container align-m">
+                    <h1>INDULGE</h1>
+                    <p class="des">Our dining options offer a full range of gourmet cuisines, not to mention the oceanfront view while relaxing on a fresh juice or refreshing cocktail.</p>
+
+                    <div class="logoHolder">
+                        <ul>
+                            <li><a href="dine.html"><img src="~/Content/images/logo_sandals.svg" alt=""></a></li>
+                            <li><a href="dine.html"><img src="~/Content/images/logo_mojito.svg" alt=""></a></li>
+                            <li><a href="dine.html"><img src="~/Content/images/logo_labaia.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <video class="videoBG hide-mobile" loop="" muted="" data-autoplay="" videourl="~/Content/videos/Dine-web" poster="~/Content/images/induldge_poster.jpg">
+                    <source src="~/Content/videos/Dine-web.mp4" type="video/mp4">
+                    <source src="~/Content/videos/Dine-web.ogv" type="video/ogg">
+                </video>
+
+                <div class="arrowBtn"><img class="easing" src="~/Content/images/icon_arrow_down.svg"></div>
+            </div><!-- induldge -->
+
+            <div class="pageItem revive section" videourl="">
+                <div class="content container align-m">
+                    <h1>REVIVE</h1>
+                    <p class="des">Serenity awaits you at Xanh Spa. Rejuvenate in natural and peaceful surroundings with an array of modern and ancient techniques, practiced by our professionally qualified staff.</p>
+
+                    <ul>
+                        <li>
+                            <a href="unwind.html#revive">
+                                <span class='revive-icon blue-bg'><img src="~/Content/images/icon-xanh-spa.svg" alt="" /></span><span class="revive-item-title">XANH SPA</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="unwind.html#yoga">
+                                <span class="revive-icon orange-bg"><img src="~/Content/images/icon-yoga.svg"></span><span class="revive-item-title">YOGA</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="unwind.html#activities">
+                                <span class="revive-icon green-bg"><img src="~/Content/images/icon-cooking-class.svg"></span><span class="revive-item-title">COOKING CLASSES</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- <a href="unwind.html" class="button type6">VIEW OUR SPA OFFERINGS</a> -->
+                </div>
+
+                <video class="videoBG hide-mobile" loop="" muted="" data-autoplay="" videourl="~/Content/videos/Spa-web" poster="~/Content/images/revive_poster.jpg">
+                    <source src="~/Content/videos/Spa-web.mp4" type="video/mp4">
+                    <source src="~/Content/videos/Spa-web.ogv" type="video/ogg">
+                </video>
+
+                <div class="arrowBtn"><img class="easing" src="~/Content/images/icon_arrow_down.svg"></div>
+            </div><!-- revive -->
+
+            <div class="pageItem enjoy section" videourl="">
+                <div class="content container align-m">
+                    <h1>ENJOY THE NIGHT</h1>
+                    <p class="des">When the sun sets, the night comes alive. Bonfires, beach BBQ, cocktails and music. With something different happening every night, you are sure to stay entertained.</p>
+
+                    <div class="enjoy-icon-holder">
+                        <div class="enjoy-icon">
+                            <a href="dine.html#eating-activities"><img src="~/Content/images/icon-noodles.svg" alt="" /><p class="enjoy-item-title">Asian Street Corner</p></a>
+                        </div>
+                        <div class="enjoy-icon">
+                            <a href="dine.html#eating-activities"><img src="~/Content/images/icon-grill.svg" alt="" /><p class="enjoy-item-title">Seafood BBQ</p></a>
+                        </div>
+                        <div class="enjoy-icon">
+                            <a href="dine.html#eating-activities"><img src="~/Content/images/icon-buffet.svg" alt="" /><p class="enjoy-item-title">Italian Buffet</p></a>
+                        </div>
+                    </div>
+                    <!-- <a href="dine.html" class="button type6">SEE ALL NIGHT TIME OPTIONS</a> -->
+                </div>
+
+                <video class="videoBG hide-mobile" loop="" muted="" data-autoplay="" videourl="~/Content/videos/Fire-web" poster="~/Content/images/enjoyTheNight_poster.jpg">
+                    <source src="~/Content/videos/Fire-web.mp4" type="video/mp4">
+                    <source src="~/Content/videos/Fire-web.ogv" type="video/ogg">
+                </video>
+                <div class="arrowBtn"><img class="easing" src="~/Content/images/icon_arrow_down.svg"></div>
+            </div><!-- enjoy the night -->
+
+            <div class="pageItem fountain section" videourl="">
+                <div class="content container align-m">
+
+                    <h1>ENJOY YOUR STAY</h1>
+                    <p class="des">After a day in Mia Nha Trang, you'll have a hard time remembering your worries and stress. We hope you take advantage of all that our resort has to offer. That's part of the magic. See below for some additional information.</p>
+
+                    <a href="sleep.html" class="button type5">See our rooms</a>
+                    <a href="#home" class="button type5 back-to-top">Back to the beginning</a>
+
+                    <div class="secondary-nav">
+                        <ul>
+                            <li><a href="press.html">PRESS</a></li>
+                            <li><a href="gallery.html">GALLERY</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="navBottom container">
+                        <div class="socialHolder">
+                            <a href="https://www.facebook.com/mianhatrang/?fref=ts" target="_blank" class="fb"></a>
+                            <a href="https://twitter.com/mia_resort" target="_blank" class="tw"></a>
+                            <a href="https://www.tripadvisor.com/Hotel_Review-g293928-d2316221-Reviews-Mia_Resort_Nha_Trang-Nha_Trang_Khanh_Hoa_Province.html" target="_blank" class="trip"></a>
+                        </div>
+                    </div><!-- navBottom -->
+
+                </div>
+
+                <video class="videoBG hide-mobile" loop="" muted="" data-autoplay="" videourl="~/Content/videos/Fountain-web" poster="~/Content/images/fountain_poster.jpg">
+                    <source src="~/Content/videos/Fountain-web.mp4" type="video/mp4">
+                    <source src="~/Content/videos/Fountain-web.html" type="video/ogg">
+                </video>
+                <!-- <div class="arrowBtn"><img class="easing" src="images/icon_arrow_down.svg"></div> -->
+            </div><!-- revive -->
+
+
+
+        </div> <!-- end pContain -->
+    </section> <!-- section -->
+</div><!-- end main -->
+
+
+

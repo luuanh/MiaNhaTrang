@@ -1,0 +1,61 @@
+﻿
+
+<div class="wrap-mode-check">
+    <h3 class="widget-title">Make a Reservation</h3>
+    <div id="wrap-check-one">
+        @using (Html.BeginForm("CheckRoom", "Booking", FormMethod.Post, new{@id="check-room"}))
+        {           
+            <div class="av-check-time">
+                <span>Check In:</span> <input class="checkdate" id="Arrive" name="Arrive" readonly="readonly" type="text"> 
+            
+            </div>
+            <div class="av-check-time">
+                <span>Check Out: </span> <input class="checkdate" id="Depart" name="Depart" readonly="readonly" type="text">
+            </div>
+            <div class="av-persion">
+                <div class="av-item-pertion">
+                
+                    <span>Adults:</span>
+                    <select id="av-adult" name="Adult">
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <option>@i</option>
+                        }
+                    </select>
+
+                </div>
+                <div class="av-item-pertion">
+                    <span>Child (0 - 11):</span>
+                    <select id="av-child" name="Child">
+                        @for (int i = 0; i <= 5; i++)
+                        {
+                            <option>@i</option>
+                        }
+                    </select>
+                </div>
+            </div>
+    <input type="submit" id="av-buton" value="Search Availability" class="btn btn-primary" style=" padding: 9px 20px; margin-top: 10px; width: 100%" />
+        }
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        var getdate = new Date();
+        var arrive = getdate;
+        var depart = getdate.day + 1;
+
+        if (arrive == null) {
+            $("#Arrive").val($.datepicker.formatDate('mm/dd/yy', new Date()));
+        } else {
+            $("#Arrive").val($.datepicker.formatDate('mm/dd/yy', arrive));
+        }
+        if (depart == null) {
+            getdate.setDate(getdate.getDate() + 1);
+            $("#Depart").val($.datepicker.formatDate('mm/dd/yy', getdate));
+        } else {
+            $("#Depart").val($.datepicker.formatDate('mm/dd/yy', depart));
+        }  $("#av-wrap-list-hotel").hide();
+        });
+
+</script>

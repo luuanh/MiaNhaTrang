@@ -1,0 +1,75 @@
+﻿@model TeamplateHotel.Areas.Administrator.EntityModel.ESendEmail
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+<div class="span12">
+    <div class="widget ">
+        <div class="widget-header">
+            <i class=" icon-plus-sign"></i>
+            <h3>@ViewBag.Title</h3>
+        </div> <!-- /widget-header -->  
+        
+        <div class="widget-content">
+            @Html.ValidationSummary(true)
+            @using (Html.BeginForm("Create", "SendEmail", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                <div class="control-group" id="listHotel">
+                    <label class="control-label" for="MenuID">Loại thông báo<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.DropDownListFor(p => p.Type, new SelectList(ViewBag.Types, "Value", "Text"), new { @class = "span3" })
+                        @Html.ValidationMessageFor(p => p.Type)
+                    </div>
+                </div>
+                
+                <div class="control-group">	
+                    <label class="control-label" for="Title">Tiêu đề thông báo<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Title, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.Title)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Content">Nội dung thông báo<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        <p>
+                            <span class="error-login">@Html.ValidationMessageFor(a => a.Content)</span>
+                        </p>
+                        @Html.TextAreaFor(c=>c.Content, new {@class="full-ckeditor"})
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Content">Lời nhắn khi gửi thành công<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        <p>
+                            <span class="error-login">@Html.ValidationMessageFor(a => a.Success)</span>
+                        </p>
+                        @Html.TextAreaFor(c => c.Success, new { @class = "full-ckeditor" })
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Content">Lời nhắn khi gửi thất bại<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        <p>
+                            <span class="error-login">@Html.ValidationMessageFor(a => a.Error)</span>
+                        </p>
+                        @Html.TextAreaFor(c => c.Error, new { @class = "full-ckeditor" })
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <input type="submit" value="Submit" class="btn btn-primary"/>
+                    <a href="@Url.Action("Index", "SendEmail")" class="btn">Cancel</a>
+                </div> 
+            }
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        CreateCkEditor();
+    });
+</script>

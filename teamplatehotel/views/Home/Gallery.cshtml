@@ -1,0 +1,48 @@
+﻿@using ProjectLibrary.Database
+@model IEnumerable<Gallery>
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+}
+<script src="~/Plugins/isotope/isotope.pkgd.min.js"></script>
+<!-- Css prettyphoto-master -->
+<link href="~/Plugins/prettyphoto-master/css/prettyPhoto.css" rel="stylesheet" />
+<!-- Jquery prettyphoto-master -->
+<script src="~/Plugins/prettyphoto-master/js/jquery.prettyPhoto.js"></script>
+@*<section class="breadcrumb-area overlay-dark-2 bg-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               
+            </div>
+        </div>
+    </div>
+</section>*@
+@Html.Partial("Slider/sliderpage")
+<section>
+    <div class="col-md-8 col-md-offset-2" style="text-align:center;padding:30px 0px;">
+        <h1>We captured our sweet moment in our gallery</h1>
+        <p>Lorem Ipsum is simply dummy text the printing and typesetting Lorem Ipsum been industry's standard dummy text eversince it to make lore type specimen book</p>
+    </div>
+    <div class="gallery clearfix">
+        
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 col-sm-4 mg-border">
+                <a href="@item.LargeImage" rel="prettyPhoto[gallery2]" title="@item.Title">
+                    <img src="@item.LargeImage" alt="@item.Title" />
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </div>
+          
+        }
+    </div>
+</section>
+
+<script>
+    $(document).ready(function () {
+        jQuery("a[rel^='prettyPhoto']").prettyPhoto({ animationSpeed: 'slow', theme: 'pp_default', gallery_markup: '', slideshow: 2000, social_tools: '' });
+
+    });
+</script>
+

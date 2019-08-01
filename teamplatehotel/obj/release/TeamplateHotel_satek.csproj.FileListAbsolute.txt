@@ -1,0 +1,561 @@
+G:\Project_V2_Steck\TeamplateHotel\bin\TeamplateHotel.dll.config
+G:\Project_V2_Steck\TeamplateHotel\bin\TeamplateHotel.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\TeamplateHotel.pdb
+G:\Project_V2_Steck\TeamplateHotel\bin\Antlr3.Runtime.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\CKFinder.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\CKFinder_ImageResize.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\EntityFramework.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.OData.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Newtonsoft.Json.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ProjectLibrary.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Spatial.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Helpers.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.OData.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Mvc.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Optimization.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Razor.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\WebGrease.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.Data.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.WebData.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ProjectLibrary.pdb
+G:\Project_V2_Steck\TeamplateHotel\bin\ProjectLibrary.dll.config
+G:\Project_V2_Steck\TeamplateHotel\bin\Antlr3.Runtime.pdb
+G:\Project_V2_Steck\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+G:\Project_V2_Steck\TeamplateHotel\bin\Newtonsoft.Json.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Optimization.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\EntityFramework.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Helpers.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Mvc.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Razor.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.Data.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.WebData.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.OData.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.OData.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Spatial.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\de\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\es\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\it\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\obj\Release\TeamplateHotel_satek.csprojResolveAssemblyReference.cache
+G:\Project_V2_Steck\TeamplateHotel\obj\Release\TeamplateHotel.dll
+G:\Project_V2_Steck\TeamplateHotel\obj\Release\TeamplateHotel.pdb
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.dll.config
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.pdb
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Antlr3.Runtime.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\CKFinder.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\CKFinder_ImageResize.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\EntityFramework.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.OData.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Newtonsoft.Json.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Spatial.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.Helpers.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.OData.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.Mvc.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.Optimization.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.Razor.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\WebGrease.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\WebMatrix.Data.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\WebMatrix.WebData.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.pdb
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Antlr3.Runtime.pdb
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Newtonsoft.Json.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.Optimization.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\EntityFramework.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.Helpers.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.Mvc.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.Razor.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\WebMatrix.Data.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\WebMatrix.WebData.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.OData.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.OData.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\System.Spatial.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\de\System.Spatial.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\es\System.Spatial.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\it\System.Spatial.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel_satek.csprojResolveAssemblyReference.cache
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.dll.config
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Antlr3.Runtime.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\CKFinder.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\CKFinder_ImageResize.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\EntityFramework.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.OData.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Newtonsoft.Json.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Spatial.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Helpers.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.OData.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Mvc.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Optimization.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Razor.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebGrease.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.Data.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.WebData.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.dll.config
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Antlr3.Runtime.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Newtonsoft.Json.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Optimization.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\EntityFramework.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Helpers.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Mvc.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Razor.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.Data.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.WebData.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.OData.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.OData.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Spatial.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\de\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\es\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\it\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel_satek.csprojResolveAssemblyReference.cache
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.dll.config
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Antlr3.Runtime.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\CKFinder.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\CKFinder_ImageResize.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\EntityFramework.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.OData.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Newtonsoft.Json.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Spatial.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Helpers.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.OData.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Mvc.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Optimization.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Razor.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\WebGrease.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\WebMatrix.Data.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\WebMatrix.WebData.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.dll.config
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Antlr3.Runtime.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Newtonsoft.Json.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Optimization.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\EntityFramework.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Helpers.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Mvc.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Razor.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\WebMatrix.Data.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\WebMatrix.WebData.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.OData.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.OData.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\System.Spatial.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\de\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\es\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\it\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel_satek.csprojResolveAssemblyReference.cache
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel.pdb
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.dll.config
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.pdb
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Antlr3.Runtime.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\CKFinder.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\CKFinder_ImageResize.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\EntityFramework.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.OData.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Newtonsoft.Json.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Spatial.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Helpers.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.OData.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Mvc.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Optimization.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Razor.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebGrease.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.Data.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.WebData.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.pdb
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.dll.config
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Antlr3.Runtime.pdb
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Newtonsoft.Json.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Optimization.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\EntityFramework.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Helpers.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Mvc.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Razor.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.Data.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.WebData.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.OData.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.OData.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Spatial.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\de\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\es\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\it\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel_satek.csprojAssemblyReference.cache
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel_satek.csproj.CoreCompileInputs.cache
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel_satek.csproj.CopyComplete
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel.pdb
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.dll.config
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\TeamplateHotel.pdb
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Antlr3.Runtime.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\CKFinder.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\CKFinder_ImageResize.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\EntityFramework.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.OData.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Newtonsoft.Json.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Spatial.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Helpers.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.OData.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Mvc.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Optimization.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Razor.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebGrease.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.Data.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.WebData.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.pdb
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ProjectLibrary.dll.config
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Antlr3.Runtime.pdb
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Newtonsoft.Json.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Optimization.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\EntityFramework.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Helpers.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Mvc.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Razor.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.Data.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\WebMatrix.WebData.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Web.Http.OData.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\Microsoft.Data.OData.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\System.Spatial.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\de\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\es\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\it\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel_satek.csprojAssemblyReference.cache
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel_satek.csproj.CoreCompileInputs.cache
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel_satek.csproj.CopyComplete
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\TeamplateHotel\obj\Release\TeamplateHotel.pdb

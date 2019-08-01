@@ -1,0 +1,37 @@
+﻿@using TeamplateHotel.Handler
+@using ProjectLibrary.Database
+@{
+    ViewBag.Title = "Messages";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+}
+
+<section class="breadcrumb-area overlay-dark-2 bg-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumb-text text-center">
+                    <h2>@menu.Title</h2>
+                    <ul>
+                        <li><a href="/">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Home")</a></li>
+                        <li>@menu.Title</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="des-article">
+                <br />
+                @Html.Raw(ViewBag.Messages);
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                                
+                                              

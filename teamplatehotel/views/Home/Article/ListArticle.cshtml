@@ -1,0 +1,65 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Handler
+@using TeamplateHotel.Controllers
+@model IEnumerable<ProjectLibrary.Database.Article>
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+    int i = 1;
+}
+<div class="ok-text">
+    <h1>@menu.Title</h1>
+    <div>
+        @Html.Raw(menu.Description)
+    </div>
+    @*<div class="head-link" style="margin: auto; width: 150px; padding-bottom: 10px; margin-top: 20px;">
+            <a href="/offer">Read More</a>
+        </div>*@
+</div>
+<section class="tt-deals">
+    <div class="container">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4">
+                    <div class="row">
+                        <img src="@item.Image" class="img-fluid" alt="">
+                        <div class="popup_main col-md-12">
+                            <button class=" col-md-12 open_popup" style="text-transform:uppercase"> @item.Title asasasassad asdasdadsad</button>
+                            <div class="popup_body">
+                                <div class="popup_back"></div>
+                                <div class="popup_contain">
+                                    <div class="popup_close">x</div>
+                                    <div style="text-align: center">
+                                        <h2>Detail</h2>
+                                        <p>
+                                            @Html.Raw(item.Description)
+                                        </p>
+                                        <a href="/booking">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            }
+
+           
+        </div>
+    </div>
+</section>
+
+<script src="~/Content/js/jquery.js"></script>
+<script>
+    $(".open_popup").click(function () {
+        $(this).parent(".popup_main").children(".popup_body").addClass("popup_body_show");
+    });
+    $(".popup_close").click(function () {
+        $(".popup_body").removeClass("popup_body_show");
+    });
+    $(".popup_back").click(function () {
+        $(".popup_body").removeClass("popup_body_show");
+    });
+
+</script>

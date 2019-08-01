@@ -1,0 +1,65 @@
+﻿@model TeamplateHotel.Areas.Administrator.EntityModel.EFeedBack
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+   
+}
+<div class="span12">
+    <div class="widget ">
+        <div class="widget-header">
+            <i class=" icon-plus-sign"></i>
+            <h3>@ViewBag.Title</h3>
+        </div> <!-- /widget-header -->
+
+        <div class="widget-content">
+            @Html.ValidationSummary(true)
+            @using (Html.BeginForm("Update", "FeedBack", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                @Html.HiddenFor(a => a.ID)
+
+
+
+                <div class="control-group">
+                    <label class="control-label" for="Content">Mô tả chi tiết<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        <p>
+                            <span class="error-login">@Html.ValidationMessageFor(m => m.Content)</span>
+                        </p>
+
+                        @Html.TextAreaFor(m => m.Content, new { @class = "full-ckeditor" })
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Title">Trạng thái hiển thị</label>
+                    <div class="controls">
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Status, "true")  Có</label>
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Status, "false") Không</label>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Title">Bài viết giới thiệu</label>
+                    <div class="controls">
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Home, "true")  Có</label>
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Home, "false") Không</label>
+                    </div>
+                </div>
+
+
+
+
+                
+                <div class="form-actions">
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+                    <a href="@Url.Action("Index", "FeelBack")" class="btn">Cancel</a>
+                </div>
+
+               
+            }
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        CreateCkEditor();
+    })
+</script>

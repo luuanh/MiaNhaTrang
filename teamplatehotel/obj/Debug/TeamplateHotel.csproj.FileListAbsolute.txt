@@ -1,0 +1,1635 @@
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\TeamplateHotel.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\TeamplateHotel.pdb
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Antlr3.Runtime.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\CKFinder.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\EntityFramework.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.OData.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Newtonsoft.Json.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ProjectLibrary.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Spatial.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Helpers.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.OData.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Mvc.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Optimization.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Razor.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebGrease.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.Data.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.WebData.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ProjectLibrary.pdb
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Antlr3.Runtime.pdb
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\CKFinder.pdb
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Newtonsoft.Json.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Optimization.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\EntityFramework.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Helpers.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Mvc.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Razor.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.Data.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.WebData.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.OData.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.OData.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Spatial.xml
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\de\System.Spatial.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\es\System.Spatial.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\it\System.Spatial.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+E:\TeamplateHotel\TeamplateHotel\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\TeamplateHotel.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\TeamplateHotel.pdb
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Antlr3.Runtime.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\CKFinder.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\EntityFramework.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.OData.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Newtonsoft.Json.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ProjectLibrary.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Spatial.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Helpers.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.OData.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Mvc.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Optimization.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Razor.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebGrease.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.Data.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.WebData.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ProjectLibrary.pdb
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Antlr3.Runtime.pdb
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\CKFinder.pdb
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Newtonsoft.Json.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Optimization.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\EntityFramework.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Helpers.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Mvc.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Razor.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.Data.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.WebData.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.OData.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.OData.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Spatial.xml
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\de\System.Spatial.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\es\System.Spatial.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\it\System.Spatial.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\TeamplateHotel.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\TeamplateHotel.pdb
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Antlr3.Runtime.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\CKFinder.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\EntityFramework.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.OData.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Newtonsoft.Json.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ProjectLibrary.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Spatial.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Helpers.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.OData.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Mvc.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Optimization.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Razor.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebGrease.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.Data.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.WebData.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ProjectLibrary.pdb
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Antlr3.Runtime.pdb
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\CKFinder.pdb
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Newtonsoft.Json.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Optimization.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\EntityFramework.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Helpers.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Mvc.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Razor.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.Data.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\WebMatrix.WebData.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Web.Http.OData.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\Microsoft.Data.OData.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\System.Spatial.xml
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\de\System.Spatial.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\es\System.Spatial.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\it\System.Spatial.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\TeamplateHotel.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\TeamplateHotel.pdb
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Antlr3.Runtime.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\CKFinder.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\EntityFramework.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Microsoft.Data.OData.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Newtonsoft.Json.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ProjectLibrary.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Spatial.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Helpers.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Http.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Http.OData.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Mvc.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Optimization.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Razor.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.WebPages.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\WebGrease.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\WebMatrix.Data.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\WebMatrix.WebData.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ProjectLibrary.pdb
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Antlr3.Runtime.pdb
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\CKFinder.pdb
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Newtonsoft.Json.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Optimization.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\EntityFramework.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Helpers.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Http.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Mvc.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Razor.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.WebPages.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\WebMatrix.Data.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\WebMatrix.WebData.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Web.Http.OData.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\Microsoft.Data.OData.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\System.Spatial.xml
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\de\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\es\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\it\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+E:\Manh_2014\Trang moi\HoiAnSaluteHotel\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\TeamplateHotel.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\TeamplateHotel.pdb
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Antlr3.Runtime.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\CKFinder.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\EntityFramework.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Microsoft.Data.OData.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Newtonsoft.Json.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ProjectLibrary.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Spatial.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Helpers.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Http.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Http.OData.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Mvc.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Optimization.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Razor.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\WebGrease.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\WebMatrix.Data.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\WebMatrix.WebData.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ProjectLibrary.pdb
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Antlr3.Runtime.pdb
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\CKFinder.pdb
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Newtonsoft.Json.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Optimization.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\EntityFramework.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Helpers.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Http.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Mvc.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Razor.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\WebMatrix.Data.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\WebMatrix.WebData.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Web.Http.OData.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\Microsoft.Data.OData.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\System.Spatial.xml
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\de\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\es\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\it\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+E:\Manh_2014\Trang moi\demo\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\TeamplateHotel.dll.config
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\TeamplateHotel.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\TeamplateHotel.pdb
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Antlr3.Runtime.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\CKFinder.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\EntityFramework.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Microsoft.Data.OData.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Newtonsoft.Json.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ProjectLibrary.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Spatial.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Helpers.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Http.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Http.OData.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Mvc.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Optimization.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Razor.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\WebGrease.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\WebMatrix.Data.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\WebMatrix.WebData.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ProjectLibrary.pdb
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Antlr3.Runtime.pdb
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\CKFinder.pdb
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Newtonsoft.Json.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Optimization.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\EntityFramework.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Helpers.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Http.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Mvc.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Razor.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\WebMatrix.Data.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\WebMatrix.WebData.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Web.Http.OData.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\Microsoft.Data.OData.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\System.Spatial.xml
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\de\System.Spatial.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\es\System.Spatial.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\it\System.Spatial.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+D:\cong viec\Demo_website\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\TeamplateHotel.dll.config
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\TeamplateHotel.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\TeamplateHotel.pdb
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Antlr3.Runtime.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\CKFinder.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\EntityFramework.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Data.OData.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Newtonsoft.Json.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ProjectLibrary.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Spatial.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Helpers.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.OData.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Mvc.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Optimization.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Razor.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\WebGrease.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\WebMatrix.Data.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\WebMatrix.WebData.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ProjectLibrary.pdb
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Antlr3.Runtime.pdb
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\CKFinder.pdb
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Newtonsoft.Json.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Optimization.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\EntityFramework.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Helpers.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Mvc.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Razor.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\WebMatrix.Data.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\WebMatrix.WebData.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.OData.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Data.OData.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Spatial.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\de\System.Spatial.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\es\System.Spatial.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\it\System.Spatial.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\TeamplateHotel.dll.config
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\TeamplateHotel.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\TeamplateHotel.pdb
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Antlr3.Runtime.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\CKFinder.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\EntityFramework.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Data.OData.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Newtonsoft.Json.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ProjectLibrary.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Spatial.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Helpers.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.OData.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Mvc.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Optimization.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Razor.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\WebGrease.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\WebMatrix.Data.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\WebMatrix.WebData.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ProjectLibrary.pdb
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Antlr3.Runtime.pdb
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\CKFinder.pdb
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Newtonsoft.Json.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Optimization.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\EntityFramework.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Helpers.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Mvc.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Razor.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\WebMatrix.Data.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\WebMatrix.WebData.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Web.Http.OData.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\Microsoft.Data.OData.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\System.Spatial.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\de\System.Spatial.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\es\System.Spatial.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\it\System.Spatial.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+P:\Project\Bien-bachotel\TeamplateHotel\bin\TeamplateHotel.dll.config
+P:\Project\Bien-bachotel\TeamplateHotel\bin\TeamplateHotel.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\TeamplateHotel.pdb
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Antlr3.Runtime.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\CKFinder.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\EntityFramework.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Microsoft.Data.OData.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Newtonsoft.Json.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ProjectLibrary.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Spatial.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Helpers.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Http.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Http.OData.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Mvc.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Optimization.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Razor.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.WebPages.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\WebGrease.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\WebMatrix.Data.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\WebMatrix.WebData.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ProjectLibrary.pdb
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Antlr3.Runtime.pdb
+P:\Project\Bien-bachotel\TeamplateHotel\bin\CKFinder.pdb
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Newtonsoft.Json.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Optimization.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\EntityFramework.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Helpers.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Http.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Mvc.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Razor.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.WebPages.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\WebMatrix.Data.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\WebMatrix.WebData.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Web.Http.OData.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\Microsoft.Data.OData.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\System.Spatial.xml
+P:\Project\Bien-bachotel\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\de\System.Spatial.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\es\System.Spatial.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\it\System.Spatial.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+P:\Project\Bien-bachotel\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+P:\Project\Bien-bachotel\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+P:\Project\Bien-bachotel\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\TeamplateHotel.dll.config
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\TeamplateHotel.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\TeamplateHotel.pdb
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Antlr3.Runtime.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\CKFinder.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\EntityFramework.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Microsoft.Data.OData.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Newtonsoft.Json.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ProjectLibrary.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Spatial.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Helpers.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Http.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Http.OData.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Mvc.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Optimization.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Razor.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.WebPages.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\WebGrease.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\WebMatrix.Data.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\WebMatrix.WebData.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ProjectLibrary.pdb
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Antlr3.Runtime.pdb
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\CKFinder.pdb
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Newtonsoft.Json.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Optimization.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\EntityFramework.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Helpers.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Http.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Mvc.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Razor.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.WebPages.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\WebMatrix.Data.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\WebMatrix.WebData.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Web.Http.OData.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\Microsoft.Data.OData.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\System.Spatial.xml
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\de\System.Spatial.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\es\System.Spatial.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\it\System.Spatial.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+P:\Project\Bien-bachotel-04-12-2015\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\TeamplateHotel.dll.config
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\TeamplateHotel.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\TeamplateHotel.pdb
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Antlr3.Runtime.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\CKFinder.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\EntityFramework.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Data.OData.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Newtonsoft.Json.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ProjectLibrary.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Spatial.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Helpers.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Http.OData.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Mvc.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Optimization.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Razor.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\WebGrease.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\WebMatrix.Data.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\WebMatrix.WebData.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ProjectLibrary.pdb
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Antlr3.Runtime.pdb
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\CKFinder.pdb
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Newtonsoft.Json.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Optimization.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\EntityFramework.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Helpers.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Mvc.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Razor.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\WebMatrix.Data.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\WebMatrix.WebData.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Http.OData.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Data.OData.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Spatial.xml
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\de\System.Spatial.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\es\System.Spatial.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\it\System.Spatial.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+P:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\TeamplateHotel.dll.config
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\TeamplateHotel.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\TeamplateHotel.pdb
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Antlr3.Runtime.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\CKFinder.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Data.OData.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Newtonsoft.Json.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Spatial.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Helpers.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Http.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Http.OData.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Mvc.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Optimization.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Razor.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\WebGrease.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\WebMatrix.Data.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\WebMatrix.WebData.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Antlr3.Runtime.pdb
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\CKFinder.pdb
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Newtonsoft.Json.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Optimization.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Helpers.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Http.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Mvc.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Razor.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\WebMatrix.Data.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\WebMatrix.WebData.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Web.Http.OData.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\Microsoft.Data.OData.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\System.Spatial.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\de\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\es\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\it\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\TeamplateHotel.dll.config
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\TeamplateHotel.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\TeamplateHotel.pdb
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Antlr3.Runtime.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\CKFinder.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Microsoft.Data.OData.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Newtonsoft.Json.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Spatial.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.Helpers.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.Http.OData.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.Mvc.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.Optimization.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.Razor.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.WebPages.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\WebGrease.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\WebMatrix.Data.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\WebMatrix.WebData.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Antlr3.Runtime.pdb
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\CKFinder.pdb
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Newtonsoft.Json.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.Optimization.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.Helpers.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.Mvc.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.Razor.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.WebPages.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\WebMatrix.Data.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\WebMatrix.WebData.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Web.Http.OData.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\Microsoft.Data.OData.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\System.Spatial.xml
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\de\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\es\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\it\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+E:\Project\Mau-web-site-khach-san\GrandHotel\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\TeamplateHotel.dll.config
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\TeamplateHotel.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\TeamplateHotel.pdb
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Antlr3.Runtime.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\CKFinder.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Microsoft.Data.OData.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Newtonsoft.Json.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Spatial.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.Helpers.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.Http.OData.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.Mvc.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.Optimization.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.Razor.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.WebPages.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\WebGrease.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\WebMatrix.Data.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\WebMatrix.WebData.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Antlr3.Runtime.pdb
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Newtonsoft.Json.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.Optimization.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.Helpers.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.Mvc.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.Razor.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.WebPages.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\WebMatrix.Data.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\WebMatrix.WebData.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Web.Http.OData.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\Microsoft.Data.OData.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\System.Spatial.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\de\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\es\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\it\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\CKFinder_ImageResize.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\TeamplateHotel.dll.config
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\TeamplateHotel.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\TeamplateHotel.pdb
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Antlr3.Runtime.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\CKFinder.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\CKFinder_ImageResize.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Microsoft.Data.OData.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Newtonsoft.Json.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Spatial.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.Helpers.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.Http.OData.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.Mvc.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.Optimization.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.Razor.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.WebPages.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\WebGrease.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\WebMatrix.Data.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\WebMatrix.WebData.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Antlr3.Runtime.pdb
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Newtonsoft.Json.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.Optimization.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.Helpers.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.Mvc.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.Razor.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.WebPages.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\WebMatrix.Data.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\WebMatrix.WebData.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Web.Http.OData.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\Microsoft.Data.OData.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\System.Spatial.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\de\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\es\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\it\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\TeamplateHotel.dll.config
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\TeamplateHotel.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\TeamplateHotel.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Antlr3.Runtime.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\CKFinder.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\CKFinder_ImageResize.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\EntityFramework.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Microsoft.Data.OData.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Newtonsoft.Json.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Spatial.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Helpers.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Http.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Http.OData.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Mvc.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Optimization.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Razor.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.WebPages.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\WebGrease.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\WebMatrix.Data.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\WebMatrix.WebData.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ProjectLibrary.dll.config
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Antlr3.Runtime.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Newtonsoft.Json.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Optimization.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\EntityFramework.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Helpers.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Http.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Mvc.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Razor.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.WebPages.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\WebMatrix.Data.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\WebMatrix.WebData.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Web.Http.OData.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\Microsoft.Data.OData.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\System.Spatial.xml
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\de\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\es\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\it\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+C:\Users\Pham Phuong\Desktop\Project_V2\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\TeamplateHotel.dll.config
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\TeamplateHotel.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\TeamplateHotel.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Antlr3.Runtime.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\CKFinder.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\CKFinder_ImageResize.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\EntityFramework.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.OData.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Newtonsoft.Json.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Spatial.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Helpers.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.OData.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Mvc.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Optimization.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Razor.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\WebGrease.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.Data.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.WebData.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ProjectLibrary.dll.config
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Antlr3.Runtime.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Newtonsoft.Json.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Optimization.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\EntityFramework.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Helpers.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Mvc.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Razor.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.Data.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.WebData.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.OData.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.OData.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\System.Spatial.xml
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\de\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\es\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\it\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+C:\Users\Pham Phuong\Desktop\Project_V2_Steck\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+G:\Project_V2_Steck\TeamplateHotel\obj\Debug\TeamplateHotel.csprojResolveAssemblyReference.cache
+G:\Project_V2_Steck\TeamplateHotel\bin\TeamplateHotel.dll.config
+G:\Project_V2_Steck\TeamplateHotel\bin\TeamplateHotel.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\TeamplateHotel.pdb
+G:\Project_V2_Steck\TeamplateHotel\bin\Antlr3.Runtime.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\CKFinder.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\CKFinder_ImageResize.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.AspNet.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.Core.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\EntityFramework.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.Edm.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.OData.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.Infrastructure.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\Newtonsoft.Json.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ProjectLibrary.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Net.Http.Formatting.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Spatial.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Helpers.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.OData.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.WebHost.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Mvc.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Optimization.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Razor.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Deployment.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Razor.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\WebGrease.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.Data.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.WebData.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ProjectLibrary.pdb
+G:\Project_V2_Steck\TeamplateHotel\bin\ProjectLibrary.dll.config
+G:\Project_V2_Steck\TeamplateHotel\bin\Antlr3.Runtime.pdb
+G:\Project_V2_Steck\TeamplateHotel\bin\CKFinder_ImageResize.pdb
+G:\Project_V2_Steck\TeamplateHotel\bin\Newtonsoft.Json.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Optimization.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\EntityFramework.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Net.Http.Formatting.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Helpers.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.WebHost.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Mvc.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Razor.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Deployment.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.WebPages.Razor.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.Data.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Web.WebPages.OAuth.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\WebMatrix.WebData.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.AspNet.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.Core.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OAuth.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Web.Http.OData.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.Edm.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\Microsoft.Data.OData.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\System.Spatial.xml
+G:\Project_V2_Steck\TeamplateHotel\bin\de\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\es\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\fr\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\it\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ja\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ko\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ru\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\de\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\es\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\fr\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\it\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ja\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ko\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ru\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\de\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\es\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\fr\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\it\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ja\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ko\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\ru\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hans\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\bin\zh-Hant\System.Spatial.resources.dll
+G:\Project_V2_Steck\TeamplateHotel\obj\Debug\TeamplateHotel.dll
+G:\Project_V2_Steck\TeamplateHotel\obj\Debug\TeamplateHotel.pdb

@@ -1,0 +1,167 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Handler
+@using TeamplateHotel.Controllers
+@model List<Article>
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+    ViewBag.Title = "Meeting";
+
+    int i = 0;
+
+
+}
+<div class="ok-text">
+    <h1>@menu.Title</h1>
+    <div>
+        @Html.Raw(menu.Description)
+    </div>
+    @*<div class="head-link" style="margin: auto; width: 150px; padding-bottom: 10px; margin-top: 20px;">
+            <a href="/offer">Read More</a>
+        </div>*@
+</div>
+@if (Model.Count > 0)
+{
+    foreach (var item in Model.Take(1))
+    {
+        <section class="section block-wedding-card bg-vanilla reveal">
+            <div class="q-container container-inner">
+                <div class="columns card-wrapper type-1 module-container">
+
+                    <div class="column block-picture">
+                        <figure class="picture">
+                            <div class="wow slideInLeft">
+                                <img src='@item.Image' alt="" class="vs-div clip_image" data-speed="-0.15">
+                                <div image-binding="img_background"></div>
+                            </div>
+                        </figure>
+
+                    </div>
+                    <div class="column block-entry">
+                        <div class="inner wow slideInRight">
+                            <h2 class="title">
+                                <span class="q_split">
+                                    <span class="q_split_wrap rev_item" editor-binding="title_one"
+                                          [editorToolBarButton]="['bold','italic']">@item.Title</span>
+                                    </span>
+                                    @*<span class="q_split text-green">
+                                            <span class="q_split_wrap rev_item" editor-binding="title_two"
+                                                  [editorToolBarButton]="['bold','italic']">D'LIORO</span>
+                                        </span>*@
+                                </h2>
+                                <div style=" border-bottom: 2px solid #679334; margin-bottom: 20px; padding-top: 20px; "></div>
+                                <p class="rev_item" editor-binding="description" [editorToolBarButton]="['bold','italic']">
+                                    @Html.Raw(item.Description)
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        }
+    }
+
+<section id="page_summary" class="section bg-white" style="padding-bottom: 0; background-color:#fff;">
+    <div class="q-container container-inner">
+        <div class="columns type-1">
+            <div class="column vertical-lines">
+                <p editor-binding="description" [editorToolBarButton]="['bold','italic']">
+                    Whether you desire a more traditional wedding or a bespoke intimate ceremony, the
+                    D'LIORO Ha Long is able to provide an expert wedding coordinator plus full catering services to
+                    make your day run smoothly. Please allow us to tailor a unique experience for you.
+                </p>
+                <a href="#" class="inline-link q_magnet inline-large" link-binding="link">Wedding Inquiry</a>
+            </div>
+        </div>
+    </div>
+</section>
+@if (Model.Count > 1)
+{
+    foreach (var item in Model.Skip(1))
+    {
+
+        if (i % 2 == 0)
+        {
+            <section class="section block-wedding-card bg-vanilla  reveal">
+                <div class="q-container container-inner">
+                    <div class="columns card-wrapper type-2">
+                        <div class="column block-picture">
+                            <figure class="picture">
+                                <div class="wow slideInLeft">
+                                    <img src="@item.Image" alt="" class="vs-div clip_image" data-speed="-0.15">
+                                    <div image-binding="img_background"></div>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="column block-entry">
+                            <div class="inner wow slideInRight">
+                                <h2 class="title">
+                                    <span class="q_split">
+                                        <span class="q_split_wrap rev_item" editor-binding="title_one"
+                                              [editorToolBarButton]="['bold','italic']">
+                                            <p>@item.Title</p>
+                                        </span>
+                                    </span>
+                                    @*<span class="q_split text-green">
+                                            <span class="q_split_wrap rev_item" editor-binding="title_two"
+                                                  [editorToolBarButton]="['bold','italic']">D'LIORO</span>
+                                        </span>*@
+                                </h2>
+                                <div style=" border-bottom: 2px solid #679334; margin-bottom: 20px; padding-top: 20px; "></div>
+                                <p class="rev_item" editor-binding="description" [editorToolBarButton]="['bold','italic']">
+                                    @Html.Raw(item.Description)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        }
+        else
+        {
+            <section class="section block-wedding-card bg-vanilla reveal">
+                <div class="q-container container-inner">
+                    <div class="columns card-wrapper type-1 module-container">
+
+                        <div class="column block-picture">
+                            <figure class="picture">
+                                <div class="wow slideInLeft">
+                                    <img src='@item.Image' alt="" class="vs-div clip_image" data-speed="-0.15">
+                                    <div image-binding="img_background"></div>
+                                </div>
+                            </figure>
+
+                        </div>
+                        <div class="column block-entry">
+                            <div class="inner wow slideInRight">
+                                <h2 class="title">
+                                    <span class="q_split">
+                                        <span class="q_split_wrap rev_item" editor-binding="title_one"
+                                              [editorToolBarButton]="['bold','italic']">@item.Title</span>
+                                        </span>
+                                        @*<span class="q_split text-green">
+                                                <span class="q_split_wrap rev_item" editor-binding="title_two"
+                                                      [editorToolBarButton]="['bold','italic']">D'LIORO</span>
+                                            </span>*@
+                                    </h2>
+                                    <div style=" border-bottom: 2px solid #679334; margin-bottom: 20px; padding-top: 20px; "></div>
+                                    <p class="rev_item" editor-binding="description" [editorToolBarButton]="['bold','italic']">
+                                        @Html.Raw(item.Description)
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            }
+            i++;
+        }
+
+
+
+    }

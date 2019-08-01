@@ -1,0 +1,29 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Controllers
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+    Hotel detailHotel = CommentController.DetailHotel(Request.Cookies["LanguageID"].Value);
+    Article article = ViewBag.ArticleByRoomRate ?? new Article();
+}
+
+<div class="map">
+    <div class="row">
+        <div class="col-md-6 wow slideInLeft">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.7082829171995!2d107.05184451493159!3d20.96422698603335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5862076ac8cb%3A0x3acad33a32bc4c8b!2sBeverly+Hills+Ha+Long!5e0!3m2!1svi!2s!4v1563241838480!5m2!1svi!2s"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6 wow slideInRight">
+            <div style="width: 90%; margin: auto">
+                <h1>Contact Us</h1>
+                <div style="border-bottom: 3px solid #679334; width: 250px; margin-left: -150px; "></div>
+                <div class="text-map">
+                    <p>
+                        Jl. Rsi Markandya, Br. Bangkiang Sidem Desa Keliki,Tegalalang – Gianyar, Bali 80561 —
+                        Indonesia
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

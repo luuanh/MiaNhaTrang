@@ -1,0 +1,18 @@
+﻿label.error {
+    background: url(/Content/System/Content/images/v3_sprite.png) no-repeat;
+    background-position: -12px -551px;
+    padding-left: 0px;
+    display: block!important;
+    height: auto;
+    line-height: 12px;
+    margin-top: 5px;
+    color: #8C000D;
+}
+.b-submit label.error {
+    margin-left: 20px;
+}
+label.valid {
+    background: none;
+    display: none;
+    margin: 0px!important;padding: 0px;
+}

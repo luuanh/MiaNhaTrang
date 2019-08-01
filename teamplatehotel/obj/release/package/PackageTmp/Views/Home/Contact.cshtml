@@ -1,0 +1,60 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Controllers
+@using TeamplateHotel.Handler
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Hotel hotel = CommentController.DetailHotel(Request.Cookies["LanguageID"].Value);
+    Menu menu = ViewBag.Menu ?? new Menu();
+}
+
+<link href="~/Plugins/Validate/jquery-validation-1.13.1/jquery-validation.css" rel="stylesheet" />
+<script src="~/Plugins/Validate/jquery-validation-1.13.1/jquery.validate.min.js"></script>
+<script src="~/Plugins/Validate/jquery-validation-1.13.1/additional-methods.min.js"></script>
+<div class="ok-text">
+    <h1>@menu.Title</h1>
+    <div>
+        @Html.Raw(menu.Description)
+    </div>
+    @*<div class="head-link" style="margin: auto; width: 150px; padding-bottom: 10px; margin-top: 20px;">
+            <a href="/offer">Read More</a>
+        </div>*@
+</div>
+<div class="map">
+    <div class="row">
+        <div class="col-md-6 wow slideInLeft" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.7082829171995!2d107.05184451493159!3d20.96422698603335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5862076ac8cb%3A0x3acad33a32bc4c8b!2sBeverly+Hills+Ha+Long!5e0!3m2!1svi!2s!4v1563241838480!5m2!1svi!2s"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6 wow slideInRight">
+            <div style="width: 90%; margin: auto">
+                <h1>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Contact")</h1>
+                <div style="border-bottom: 3px solid #679334; width: 250px; margin-left: -150px; "></div>
+                <div class="text-map">
+                    <p>
+                        @hotel.Address
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*<script>
+    function initMap() {
+        var myLatLng = { @hotel.Location };
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: '@hotel.Name'
+        });
+    }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkKxeP9U3h8QzyGoPPUuL7prK8pbC8ovg&callback=initMap">
+</script>*@

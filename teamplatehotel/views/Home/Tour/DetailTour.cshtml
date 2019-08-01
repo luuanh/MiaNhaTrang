@@ -1,0 +1,334 @@
+﻿@using System.Globalization
+@using System.Reflection
+@using System.Resources
+@using ProjectLibrary.Utility
+@using TeamplateHotel.Handler
+@using ProjectLibrary.Database
+@model TeamplateHotel.Models.DetailTour
+@using TeamplateHotel.Controllers
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+    Hotel hotel = CommentController.DetailHotel(Request.Cookies["LanguageID"].Value);
+    List<Tour> listtour = CommentController.GetTours();
+    List<Slider> baners = CommentController.GetListSlider(Request.Cookies["LanguageID"].Value, menu.ID);
+}
+<div class="ok-text">
+    <h1>@menu.Title</h1>
+    <div>
+        @Html.Raw(menu.Description)
+    </div>
+    @*<div class="head-link" style="margin: auto; width: 150px; padding-bottom: 10px; margin-top: 20px;">
+            <a href="/offer">Read More</a>
+        </div>*@
+</div>
+
+<section class="ct-tour">
+    <div class="container">
+        <h1>@Model.Tour.Title- <span style="color: red">@Model.Tour.Price @GetLanguage.Language(Request.Cookies["LanguageID"].Value, "USD")</span> </h1>
+        <div class="row">
+            <div class="col-md-7 wow slideInLeft">
+                <div class="owl-carousel" id="sl7">
+                    @foreach (var item in Model.TourGalleries)
+                    {
+                        <div class="item"><img src="@item.LargeImage" class="img-fluid"></div>
+                    }
+
+                </div>
+            </div>
+            <div class="col-md-5 wow slideInRight">
+                <div class="row">
+                    <table class="table" style="font-size: 15px; padding-left:10px">
+                        <tbody>
+                            <tr>
+                                <td>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "CodeTour")</td>
+                                <td>@Model.Tour.ID</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "StartFrom") </td>
+                                <td>@Model.Tour.DateStart</td>
+                                @*<td>
+                                        <a href="#">
+                                            <i class="far fa-calendar-alt"></i>
+                                            Ngày khác
+                                        </a>
+                                    </td>*@
+                            </tr>
+                            <tr>
+                                <td>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Wherestart")</td>
+                                <td>@Model.Tour.AddressStart</td>
+                                <td>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Time"):@Model.Tour.NumberDay</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="padding-top: 10px" class="datngay">
+                                        <a style="margin-top: 10px" href="/BookTour/@Model.Tour.ID/@Model.Tour.Alias">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "BookTour")</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<section class="tab-tt" style="padding-bottom: 50px;">
+    <div class="container">
+        <ul class="tabs">
+            @if (Model.TabTours.Count > 0)
+            {
+                int i = 1;
+
+                foreach (var item in Model.TabTours)
+                {
+                    if (i == 1)
+                    {
+                        <li class="tab-link current" data-tab="tab-@item.ID">
+                            <h3>@item.TitleTab</h3>
+                        </li>
+                        i++;
+                    }
+                    else
+                    {
+                        <li class="tab-link " data-tab="tab-@item.ID">
+                            <h3>@item.TitleTab</h3>
+                        </li>
+                    }
+
+                }
+            }
+            @*<li class="tab-link current" data-tab="tab-1">
+                    <h3>Chương trình tour</h3>
+                </li>
+                <li class="tab-link" data-tab="tab-2">
+                    <h3>Chi tiết tour</h3>
+                </li>
+                <li class="tab-link" data-tab="tab-3">
+                    <h3>Lưu ý</h3>
+                </li>
+                <li class="tab-link" data-tab="tab-4">
+                    <h3>Liên hệ</h3>
+                </li>*@
+        </ul>
+        @if (Model.TabTours.Count > 0)
+        {
+            int i = 1;
+            foreach (var item in Model.TabTours)
+            {
+                if (i == 1)
+                {
+                    <div id="tab-@item.ID" class="tab-content current">
+                        <div class="col-md-12 wow slideInUp">
+                            <div style="border-left: 3px solid rgb(248, 87, 12)">
+                                <h2 style="margin-left: 10px;">@item.TitleTab</h2>
+                            </div>
+                            <div style="width: 90%;">
+                                <p>
+                                    @Html.Raw(item.Content)
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    i++;
+                }
+                else
+                {
+                    <div id="tab-@item.ID" class="tab-content ">
+                        <div class="col-md-12 ">
+                            <div style="border-left: 3px solid rgb(248, 87, 12)">
+                                <h2 style="margin-left: 10px;">@item.TitleTab</h2>
+                            </div>
+                            <div style="width: 90%;">
+                                <div>
+                                    @Html.Raw(item.Content)
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                }
+
+            }
+        }
+        @*<div id="tab-1" class="tab-content current">
+                <div class="col-md-12 wow slideInUp">
+                    <div style="border-left: 3px solid rgb(248, 87, 12)">
+                        <h2 style="margin-left: 10px;">Program tour</h2>
+                    </div>
+                    <div style="width: 90%;">
+                        <p>
+                            Ha Long is an excellent vacation, sightseeing, and ecological
+                            exploration
+                            site.
+                            Ong Doi and Da Chao cape are the world of colorful coral and marine
+                            fish.
+                            Sao
+                            Bai beach is white sand, curved shape, jade green water. The specialty
+                            of
+                            the
+                            country is pepper, fish sauce, sim wine, pearl. Ha Long is really a gem
+                            on
+                            the
+                            Vietnam map.
+                        </p>
+                    </div>
+                    <div>
+                        <table class="table" style="font-size: 13px">
+                            <tbody style="color: rgb(235, 98, 19)">
+                                <tr>
+                                    <td>Day 01</td>
+                                    <td>Day 02</td>
+                                    <td>Day 03</td>
+                                    <td>Day 04</td>
+                                </tr>
+                                <tr>
+                                    <td>------</td>
+                                    <td>------</td>
+                                    <td>------</td>
+                                    <td>------</td>
+                                </tr>
+                                <tr>
+                                    <td>20/6/2019</td>
+                                    <td>21/6/2019</td>
+                                    <td>22/6/2019</td>
+                                    <td>23/6/2019</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div style="width: 90%">
+                        <p>
+                            Hanoi - Lower LP Number of meals: 1 meal (pm) (In case of flight before
+                            11:00,
+                            Vietravel will support lunch)
+                            You gather at Tan Son Nhat Airport, column number 05 in the country.
+                            Tour
+                            guides make procedures for you to take a flight to Phu Quoc. Pick up
+                            car at
+                            the
+                            airport to take you to depart for Su Muon Pagoda (Hung Long Tu) - to
+                            pray
+                            for
+                            peace and happiness to the family. Continue, visit
+                            the Ham Ninh Fishing Village, Pepper Garden, Nha Thung to make fish
+                            sauce,
+                            Cultured Pearl Pearl. You visit Dinh Cau - the symbol of culture and
+                            belief
+                            of
+                            Phu Quoc Island, is the place where the lucky bridge, the peaceful
+                            bridge
+                            and
+                            the place where the local fishermen believe in a fishing trip full of
+                            fish
+                            when
+                            return. Then check in hotel, you are free to rest and swim. In the
+                            evening,
+                            you
+                            are free to walk around the beach or enjoy seafood at Night Han market
+                            (expenses excluded). Overnight in Ha Long.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="tab-2" class="tab-content">
+                <div class="col-md-12">
+                    <div style="border-left: 3px solid rgb(248, 87, 12)">
+                        <h2 style="margin-left: 10px;">Chi tiết</h2>
+                    </div>
+                    <p>
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus
+                        mus. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit
+                        libero,
+                        a
+                        pharetra augue. Cras mattis consectetur purus sit amet fermentum. Aenean eu
+                        leo
+                        quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                    </p>
+                </div>
+            </div>
+            <div id="tab-3" class="tab-content">
+                <div class="col-md-12">
+                    <div style="border-left: 3px solid rgb(248, 87, 12)">
+                        <h2 style="margin-left: 10px;">Chú ý</h2>
+                    </div>
+                    <p>** Please note: the number of meals depends on flight hours **</p>
+                </div>
+            </div>
+            <div id="tab-4" class="tab-content">
+                <div class="">
+                    <div style="border-left: 3px solid rgb(248, 87, 12)">
+                        <h2 style="margin-left: 10px;">Liên hệ</h2>
+                    </div>
+                    <p>
+                        a
+                        pharetra augue. Cras mattis consectetur purus sit amet fermentum. Aenean eu
+                        leo
+                        quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                    </p>
+                </div>
+            </div>*@
+
+    </div>
+</section>
+
+<script src="~/Content/js/jquery.js"></script>
+<script src="~/Content/js/scrollspy.js"></script>
+<script src="~/Content/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        function goToByScroll(id) {
+            // Remove "link" from the ID
+            id = id.replace("link", "");
+            //// Scroll
+            $('html,body').animate({
+                scrollTop: $("#" + id).offset().top - 90
+            }, 'slow');
+        }
+
+        $("#tab-details > div > ul > li > a").click(function (e) {
+            // Prevent a page reload when a link is pressed
+            e.preventDefault();
+            // Call the scroll function
+            goToByScroll(this.id);
+        });
+    })
+</script>
+<script>
+    var $body = $('body');
+    var $box = $('.box');
+    for (var i = 0; i < 0; i++) {
+        $box.clone().appendTo($body);
+    }
+
+    // Helper function for add element box list in WOW
+    WOW.prototype.addBox = function (element) {
+        this.boxes.push(element);
+    };
+
+    // Init WOW.js and get instance
+    var wow = new WOW();
+    wow.init();
+
+    // Attach scrollSpy to .wow elements for detect view exit events,
+    // then reset elements and add again for animation
+    $('.wow').on('scrollSpy:exit', function () {
+        $(this).css({
+            'visibility': 'hidden',
+            'animation-name': 'none'
+        }).removeClass('animated');
+        wow.addBox(this);
+    }).scrollSpy();
+</script>

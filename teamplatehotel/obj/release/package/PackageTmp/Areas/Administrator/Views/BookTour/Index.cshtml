@@ -1,0 +1,82 @@
+﻿
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+
+    <div id="jtable-main-container"></div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#jtable-main-container').jtable({
+                title: '@ViewBag.Title',
+                paging: true, //Enable paging
+                pageSize: 20, //Set page size (default: 10)
+                sorting: true, //Enable sorting
+                defaultSorting: 'Name ASC', //Set default sorting
+                selecting: true, //Enable selecting
+                multiselect: true, //Allow multiple selecting
+                selectingCheckboxes: true, //Show checkboxes on first column
+                columnResizable: true, //Actually, no need to set true since it's default
+                columnSelectable: true, //Actually, no need to set true since it's default
+                saveUserPreferences: true, //Actually, no need to set true since it's default
+
+                actions: {
+                    listAction: '@Url.Action("List", "BookTour")',
+                    deleteAction: '@Url.Action("Delete", "BookTour")',
+                },
+                fields: {
+                    ID: {
+                        key: true,
+                        create: false,
+                        edit: false,
+                        list: false
+                    },
+                    Code: {
+                        title: 'Code',
+                        width: '13%',
+                        display: function (data) {
+                            return '<a href="/admin/BookTour/Detail/' + data.record.ID + '">' + data.record.Code + '</a>';
+                        }
+                    },
+                    Tour: {
+                        title: 'Tên tour',
+                        width: '13%',
+                    },
+                    FullName: {
+                        title: 'Họ tên',
+                        width: '10%'
+                    },
+                    Email: {
+                        title: 'Địa chỉ email',
+                        width: '10%'
+                    },
+                    Departure: {
+                        title: 'Ngày khởi hành',
+                        width: '10%'
+                    },
+                    Country: {
+                        title: 'Quốc gia',
+                        width: '10%'
+                    },
+                    '':
+                        {
+                            title: '',
+                            width: '2%',
+                            sorting: false,
+                            display: function (data) {
+                                return '<button title="Edit" type="button" class="jtable-command-button jtable-edit-command-button" onclick="detailRecord(' + data.record.ID + ')"><span>Edit</span></button>';
+                            }
+                        },
+                },
+                
+            });
+            $('#jtable-main-container').jtable('load');
+        });
+    </script>
+
+
+
+<script>   
+    function detailRecord(Id) {
+        window.location = '@Url.Action("Detail","BookTour")' + '/' + Id;
+    }
+</script>

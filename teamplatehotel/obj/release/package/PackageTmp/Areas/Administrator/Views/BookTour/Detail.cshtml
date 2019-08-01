@@ -1,0 +1,84 @@
+﻿@model  ProjectLibrary.Database.BookTour
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+<div class="span12">
+    <div class="widget ">
+        <div class="widget-header">
+            <i class=" icon-info-sign"></i>
+            <h3>Chi tiết đặt tour</h3>
+            <a href="@Url.Action("Index","BookTour")" class="btn btn-primary" style="margin: 5px; float: right;">Quay lại</a>
+        </div> <!-- /widget-header --> 
+        <div class="widget-content">
+            <div id="detail-lh">
+                <div>
+                    <label>Code </label> <p>@Model.Code</p>
+                </div>
+                <div>
+                    <label>Tên tour </label> <p>@Model.InfoBooking</p>
+                </div>
+                
+                <div>
+                    <label>Giới tính </label> <p>@Model.Gender</p>
+                </div>
+
+                <div>
+                    <label>Họ tên </label> <p>@Model.FullName</p>
+                </div>
+
+                <div>
+                    <label>Số điện thoại </label> <p>@Model.Tel</p>
+                </div>
+
+                <div>
+                    <label>Email </label> <p>@Model.Email</p>
+                </div>
+
+                <div>
+                    <label>Quốc gia </label> <p>@Model.Country</p>
+                </div>
+
+                <div>
+                    <label>Ngày khởi hành</label> <p>@Model.CreateDate</p>
+                </div>
+
+                <div>
+                    <label>Nội dung </label> <p>@Model.Request</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+
+<style>
+    #detail-lh div {
+        border: 1px solid #ddd;
+        margin: 0px;
+        border-bottom: none;
+        display: block;
+        width: 100%;
+        float: left;
+    }
+
+    #detail-lh div:last-child {
+        border-bottom: 1px solid #ddd;
+    }
+
+    #detail-lh div p {
+        width: 69%;
+        float: right;
+        border-left: 1px solid #ddd;
+        padding: 10px 10px;
+        margin: 0px;
+    }
+
+    #detail-lh div label {
+        width: 28%;
+        text-align: right;
+        height: 100%;
+        display: block;
+        float: left;
+        font-weight: bold;
+        line-height: 32px;
+    }
+</style>

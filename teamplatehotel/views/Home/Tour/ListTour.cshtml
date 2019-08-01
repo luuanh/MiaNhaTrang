@@ -1,0 +1,162 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Handler
+@using TeamplateHotel.Controllers
+@model List<Tour>
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+    List<Slider> baners = CommentController.GetListSlider(Request.Cookies["LanguageID"].Value, menu.ID);
+    int i = 0;
+}
+<div class="ok-text">
+    <h1>@menu.Title</h1>
+    <div>
+        @Html.Raw(menu.Description)
+    </div>
+    @*<div class="head-link" style="margin: auto; width: 150px; padding-bottom: 10px; margin-top: 20px;">
+        <a href="/offer">Read More</a>
+    </div>*@
+</div>
+<section class="text-tour">
+    <div class="container" style="padding-top: 100px; padding-bottom: 50px">
+        <h1 style="text-align: center">@GetLanguage.Language(Request.Cookies["LanguageID"].Value,"AllTour")</h1>
+        @foreach (var item in Model)
+        {
+            if (i % 2 == 0)
+            {
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="wow slideInLeft">
+                            <span class="q_split"><span class="">@item.Title</span></span>
+                            @*  <span class="q_split text-green"><span class="">BEGINNING.</span></span>*@
+                        </h1>
+
+                        <div class="wow wobble"></div>
+                        <span class="">
+                            <p class="wow slideInLeft">
+                                @Html.Raw(item.Description)<br>
+                            </p>
+                            <div class="wow slideInLeft" style="margin-top: 40px;">
+                                <a href="/@item.MenuAlias/@item.ID/@item.Alias">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Detail")</a>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="wow flipInX">
+                            <img src="@item.Image" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            }
+            else
+            {
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="wow flipInX">
+                            <img src="@item.Image" class="img-fluid" alt="@item.Title">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="wow slideInRight">
+                            <span class="q_split"><span class="">@item.Title</span></span>
+                            
+                        </h1>
+
+                        <div class="wow wobble"></div>
+                        <span class="">
+                            <p class="wow slideInRight">
+                              @Html.Raw(item.Description)<br>
+                            </p>
+                            <div class="wow slideInRight" style="margin-top: 40px;">
+                                <a href="/@item.MenuAlias/@item.ID/@item.Alias">Chi Tiết</a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            }
+            i++;
+
+        }
+        @*<div class="row">
+            <div class="col-md-6">
+                <h1 class="wow slideInLeft">
+                    <span class="q_split"><span class="">THE</span></span>
+                    <span class="q_split text-green"><span class="">BEGINNING.</span></span>
+                </h1>
+
+                <div class="wow wobble"></div>
+                <span class="">
+                    <p class="wow slideInLeft">
+                        The D'LIORO Ha Long was conceived in 2014 and completed in
+                        2015.
+                        The concept was to
+                        create something magical and authentic in the heart of Balinese jungle.<br>
+                    </p>
+                    <div class="wow slideInLeft" style="margin-top: 40px;">
+                        <a href="chitiettour.html">Chi Tiết</a>
+                    </div>
+                </span>
+            </div>
+            <div class="col-md-6">
+                <div class="wow flipInX">
+                    <img src="~/Content/images/biệt-thự-Beverly-hills-hạ-long.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="wow flipInX">
+                    <img src="~/Content/image/canvathalong.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h1 class="wow slideInRight">
+                    <span class="q_split"><span class="">THE</span></span>
+                    <span class="q_split text-green"><span class="">OPENING.</span></span>
+                    <span class="q_split"><span class="">CEREMONY.</span></span>
+                </h1>
+
+                <div class="wow wobble"></div>
+                <span class="">
+                    <p class="wow slideInRight">
+                        The D'LIORO Ha Long was conceived in 2014 and completed in
+                        2015.
+                        The concept was to
+                        create something magical and authentic in the heart of Balinese jungle.<br>
+                    </p>
+                    <div class="wow slideInRight" style="margin-top: 40px;">
+                        <a href="chitiettour.html">Chi Tiết</a>
+                    </div>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="wow slideInLeft">
+                    <span class="q_split"><span class="">SANCTUARY</span></span>
+                    <span class="q_split text-green"><span class="">FOR THE</span></span>
+                    <span class="q_split"><span class="">SENSES.</span></span>
+                </h1>
+
+                <div class="wow wobble"></div>
+                <span class="">
+                    <p class="wow slideInLeft">
+                        Overlooking the rainforest and the Wos River the D'LIORO Ha Long
+                        stands on the edge of a stunning valley, surrounded by lush rainforests and picturesque
+                        rice terraces.<br>
+                    </p>
+                    <div class="wow slideInLeft" style="margin-top: 40px;">
+                        <a href="chitiettour.html">Chi Tiết</a>
+                    </div>
+                </span>
+            </div>
+            <div class="col-md-6">
+                <div class="wow flipInX">
+                    <img src="~/Content/images/biệt-thự-Beverly-hills-hạ-long.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>*@
+    </div>
+</section>
+

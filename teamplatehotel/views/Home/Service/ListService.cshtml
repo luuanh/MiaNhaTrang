@@ -1,0 +1,95 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Handler
+@model List<Service>
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+    int i = 0;
+}
+<div class="ok-text">
+    <h1>@menu.Title</h1>
+    <div>
+        @Html.Raw(menu.Description)
+    </div>
+    @*<div class="head-link" style="margin: auto; width: 150px; padding-bottom: 10px; margin-top: 20px;">
+            <a href="/offer">Read More</a>
+        </div>*@
+</div>
+@foreach (var item in Model)
+{
+    if (i % 2 == 0)
+    {
+        <section id="block-card-overlap" class="section block-card-section block-card-overlap bg-image-section-four reveal bg-white">
+            <div class="q-container container-inner">
+                <div class="columns overlap-wrapper type-2">
+                    <div class="column block-picture wide">
+                        <div image-binding="img_background"></div>
+                        <figure class="picture">
+                            <div class="wow slideInLeft">
+                                <img src="@item.Image" alt="" class="vs-div clip_image" data-speed="-0.15">
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="column block-entry bg-vanilla vs-div" data-speed=".2">
+                        <div class="inner ">
+                            <h2 class="title wow slideInRight">
+                                <span class="q_split text-green">
+                                    <span class="q_split_wrap rev_item" editor-binding="title_one" [editorToolBarButton]="['bold','italic']">@item.Title</span>
+                                </span>
+                                @*<span class="q_split">
+                                        <span class="q_split_wrap rev_item" editor-binding="title_two" [editorToolBarButton]="['bold','italic']">SPA</span>
+                                    </span>*@
+                            </h2>
+                            <div class="title-line"></div>
+                            <div class="wow slideInRight" editor-binding="description" [editorToolBarButton]="['bold','italic']">
+                                @Html.Raw(item.Description)
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    }
+    else
+    {
+        <section class="section block-card-section bg-vanilla bg-image-section-one reveal q_active">
+            <div class="q-container container-inner">
+                <div class="columns block-card-shadow ">
+                    <div class="column is-7 block-picture">
+                        <figure class="picture" style="height: 650px;">
+                            <div class="box wide vs-div" style="display: block; transform: translate3d(0px, auto, 0px);"></div>
+                            <div class="rev_clip" style="clip-path: inset(0px); opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                                <img src="@item.Image" alt="" class="vs-div clip_image wow slideInLeft" style="display: block; transform: translate3d(0px, auto, 0px); height: 715px; width: auto;">
+                                <div image-binding="img_background"></div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="column is-5 block-entry">
+                        <div class="inner wow slideInUp">
+                            <h1 class="section-headline">
+                                <span class="q_split">
+                                    <span class="q_split_wrap rev_item" editor-binding="title_one" [editorToolBarButton]="['bold','italic']">@item.Title</span>
+                                </span>
+                                @*<span class="q_split">
+                                        <span class="q_split_wrap rev_item text-green" editor-binding="title_two"
+                                              [editorToolBarButton]="['bold','italic']">CLASSES</span>
+                                    </span>*@
+                            </h1>
+                            <p class="rev_item" editor-binding="description_one" [editortoolbarbutton]="[&#39;bold&#39;,&#39;italic&#39;]"
+                               style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                                @Html.Raw(item.Description)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+
+    }
+    i++;
+}
+
+

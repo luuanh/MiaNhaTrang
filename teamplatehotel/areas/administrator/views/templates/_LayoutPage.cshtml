@@ -1,0 +1,222 @@
+﻿@using ProjectLibrary.Database
+@using ProjectLibrary.Security
+@using TeamplateHotel.Areas.Administrator.Controllers
+@{
+    List<Language> languages = CommentController.ListLanguage();
+    
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>@ViewBag.Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <link href="~/Areas/Administrator/Content/css/bootstrap.min.css" rel="stylesheet">
+        <link href="~/Areas/Administrator/Content/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600"
+              rel="stylesheet">
+        <link href="~/Areas/Administrator/Content/css/font-awesome.css" rel="stylesheet">
+        <link href="~/Areas/Administrator/Content/css/style.css" rel="stylesheet">
+        <link href="~/Areas/Administrator/Content/css/pages/dashboard.css" rel="stylesheet">
+        <link href="~/Scripts/jtable/themes/lightcolor/blue/jtable.css" rel="stylesheet" />
+        <link href="~/Areas/Administrator/Content/css/jquery-ui.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/Areas/Administrator/Content/media/system/css/validationEngine.jquery.css" type="text/css" />
+        <link href="~/Areas/Administrator/Content/media/system/css/ui.notify.css" rel="stylesheet" />
+
+
+        <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+        <script src="~/Scripts/jquery-ui-1.9.2.min.js"></script>
+        <script src="~/Areas/Administrator/Content/media/system/js/jquery.notify.js"></script>
+        <script src="~/Areas/Administrator/Content/media/system/js/JavaScript.js"></script>
+
+        <script src="~/Scripts/jtable/jquery.jtable.js"></script>
+        <script type="text/javascript" src="~/ckfinder/ckfinder.js?t=20100601"></script>
+        <script src="~/Plugins/ckeditor/ckeditor.js"></script>
+        
+        
+    </head>
+    <body>
+        <div id="container-notify" style="display:none">
+            <div id="sticky">
+                <a class="ui-notify-close ui-notify-cross" href="#">x</a>
+                <h1>#{title}</h1>
+                <p>#{text}</p>
+            </div>
+        </div>
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="/Admin/ControlPanel" style="padding: 0px; margin-left: -11px;"><img src="~/Areas/Administrator/Content/img/webhotel_logo.png"/></a>
+                    <div class="nav-collapse">
+                        <ul class="nav pull-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-refresh" aria-hidden="true"></i> @CommentController.CurentLanguage(Request.Cookies["lang_client"].Value)  <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    @foreach (var language in languages)
+                                    {
+                                        <li><a href="/admin/language/select/@language.ID">@language.Name</a></li>
+                                    }
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="/"  data-toggle="dropdown" target="_blank"><i class=" icon-globe"></i> <strong>Trang chủ</strong> </a></li>
+                            <li>
+                                <a href="/Admin/User/Index" data-toggle="dropdown">
+                                    <i class="icon-user"></i> <strong> @CommentController.GetFullName(Request.Cookies["name_client"].Value) </strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="icon-question-sign"></i>
+                                    <span>Hướng dẫn</span>
+                                </a>
+                            </li>
+                            <li><a href="/Admin/Login/Logout"><i class="icon-signout"></i> <strong>Thoát</strong></a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse --> 
+                </div>
+                <!-- /container --> 
+            </div>
+            <!-- /navbar-inner --> 
+        </div>
+        <!-- /navbar -->
+        <div class="subnavbar">
+            <div class="subnavbar-inner">
+                <div class="container">
+                    <ul class="mainnav">
+                        <li>
+                            <a href="/admin/User/Index"><i class="icon-group"></i><span>Ngươi dùng</span></a>
+                        </li>
+                        <li>
+                            <a href="/admin/Hotel/Index"><i class="icon-home"></i><span>Khách sạn</span></a>
+                        </li>
+                        <li>
+                            <a href="/admin/Room/Index"><i class=" icon-star"></i><span>Phòng</span></a>
+                        </li>
+                        <li>
+                            <a href="/admin/Gallery/Index"><i class=" icon-camera"></i> <span>Gallery</span></a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a><i class="icon-list"></i><span>Chuyên mục</span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="/admin/menu/MainMenu">Chuyên mục chính</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/menu/SecondMenu">Chuyên mục phụ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/admin/Article/Index"><i class=" icon-book"></i> <span>Bài viết</span></a>
+                        </li>
+                        <li>
+                            <a href="/admin/Service/Index"><i class="icon-plane"></i> <span>Dịch vụ</span></a>
+                        </li>
+                        <li>
+                            <a href="/admin/Tour/Index"><i class=" icon-umbrella"></i> <span>Tours</span></a>
+                        </li>
+                        <li>
+                            <a href="/admin/Slider/Index"><i class="icon-facetime-video"></i> <span>Slide ảnh</span></a>
+                        </li>
+                        <li>
+                            <a href="/admin/Advertising/Index"><i class=" icon-bullhorn"></i> <span>Quảng cáo</span></a>
+                        </li>
+                        <li class="dropdown">
+                            <a><i class="icon-plus"></i><span>Plugin</span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="/admin/Plugin/GoogleAnalytics">
+                                        <span>Google analytics, Live chat</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/admin/Plugin/CSS">
+                                        <span>Chỉnh sửa CSS</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/admin/Plugin/SideBar">
+                                        <span>Thêm siderBar</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a><i class="icon-envelope"></i><span>Booking</span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="/admin/BookRoom/Index">
+                                        <span>Đặt phòng</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/admin/BookTour/Index">
+                                        <span>Đặt tour</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/admin/Contact/Index"><i class="icon-phone"></i><span>Liên hệ</span></a>
+                        </li>
+                        <li>
+                            <a href="/admin/FeedBack/Index"><i class="icon-book"></i><span>FeedBack</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /container --> 
+            </div>
+            <!-- /subnavbar-inner --> 
+        </div>
+        <!-- /subnavbar -->
+        <div class="main" style="width: 98%; margin: 0px auto;">
+            <div class="main-inner">
+                <div class="container">
+                    <div class="row">
+                        @RenderBody()
+                    </div>
+                    <!-- /row --> 
+                </div>
+                <!-- /container --> 
+            </div>
+            <!-- /main-inner --> 
+        </div>
+        <!-- /main -->
+
+        <div class="footer">
+            <div class="footer-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12"><a href="http://webhotel.vn">WEBHOTEL.VN</a> hệ thống website khách sạn được sử dụng nhiều nhất tại Việt Nam</div>
+                        <!-- /span12 --> 
+                    </div>
+                    <!-- /row --> 
+                </div>
+                <!-- /container --> 
+            </div>
+            <!-- /footer-inner --> 
+        </div>
+        <!-- /footer --> 
+        <!-- Le javascript
+            ================================================== --> 
+        <!-- Placed at the end of the document so the pages load faster --> 
+
+        <script src="~/Areas/Administrator/Content/js/bootstrap.js"></script>
+    </body>
+</html>
+
+<script>
+        var height = $(window).height();
+        $(".main").css("min-height", height - 230);
+        
+
+        var messages = '@ViewBag.Messages';
+    if (messages != null && messages.trim() != "") {
+        CreateMessage(messages);
+    }
+
+</script>

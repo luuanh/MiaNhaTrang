@@ -1,0 +1,186 @@
+﻿@model TeamplateHotel.Areas.Administrator.EntityModel.EHotel
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+<div class="span12">
+    <div class="widget ">
+        <div class="widget-header">
+            <i class=" icon-plus-sign"></i>
+            <h3>@ViewBag.Title</h3>
+        </div> <!-- /widget-header -->  
+        
+        <div class="widget-content">
+            @Html.ValidationSummary(true)
+            @using (Html.BeginForm("Create", "Hotel", FormMethod.Post, new {@class = "form-horizontal"}))
+            {
+                <div class="control-group">	
+                    <label class="control-label" for="Name">Tên khách sạn<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Name, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Name)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Logo">Logo khách sạn<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Logo, new {@class = "span4 inputbox upload"})
+                        @Html.ValidationMessageFor(c => c.Logo)
+                    </div>
+                </div>
+
+                <div class="control-group">	
+                    <label class="control-label" for="Image">Ảnh đại diện <span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Image, new {@class = "span4 inputbox upload"})
+                        @Html.ValidationMessageFor(c => c.Image)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Tel">Số điện thoại <span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Tel, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Tel)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Fax, new {@class = "control-label"})
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Fax, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Fax)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Email">Địa chỉ email <span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Email, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Email)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Address">Địa chỉ khách sạn <span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Address, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Address)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Location, new {@class = "control-label"})
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Location, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Location)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="CodeBooking">Ký hiệu mã booking<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.CodeBooking, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.CodeBooking)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Website">Website<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Website, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Website)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Tripadvisor, new {@class = "control-label"})
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Tripadvisor, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Tripadvisor)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.FaceBook, new {@class = "control-label"})
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.FaceBook, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.FaceBook)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Instagram, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Instagram, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.Instagram)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Twitter, new {@class = "control-label"})
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Twitter, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Twitter)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Youtube, new {@class = "control-label"})
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Youtube, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Youtube)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="CopyRight">Copyright<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.CopyRight, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.CopyRight)
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <input type="submit" value="Submit" class="btn btn-primary"/>
+                    <a href="@Url.Action("Index", "Hotel")" class="btn">Cancel</a>
+                </div>
+
+                <div class="control-seo">
+                    <h3 class="mg-h">Maximize searching engine (Seo)</h3>
+                    <div class="control-group">
+                        @Html.LabelFor(c => c.MetaTitle)
+                        @Html.TextBoxFor(c => c.MetaTitle, new {@class = "span4"})
+                        @Html.ValidationMessageFor(p => p.MetaTitle)
+                    </div>
+                    
+                    <div class="control-group">
+                        @Html.LabelFor(c => c.MetaDescription)
+                        <div class="jtable-input jtable-text-input">
+                            @Html.TextAreaFor(c => c.MetaDescription, new {@class = "span4 meta-seo"})
+                            @Html.ValidationMessageFor(p => p.MetaDescription)
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label for="Condition">Term & Condition<span class="asterisk" style="display: inline; float: none">*</span></label>
+                        <div class="control-group">
+                            <p>
+                                <span class="error-login">@Html.ValidationMessageFor(a => a.Condition)</span>
+                            </p>
+                            @Html.TextAreaFor(c => c.Condition, new {@class = "basic-ckeditor-right"})
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        bindUl();
+        CreateCkEditor();
+    });
+
+</script>

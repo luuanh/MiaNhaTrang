@@ -1,0 +1,539 @@
+﻿@using TeamplateHotel.Areas.Administrator.EntityModel
+@model ETour
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+    int flag = 0;
+    int count = 0;
+}
+<div class="span12">
+    <div class="widget ">
+        <div class="widget-header">
+            <i class=" icon-plus-sign"></i>
+            <h3>@ViewBag.Title</h3>
+        </div> <!-- /widget-header -->  
+        
+        <div class="widget-content">
+            @Html.ValidationSummary(true)
+            @using (Html.BeginForm("Create", "Tour", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                <div class="control-group">
+                    <label class="control-label" for="MenuID">Chuyên mục Tour<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.DropDownListFor(p => p.MenuID, new SelectList(ViewBag.ListMenu, "Value", "Text"), new { @class = "span3" })
+                        @Html.ValidationMessageFor(p => p.MenuID)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Title">Tên tour<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Title, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.Title)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Alias, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Alias, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.Alias)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Image">Hình đại diện<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Image, new { @class = "span4 inputbox upload" })
+                        @Html.ValidationMessageFor(c => c.Image)
+                    </div>
+                </div>
+                <div class="control-group">
+                    @Html.LabelFor(c => c.DateStart, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.DateStart, new { @class = "span4", @type = "date" })
+                        @Html.ValidationMessageFor(c => c.DateStart)
+                    </div>
+                </div>
+                <div class="control-group">
+                    @Html.LabelFor(c => c.NumberDay, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.NumberDay, new { @class = "span4", @type = "number" })
+                        @Html.ValidationMessageFor(c => c.NumberDay)
+                    </div>
+                </div>
+                <div class="control-group">
+                    @Html.LabelFor(c => c.AddressStart, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.AddressStart, new { @class = "span4", })
+                        @Html.ValidationMessageFor(c => c.AddressStart)
+                    </div>
+                </div>
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Price, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Price, new { @class = "span4", @type = "number" })
+                        @Html.ValidationMessageFor(c => c.Price)
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Title">Trạng thái hiển thị</label>
+                    <div class="controls">
+                        <label class="radio-inline"> <input type="radio" name="Status" value="True" checked="checked"> có</label>
+                        <label class="radio-inline"> <input type="radio" name="Status" value="false"> Không</label>
+                    </div>
+                </div>
+
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Description, new { @class = "control-label" })
+                    <div class="controls">
+                        @Html.TextAreaFor(c => c.Description, new { @class = "span4 basic-ckeditor" })
+                    </div>
+                </div>
+
+                <div class="control-group">
+
+                    <div class="controls">
+                        <div class="clr"></div>
+                        <h3 class="mg-h">Khởi tạo lịch trình</h3>
+                        <select id="ListName" style="width: 122px;">
+                            @if (Model.TabTours != null)
+                            {
+                                foreach (var tab in Model.TabTours)
+                                {
+                                    <option value="@count">@tab.TitleTab</option>
+                                    count++;
+                                }
+                            }
+
+                        </select>
+                        <button id="changeName" type="button" style="display: none" class="btn btn-primary">Cập nhật</button>
+                        <input type="text" id="tabName" style="min-width: 1px; width: 122px" />
+                        <button id="saveName" type="button" style="display: none" class="btn btn-primary">Lưu</button>
+                        <button id="delName" type="button" style="display: none" class="btn btn-primary">Xoá</button>
+                        <button type="button" id="addTab" class="btn btn-primary">Thêm </button>
+                        <div class="clr"></div>
+                        <div style="width: 100%; height: auto; clear: both" class="" id="Display-Tabs">
+                            @{
+                                count = 0;
+                                if (Model.TabTours != null)
+                                {
+                                    foreach (var tab in Model.TabTours)
+                                    {
+                                        <h4 id="Content_@(count)" style="@(count > 0 ? "display: none" : "")">Content Tab Tour : @tab.TitleTab</h4>
+                                        <div style="clear: both">
+                                            <textarea id="TabTours_@(count)__Content" style="@(count > 0 ? "display: none" : "")" name="TabTours[@count].Content" rows="20" class="full-ckeditor">@tab.Content</textarea>
+                                            <input type="hidden" id="TabTours_@(count)__TitleTab" name="TabTours[@count].TitleTab" value="@tab.TitleTab" />
+                                        </div>
+                                        count++;
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <div class="controls">
+                        <h3 class="mg-h">Thêm hình ảnh cho phòng</h3>
+                        <ul class="adminformlist">
+                            <li class="imgthumb">
+                                <label>Hình ảnh </label>
+                                <input type="text" id="img-thumb" style="min-width: 190px" class="upload" />
+                                <button type="button" id="add" class="btn btn-primary">Insert</button>
+                                <p class="help-img">Nên chọn hình ảnh có kích thước lớn hơn 600px</p>
+                            </li>
+                            <li>
+                                <ul style="clear: both; height: auto; width: 100%;" class="allImage" id="">
+                                    @if (Model.EGalleryITems != null)
+                                    {
+                                        foreach (EGalleryITem gallery in Model.EGalleryITems)
+                                        {
+                                            <li>
+                                                <input id="EGalleryITems_@(flag)__Image" name="EGalleryITems[@(flag)].Image" type="hidden" value="@(gallery.Image)" />
+                                                <img src="@(gallery.Image)" width="100" />
+                                            </li>
+                                            flag++;
+                                        }
+                                    }
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+                    <a href="@Url.Action("Index", "Tour")" class="btn">Huỷ bỏ</a>
+                </div>
+
+                <div class="control-seo">
+                    <h3 class="mg-h">Tối ưu hoá công cụ tìm kiếm(Seo)</h3>
+                    <div class="control-group">
+                        @Html.LabelFor(c => c.MetaTitle)
+                        <div class="jtable-input jtable-text-input">
+                            @Html.TextAreaFor(c => c.MetaTitle, new { @class = "span4 meta-seo" })
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        @Html.LabelFor(c => c.MetaDescription)
+                        <div class="jtable-input jtable-text-input">
+                            @Html.TextAreaFor(c => c.MetaDescription, new { @class = "span4 meta-seo" })
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<ul id='context-menu'>
+    <li>Delete</li>
+</ul>
+
+
+
+<script type="text/javascript">
+    var counts = 0;
+    var count = 0;
+    function changeNameTag() {
+        $('#ListName').unbind();
+        $('#changeName').unbind();
+        $('#saveName').unbind();
+        $('#delName').unbind();
+
+        if ($('#ListName').val() != "") {
+            $('#changeName').show();
+        }
+
+        $('#changeName').click(function () {
+            $('#tabName').val($('#ListName').find(":selected").text());
+            $('#addTab').hide();
+            $('#saveName').show();
+            $('#delName').show();
+
+        });
+        $('#saveName').click(function () {
+            $('#ListName').find(":selected").text($('#tabName').val());
+            $('#saveName').hide();
+            $('#delName').hide();
+            $('#addTab').show();
+            //change value
+
+            $('#TabTours_' + $('#ListName').val() + '__TitleTab').val($('#tabName').val());
+            $('#Content_' + $('#ListName').val()).text('Nội dung lịch trình :' + $('#tabName').val());
+
+            //
+            $('#tabName').val("");
+        });
+        $('#delName').click(function () {
+            if (confirm("Are you sure?")) {
+                // your deletion code
+                //TabTours_[0]__Name
+                $('#TabTours_' + $('#ListName').val() + '__Content').parent().remove();
+                $('#TabTours_' + $('#ListName').val() + '__TitleTab').remove();
+                $('#Content_' + $('#ListName').val() + ' ').remove();
+
+                $('#cke_TabTours_' + $('#ListName').val() + '__Content').remove();
+
+                //
+                $('#ListName').find(":selected").remove();
+                sapxepListName();
+                sapxepTab();
+                $('#tabName').val("");
+                //
+                if ($('#ListName').val() != null) {
+
+                    console.log($('#ListName').val());
+                    CKEDITOR.replace('TabTours_' + $('#ListName').val() + '__Content', {
+                        height: '400px',
+                        toolbar: [
+                            { name: 'document', groups: [ 'mode', 'document', 'doctools' ], items: [ 'Source', '-', 'Save', 'NewPage', 'Preview', 'Print', '-', 'Templates' ] },
+                            { name: 'clipboard', groups: [ 'clipboard', 'undo' ], items: [ 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo' ] },
+                            { name: 'editing', groups: [ 'find', 'selection', 'spellchecker' ], items: [ 'Find', 'Replace', '-', 'SelectAll', '-', 'Scayt' ] },
+                            { name: 'forms', items: [ 'Form', 'Checkbox', 'Radio', 'TextField', 'Textarea', 'Select', 'Button', 'ImageButton', 'HiddenField' ] },
+                            '/',
+                            { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat' ] },
+                            { name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ], items: [ 'NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl', 'Language' ] },
+                            { name: 'links', items: [ 'Link', 'Unlink', 'Anchor' ] },
+                            { name: 'insert', items: [ 'Image', 'Flash', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak', 'Iframe' ] },
+                            '/',
+                            { name: 'styles', items: [ 'Styles', 'Format', 'Font', 'FontSize' ] },
+                            { name: 'colors', items: [ 'TextColor', 'BGColor' ] },
+                            { name: 'tools', items: [ 'Maximize', 'ShowBlocks' ] },
+                            { name: 'others', items: [ '-' ] },
+                            { name: 'about', items: [ 'About' ] }
+                        ]
+                    });
+                    $('#Content_' + $('#ListName').val() + ' ').show();
+                }
+                //
+                $('#saveName').hide();
+                $('#delName').hide();
+                $('#addTab').show();
+
+                //CreateCkEditor();
+            }
+            return false;
+        });
+
+        $('#ListName').change(function () {
+            desployCkeditor();
+            var item = $('#ListName').val();
+            console.log(item);
+            $('#Display-Tabs').find('h4').each(function () {
+                //$('#cke_' + this.attr('id')).hide();
+                $(this).hide();
+            });
+            $('#Content_' + item + ' ').show();
+            $('#' + 'TabTours_' + item + '__Content').show();
+            CKEDITOR.replace('TabTours_' + item + '__Content', {
+                height: '600px',
+                toolbar: [
+                    { name: 'document', groups: ['mode', 'document', 'doctools'], items: ['Source', '-', 'Save', 'NewPage', 'Preview', 'Print', '-', 'Templates'] },
+                    { name: 'clipboard', groups: ['clipboard', 'undo'], items: ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo'] },
+                    { name: 'editing', groups: ['find', 'selection', 'spellchecker'], items: ['Find', 'Replace', '-', 'SelectAll', '-', 'Scayt'] },
+                    { name: 'forms', items: ['Form', 'Checkbox', 'Radio', 'TextField', 'Textarea', 'Select', 'Button', 'ImageButton', 'HiddenField'] },
+                    '/',
+                    { name: 'basicstyles', groups: ['basicstyles', 'cleanup'], items: ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat'] },
+                    { name: 'paragraph', groups: ['list', 'indent', 'blocks', 'align', 'bidi'], items: ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl', 'Language'] },
+                    { name: 'links', items: ['Link', 'Unlink', 'Anchor'] },
+                    { name: 'insert', items: ['Image', 'Flash', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak', 'Iframe'] },
+                    '/',
+                    { name: 'styles', items: ['Styles', 'Format', 'Font', 'FontSize'] },
+                    { name: 'colors', items: ['TextColor', 'BGColor'] },
+                    { name: 'tools', items: ['Maximize', 'ShowBlocks'] },
+                    { name: 'others', items: ['-'] },
+                    { name: 'about', items: ['About'] }
+                ]
+            });
+
+        });
+    }
+
+    function desployCkeditor() {
+        var editors = $("textarea");
+        if (editors.length) {
+            editors.each(function () {
+                var instance = CKEDITOR.instances[$(this).attr("id")];
+                if (instance && $(this).attr("id") != 'Description') {
+                    instance.destroy(true);
+                    $(this).val(instance.getData());
+                    $(this).hide();
+                }
+            });
+        }
+    }
+    function sapxepListName() {
+        var temp = 0;
+        $("#ListName option").each(function () {
+            var value = $(this).attr("value");
+            var valuereplace = value.replace(value, temp);
+            $(this).attr("value", valuereplace);
+            temp++;
+        });
+    }
+    
+    function sapxepTab() {
+
+        var temp = 0;
+        $("#Display-Tabs label").each(function () {
+            var id = $(this).attr("id");
+            var abc = id.substring(id.indexOf('_') + 1, id.length);
+            var idreplace = id.replace(abc, temp);
+            $(this).attr("id", idreplace);
+            temp++;
+        });
+        temp = 0;
+        $("#Display-Tabs textarea").each(function () {
+            var id = $(this).attr("id");
+            var name = $(this).attr("name");
+            var abc = name.substring(name.indexOf('[') + 1, name.indexOf(']'));
+            //console.log('name: ' + name + ' and : ' + abc);
+            var idreplace = id.replace(abc, temp);
+            var namereplace = name.replace(abc, temp);
+            $(this).attr("id", idreplace);
+            $(this).attr("name", namereplace);
+            temp++;
+        });
+        temp = 0;
+        $("#Display-Tabs input").each(function () {
+            var id = $(this).attr("id");
+            var name = $(this).attr("name");
+            var abc = name.substring(name.indexOf('[') + 1, name.indexOf(']'));
+            //console.log('name: ' + name + ' and : ' + abc);
+            var idreplace = id.replace(abc, temp);
+            var namereplace = name.replace(abc, temp);
+            $(this).attr("id", idreplace);
+            $(this).attr("name", namereplace);
+
+            temp++;
+        });
+        temp = 0;
+
+    }
+
+    function bindRightClick() {
+        $('.allImage li').unbind();
+        $('.allImage li').bind('contextmenu', function (e) {
+            $('#context-menu').css('left', e.pageX + 'px');
+            $('#context-menu').css('top', e.pageY + 'px');
+            $('#context-menu').show();
+            e.preventDefault();
+            curentImg = $(this);
+            return false;
+        });
+    }
+    function bindRightClick() {
+        $('.allImage li').unbind();
+        $('.allImage li').bind('contextmenu', function (e) {
+            $('#context-menu').css('left', e.pageX + 'px');
+            $('#context-menu').css('top', e.pageY + 'px');
+            $('#context-menu').show();
+            e.preventDefault();
+            curentImg = $(this);
+            return false;
+        });
+    }
+
+    function sapxep() {
+        var temp = 0;
+        $(".allImage li").each(function () {
+            $(this).find('input').each(function () {
+                var id = $(this).attr("id");
+                var name = $(this).attr("name");
+                var abc = name.substring(name.indexOf('[') + 1, name.indexOf(']'));
+                //console.log('name: ' + name + ' and : ' + abc);
+                var idreplace = id.replace(abc, temp);
+                var namereplace = name.replace(abc, temp);
+                $(this).attr("id", idreplace);
+                $(this).attr("name", namereplace);
+            });
+            temp++;
+        });
+        bindRightClick();
+    }
+
+    function loadHtmlForImage(val) {
+        if ($('#EGalleryITems_' + val + '__Image').length > 0) {
+            return loadHtmlForImage(++val);
+        } else {
+            //console.log(val);
+            var image = '<input id="EGalleryITems_' + val + '__Image" name="EGalleryITems[' + val + '].Image" type="hidden" value="' + $('#img-thumb').val() + '"/>';
+            var img = '<img src="' + $('#img-thumb').val() + '" width="100" height="80" />';
+            return ('<li>' + image + img + '</li>');
+        }
+    }
+    $('#addTab').click(function () {
+        changeNameTag();
+        if ($('#tabName').val() == "") {
+            alert('Vui lòng nhập tên lịch trình');
+            $('#tabName').focus();
+        } else if (checkValidate($('#tabName').val())) {
+            alert("Tên lịch trình không tồn tại");
+        } else {
+            var label = '<h4 id="Content_' + counts + '">Nội dung lịch trình : ' + $('#tabName').val() + '</h4>';
+            var textarea = '  <div style="clear: both"><textarea id="TabTours_' + counts + '__Content" name="TabTours[' + counts + '].Content" rows="20" class="full-ckeditor"></textarea>' +
+                '<input type="hidden" id="TabTours_' + counts + '__TitleTab" name="TabTours[' + counts + '].TitleTab" value="' + $('#tabName').val() + '"/></div>';
+            var html = '<option  value="' + counts + '">' + $('#tabName').val() + ' </option>';
+            $('#ListName').append(html);
+            $('#ListName').show();
+            $('#ListName').val(counts);
+            desployCkeditor();
+            $('#Display-Tabs').find('h4').each(function () {
+                //$('#cke_' + this.attr('id')).hide();
+                $(this).hide();
+            });
+            $('#Display-Tabs').append(label + textarea);
+
+            counts++;
+            $('#tabName').val("");
+            sapxepListName();
+            sapxepTab();
+            var value = $("#ListName option").last().attr("value");
+            CKEDITOR.replace('TabTours_' + value + '__Content', {
+                height: '400px',
+                toolbar: [
+                    { name: 'document', items: ['Source'] },
+                    { name: 'editing', groups: ['find', 'selection', 'spellchecker'], items: ['Find', 'Replace', '-', 'SelectAll', '-', 'Scayt'] },
+                    { name: 'basicstyles', groups: ['basicstyles', 'cleanup'], items: ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat'] },
+                    { name: 'paragraph', groups: ['list', 'indent', 'blocks', 'align', 'bidi'], items: ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl', 'Language'] },
+                    { name: 'links', items: ['Link', 'Unlink', 'Anchor'] },
+                    { name: 'insert', items: ['Image', 'Flash', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak', 'Iframe'] },
+                    { name: 'styles', items: ['Styles', 'Format', 'Font', 'FontSize'] },
+                    { name: 'colors', items: ['TextColor', 'BGColor'] },
+                    { name: 'tools', items: ['Maximize', 'ShowBlocks'] },
+                    { name: 'others', items: ['-'] },
+                    { name: 'about', items: ['About'] }
+                ]
+            });
+        }
+    });
+
+    function checkValidate(value) {
+        var f = false;
+        $('#Display-Tabs').find('input').each(function () {
+            if ($(this).val() == value) {
+                f = true;
+            }
+        });
+        return f;
+    }
+    $('html').click(function (e) {
+        $('#context-menu').hide();
+    });
+    $('#context-menu').click(function (e) {
+        e.stopPropagation();
+        $(curentImg).remove();
+        sapxep();
+        $('#context-menu').hide(100);
+    });
+    $(window).resize(function () {
+        $('#context-menu').hide();
+    });
+    //Thêm ảnh
+    $('#add').click(function () {
+        if ($('#img').val() == "") {
+            alert("Xin vui lòng chọn ảnh");
+        } else {
+            var data = '';
+            while (true) {
+                if ($('#EGalleryITems_0__Image').length == 0) {
+                    data = loadHtmlForImage(0);
+                    count = 1;
+                } else {
+                    data = loadHtmlForImage(count++);
+                }
+                break;
+            }
+            $('.allImage').append(data);
+            sapxep();
+            bindRightClick();
+            $('#img-title').val('');
+            $('#img-thumb').val('');
+            $('#img').val('');
+        }
+
+    });
+    $(document).ready(function () {
+        desployCkeditor();
+        CreateCkEditor();
+        changeNameTag();
+        bindUl();
+        bindRightClick();
+        if ($('#ListName').val() == null) {
+            $('#ListName').hide();
+        } else {
+            $('#ListName').show();
+        }
+        AutoAlias('Title', 'Alias');
+
+    });
+
+</script>
+<style>
+    h4 {
+        margin: 10px 0px;
+    }
+</style>

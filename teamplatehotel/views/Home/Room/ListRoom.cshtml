@@ -1,0 +1,17 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Handler
+@model IEnumerable<Room>
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+    Article article = ViewBag.ArticleByRoomRate;
+}
+@*<section class="breadcrumb-area overlay-dark-2 bg-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               
+            </div>
+        </div>
+    </div>
+</section>*@

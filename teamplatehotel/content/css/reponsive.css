@@ -1,0 +1,21 @@
+@import url('reponsive/max1279.css');
+@import url('reponsive/max1023.css');
+@import url('reponsive/max767.css');
+@import url('reponsive/min768.css');
+
+
+@media screen and (max-width: 420px){
+	.choiceHolder{
+	}
+
+	.choiceHolder > ul > li{
+	  	width: 100%;
+	  	margin-top: 20px;
+	}
+
+	#unwindPage ul li{
+	    width: 50% !important;
+	    height: 150px;
+	}
+
+}/*@media screen and (max-width: 320px)*/

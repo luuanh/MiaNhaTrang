@@ -1,0 +1,115 @@
+﻿@model TeamplateHotel.Areas.Administrator.ModelShow.ShowArticle
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+
+<form action="@Url.Action("UpdateIndex", "Article")" method="POST" id="updateIndex">
+
+    <div id="jtable-main-container"></div>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('#jtable-main-container').jtable({
+            title: '@ViewBag.Title',
+            paging: true, //Enable paging
+            pageSize: 30, //Set page size (default: 10)
+            sorting: true, //Enable sorting
+            defaultSorting: 'Name ASC', //Set default sorting
+            selecting: true, //Enable selecting
+            multiselect: true, //Allow multiple selecting
+            selectingCheckboxes: true, //Show checkboxes on first column
+            columnResizable: true, //Actually, no need to set true since it's default
+            columnSelectable: true, //Actually, no need to set true since it's default
+            saveUserPreferences: true, //Actually, no need to set true since it's default
+            toolbar: {
+                items: [{
+                    icon: '/Areas/Administrator/Content/img/add.png',
+                    text: 'Thêm mới',
+                    click: function () {
+                        window.location = '@Url.Action("Create", "Article")';
+                    }
+                }, {
+                    icon: '/Areas/Administrator/Content/img/Ordering.png',
+                    text: 'Sắp xếp',
+                    click: function () {
+                        $("#updateIndex").submit();
+                    }
+                }]
+            },
+            actions: {
+                listAction: '@Url.Action("List", "Article")',
+                deleteAction: '@Url.Action("Delete", "Article")',
+            },
+            fields: {
+                ID: {
+                    key: true,
+                    create: false,
+                    edit: false,
+                    list: false
+                },
+                Title: {
+                    title: '@Html.DisplayNameFor(u => u.Title)',
+                    width: '13%',
+                    display: function (data) {
+                        return '<a href="/admin/Article/Update/' + data.record.ID + '">' + data.record.Title + '</a>';
+                    }
+                },
+                TitleMenu: {
+                    title: '@Html.DisplayNameFor(c => c.TitleMenu)',
+                    width: '13%',
+                },
+                Index: {
+                    title: '@Html.DisplayNameFor(c => c.Index)',
+                    width: '8%',
+                    sorting: false,
+                    display: function (data) {
+                        return '<input type="text" name="sort[' + data.record.ID + '].Index" style="width:25px" value="' + data.record.Index + '"/>';
+                    }
+                },
+                Status: {
+                    title: '@Html.DisplayNameFor(c => c.Status)',
+                    width: '8%',
+                    type: 'checkbox',
+                    values: { 'true': 'Có', 'false': 'Không' },
+                    defaultValue: 'true'
+                },
+                Home: {
+                    title: '@Html.DisplayNameFor(c => c.Home)',
+                    width: '8%',
+                    type: 'checkbox',
+                    values: { 'true': 'Có', 'false': 'Không' },
+                    defaultValue: 'true'
+                },
+                Hot: {
+                    title: '@Html.DisplayNameFor(c => c.Hot)',
+                    width: '8%',
+                    type: 'checkbox',
+                    values: { 'true': 'Có', 'false': 'Không' },
+                    defaultValue: 'true'
+                },
+               
+                '':
+                    {
+                        title: '',
+                        width: '2%',
+                        sorting: false,
+                        display: function (data) {
+                            return '<button title="Edit" type="button" class="jtable-command-button jtable-edit-command-button" onclick="editRecord(' + data.record.ID + ')"><span>Edit</span></button>';
+                        }
+                    }
+            }
+        });
+        $('#jtable-main-container').jtable('load');
+    });
+    </script>
+</form>
+
+
+<script>   
+    function editRecord(advId) {
+        window.location = '@Url.Action("Update","Article")' + '/' + advId;
+    }
+    
+    $('#ListLanguage').change(function () {
+        $('#jtable-main-container').jtable('load', { languageId: $('#ListLanguage').val(), hotelId: $("#ListHotel").val() });
+    });
+</script>

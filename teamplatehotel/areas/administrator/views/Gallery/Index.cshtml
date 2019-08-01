@@ -1,0 +1,77 @@
+﻿@model TeamplateHotel.Areas.Administrator.EntityModel.EGallery
+@{
+    Layout = "/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+<form action="@Url.Action("UpdateIndex", "Gallery")" method="POST" id="updateIndex">
+    <div id="jtable-main-container"></div>
+</form>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#jtable-main-container').jtable({
+            title: '@ViewBag.Title',
+            paging: true, //Enable paging
+            pageSize: 40, //Set page size (default: 10)
+            sorting: true, //Enable sorting
+            selecting: true, //Enable selecting
+            multiselect: true, //Allow multiple selecting
+            selectingCheckboxes: true, //Show checkboxes on first column
+            columnResizable: false, //Actually, no need to set true since it's default
+            columnSelectable: true, //Actually, no need to set true since it's default
+            saveUserPreferences: false, //Actually, no need to set true since it's default
+            toolbar: {
+                items: [
+                    {
+                        icon: '/Areas/Administrator/Content/img/Ordering.png',
+                        text: 'Sắp xếp',
+                        click: function () {
+                            $("#updateIndex").submit();
+                        }
+                    }]
+             },
+            actions: {
+                listAction: '@Url.Action("List", "Gallery")',
+                deleteAction: '@Url.Action("Delete", "Gallery")',
+                updateAction: '@Url.Action("Edit", "Gallery")',
+                createAction: '@Url.Action("Create", "Gallery")'
+            },
+            fields: {
+                ID: {
+                    key: true,
+                    create: false,
+                    edit: false,
+                    list: false
+                },
+                Title: {
+                    title: '@Html.DisplayNameFor(c=>c.Title)',
+                    width: '15%',
+                    inputClass: 'full-width',
+                    sorting: false,
+                },
+                Image: {
+                    title: '@Html.DisplayNameFor(c => c.Image)',
+                    sorting: false,
+                    width: '15%',
+                    inputClass: 'upload',
+                    display: function (data) {
+                        return ' <img src="' + data.record.Image + '" width="80px" height="60px"/>';
+                    },
+                },
+                Index: {
+                    title: '@Html.DisplayNameFor(c => c.Index)',
+                    width: '8%',
+                    sorting: false,
+                    create: false,
+                    edit: false,
+                    display: function (data) {
+                        return '<input type="text" name="sort[' + data.record.ID + '].Index" style="width:25px" value="' + data.record.Index + '"/>';
+                    }
+                },
+            },
+        });
+        //Load data
+        $('#jtable-main-container').jtable('load');
+    });
+
+</script>
+

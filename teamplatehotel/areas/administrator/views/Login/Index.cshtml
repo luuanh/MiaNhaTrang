@@ -1,0 +1,104 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Areas.Administrator.Controllers
+@model TeamplateHotel.Areas.Administrator.Models.LoginModel
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- General meta information -->
+        <title>Đăng nhập vào trang quản trị</title>
+        <meta name="robots" content="index, follow" />
+        <meta charset="utf-8" />
+        <link href="~/Areas/Administrator/Content/css/style-login.css" rel="stylesheet" />
+        <link href="~/Areas/Administrator/Content/media/system/css/ui.notify.css" rel="stylesheet" />
+        
+        <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+        <script src="~/Scripts/jquery-ui-1.9.2.min.js"></script>
+        <script src="~/Areas/Administrator/Content/media/system/js/jquery.notify.js"></script>
+        <script src="~/Areas/Administrator/Content/media/system/js/JavaScript.js"></script>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="wrappertop"></div>
+            <div id="wrappermiddle">
+                <h2>Đăng nhập trang quản trị</h2>
+                <p>
+                    <span class="error-login">@Html.ValidationMessageFor(a => a.UserName)</span>
+                    <span class="error-login">@Html.ValidationMessageFor(a => a.Password)</span>
+                    <span class="error-login">@Html.ValidationMessageFor(a => a.Captcha)</span>
+                    <span class="error-login">@Html.ValidationMessageFor(a => a.LanguageID)</span>
+                    <span class="error-login" data-valmsg-for="UserName" data-valmsg-replace="true">@ViewBag.Messages</span>
+                </p>
+                @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+                {
+                    <div id="username_input">
+                        <div id="username_inputleft"></div>
+                        <div id="username_inputmiddle">
+                            @Html.TextBoxFor(a => a.UserName, new { @class = "url", @placeholder = "Tên đăng nhập" })
+                            <img id="url_user" src="~/Areas/Administrator/Content/css/images/user.png" alt="">
+                        </div>
+                        <div id="username_inputright"></div>
+                    </div>
+                    <div id="password_input">
+                        <div id="password_inputleft"></div>
+                        <div id="password_inputmiddle">
+                            @Html.PasswordFor(a => a.Password, new { @class = "url", @placeholder = "Mật khẩu" })
+                            <img class="url_password" src="~/Areas/Administrator/Content/css/images/passicon.png" alt="">
+                        </div>
+                        <div id="password_inputright"></div>
+                    </div>
+                    <div id="password_input">
+                        @Html.DropDownListFor(a => a.LanguageID, new SelectList(ViewBag.ListLanguage, "Value", "Text"), new { @class = "span3" })
+                    </div>
+                    if (ViewBag.ShowCaptcha == true)
+                    {
+                         <div id="captcha_input">
+                             <div id="captcha_inputleft"></div>
+                             <div id="captcha_inputmiddle">
+                                 @Html.TextBoxFor(a => a.Captcha, new {@class = "captcha", @placeholder = "Captcha"})
+                                 <img class="url_captcha" src="~/Areas/Administrator/Content/css/images/lock.png" alt="">
+                             </div>
+                             <div id="password_inputright"></div>
+                             <img src="~/Captcha.ashx" width="110" id="captcha-img" />
+                         </div>
+                     }
+                    <div id="submit">
+                        <input type="submit" id="submit2" value="Đăng nhập">
+                    </div>
+                }
+                <div id="links_left">
+                    <a href="@Url.Action("GetPassWord")">Lấy lại mật khẩu?</a>
+                </div>
+            </div>
+            <div id="wrapperbottom"></div>
+            <div id="powered">
+                <p>Powered by <a href="http://webhotel.vn/">WEBHOTEL.VN</a></p>
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+    .error {
+        margin: 0px 0px 8px 50px;
+    }
+
+        .error span.field-validation-error {
+            list-style: disc;
+            color: white;
+            display: block;
+        }
+</style>
+<script>
+    $(document).ready(function () {
+        var messages = '@ViewBag.Message';
+        if ((messages.trim() != "")) {
+            CreateMessage(messages);
+        }
+    });
+</script>
+
+
+
+
+

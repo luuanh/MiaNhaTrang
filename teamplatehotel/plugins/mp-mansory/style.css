@@ -1,0 +1,14 @@
+
+.item {
+	width: 100%;
+	min-height: 100px;
+	
+}
+
+.item:hover {
+	opacity: 0.5;
+}
+
+.padding{
+	padding: 10px 5px;
+}

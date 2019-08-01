@@ -1,0 +1,241 @@
+﻿@using TeamplateHotel.Handler
+@using ProjectLibrary.Database
+@model Tour
+@{
+    ViewBag.Title = "Book tour";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    //Menu menu = ViewBag.Menu ?? new Menu();
+}
+
+<section class="" style="padding-bottom: 50px;color: #000; background: rgba(132, 159, 246, 0.15); font-size: 20px;">
+    <div class="container">
+        <h2 style="padding-top: 20px; font-size: 30px;">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "BookingTour")</h2>
+        <div style="border-bottom: 2px solid rgb(247, 79, 12); width: 150px; margin-bottom: 20px"></div>
+        <p style="text-align: justify">
+            To request a reservation please fill out the form below. You will
+            receive your booking
+            confirmation normally within 12 to 24 hours. A deposit or full payment will be required
+            for all bookings. For an emergency booking, please call us at 09002200018.
+        </p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="@Model.Image" class="img-fluid" alt="">
+                <div class="img-book" style="border: 1px solid #ccc">
+                    <div class="row">
+                        <div class="col-6">
+                            <p style="text-align:center"> @GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Numberofdays")  : <span>@Model.NumberDay</span> </p>
+                        </div>
+                        <div class="col-6">
+                            <div style="background: rgb(241, 112, 6); padding-bottom: 10px;">
+                                <p style="text-align: center; color: white; font-size: 25px;">@Model.Price @GetLanguage.Language(Request.Cookies["LanguageID"].Value, "USD")</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="price-book">
+                    <h3>@Model.Title</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <p>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "CodeTour"):</p>
+                        </div>
+                        <div class="col-8">
+                            <span>@Model.ID</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p> @GetLanguage.Language(Request.Cookies["LanguageID"].Value, "StartFrom"):</p>
+                        </div>
+                        <div class="col-4">
+                            <span>@Model.DateStart</span>
+                        </div>
+                        @*<div class="col-4">
+                            <a href="#"><i class="fas fa-calendar-alt"></i> Ngày khác</a>
+                        </div>*@
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p> @GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Wherestart"):</p>
+                        </div>
+                        <div class="col-8">
+                            <span>@Model.AddressStart</span>
+                        </div>
+                    </div>
+                    @*<hr>
+                    <div>
+                        <p style="font-size: 15px; color: rgb(241, 44, 27); text-align: justify; margin-right: 20px;">
+                            Female
+                            guests aged 55 and over,
+                            male guests aged 60 and over
+                            going on tour alone and pregnant for more than 4 months (16 weeks)
+                            please register tour directly at Vietravel's office. Tour registration
+                            is not applicable online for guests aged 70 years
+                        </p>
+                    </div>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ttlc">
+    <form id="demoForm" class="contact-form" action="/BookTour/SendBooking" method="post" enctype="multipart/form-data">
+        <div class="container">
+            <h2 style="font-size: 30px !important;">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "YourInformation") </h2>
+            <div style="border-bottom: 2px solid rgb(247, 79, 12); width: 150px; margin-bottom: 30px"></div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input hidden name="TourID" value="@Model.ID"/>
+                        <p>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "FullName")<span>*</span></p>
+                        <input type="text" name="FullName" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <p>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Email") <span>*</span></p>
+                        <input name="Email" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <p>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Phone")</p>
+                        <input type="number" name="Tel" class="form-control">
+                    </div>
+                    
+                        <div class="col-md-2">
+                            <p>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Adult")</p>
+                            <input type="number" name="Adults" value="1" class="form-control">
+                        </div>
+                        <div class="col-md-2">
+                            <p>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "CHILDREN")</p>
+                         
+                            <input type="number" name="Children" value="0" class="form-control">
+                        </div>
+                   
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Address") <span>*</span></p>
+                        <input type="text" name="Address" class="form-control">
+                    </div>
+                    
+                    
+                </div>
+                <div style="padding-top: 20px">
+                    <p>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Note")</p>
+                    <textarea class="form-control" name="Request" id="" rows="7"></textarea>
+                </div>
+            </div>
+
+        </div>
+        <section class="dieukhoan">
+            <div class="container">
+                <h2 style="font-size: 30px;">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "REGISTERINGONLINE")</h2>
+                <div style="border-bottom: 2px solid rgb(247, 79, 12); width: 150px; margin-bottom: 30px"></div>
+                <div class="nd-dk">
+                    <p><strong>I. GIÁ VÉ DU LỊCH</strong></p>
+                    <p>
+                        Travel fares are calculated in VND (Vietnam - VND).
+                        In case customers pay in USD will be converted into
+                        VND at the exchange rate of Bank for Investment and
+                        Development of Vietnam - Ho Chi Minh City branch at t
+                        he time of payment.
+
+                        Fares include only those items that are clearly listed
+                        in the "Include" section of the travel program. Vietravel
+                        has no obligation to pay any expenses not covered by the "Include" section.
+                    <p> <strong> II. PRICE FOR CHILDREN</strong></p>
+                    <p>
+                        - Children under 2 years old: 30% on travel fares.
+                        - Children from 2 to under 12 years old: From 75% -100%
+                        (depending on the policy of the airline or accommodation
+                        room of each tour program) on travel tickets, please see
+                        the section carefully. conditions in each tour program.
+                        Two adults can only accompany 01 children, the second child or more will buy additional
+                        single
+                        bed.
+
+                        - Children 12 and older, buy a ticket like an adult.
+
+                        Air tickets, trains, public transport vehicles: purchased according to the regulations
+                        of
+                        these
+                        transport units.
+
+                        * Note: Travel fares do not include: Bed-bed mode.
+                    </p>
+                    </p>
+                </div>
+                <input type="radio" name="checke" required="required" style="margin-top: 30px;"> <label style="font-size:15px">
+    @GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Igree") 
+</label>
+                <div style="margin: auto; width: 100px; margin-top: 30px;">
+                    <button id="idbtnsubmit" type="submit" class="btn-lg btn-primary">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "BookingTour")</button>
+                </div>
+            </div>
+        </section>
+    </form>
+</section>
+
+
+
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+
+<script>
+    $().ready(function () {
+        $.validator.addMethod("valueNotEquals", function (value, element, arg) {
+            return arg !== value;
+        }, "Value must not equal arg.");
+        $("#demoForm").validate({
+            rules: {
+                "FullName": {
+                    required: true,
+                },
+                "Email": {
+                    required: true,
+
+                },
+                "Tel": {
+                    required: true,
+                    minlength: 10
+                },
+                
+                "Address": {
+                    required: true,
+                },
+                "Request": {
+                    required: true,
+                },
+                "checke": {
+                    required: true,
+                },
+            },
+            messages: {
+                "FullName": {
+                    required: "<p class='mb-0' style='color: red;'>Nhập Tên Sản Phẩm</p>"
+                },
+                "Email": {
+                    required: "<p class='mb-0' style='color: red;'>Nhập Email</p>",
+                    number: "<p class='mb-0' style='color: red;'>Nhập đúng định dạng Email</p>"
+                },
+                "Tel": {
+                    required: "<p class='mb-0' style='color: red;'>Vui lòng nhập số điện thoại</p>",
+                    minlength: "<p class='mb-0' style='color: red;'>Mời nhập SĐT, ít nhất 10 chữ số</p>"
+                },
+               
+                "Address": {
+                    required: "<p class='mb-0' style='color: red;'>Nhập địa chỉ của bạn</p>"
+                },
+                "checke": {
+                    required: "<p class='mb-0' style='color: red;'>Hãy đồng ý điều khoản </p>"
+                },
+                "Request": {
+                    required: "<p class='mb-0' style='color: red;'>Nhập thêm ghi chú</p>"
+                }
+            }
+        });
+    });
+</script>

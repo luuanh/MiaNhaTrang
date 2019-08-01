@@ -1,0 +1,236 @@
+﻿@using ProjectLibrary.Config
+@using TeamplateHotel.Areas.Administrator.EntityModel
+@model EService
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+    int flag = 0;
+}
+<div class="span12">
+    <div class="widget ">
+        <div class="widget-header">
+            <i class=" icon-plus-sign"></i>
+            <h3>@ViewBag.Title</h3>
+        </div> <!-- /widget-header -->
+
+        <div class="widget-content">
+            @Html.ValidationSummary(true)
+            @using (Html.BeginForm("Create", "Service", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                <div class="control-group" id="listHotel">
+                    <label class="control-label" for="MenuID">Chuyên mục dịch vụ<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.DropDownListFor(p => p.MenuID, new SelectList(ViewBag.ListMenu, "Value", "Text"), new { @class = "span3" })
+                        @Html.ValidationMessageFor(p => p.MenuID)
+                    </div>
+                </div>
+                
+                <div class="control-group">
+                    <label class="control-label" for="Title">Tên dich vụ<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Title, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Title)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Alias, new {@class = "control-label"})
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Alias, new {@class = "span4"})
+                        @Html.ValidationMessageFor(c => c.Alias)
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Image">Hình đại diện<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Image, new {@class = "span4 inputbox upload"})
+                        @Html.ValidationMessageFor(c => c.Image)
+                        <p class="help-img">Nên chọn ảnh có kích thước @ConfigImage.InfoImageService</p>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Title">Trạng thái hiển thị</label>
+                    <div class="controls">
+                        <label class="radio-inline"> <input type="radio" name="Status" value="True" checked="checked"> có</label>
+                        <label class="radio-inline"> <input type="radio" name="Status" value="false"> Không</label>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Title">Hiển thị trang chủ</label>
+                    <div class="controls">
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Home, "true")  Có</label>
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Home, "false", new {@checked = true}) Không</label>
+                    </div>
+                </div>
+
+                <div class="control-group" style="margin-top: 40px">
+                    <label class="control-label" for="Content">Mô tả</label>
+                    <div class="controls">
+                        <p>
+                            <span class="error-login">@Html.ValidationMessageFor(a => a.Description)</span>
+                        </p>
+                        @Html.TextAreaFor(c => c.Description, new {@class = "basic-ckeditor"})
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="Content">Mô tả chi tiết<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        <p>
+                            <span class="error-login">@Html.ValidationMessageFor(a => a.Content)</span>
+                        </p>
+                        @Html.TextAreaFor(c => c.Content, new {@class = "full-ckeditor"})
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <div class="controls">
+                        <h3 class="mg-h">Thêm hình ảnh cho dịch vụ</h3>
+                        <ul class="adminformlist">
+                            <li class="imgthumb">
+                                <label>Hình ảnh </label>
+                                <input type="text" id="img-thumb" style="min-width: 190px" class="upload" />
+                                <button type="button" id="add" class="btn btn-primary">Insert</button>
+                                <p class="help-img">Nên chọn hình ảnh có kích thước lớn hơn 600px</p>
+                            </li>
+                            <li>
+                                <ul style="clear: both; height: auto; width: 100%;" class="allImage" id="">
+                                    @if (Model.EGalleryITems != null)
+                                    {
+                                        foreach (EGalleryITem gallery in Model.EGalleryITems)
+                                        {
+                                            <li>
+                                                <input id="EGalleryITems_@(flag)__Image" name="EGalleryITems[@(flag)].Image" type="hidden" value="@(gallery.Image)" />
+                                                <img src="@(gallery.Image)" width="100" />
+                                            </li>
+                                            flag++;
+                                        }
+                                    }
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+                    <a href="@Url.Action("Index", "Service")" class="btn">Cancel</a>
+                </div>
+                <div class="control-seo">
+                    <h3 class="mg-h">Tôi ưu hoá công cụ tìm kiếm(Seo)</h3>
+                    <div class="control-group">
+                        @Html.LabelFor(c => c.MetaTitle)
+                        @Html.TextBoxFor(c => c.MetaTitle, new {@class = "span4"})
+                        @Html.ValidationMessageFor(p => p.MetaTitle)
+                    </div>
+
+                    <div class="control-group">
+                        @Html.LabelFor(c => c.MetaDescription)
+                        <div class="jtable-input jtable-text-input">
+                            @Html.TextAreaFor(c => c.MetaDescription, new {@class = "span4 meta-seo"})
+                            @Html.ValidationMessageFor(p => p.MetaDescription)
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<ul id='context-menu'>
+    <li>Delete</li>
+</ul>
+
+
+
+<script type="text/javascript">
+    function bindRightClick() {
+        $('.allImage li').unbind();
+        $('.allImage li').bind('contextmenu', function(e) {
+            $('#context-menu').css('left', e.pageX + 'px');
+            $('#context-menu').css('top', e.pageY + 'px');
+            $('#context-menu').show();
+            e.preventDefault();
+            curentImg = $(this);
+            return false;
+        });
+    }
+
+    function sapxep() {
+        var temp = 0;
+        $(".allImage li").each(function() {
+            $(this).find('input').each(function() {
+                var id = $(this).attr("id");
+                var name = $(this).attr("name");
+                var abc = name.substring(name.indexOf('[') + 1, name.indexOf(']'));
+                //console.log('name: ' + name + ' and : ' + abc);
+                var idreplace = id.replace(abc, temp);
+                var namereplace = name.replace(abc, temp);
+                $(this).attr("id", idreplace);
+                $(this).attr("name", namereplace);
+            });
+            temp++;
+        });
+        bindRightClick();
+    }
+
+    function loadHtmlForImage(val) {
+        if ($('#EGalleryITems_' + val + '__Image').length > 0) {
+            return loadHtmlForImage(++val);
+        } else {
+            //console.log(val);
+            var image = '<input id="EGalleryITems_' + val + '__Image" name="EGalleryITems[' + val + '].Image" type="hidden" value="' + $('#img-thumb').val() + '"/>';
+            var img = '<img src="' + $('#img-thumb').val() + '" width="100" height="80" />';
+            return ('<li>' + image + img + '</li>');
+        }
+    }
+
+    $(document).ready(function() {
+        bindUl();
+        AutoAlias("Title", "Alias");
+        CreateCkEditor();
+
+        bindRightClick();
+        $('html').click(function(e) {
+            $('#context-menu').hide();
+        });
+        $('#context-menu').click(function(e) {
+            e.stopPropagation();
+            $(curentImg).remove();
+            sapxep();
+            $('#context-menu').hide(100);
+        });
+        $(window).resize(function() {
+            $('#context-menu').hide();
+        });
+        //
+        var count = 0;
+        //Thêm ảnh
+        $('#add').click(function() {
+            if ($('#img').val() == "") {
+                alert("Xin vui lòng chọn ảnh");
+            } else {
+                var data = '';
+                while (true) {
+                    if ($('#EGalleryITems_0__Image').length == 0) {
+                        data = loadHtmlForImage(0);
+                        count = 1;
+                    } else {
+                        data = loadHtmlForImage(count++);
+                    }
+                    break;
+                }
+                $('.allImage').append(data);
+                sapxep();
+                bindRightClick();
+                $('#img-title').val('');
+                $('#img-thumb').val('');
+                $('#img').val('');
+            }
+
+        });
+    });
+
+</script>

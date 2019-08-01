@@ -1,0 +1,17 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Handler
+@using TeamplateHotel.Controllers
+@{
+    ViewBag.Title = "sliderpage";
+    Menu menu = ViewBag.Menu ?? new Menu();
+    List<Slider> baners = CommentController.GetListSlider(Request.Cookies["LanguageID"].Value, menu.ID);
+}
+<div class="owl-carousel owl-theme slideshow owlslide ">
+    @foreach (var item in baners.OrderBy(a => a.Index))
+    {
+        <div class="bgr-img">
+            <img data-u="image" src="@item.Image" alt="@item.Title" title="#@item.ID" />
+
+        </div>
+    }
+</div>

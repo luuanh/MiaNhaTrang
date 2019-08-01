@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SnapCode.Collections.Sequential</name>
+    </assembly>
+    <members>
+        <member name="T:SnapCode.Collections.IDequeue`1">
+            <summary>
+            Represents interface that implemented by Dequeue
+            </summary>
+            <typeparam name="T">Items type.</typeparam>
+        </member>
+        <member name="M:SnapCode.Collections.IDequeue`1.PushBack(`0)">
+            <summary>
+            Puts item at the end of queue.
+            </summary>
+            <param name="value">Item that will be pushed.</param>
+        </member>
+        <member name="M:SnapCode.Collections.IDequeue`1.PushFront(`0)">
+            <summary>
+            Puts item in the front of queue.
+            </summary>
+            <param name="value">Item that will be pushed.</param>
+        </member>
+        <member name="M:SnapCode.Collections.IDequeue`1.PopBack">
+            <summary>
+            Allows pop item at the end of queue.
+            </summary>
+        </member>
+        <member name="M:SnapCode.Collections.IDequeue`1.PopFront">
+            <summary>
+            Allows pop item at the front of queue.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.IDequeue`1.Front">
+            <summary>
+            Allows get item in the front of queue.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.IDequeue`1.Back">
+            <summary>
+            Allows get item at the end of queue.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.IDequeue`1.Count">
+            <summary>
+            Represents count of items in queue.
+            </summary>
+        </member>
+        <member name="T:SnapCode.Collections.IQueue`1">
+            <summary>
+            Represents interface that's implemented by queue.
+            </summary>
+            <typeparam name="T">Items type.</typeparam>
+        </member>
+        <member name="M:SnapCode.Collections.IQueue`1.Push(`0)">
+            <summary>
+            Pushes item to queue.
+            </summary>
+            <param name="value">Item that will be pushed.</param>
+        </member>
+        <member name="M:SnapCode.Collections.IQueue`1.Pop">
+            <summary>
+            Pops item from front of queue.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.IQueue`1.Front">
+            <summary>
+            Allows get item that located in front of queue.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.IQueue`1.Count">
+            <summary>
+            Represents count of items in queue.
+            </summary>
+        </member>
+        <member name="T:SnapCode.Collections.IStack`1">
+            <summary>
+            Represents interface that's implemented by stack.
+            </summary>
+            <typeparam name="T">Items type.</typeparam>
+        </member>
+        <member name="M:SnapCode.Collections.IStack`1.Push(`0)">
+            <summary>
+            Puts item on the top of stack.
+            </summary>
+            <param name="value">item that will be pushed</param>
+        </member>
+        <member name="M:SnapCode.Collections.IStack`1.Pop">
+            <summary>
+            Pops item from the top of the stack.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.IStack`1.Top">
+            <summary>
+            Allows get item from the top.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.IStack`1.Count">
+            <summary>
+            Represents count of items in stack.
+            </summary>
+        </member>
+        <member name="T:SnapCode.Collections.ISequence`1">
+            <summary>
+            Represents interface that must be implemented by classes that represents a sequential collections.
+            </summary>
+            <typeparam name="T">Items type.</typeparam>
+        </member>
+        <member name="M:SnapCode.Collections.ISequence`1.PushBack(`0)">
+            <summary>
+            Push item at the end of collection.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SnapCode.Collections.ISequence`1.PushFront(`0)">
+            <summary>
+            Push item at front of collection.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SnapCode.Collections.ISequence`1.PopBack">
+            <summary>
+            Pops item from end.
+            </summary>
+        </member>
+        <member name="M:SnapCode.Collections.ISequence`1.PopFront">
+            <summary>
+            Pops item from front.
+            </summary>
+        </member>
+        <member name="M:SnapCode.Collections.ISequence`1.GetEnumerator">
+            <summary>
+            Allows get enumerator to use foreach and etc.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnapCode.Collections.ISequence`1.GetReverseEnumerator">
+            <summary>
+            Allows get reverse enumerator to use foreach and etc.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:SnapCode.Collections.ISequence`1.Front">
+            <summary>
+            Allows get front item.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.ISequence`1.Back">
+            <summary>
+            Allows get last item.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.ISequence`1.Count">
+            <summary>
+            Represents count of items in collection.
+            </summary>
+        </member>
+        <member name="T:SnapCode.Collections.List`1">
+            <summary>
+            Represents double-linked list and allows fast push, pop. And two versions of enumerator.
+            </summary>
+            <typeparam name="T">Items type.</typeparam>
+        </member>
+        <member name="F:SnapCode.Collections.List`1.traverse">
+            <summary>
+            Use it to set type of enumerator that's used foreach.
+            </summary>
+        </member>
+        <member name="M:SnapCode.Collections.List`1.PushBack(`0)">
+            <summary>
+            Pushes item at the end. Complexity: O(1);
+            </summary>
+            <param name="value">Item that will be stored.</param>
+        </member>
+        <member name="M:SnapCode.Collections.List`1.PushFront(`0)">
+            <summary>
+            Pushes item in the front. Complexity: O(1);
+            </summary>
+            <param name="value">Item that will be stored.</param>
+        </member>
+        <member name="M:SnapCode.Collections.List`1.PopBack">
+            <summary>
+            Pops item from end. Complexity: O(1);
+            </summary>
+        </member>
+        <member name="M:SnapCode.Collections.List`1.PopFront">
+            <summary>
+            Pops item from front. Complexity: O(1);
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.List`1.Front">
+            <summary>
+            Allows get data in the front. Complexity: O(1);
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.List`1.Back">
+            <summary>
+            Allows get data at the end. Complexity: O(1);
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.List`1.Count">
+            <summary>
+            Represents count of items in list. Complexity: O(1);
+            </summary>
+        </member>
+        <member name="T:SnapCode.Collections.List`1.TraverseType">
+            <summary>
+            Allows set type of enumerator (how it has been added - direct or reverse of previous order).
+            </summary>
+        </member>
+        <member name="T:SnapCode.Collections.List`1.Node">
+            <summary>
+            Reperesents 'big-item' of list. Contains references to next, previous and data-object reference.
+            </summary>
+        </member>
+        <member name="M:SnapCode.Collections.List`1.Node.#ctor(`0,SnapCode.Collections.List{`0}.Node,SnapCode.Collections.List{`0}.Node)">
+            <summary>
+            Constructs the Node with soecified data-object, and references.
+            </summary>
+            <param name="value">Data that will be stored in Node (in List)</param>
+            <param name="nextNode">Reference to next Node.</param>
+            <param name="prevNode">Reference to previous Node.</param>
+        </member>
+        <member name="P:SnapCode.Collections.List`1.Node.Value">
+            <summary>
+            Reference to data-object that's used in Front, Back properties.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.List`1.Node.Next">
+            <summary>
+            References to next Node or null (if there is no next Node).
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.List`1.Node.Prev">
+            <summary>
+            References to previous Node or null (if there is no next Node).
+            </summary>
+        </member>
+        <member name="F:SnapCode.Collections.Vector`1.traverse">
+            <summary>
+            Use it to set type of enumerator that's used foreach.
+            </summary>
+        </member>
+        <member name="M:SnapCode.Collections.Vector`1.#ctor">
+            <summary>
+            Initialize empty vector.
+            </summary>
+        </member>
+        <member name="M:SnapCode.Collections.Vector`1.#ctor(System.Int32)">
+            <summary>
+            Initialize vector with 'length' null items
+            </summary>
+            <param name="length"></param>
+        </member>
+        <member name="M:SnapCode.Collections.Vector`1.PushBack(`0)">
+            <summary>
+            Puts item at the end. Complexity: O(Count);
+            </summary>
+            <param name="value">Item that will be pushed.</param>
+        </member>
+        <member name="M:SnapCode.Collections.Vector`1.PushFront(`0)">
+            <summary>
+            Puts item at the front. Complexity: O(Count);
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SnapCode.Collections.Vector`1.PopBack">
+            <summary>
+            Pops item from the end. Complexity: O(Count);
+            </summary>
+        </member>
+        <member name="M:SnapCode.Collections.Vector`1.PopFront">
+            <summary>
+            Pops item from the front. Complexity: O(Count);
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.Vector`1.Front">
+            <summary>
+            Allows get data in front of vector. Complexity: O(1);
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.Vector`1.Back">
+            <summary>
+            Allows get data at the end of vector. Complexity: O(1);
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.Vector`1.Count">
+            <summary>
+            Represents count of items in vector.
+            </summary>
+        </member>
+        <member name="P:SnapCode.Collections.Vector`1.Item(System.Int32)">
+            <summary>
+            Indexer through vector (or reversed).
+            </summary>
+            <param name="index">Value in range [0 - Count - 1]</param>
+            <returns></returns>
+        </member>
+        <member name="T:SnapCode.Collections.Vector`1.TraverseType">
+            <summary>
+            Allows set type of enumerator (how it has been added - direct or reverse of previous order).
+            </summary>
+        </member>
+    </members>
+</doc>

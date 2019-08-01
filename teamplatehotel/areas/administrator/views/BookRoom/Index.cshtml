@@ -1,0 +1,127 @@
+﻿@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+
+    <div class="optionShow">
+        <div class="optionShow-title">Lọc tìm kiếm</div>
+        <div class="item-option">
+            <div class="title-item-option">Ngày đến >=:</div>
+            <div class="content-item-option"><input type="text" id="check-in" /></div>
+        </div>
+        <div class="item-option">
+            <div class="title-item-option">Ngày đi >=:</div>
+            <div class="content-item-option"><input type="text" id="check-out" /></div>
+        </div>
+        <div class="item-option">
+            <div class="title-item-option">Ngày đặt phòng >=:</div>
+            <div class="content-item-option"><input type="text" id="book-date" /></div>
+        </div>
+        <div class="item-option">
+            <div class="title-item-option"><input type="button" class="btn-primary" value="Search" id="search" /></div>
+        </div>
+    </div>
+
+        <div id="jtable-main-container"></div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#jtable-main-container').jtable({
+            title: '@ViewBag.Title',
+            paging: true, //Enable paging
+            pageSize: 20, //Set page size (default: 10)
+            sorting: true, //Enable sorting
+            defaultSorting: 'Name ASC', //Set default sorting
+            selecting: true, //Enable selecting
+            multiselect: true, //Allow multiple selecting
+            selectingCheckboxes: true, //Show checkboxes on first column
+            columnResizable: true, //Actually, no need to set true since it's default
+            columnSelectable: true, //Actually, no need to set true since it's default
+            saveUserPreferences: true, //Actually, no need to set true since it's default
+
+            actions: {
+                listAction: '@Url.Action("List", "BookRoom")',
+                deleteAction: '@Url.Action("Delete", "BookRoom")',
+            },
+            fields: {
+                ID: {
+                    key: true,
+                    create: false,
+                    edit: false,
+                    list: false
+                },
+                Code: {
+                    title: 'Code',
+                    width: '5%',
+                    sorting: false,
+                    display: function (data) {
+                        return '<a href="/admin/BookRoom/Detail/' + data.record.ID + '">' + data.record.Code + '</a>';
+                    }
+                },
+                FullName: {
+                    title: 'Họ tên',
+                    width: '6%',
+                    sorting: false
+                },
+                CheckIn: {
+                    title: 'Ngày đến',
+                    width: '6%',
+                    sorting: false
+                },
+                CheckOut: {
+                    title: 'Ngày đi',
+                    width: '6%',
+                    sorting: false
+                },
+                DateBook: {
+                    title: 'Ngày đặt phòng',
+                    width: '5%',
+                    sorting: false
+                },
+                Adult: {
+                    title: 'Ngươi lớn',
+                    width: '4%',
+                    sorting: false
+                },
+                Child: {
+                    title: 'Trẻ em',
+                    width: '4%',
+                    sorting: false
+                },
+                InfoBooking: {
+                    title: 'Thông tin đặt phòng',
+                    width: '15%',
+                    sorting: false
+                },
+                '':
+                {
+                    title: '',
+                    width: '2%',
+                    sorting: false,
+                    display: function (data) {
+                        return '<button title="Edit" type="button" class="jtable-command-button jtable-edit-command-button" onclick="detailRecord(' + data.record.ID + ')"><span>Edit</span></button>';
+                    }
+                },
+            },
+
+
+        });
+        $('#jtable-main-container').jtable('load', { bookingOnline: '@ViewBag.BookingOnline' });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        $("#check-in").datepicker();
+        $("#check-out").datepicker();
+        $("#book-date").datepicker();
+    });
+    function detailRecord(Id) {
+        window.location = '@Url.Action("Detail","BookRoom")' + '/' + Id;
+    }
+
+    $("#search").click(function () {
+        //trường hợp này đã chọn ngôn ngữ và hotel rồi nên hiển thị luôn ra danh sách
+
+        $('#jtable-main-container').jtable('load', { checkin: $("#check-in").val(), checkout: $("#check-out").val(), bookdate: $("#book-date").val() });
+    });
+</script>

@@ -1,0 +1,310 @@
+/* Stylesheet / CSS */
+
+/* CSS Reset - Do not edit this line */ 
+html {margin:0;padding:0;border:0;}body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}body {line-height:1.5;background:white;}table {border-collapse:separate;border-spacing:0;}caption, th, td {text-align:left;font-weight:normal;float:none !important;}table, th, td {vertical-align:middle;}blockquote:before, blockquote:after, q:before, q:after {content:'';}blockquote, q {quotes:"" "";}a img {border:none;}:focus {outline:0;}
+
+
+/* General Styles
+----------------------------------------------------------------------------------------------------*/
+html {
+	min-height: 100%;
+}
+body {
+	height: 100%;
+	font-family: 'Cambria', sans-serif, Time;
+	color: #888;
+	font-size: 13px;
+	line-height: 20px;
+	min-width: 998px;
+	border-top:3px solid #919191;
+	background:url(/Areas/Administrator/Content/css/images/BG.jpg) repeat;
+}
+#wrapper {	
+	padding: 70px 0 0 0px;
+	height: 100%;
+}
+#wrapper {
+	width: 350px;
+	margin:auto;
+}
+
+#wrappertop {
+	background:url(/Areas/Administrator/Content/css/images/wrapper_top.png) no-repeat;
+	height:22px;
+}
+
+#wrappermiddle {
+	background:url(/Areas/Administrator/Content/css/images/wrapper_middle.png) repeat-y;
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+#wrapperbottom {
+	background:url(/Areas/Administrator/Content/css/images/wrapper_bottom.png) no-repeat;
+	height:22px;
+    width: 100%;float: left;
+}
+
+#wrapper h2 {
+	margin-left:20px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:'Cambria', sans-serif, Time ;
+	text-transform:uppercase;
+	text-shadow: #fff 2px 2px 2px;
+}
+
+#username_input {
+	margin-left:25px;
+	width:300px;
+	height:50px;
+	margin-top:20px;
+}
+
+#username_inputleft {
+	float:left;
+	background:url(/Areas/Administrator/Content/css/images/input_left.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#username_inputmiddle {
+	float:left;
+	background:url(/Areas/Administrator/Content/css/images/input_middle.png) repeat-x;
+	width:276px;
+	height:50px;
+}
+
+#username_inputright {
+	float:left;
+	background:url(/Areas/Administrator/Content/css/images/input_right.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+.url{
+display: block;
+  width: 268px;
+  height: 38px;
+  margin-top: 5px;
+  background: #fff;
+  border: 0;
+  color: #bdbdbd;
+  font-family: 'Cambria', sans-serif, Time ;
+  font-size: 14px;
+  padding-left: 20px;
+}
+.captcha {
+    width: 120px;
+    display:block;
+	height:45px;
+	background:transparent;
+	border:0;
+	color:#bdbdbd;
+	font-family:'Cambria', sans-serif, Time ;
+	font-size:14px;
+	padding-left:20px;
+}
+
+#url_user {
+	display:block;
+	margin-top:-28px;
+	float:left;
+	padding-right:10px;
+}
+
+#password_input {
+	margin-left:25px;
+	width:300px;
+	height:50px;
+	margin-top:10px;
+}
+
+#password_inputleft {
+	float:left;
+	background:url(/Areas/Administrator/Content/css/images/input_left.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#password_inputmiddle {
+	float:left;
+	background:url(/Areas/Administrator/Content/css/images/input_middle.png) repeat-x;
+	width:276px;
+	height:50px;
+}
+
+#password_inputright {
+	float:left;
+	background:url(/Areas/Administrator/Content/css/images/input_right.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+
+#captcha_input {
+	margin-left:25px;
+	width:300px;
+	height:50px;
+	margin-top:10px;
+}
+
+#captcha_inputleft {
+	float:left;
+	background:url(/Areas/Administrator/Content/css/images/input_left.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#captcha_inputmiddle {
+	float:left;
+	background:url(/Areas/Administrator/Content/css/images/input_middle.png) repeat-x;
+	width:120px;
+	height:50px;
+}
+
+#captcha_inputright {
+	float:left;
+	background:url(/Areas/Administrator/Content/css/images/input_right.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+.url_password {
+	display:block;
+	margin-top:-28px;
+	float:left;
+	margin-left:4px;
+}
+.url_captcha {
+    display:block;
+	margin-top:-33px;
+	float:left;
+	margin-left:4px;
+}
+
+#submit{
+	float:left;
+	padding:0;
+	margin-top:10px;
+	margin-left:25px;
+	width:300px;
+	height:40px;
+	border:0;
+    background: url(/Areas/Administrator/Content/css/images/submit.png)
+}
+#submit input {
+    background: none;
+    border: none;
+    text-indent: 9999px;
+    width: 300px;
+    height: 40px;
+    overflow: hidden;
+}
+#submit input:hover{ cursor: pointer}
+
+#submit1 {
+	z-index: 10;
+	border:0;
+}
+
+#submit2 {
+	margin-top:0px;
+	border:0;
+}
+
+#links_left{
+	float:left;
+	padding-top:5px;
+	margin-left:25px;
+}
+
+#links_left a{
+	color:#1f1f1f;
+	font-size:13px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+}
+
+#links_left a:hover{
+	color:#292929;
+}
+
+#links_right{
+	float:right;
+	padding-top:5px;
+	margin-right:25px;
+}
+
+#links_right a{
+	color:#bbb;
+	font-size:11px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+}
+
+#links_right a:hover{
+	color:#292929;
+}
+
+#powered{
+	float:right;
+	padding-top:3px;
+	margin-right:5px;
+	font-size:11px;
+}
+
+#powered a{
+	color:#1f1f1f;
+	font-size:11px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+}
+
+#powered a:hover{
+	color:#1f1f1f;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px #fff inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: /*your box-shadow*/,0 0 0 50px white inset;
+    -webkit-text-fill-color: #333;
+} 
+#captcha-img {
+    border: 1px solid;
+    margin-left: 10px;
+}
+.error-login {
+    display: block;
+    margin: 2px 20px 2px 24px; 
+    color: red;
+}
+ select {
+    display: inline-block;
+     width: 298px;
+    height: 41px;
+    padding: 4px;
+     padding-left: 26px;
+    margin-bottom: 9px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555555;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}

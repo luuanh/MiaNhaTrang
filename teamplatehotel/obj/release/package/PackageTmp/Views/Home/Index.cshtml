@@ -1,0 +1,228 @@
+﻿@using TeamplateHotel.Controllers
+@using TeamplateHotel.Handler
+@using TeamplateHotel.Models
+@using ProjectLibrary.Database
+@{
+    ViewBag.HomePage = true;
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    ShowObject article = CommentController.WellcomeArticle(Request.Cookies["LanguageID"].Value) ?? new ShowObject();
+
+    List<ShowObject> articleShowHome = CommentController.ShowHomeArticles(Request.Cookies["LanguageID"].Value);
+    //List<ShowObject> newArticle = CommentController.NewArticles(Request.Cookies["LanguageID"].Value);
+    List<ShowObject> roomShowHomes = CommentController.RoomShowHome(Request.Cookies["LanguageID"].Value);
+    List<FeedBack> feedBacks = CommentController.GetFeedBack(Request.Cookies["LanguageID"].Value);
+    Menu menu = ViewBag.Menu ?? new Menu();
+   
+    //ShowObject articlesv = CommentController.WellcomeServer(Request.Cookies["LanguageID"].Value) ?? new ShowObject();
+    //List<ServiceGallery> galerlly = CommentController.listServer(articlesv.ID);
+    //List<Slider> sliders = CommentController.GetListSlider(Request.Cookies["LanguageID"].Value, menu.ID);
+    //List<Gallery> galleries = CommentController.Gallery();
+
+}
+
+<div class="ok-text">
+    <h1>EXCLUSIVE OFFERS</h1>
+    <div>
+        @Html.Raw(menu.Description)
+    </div>
+    <div class="head-link" style="margin: auto; width: 150px; padding-bottom: 10px; margin-top: 20px;">
+        <a href="/offer">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "ReadMore")</a>
+    </div>
+</div>
+<section class="section block-card-section bg-vanilla bg-image-section-one reveal q_active">
+    <div class="q-container container-inner">
+        <div class="columns block-card-shadow ">
+            <div class="column is-7 block-picture">
+                <figure class="picture" style="height: 650px;">
+                    <div class="box wide vs-div" style="display: block; transform: translate3d(0px, auto, 0px);">    </div>
+                    <div class="rev_clip" style="clip-path: inset(0px); opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                        <img src="@article.Image" alt="@article.Title" class="vs-div clip_image wow slideInLeft" style="display: block; transform: translate3d(0px, auto, 0px); height: 715px; width: auto;">
+                        <div image-binding="img_background"></div>
+                    </div>
+                </figure>
+            </div>
+            <div class="column is-5 block-entry">
+                <div class="inner wow slideInUp">
+                    <h1 class="section-headline">
+                        <span class="q_split">
+                            <span class="q_split_wrap rev_item" editor-binding="title_one" [editortoolbarbutton]="[&#39;bold&#39;,&#39;italic&#39;]"
+                                  style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">@article.Title</span>
+                            </span>
+                            @*<span class="q_split">
+                                    <span class="q_split_wrap rev_item" editor-binding="title_two" [editortoolbarbutton]="[&#39;bold&#39;,&#39;italic&#39;]"
+                                          style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">RESORT</span>
+                                </span>*@
+                        </h1>
+                    <div class="rev_item" editor-binding="description_one" [editortoolbarbutton]="[&#39;bold&#39;,&#39;italic&#39;]"
+                         style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                        @Html.Raw(article.Description)
+
+                    </div>
+
+                        @*<div class="rev_item" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                                <a link-binding="link" href="#" class="inline-link q_magnet">
+                                    Read
+                                    the Story
+                                </a>
+                            </div>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home_accommodation" class="section block-fullscreen bg-blue-dark bg-image-section-two reveal">
+        <div class="q-container container-inner">
+            <div class="columns ">
+                <div class="column">&nbsp;</div>
+                <div class="column is-7 wow slideInRight">
+                    <h1 class="section-headline">
+                        <span class="q_split">
+                            <span class="q_split_wrap rev_item" editor-binding="title">THE STAY</span>
+                        </span>
+                    </h1>
+
+                    @if (Request.Cookies["LanguageID"].Value == "en")
+                    {
+                    <p class="rev_item" editor-binding="description">
+                        D'Lioro provides contemporary rooms with fantastic views of one Seven Natural Wonder. 
+                        All the rooms, suites and villas are non-smoking rooms and are equipped with two single
+                        beds or king-size beds prepared in superior quality fabrics. Room design was made with meticulously
+                        and ocean design inspiration couple with the sea view that goes well with our hotel spirit.
+                    </p>
+                    }
+                    else
+                    {
+                        <p class="rev_item" editor-binding="description">
+                            D'Lioro cung cấp các phòng hiện đại với tầm nhìn tuyệt vời về một Seven Natural Wonder.
+                            Tất cả các phòng, dãy phòng và biệt thự đều là phòng không hút thuốc và được trang bị hai 
+                            giường đơn hoặc giường cỡ king được chuẩn bị bằng vải chất lượng cao. Nhà bếp của chúng tôi nằm
+                            trong tất cả các phòng sẽ cung cấp cho bạn cơ hội cảm thấy như ở nhà để nấu những điều bạn muốn. 
+                            Thiết kế phòng được thực hiện với cặp đôi lấy cảm hứng thiết kế tỉ mỉ và đại dương với tầm nhìn 
+                            hướng biển phù hợp với tinh thần khách sạn của chúng tôi.
+                        </p>
+
+                    }
+
+
+                </div>
+            </div>
+            <div class="columns wow slideInUp">
+                <div class="column villas-container">
+                    <div id="accommodations" class="accommodations column-grid-container">
+                        @foreach (var item in roomShowHomes.Take(3))
+                        {
+                            <div class="accommodation-type column-item">
+                                <a href="/@item.Alias">
+                                   
+                                        <h4 class="accommodation-name">@item.Title</h4>
+                                  
+                                   
+                                    <div class="accommodation-bg" style="background-image: url('@item.Image')">
+                                        <div class="accommodation-bg-change" data-src="@item.ImageBackground" style="background-image: url(@item.ImageBackground)"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #eee; padding-bottom: 50px; padding-top: 50px;">
+        <div class="container">
+            <div class="row">
+                @foreach (var item in articleShowHome.Take(1))
+                {
+                    <div class="col-md-7 wow slideInLeft">
+                        <img src="@item.Image" alt="">
+                    </div>
+                    <div class="col-md-5">
+                        <div style=" background: #fff; padding: 50px; margin-top: 50px;">
+                            <div class="inner wow slideInUp">
+                                <h2 class="title" style="margin-bottom: 30px;">
+                                    <span style=" font: 400 35px/1 'Playfair Display', serif;
+                                text-transform: uppercase; letter-spacing: 3px;">
+                                        @item.Title
+                                    </span>
+
+                                </h2>
+
+                                <div style="width: 50%; background: #141640; height: 3px; float: right;"></div>
+                                <div style=" margin-top: 60px;">
+                                    <p>
+                                        @Html.Raw(item.Description)
+                                    </p>
+
+                                </div>
+                                <div class="rev_item">
+                                    <a link-binding="link" href="@item.MenuAlias" class="inline-link q_magnet ">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "ReadMore")</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
+
+    <section class="relax">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="relax01 wow bounceInUp">
+                        <h1>
+                            RELAXING WITH <p>D'LIORO.</p>
+                        </h1>
+                        <div style="border-bottom: 2px solid #679334; width: 70%; float: right;"></div>
+                        <div class="text-relax wow bounceInUp">
+                            <p>
+                                The Spa at D'Lioro Hotel is a seductive oasis of luxury to live experiences full of energy in a natural setting. A sanctuary dedicated to beauty and wellbeing, where pamper to your body has a special place and offering superb service. .
+                            </p>
+                            <div class="head-link">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3" ></div>
+
+               
+                <div  class="col-md-9">
+                    <div class="container">
+                        <div class="container wow bounceInUp">
+                            <div class="carousel-wrap">
+                                <div class="owl-carousel" id="sl2">
+                                    @foreach (var item in feedBacks)
+                                    {
+                                        <div class="item">
+                                            <div style="  font-family:charm">
+                                                <p>
+                                                    @Html.Raw(item.Content)
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    }
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+

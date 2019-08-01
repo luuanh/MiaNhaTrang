@@ -1,0 +1,267 @@
+﻿@using ProjectLibrary.Config
+@using ProjectLibrary.Database
+@using TeamplateHotel.Controllers
+@using TeamplateHotel.Handler
+@{
+    List<Menu> menus = CommentController.GetMainMenus(Request.Cookies["LanguageID"].Value);
+    Hotel hotel = CommentController.DetailHotel(Request.Cookies["LanguageID"].Value);
+    List<Language> languages = CommentController.GetLanguages();
+    List<Room> room = CommentController.GetRooms(Request.Cookies["languageID"].Value);
+
+    string alias = "";
+    int i = 0;
+    int a = 0;
+}
+<div class="navbar-header" id="mainNav" style="right: -20px;">
+    <nav role='navigation'>
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            Menu
+            <ul id="menumt">
+                <div class="container">
+                    <div class="slide-menu">
+                        @foreach (var item in menus)
+                        {
+
+                            <div class="img-sl bg-@item.ID " style="background-image:url('@item.Image');display:none">
+
+                            </div>
+                        }
+                        @foreach (var item in room)
+                        {
+                            <div class="img-sl bgg-@item.ID " style="background-image:url('@item.Image');display:none">
+
+                            </div>
+                        }
+                    </div>
+                    <div style="width: 90%;">
+                        <div class="row">
+                            <div class="language-container">
+                                @foreach (var item in languages)
+                                {
+                                    <a href="/SelectLanguge/@item.ID" class="">@item.Name</a>
+                                }
+                                @*<a href="#" class=" active ">EN</a>*@
+
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                @foreach (var item in menus)
+                                {
+                                    i++;
+                                    <a href="/@item.Alias">
+                                        <li class="@i" id="@item.ID">@item.Title </li>
+                                    </a>
+                                }
+                                @*<a href="index.html">
+                                        <li class="1">HomePage</li>
+                                    </a>
+                                    <a href="wining.html">
+                                        <li class="4">Wining & Dining</li>
+                                    </a>
+                                    <a href="wedding.html">
+                                        <li class="6">MEETING & WEDDING</li>
+                                    </a>
+                                    <a href="WELLNESS.html">
+                                        <li class="3">WELLNESS</li>
+                                    </a>
+                                    <a href="exclusive-deals.html">
+                                        <li class="5">Exclusive Deals</li>
+                                    </a>
+
+                                    <a href="DISCOVER HALONG.html">
+                                        <li class="2">DISCOVERY HALONG</li>
+                                    </a>
+                                    <a href="conact.html">
+                                        <li class="8">location &amp; Contact</li>
+                                    </a>*@
+
+                            </div>
+                            <div class="col-6">
+                                @foreach (var item in room)
+                                {
+                                    a++;
+                                    <a href="/@item.Alias">
+                                        <li class="room-@a" id="@item.ID">@item.Title</li>
+                                    </a>
+                                }
+                                @*<a href="poolvilla.html">
+                                        <li class="9">Pool Villa</li>
+                                    </a>
+                                    <a href="suite.html">
+                                        <li class="10">Deluxe Suite</li>
+                                    </a>
+                                    <a href="deluxetwin.html">
+                                        <li class="11">Deluxe Twin</li>
+                                    </a>*@
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="navbar-header reservation">
+    <div class="navbar-header-toggle">
+        <div class="navbar-btn">
+            <div id="tab-details" style="margin-top: 20px;">
+                <div>
+                    <ul class="book-link">
+                        <li role="presentation" class="">
+                            <a href="#" id="mcontentlink" data-toggle="tab" aria-expanded="false">
+                                <span class="navbar-btn-label-menu">
+                                    <i class="fas fa-level-down-alt"></i> Book Now
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- menu moible -->
+<div class="container">
+    <div id="page">
+        <header class="header">
+            <a href="#menu"></a>
+        </header>
+        <nav id="menu">
+            <ul>
+                @foreach (var item in menus)
+                {
+                    <li><a href="@item.Alias">@item.Title</a></li>
+                }
+
+                <li>
+                    <a href="#.">Room</a>
+                    <ul>
+                        @foreach (var item in room)
+                        {
+
+                            <li><a href="@item.Alias">@item.Title</a></li>
+                        }
+
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+      
+        for (var j = 1; j <= @menus.Count; j++) {
+           
+            $('.' + j).hover(function () {
+              
+                a = parseInt(this.id);
+                
+                $('.bg-'+a).css('display',"block");
+              
+            }, function () {
+                $('.bg-' + a).css('display',"none");
+            })
+           
+        }
+
+        for (var j = 1; j <= @room.Count; j++) {
+           
+            $('.room-' + j).hover(function () {
+              
+                b = parseInt(this.id);
+                console.log(b);
+                $('.bgg-'+b).css('display',"block");
+              
+            }, function () {
+                $('.bgg-' + b).css('display',"none");
+            })
+           
+        }
+        
+
+
+
+
+    })
+
+    //$(".1").hover(function () {
+    //    $('.img-sl').addClass('bg1');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg1');
+    //});
+
+    //$(".2").hover(function () {
+    //    $('.img-sl').addClass('bg2');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg2');
+    //});
+
+    //$(".3").hover(function () {
+    //    $('.img-sl').addClass('bg3');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg3');
+    //});
+
+    //$(".4").hover(function () {
+    //    $('.img-sl').addClass('bg4');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg4');
+    //});
+
+    //$(".5").hover(function () {
+    //    $('.img-sl').addClass('bg5');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg5');
+    //});
+
+    //$(".6").hover(function () {
+    //    $('.img-sl').addClass('bg6');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg6');
+    //});
+
+    //$(".7").hover(function () {
+    //    $('.img-sl').addClass('bg7');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg7');
+    //});
+
+    //$(".8").hover(function () {
+    //    $('.img-sl').addClass('bg8');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg8');
+    //});
+
+    //$(".9").hover(function () {
+    //    $('.img-sl').addClass('bg9');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg9');
+    //});
+
+    //$(".10").hover(function () {
+    //    $('.img-sl').addClass('bg10');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg10');
+    //});
+
+    //$(".11").hover(function () {
+    //    $('.img-sl').addClass('bg11');
+    //}, function () {
+    //    $('.img-sl').removeClass('bg11');
+    //});
+</script>
+
+

@@ -1,0 +1,31 @@
+﻿@model ProjectLibrary.Database.Plugin
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+<div class="span12">
+    <div class="widget ">
+        <div class="widget-header">
+            <i class=" icon-plus-sign"></i>
+            <h3>@ViewBag.Title</h3>
+        </div> <!-- /widget-header -->
+
+        <div class="widget-content">
+            @Html.ValidationSummary(true)
+            @using (Html.BeginForm("GoogleAnalytics", "PlugIn", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                <div class="control-group">
+                    <label class="control-label" for="Content">Mã Google Analytics, Live chat, facebook... </label>
+                    <div class="controls">
+                        @Html.TextAreaFor(c => c.JS, new { @class = "textarea-big" })
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+                    <a href="@Url.Action("Index", "ControlPanel")" class="btn">Cancel</a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,89 @@
+﻿@model TeamplateHotel.Areas.Administrator.EntityModel.EAdvertising
+@{
+    Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
+}
+
+<form action="@Url.Action("UpdateIndex", "Advertising")" method="POST" id="updateIndex">
+    <div id="jtable-main-container"></div>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#jtable-main-container').jtable({
+            title: '@ViewBag.Title',
+            paging: true, //Enable paging
+            pageSize: 20, //Set page size (default: 10)
+            sorting: true, //Enable sorting
+            defaultSorting: 'Name ASC', //Set default sorting
+            selecting: true, //Enable selecting
+            multiselect: true, //Allow multiple selecting
+            selectingCheckboxes: true, //Show checkboxes on first column
+            columnResizable: true, //Actually, no need to set true since it's default
+            columnSelectable: true, //Actually, no need to set true since it's default
+            saveUserPreferences: true, //Actually, no need to set true since it's default
+            toolbar: {
+                items: [ {
+                    icon: '/Areas/Administrator/Content/img/Ordering.png',
+                    text: 'Sắp xếp',
+                    click: function () {
+                        $("#updateIndex").submit();
+                    }
+                }]
+            },
+            actions: {
+                listAction: '@Url.Action("List", "Advertising")',
+                deleteAction: '@Url.Action("Delete", "Advertising")',
+                updateAction: '@Url.Action("Update", "Advertising")',
+                createAction: '@Url.Action("Create", "Advertising")'
+            },
+            fields: {
+                ID: {
+                    key: true,
+                    create: false,
+                    edit: false,
+                    list: false
+                },
+                Title: {
+                    title: '@Html.DisplayNameFor(u => u.Title)',
+                    width: '13%',
+                },
+                Image: {
+                    title: '@Html.DisplayNameFor(c => c.Image)',
+                    width: '8%',
+                    display: function(data) {
+                        return '<img src="' + data.record.Image + '" width="60px" height="60px"/>';
+                    },
+                    inputClass: 'upload'
+                },
+                Url: {
+                    title: '@Html.DisplayNameFor(c => c.Url)',
+                    width: '13%',
+                },
+
+                Index: {
+                    title: 'Sort',
+                    width: '4%',
+                    sorting: false,
+                    create: false,
+                    edit: false,
+                    display: function(data) {
+                        return '<input type="text" name="sort[' + data.record.ID + '].Index" style="width:25px" value="' + data.record.Index + '"/>';
+                    }
+                },
+                Target: {
+                    title: '@Html.DisplayNameFor(c => c.Target)',
+                    options: { '_blank': 'Mở tab mới', '_parent': 'Ở lại trang' }
+                },
+                Status: {
+                    title: '@Html.DisplayNameFor(c => c.Status)',
+                    width: '8%',
+                    type: 'checkbox',
+                    values: { 'false': 'Không', 'true': 'Có' },
+                    defaultValue: 'true'
+                },
+                }
+    });
+    $('#jtable-main-container').jtable('load');
+    });
+    </script>
+</form>
+
+

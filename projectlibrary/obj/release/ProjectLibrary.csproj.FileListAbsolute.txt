@@ -1,0 +1,142 @@
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Release\ProjectLibrary.dll
+E:\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Release\ProjectLibrary.dll
+D:\CuteFTP\Project\DemoHotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Release\ProjectLibrary.dll
+E:\Manh_2014\Skylinehotel\TeamplateHotel\TeamplateHotel\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.dll
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.xml
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\obj\Release\ProjectLibrary.dll
+D:\cong viec\Demo_website\DemoHotel\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Release\ProjectLibrary.dll
+D:\cong viec\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\ProjectLibrary.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Release\ProjectLibrary.dll
+P:\Project\Hanoihotel\Demo_website - Edit\DemoHotel\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Release\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Release\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Release\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\obj\Release\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\TeamplateHotel_NoBE\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Release\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Release\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Release\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\obj\Release\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\Project_V2\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Release\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Release\EntityFramework.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Release\EntityFramework.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\obj\Release\ProjectLibrary.dll
+E:\Project\Mau-web-site-khach-san\mau website khach san V2\Project_V2\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+G:\Project_V2_Steck\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+G:\Project_V2_Steck\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+G:\Project_V2_Steck\ProjectLibrary\bin\Release\EntityFramework.dll
+G:\Project_V2_Steck\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+G:\Project_V2_Steck\ProjectLibrary\bin\Release\EntityFramework.xml
+G:\Project_V2_Steck\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+G:\Project_V2_Steck\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+G:\Project_V2_Steck\ProjectLibrary\obj\Release\ProjectLibrary.dll
+G:\Project_V2_Steck\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+G:\Project_V2_Steck\ProjectLibrary\bin\Release\ProjectLibrary.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.dll
+I:\Project Website\2017\mau website khach san V2\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.dll
+C:\Users\Pham Phuong\Desktop\Paos hotel satek - Copy\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.csprojAssemblyReference.cache
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.csproj.CoreCompileInputs.cache
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.csproj.CopyComplete
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.dll
+E:\IIT\WebCustomer\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.csprojAssemblyReference.cache
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.csproj.CoreCompileInputs.cache
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.csproj.CopyComplete
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.dll
+E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.pdb
