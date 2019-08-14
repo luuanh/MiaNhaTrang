@@ -39,21 +39,15 @@ namespace TeamplateHotel.Controllers
                 HttpContext.Response.Cookies.Add(langCookie);
                 return Redirect("/");
             }
-            if (aliasMenuSub.ToString() == "offer")
-            {
-                return View("Offer");
-            }
-            if (aliasMenuSub.ToString() == "about")
-            {
-                return View("About");
-            }
+           
+           
             // xac dinh phong
-            Room room = db.Rooms.FirstOrDefault(a => a.Alias == aliasMenuSub.ToString());
-            if (room != null)
-            {
+            //Room room = db.Rooms.FirstOrDefault(a => a.Alias == aliasMenuSub.ToString());
+            //if (room != null)
+            //{
 
-                return View("Room/DetailRoom", room);
-            }
+            //    return View("Room/DetailRoom", room);
+            //}
             // xác định menu => tìm ra Kiểu hiển thị của menu
             Menu menu = db.Menus.FirstOrDefault(a => a.Alias == aliasMenuSub.ToString());
             if (menu == null)
@@ -69,11 +63,7 @@ namespace TeamplateHotel.Controllers
             {
                 case SystemMenuType.Article:
                     goto Trangbaiviet;
-                case SystemMenuType.MeetingWedding:
-                    goto MeetingWedding;
-
-                case SystemMenuType.WiningDining:
-                    goto WiningDining;
+               
                   
                 case SystemMenuType.Tour:
                     goto TrangTour;
@@ -88,13 +78,15 @@ namespace TeamplateHotel.Controllers
                     int iNumber = random.Next(10000, 99999);
                     Session["Captcha"] = iNumber.ToString();
                     return View("Contact");
-                case SystemMenuType.About:
-                    return View("About");
+                case SystemMenuType.Explore:
+                    return View("Explore",CommentController.GetArticles(menu.ID));
                 case SystemMenuType.Gallery:
                     return View("Gallery", CommentController.Gallery());
+                case SystemMenuType.Fress:
+                    return View("Fress");
                 case SystemMenuType.Location:
                     //Lấy bài viết Location
-                    ViewBag.ArticleByRoomRate = db.Articles.FirstOrDefault(a => a.MenuID == menu.ID);
+                    //ViewBag.ArticleByRoomRate = db.Articles.FirstOrDefault(a => a.MenuID == menu.ID);
                     return View("Location");
                 default:
                     return View("Index");
@@ -130,29 +122,15 @@ namespace TeamplateHotel.Controllers
             {
                 int id;
                 int.TryParse(idSub.ToString(), out id);
-                //Kiểm tra xem alias truyền đến có phải là 1 bài viết không
-                var articleRoom = db.Articles.FirstOrDefault(a => a.ID == id);
-                if (articleRoom != null)
-                {
-                    ViewBag.MetaTitle = articleRoom.MetaTitle;
-                    ViewBag.MetaDesctiption = articleRoom.MetaDescription;
-                    return View("Article/DetailArticle", CommentController.Detail_Article(id));
-                }
+                
                 //chi tiết Room
-                DetailRoom detailRoom = CommentController.Detail_Room(id, menu.ID);
+                DetailRoom detailRoom = CommentController.Detail_Room(id, menu.ID, Request.Cookies["languageID"].Value);
                 ViewBag.MetaTitle = detailRoom.Room.MetaTitle;
                 ViewBag.MetaDesctiption = detailRoom.Room.MetaDescription;
 
                 return View("Room/DetailRoom", detailRoom);
             }
-            //Lấy bài viết RoomRate
-            var articlrByRoomRate = db.Articles.FirstOrDefault(a => a.MenuID == menu.ID);
-            if (articlrByRoomRate != null)
-            {
-                articlrByRoomRate.MenuAlias = articlrByRoomRate.Menu.Alias;
-            }
-            ViewBag.ArticleByRoomRate = articlrByRoomRate;
-            return View("Room/ListRoom", CommentController.GetRooms(Request.Cookies["languageID"].Value));
+           return View("Room/ListRoom", CommentController.GetRooms(Request.Cookies["languageID"].Value));
         #endregion
         //Trang Service
         #region "Trang Service"

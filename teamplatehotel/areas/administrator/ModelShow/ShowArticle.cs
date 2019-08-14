@@ -24,8 +24,8 @@ namespace TeamplateHotel.Areas.Administrator.ModelShow
         [DisplayName("Bài viết hot")]
         public bool Hot { get; set; }
 
-        [DisplayName("Ý kiến khách hàng")]
-        public bool Customer { get; set; }
+        [DisplayName("Top")]
+        public bool Top { get; set; }
 
         [DisplayName("Bài viết nổi bật")]
         public bool New { get; set; }

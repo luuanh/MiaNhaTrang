@@ -18,6 +18,14 @@
             {
                 @Html.HiddenFor(a => a.ID)
                 <div class="control-group">
+                    <label class="control-label" for="Type">Loại phòng<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.DropDownListFor(c => c.ParentID, new SelectList(ViewBag.ListRoom, "Value", "Text"), new { @class = "span3" })
+                        @Html.ValidationMessageFor(c => c.ParentID)
+                    </div>
+                </div>
+
+                <div class="control-group">
                     <label class="control-label" for="Title">Tên Phòng<span class="asterisk">*</span></label>
                     <div class="controls">
                         @Html.TextBoxFor(c => c.Title, new { @class = "span4" })
@@ -42,7 +50,7 @@
                     </div>
                 </div>
 
-                <div class="control-group">
+                <div class="control-group" hidden>
                     <label class="control-label" for="Image">Hình nền<span class="asterisk">*</span></label>
                     <div class="controls">
                         @Html.TextBoxFor(c => c.ImageBackground, new { @class = "span4 inputbox upload" })
@@ -58,7 +66,27 @@
                         @Html.ValidationMessageFor(c => c.MaxPeople)
                     </div>
                 </div>
-
+                <div class="control-group">
+                    <label class="control-label" for="MaxPeople">Loại giường<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Bed, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.Bed)
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="MaxPeople">Hướng phòng<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.View, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.View)
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="MaxPeople">Kích thước<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Size, new { @class = "span4" })<span> m<sup>2</sup></span>
+                        @Html.ValidationMessageFor(c => c.Size)
+                    </div>
+                </div>
                 <div class="control-group">
                     <label class="control-label" for="Price">Giá bán<span class="asterisk">*</span></label>
                     <div class="controls">
@@ -90,15 +118,7 @@
                     </div>
                 </div>
 
-                <div class="control-group" style="margin-top: 40px">
-                    <label class="control-label" for="Content">Slogan<span class="asterisk">*</span></label>
-                    <div class="controls">
-                        <p>
-                            <span class="error-login">@Html.ValidationMessageFor(a => a.Slogan)</span>
-                        </p>
-                        @Html.TextAreaFor(c => c.Slogan, new { @class = "basic-ckeditor" })
-                    </div>
-                </div>
+
 
                 <div class="control-group" style="margin-top: 40px">
                     <label class="control-label" for="Content">Mô tả<span class="asterisk">*</span></label>
@@ -137,8 +157,8 @@
                                         foreach (EGalleryITem gallery in Model.EGalleryITems)
                                         {
                                             <li>
-                                                <input id="EGalleryITems_@(flag)__Image" name="EGalleryITems[@(flag)].Image" type="hidden" value="@(gallery.Image)" />
-                                                <img src="@(gallery.Image)" width="100" />
+                                                <input id="EGalleryITems_@(flag)__Image" name="EGalleryITems[@(flag)].Icon" type="hidden" value="@(gallery.Icon)" />
+                                                <img src="@(gallery.Icon)" width="100" />
                                             </li>
                                             flag++;
                                         }
@@ -217,7 +237,7 @@
             return loadHtmlForImage(++val);
         } else {
             //console.log(val);
-            var image = '<input id="EGalleryITems_' + val + '__Image" name="EGalleryITems[' + val + '].Image" type="hidden" value="' + $('#img-thumb').val() + '"/>';
+            var image = '<input id="EGalleryITems_' + val + '__Image" name="EGalleryITems[' + val + '].Icon" type="hidden" value="' + $('#img-thumb').val() + '"/>';
             var img = '<img src="' + $('#img-thumb').val() + '" width="100" height="80" />';
             return ('<li>' + image + img + '</li>');
         }

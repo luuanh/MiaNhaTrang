@@ -1,0 +1,110 @@
+/*header-------*/
+header{
+  position: fixed;
+  font-size: 18px;
+  font-family: 'lato-b';
+  z-index: 10;
+  top: 20px;
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+header .desktop{position: relative;top: 23px;font-size: 15px;}
+
+header .logo{
+  float:left;
+  z-index: 1;
+  position: relative;
+}
+
+header .logo img{
+  width: 166px;
+}
+
+header .header-nav-holder {
+  position: relative;
+  height: 67px;
+}
+
+header .header-nav-holder.container{
+  max-width: 1000px;
+}
+
+header ul{
+  display: inline-block;
+  vertical-align: middle;
+  /*margin-left: 10%;*/
+  margin-top: 3px;
+}
+
+header ul li{
+  float: left;
+  padding: 0 20px;
+}
+
+header ul li a{
+   transition:350ms ease-out;
+  -ms-transition:350ms ease-out;
+  -moz-transform: 350ms ease-out;
+  -o-transition:350ms ease-out;
+  -webkit-transition:350ms ease-out;
+}
+
+header ul li a:hover,header ul li a.active{
+  color: #ECBC40;
+}
+
+header .bookNowBtn{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+  float: right;
+  top: -10px;
+}
+
+header .languageBtn{
+  margin-left: 17px;
+  float: right;
+  margin-top: 7px;
+}
+
+
+/* teamplate2 */
+.teamplate2 header{
+  background-color: #76A7B3;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+}
+
+header.yellow{
+  background-color: #EBBB40;
+}
+
+header.green{
+  background-color: #8bb276;
+}
+
+
+.bl-offer {
+  position: fixed;
+  left: 40px;
+  bottom: 0;
+  z-index: 101;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.bl-offer > span {
+  padding: 10px 20px;
+  display: inline-block;
+  float: left;
+}
+
+.bl-offer > span.experience {
+  background-color: #fff;
+  color: #76A7B3;
+}

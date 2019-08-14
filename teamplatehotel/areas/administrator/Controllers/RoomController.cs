@@ -11,6 +11,11 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
 {
     public class RoomController : BaseController
     {
+        public class ListRoom
+        {
+            public  string Value { get; set; }
+            public  string Text { get; set; }
+        } 
         // GET: /Administrator/Room/
         public ActionResult Index()
         {
@@ -68,6 +73,7 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
         public ActionResult Create()
         {
             ViewBag.Title = "Thêm phòng";
+            LoadData();
             var eRoom = new ERoom();
             return View(eRoom);
         }
@@ -94,8 +100,11 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             MaxPeople = model.MaxPeople,
                             Price = model.Price,
                             PriceNet = model.PriceNet,
+                            ParentID=model.ParentID,
                             Index = 0,
-                            Slogan=model.Slogan,
+                            View=model.View,
+                            Size=model.Size,
+                            Bed=model.Bed,
                             Description = model.Description,
                             Content = model.Content,
                             MetaTitle = string.IsNullOrEmpty(model.MetaTitle) ? model.Title : model.MetaTitle,
@@ -115,8 +124,8 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             {
                                 var roomGallery = new RoomGallery
                                 {
-                                    ImageLarge = itemGallery.Image,
-                                    ImageSmall = ReturnSmallImage.GetImageSmall(itemGallery.Image),
+                                    ImageLarge = itemGallery.Icon,
+                                    ImageSmall = ReturnSmallImage.GetImageSmall(itemGallery.Icon),
                                     RoomId = room.ID,
                                 };
                                 db.RoomGalleries.InsertOnSubmit(roomGallery);
@@ -129,7 +138,8 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                     }
                     catch (Exception exception)
                     {
-                        ViewBag.Messages = "Error: " + exception.Message;
+                    LoadData();
+                    ViewBag.Messages = "Error: " + exception.Message;
                         return View(model);
                     }
                
@@ -142,6 +152,8 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
         {
             using (var db = new MyDbDataContext())
             {
+                
+                //lays room
                 Room detailRoom = db.Rooms.FirstOrDefault(a => a.ID == id);
                 if (detailRoom == null)
                 {
@@ -160,7 +172,10 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                     Price = detailRoom.Price,
                     PriceNet = detailRoom.PriceNet,
                     Index = detailRoom.Index,
-                    Slogan=detailRoom.Slogan,
+                    Size=detailRoom.Size,
+                    View=detailRoom.View,
+                    Bed=detailRoom.Bed,
+                    ParentID=detailRoom.ParentID,
                     Description = detailRoom.Description,
                     Content = detailRoom.Content,
                     MetaTitle = detailRoom.MetaTitle,
@@ -171,8 +186,11 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                 //lấy danh sách hình ảnh
                 room.EGalleryITems = db.RoomGalleries.Where(a => a.RoomId == detailRoom.ID).Select(a => new EGalleryITem
                 {
-                    Image = a.ImageLarge
+                    Icon = a.ImageLarge
                 }).ToList();
+
+                LoadData();
+        
                 return View(room);
             }
         }
@@ -183,8 +201,7 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
         {
             using (var db = new MyDbDataContext())
             {
-                if (ModelState.IsValid)
-                {
+               
                     try
                     {
                         Room room = db.Rooms.FirstOrDefault(b => b.ID == model.ID);
@@ -197,8 +214,10 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             room.MaxPeople = model.MaxPeople;
                             room.Price = model.Price;
                             room.PriceNet = model.PriceNet;
-                            room.Slogan = model.Slogan;
-                                
+                            room.View = model.View;
+                        room.Bed = model.Bed;
+                        room.Size = model.Size;
+                            room.ParentID = model.ParentID;
                             room.Description = model.Description;
                             room.Content = model.Content;
                             room.MetaTitle = string.IsNullOrEmpty(model.MetaTitle) ? model.Title : model.MetaTitle;
@@ -219,8 +238,8 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                                 {
                                     var roomGallery = new RoomGallery
                                     {
-                                        ImageLarge = itemGallery.Image,
-                                        ImageSmall = ReturnSmallImage.GetImageSmall(itemGallery.Image),
+                                        ImageLarge = itemGallery.Icon,
+                                        ImageSmall = ReturnSmallImage.GetImageSmall(itemGallery.Icon),
                                         RoomId = room.ID,
                                     };
                                     db.RoomGalleries.InsertOnSubmit(roomGallery);
@@ -236,7 +255,8 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                         ViewBag.Messages = "Error: " + exception.Message;
                         return View(model);
                     }
-                }
+                
+                LoadData();
                 return View(model);
             }
         }
@@ -266,5 +286,37 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                 return Json(new {Result = "ERROR", ex.Message});
             }
         }
+
+
+
+        // load loai list loai phong
+        public void LoadData()
+        {
+            using(var db = new MyDbDataContext())
+            {
+                // lay list loai phong
+                var test = new List<ListRoom>
+                {
+                   new ListRoom{Value="0",Text="Chon loại phòng" }
+                };
+
+                var listroom = db.Rooms.Where(a => a.ParentID == 0 && a.LanguageID == Request.Cookies["lang_client"].Value).ToList();
+                List<ListRoom> list = (from a in db.Rooms
+                                       where a.ParentID == 0 && a.LanguageID == Request.Cookies["lang_client"].Value
+                                       select new ListRoom
+                                       {
+                                           Value = a.ID.ToString(),
+                                           Text = a.Title,
+                                       }).ToList();
+
+                foreach (var item in list)
+                {
+                    test.Add(item);
+                }
+
+                ViewBag.ListRoom = test;
+            }
+        }
+
     }
 }

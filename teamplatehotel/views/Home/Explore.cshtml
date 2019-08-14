@@ -1,0 +1,227 @@
+﻿@using TeamplateHotel.Models
+@using ProjectLibrary.Database
+
+@model List<Article>
+@{
+    Menu menu = ViewBag.Menu ?? new Menu();
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    ViewBag.Title = "About";
+    int i = 0;
+    int j = 0;
+}
+<style>
+    .item {
+        font-family: 'altis';
+        font-size: 12px;
+        height: 330px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .item:hover .content {
+            -webkit-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+            transform: translateY(-100%);
+        }
+
+    .act-title {
+        color: white;
+        font-size: 20px;
+        font-family: 'trend';
+        margin-bottom: 15px;
+        margin-top: 4px;
+    }
+
+    .item .content {
+        padding: 20px 20px 20px;
+        transition: 350ms ease-out;
+        -ms-transition: 350ms ease-out;
+        -moz-transform: 350ms ease-out;
+        -o-transition: 350ms ease-out;
+        -webkit-transition: 350ms ease-out;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        -webkit-transform: translateY(-70px);
+        -ms-transform: translateY(-70px);
+        transform: translateY(-70px);
+        color: white;
+    }
+
+        .item .content p {
+            margin: 0 auto;
+            padding: 10px 0;
+            line-height: 1.5;
+            text-align: left;
+            font-size: 10pt;
+        }
+</style>
+@Html.Partial("Menu/MainMenus")
+<div class="banner-explore" style="background-image:url(@menu.Image)">
+
+    <h1>
+        @menu.Title <br>
+
+    </h1>
+    @*<img src="~/Content/images/shape_2.png" style="width:100%" />*@
+
+</div>
+
+
+
+
+<div class="box" style="margin-top: -39px;">
+    <div class="col-md-6 box1">
+        <div class="row">
+            @foreach (var item in Model.Where(a => a.Top == true).Take(4))
+            {
+                if (i == 1)
+                {
+                    <div class="col-md-6">
+                        <div class="item tours">
+                            <img src="@item.Image" class="img-fluid">
+                            <div class="content" style="background: #ECBC40">
+                                <div class="act-title">@item.Title</div>
+                                @Html.Raw(item.Description)
+                            </div>
+                        </div>
+                    </div>
+                }
+                else if (i == 2)
+                {
+                    <div class="col-md-6">
+                        <div class="item tours">
+                            <img src="@item.Image" class="img-fluid">
+                            <div class="content" style="background: #CF533F">
+                                <div class="act-title">@item.Title</div>
+                                @Html.Raw(item.Description)
+                            </div>
+                        </div>
+                    </div>
+                }
+                else if (i == 3)
+                {
+                    <div class="col-md-6">
+                        <div class="item tours">
+                            <img src="@item.Image" class="img-fluid">
+                            <div class="content" style="background: #ECBC40">
+                                <div class="act-title">@item.Title</div>
+                                @Html.Raw(item.Description)
+                            </div>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-md-6">
+                        <div class="item tours">
+                            <img src="@item.Image" class="img-fluid">
+                            <div class="content" style="background: #3FB77D">
+                                <div class="act-title">@item.Title</div>
+                                @Html.Raw(item.Description)
+                            </div>
+                        </div>
+                    </div>
+                }
+                i++;
+            }
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="destinations">
+    <div class="title">Destinations</div>
+    @foreach (var item in Model.Where(a => a.Hot == true))
+    {
+        <div class="banner2" style="background-image:url('@item.Image')">
+            @*<img src="./image/shape_2.png" width="100%" alt="">*@
+            <img src="~/Content/images/shape_2.png" style="width:100%" />
+
+            <div class="col-md-8" style="margin: auto;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-dest">
+                            <p>
+                                @Html.Raw(item.Description)
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h1>@item.Title</h1>
+                        @*<div class="text-dest">
+                                <p>
+                                    Nha Trang is a seaside town, also the capital city of Khánh Hòa Province – on the South Central Coast of
+                                    Vietnam. Nha Trang is considered as the Vietnam’s most famous seaside resort-town and has been voted as 1 of
+                                    the 29 most beautiful bays in the world by travel & leisure magazine. Nha Trang attracts tourists by pristine
+                                    beach and 19 large and small islands, the hot springs, diversified kinds of fish, and the colorful coral reef
+                                    underwater which have made Nha Trang become one of the best spots for scuba diving and snorkeling.
+                                </p>
+                            </div>*@
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    }
+
+
+</div>
+@foreach (var item in Model.Where(a => a.New == true))
+{
+    if (j % 2 == 0)
+    {
+        <div class="muine">
+            <div class="row">
+                <img src="~/Content/images/shape_3.png" style="width:100%" class="img-bg" />
+                <!-- <img class="img-bg" src="./image/shape_3.png" width="100%" alt=""> -->
+                <div class="col-md-8">
+                    <img src="@item.Image" class="img-fluid" alt="" />
+                </div>
+                <div class="col-md-4">
+                    <div class="text-muine">
+                        <h1>@item.Title</h1>
+                        <p>
+                            @Html.Raw(item.Description)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    }
+    else
+    {
+        <div class="muine">
+            <div class="row">
+                <img src="~/Content/images/shape_3.png" style="width:100%" class="img-bg" />
+                <!-- <img class="img-bg" src="./image/shape_3.png" width="100%" alt=""> -->
+
+                <div class="col-md-4">
+                    <div class="text-muine">
+                        <h1>@item.Title</h1>
+                        <p>
+                            @Html.Raw(item.Description)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <img src="@item.Image" class="img-fluid" alt="" />
+                </div>
+            </div>
+
+        </div>
+    }
+    j++;
+}

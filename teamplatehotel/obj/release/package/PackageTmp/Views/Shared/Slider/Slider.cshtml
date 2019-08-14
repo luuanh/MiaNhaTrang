@@ -4,59 +4,17 @@
     Menu menu = ViewBag.Menu ?? new Menu();
     Hotel detailHotel = CommentController.DetailHotel(Request.Cookies["LanguageID"].Value);
     List<Slider> sliders = CommentController.GetListSlider(Request.Cookies["LanguageID"].Value, menu.ID);
+
 }
-<div id="demo" class="carousel slide" data-ride="carousel" data-interval="1500">
-    <div class="carousel-inner" id="myCarousel">
-        @*@foreach (var item in sliders)
-        {
-            <div class="carousel-item ">
-               
-            </div>
-        }*@
-
-        @foreach (var slider in sliders.Select((value, index) => new { Value = value, Index = index }))
-        {
-            var active = slider.Index == 0 ? "active" : string.Empty;
-
-        <div class="carousel-item @active">
-            <div class="item1" style="background-image:url(@slider.Value.Image)"></div>
-           @* <img class="d-block w-100" data-delayedsrc="@slider.Value.Image" alt="@slider.Value.Title">*@
-        </div>
-
-        }
-    </div>
-
-    <div class="ok-logo1" >
-        <a href="index.html"><img src="@detailHotel.Logo" alt="" width="120px"></a>
-    </div>
-    <div class="beat-rate" id="panel">
-        <input style="float: right; padding: 3px" type='button' value='X' id="hidePanel" />
-        <div class="row">
-            <div class="col-4">
-                <div>
-                    <img src="@detailHotel.Image" width="100%" alt="">
-                </div>
-            </div>
-            <div class="col-8">
-                <div style="height: 2px; background: #141640; margin-top: 10px;"></div>
-                <div style="height: 50px; width: 65%; margin: auto; background: #fff; text-align: center; margin-top: -25px;">
-                    <b style="font-size:12px">BEST PRICE GARANTEE</b>
-                </div>
-                <p>To avoid commissions from third party websites book.</p>
-                <a href="/booking">Book Now</a>
-            </div>
-        </div>
-    </div>
 
 
-    <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-    </a>
+<div class="row" >
+
+    @if (sliders.Count > 0)
+    {
+        <img src="@sliders[0].Image" style="max-height:500px;width:100%"/>
+    }
+
 </div>
-
 
 

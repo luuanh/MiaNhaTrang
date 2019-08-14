@@ -7,59 +7,87 @@
     Menu menu = ViewBag.Menu ?? new Menu();
     int i = 1;
 }
-<div class="ok-text">
-    <h1>@menu.Title</h1>
-    <div>
-        @Html.Raw(menu.Description)
-    </div>
-    @*<div class="head-link" style="margin: auto; width: 150px; padding-bottom: 10px; margin-top: 20px;">
-            <a href="/offer">Read More</a>
-        </div>*@
-</div>
-<section class="tt-deals">
-    <div class="container">
-        <div class="row">
-            @foreach (var item in Model)
-            {
-                <div class="col-md-4">
-                    <div class="row">
-                        <img src="@item.Image" class="img-fluid" alt="">
-                        <div class="popup_main col-md-12">
-                            <button class=" col-md-12 open_popup" style="text-transform:uppercase"> @item.Title asasasassad asdasdadsad</button>
-                            <div class="popup_body">
-                                <div class="popup_back"></div>
-                                <div class="popup_contain">
-                                    <div class="popup_close">x</div>
-                                    <div style="text-align: center">
-                                        <h2>Detail</h2>
-                                        <p>
-                                            @Html.Raw(item.Description)
-                                        </p>
-                                        <a href="/booking">Book Now</a>
-                                    </div>
-                                </div>
-                            </div>
+@Html.Partial("Menu/MainMenus")
+<!-- Your page here -->
+<div id="main" role="main">
+    <section id="dinePage">
+        <div class="pContain">
+
+            <div class="dine-banner">
+                @foreach (var item in Model.Where(a => a.Top == true).ToList())
+                {
+                    <div class="item sandals" style="background-image:url(@item.Image)">
+                        <img class="show-mobile" src="@item.Image" alt="">
+                        <div class="content">
+                            <div class="imgHolder"><h3>@item.Title</h3></div>
+                            <p>@Html.Raw(item.Description)</p>
+                            <!-- <a href="#" class="button viewPhotoBtn type4">view photos</a> -->
                         </div>
                     </div>
-                   
-                </div>
-            }
+                }
 
-           
-        </div>
-    </div>
-</section>
+            </div><!-- dine-banner -->
 
-<script src="~/Content/js/jquery.js"></script>
-<script>
-    $(".open_popup").click(function () {
-        $(this).parent(".popup_main").children(".popup_body").addClass("popup_body_show");
-    });
-    $(".popup_close").click(function () {
-        $(".popup_body").removeClass("popup_body_show");
-    });
-    $(".popup_back").click(function () {
-        $(".popup_body").removeClass("popup_body_show");
-    });
+            <div class="articalHolder">
+                @foreach (var item in Model.Where(a => a.Hot == true).ToList())
+                {
+                    <div class="articalItem privateDining">
+                        <div class="imageHolder"><img src="@item.Image" alt=""></div>
+                        <div class="content">
+                            <h3>@item.Title</h3>
+                            <p class="des">
+                                @item.Description
+                            </p>
+                        </div>
+                    </div>
+                }
 
-</script>
+
+
+
+                <div id="eating-activities" class="activities eating-activities type2">
+                    @foreach (var item in Model.Where(a => a.New == true))
+                    {
+                        <div class="item viet-buffet sandals" style="background-image:url(@item.Image)">
+                            <img src="@item.Image" class="show-mobile">
+                            <div class="content">
+                                <div class="act-title">@item.Title</div>
+                                @*<div class="act-loc">At Sandals Restaurant</div>*@
+                                <p>@Html.Raw(item.Description)  </p>
+                            </div>
+                        </div>
+                    }
+
+
+                    <div class="pContain">
+                        <div class="dinner-event-calendar special-offer-col">
+                            <p class="title">DINNER EVENT CALENDAR</p>
+                            <ul>
+                                <li class="event">
+                                    <div class="event-day">WEDNESDAY</div>
+                                    <div class="event-title">TRADITIONAL VIETNAMESE CULINARY JOURNEY</div>
+                                    <div class="event-loc">Sandals Restaurant</div>
+                                    <div class="event-time">6:30pm - 9:00pm</div>
+                                    <!-- <div class="event-price">550,000 VND per person</div> -->
+                                    <!-- <div class="event-perk">Vietnamese traditional music: 7 – 9pm</div> -->
+
+                                </li>
+                                <li class="event">
+                                    <div class="event-day">SATURDAY</div>
+                                    <div class="event-title">ASIAN</div>
+                                    <div class="event-title">BBQ NIGHT</div>
+                                    <div class="event-loc"></div>
+                                    <div class="event-loc">Sandals Restaurant</div>
+                                    <div class="event-time">6:30pm - 9:30pm</div>
+                                    <!-- <div class="event-price">700,000 VND per person</div> -->
+                                    <div class="event-perk">Live Music from 7 – 9pm</div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div><!-- articalHolder -->
+            </div> <!-- end pContain -->
+    </section> <!-- section -->
+</div><!-- end main -->

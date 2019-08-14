@@ -4,8 +4,17 @@
     Menu menu = ViewBag.Menu ?? new Menu();
     Hotel detailHotel = CommentController.DetailHotel(Request.Cookies["LanguageID"].Value);
     List<Slider> sliders = CommentController.GetListSlider(Request.Cookies["LanguageID"].Value, menu.ID);
+
 }
 
 
+<div class="row" >
+
+    @if (sliders.Count > 0)
+    {
+        <img src="@sliders[0].Image" style="max-height:500px;width:100%"/>
+    }
+
+</div>
 
 

@@ -102,7 +102,7 @@
 
 		// For security, HTML is allowed in the first Kb of data for files having the
 		// following extensions only.
-		HtmlExtensions = new string[] { "html", "htm", "xml", "js" };
+		HtmlExtensions = new string[] { "html", "htm", "xml", "js" ,"svg","xsl"};
 
 		// Folders to not display in CKFinder, no matter their location. No
 		// paths are accepted, only the folder name.
@@ -181,14 +181,14 @@
 		type.Url = BaseUrl + "files/";
 		type.Dir = BaseDir == "" ? "" : BaseDir + "files/";
 		type.MaxSize = 0;
-		type.AllowedExtensions = new string[] { "7z", "aiff", "asf", "avi", "bmp", "csv", "doc", "docx", "fla", "flv", "gif", "gz", "gzip", "jpeg", "jpg", "mid", "mov", "mp3", "mp4", "mpc", "mpeg", "mpg", "ods", "odt", "pdf", "png", "ppt", "pptx", "pxd", "qt", "ram", "rar", "rm", "rmi", "rmvb", "rtf", "sdc", "sitd", "swf", "sxc", "sxw", "tar", "tgz", "tif", "tiff", "txt", "vsd", "wav", "wma", "wmv", "xls", "xlsx", "zip" };
+		type.AllowedExtensions = new string[] { "mp4","svg","7z", "aiff", "asf", "avi", "bmp", "csv", "doc", "docx", "fla", "flv", "gif", "gz", "gzip", "jpeg", "jpg", "mid", "mov", "mp3", "mp4", "mpc", "mpeg", "mpg", "ods", "odt", "pdf", "png", "ppt", "pptx", "pxd", "qt", "ram", "rar", "rm", "rmi", "rmvb", "rtf", "sdc", "sitd", "swf", "sxc", "sxw", "tar", "tgz", "tif", "tiff", "txt", "vsd", "wav", "wma", "wmv", "xls", "xlsx", "zip" };
 		type.DeniedExtensions = new string[] { };
 
 		type = ResourceType.Add( "Images" );
 		type.Url = BaseUrl + "images/";
 		type.Dir = BaseDir == "" ? "" : BaseDir + "images/";
 		type.MaxSize = 0;
-		type.AllowedExtensions = new string[] { "bmp", "gif", "jpeg", "jpg", "png" };
+		type.AllowedExtensions = new string[] { "bmp", "gif", "jpeg", "jpg", "png","mp4" };
 		type.DeniedExtensions = new string[] { };
 
 		type = ResourceType.Add( "Flash" );

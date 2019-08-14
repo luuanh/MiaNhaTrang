@@ -37,19 +37,93 @@
 
 
 </head>
-<body>
-
+<body class="teamplate2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="~/Content/css/animate.css" rel="stylesheet" />
     <link href="~/Content/css/reset.css" rel="stylesheet" />
     <link href="~/Content/css/style.css" rel="stylesheet" />
     <link href="~/Content/css/reponsive.css" rel="stylesheet" />
     <link href="~/Content/css/ie.css" rel="stylesheet" />
 
+    <link href="~/Plugins/OwlCarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+
+    <!-- use js to load header.html -->
 
 
 
     @RenderBody()
+    <footer>
+        <div class="col-md-7" style="margin: auto">
+            <div class="title">RESORT AWARDS</div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="~/Content/images/award.png" width="100%" />
+                </div>
+                <div class="col-md-4">
+                    <img src="~/Content/images/smth.png" width="100%" />
+
+                </div>
+                <div class="col-md-4">
+                    <img src="~/Content/images/world.png" width="100%" />
+
+                </div>
+            </div>
+        </div>
+        <div class="menu-ft">
+            <div class="col-md-5">
+                @foreach (var item in menufooter)
+                {
+                    <a href="/@item.Alias">@item.Title</a>
+                }
 
 
+            </div>
+        </div>
+        <div class="mn2">
+            <img src="@detailHotel.Logo" class="center" alt="" style="width:120px">
+            <div class="col-md-5">
+                @foreach (var item in menus)
+                {
+                    <a href="/@item.Alias">@item.Title</a>
+                }
+
+            </div>
+            <div class="img-ft col-md-3">
+                <a href="@detailHotel.Facebook">
+                    <img src="~/Content/images/icon_fb.svg" />
+                </a>
+                <a href="@detailHotel.Twitter">
+                    <img src="~/Content/images/icon_tw.svg" />
+                </a>
+                <a href="@detailHotel.Tripadvisor">
+                    <img src="~/Content/images/icon_trip.svg" />
+                </a>
+
+
+
+
+            </div>
+        </div>
+        <div class="end-ft">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>
+                            @detailHotel.CopyRight by <a href="https://webhotel.vn/">webhotel.vn</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
 
     <script src="~/Content/js/jquery-3.1.1.min.js"></script>
     <script src="~/Content/js/jquery.fullPage.js"></script>
@@ -58,116 +132,16 @@
     <script src="~/Content/js/object-fit-videos.min.js"></script>
     <script src="~/Content/js/common.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="~/Content/js/jquery.js"></script>
-    <script src="~/Content/js/jquery.mmenu.min.all.js"></script>
-    <script src="~/Content/js/jsmenu.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    @*<script src="~/Content/js/common30f4.js"></script>*@
+    @*<script src="~/Plugins/OwlCarousel/owl.carousel.min.js"></script>*@
 
-    <script src="~/Content/js/wow.min.js"></script>
-    <script src="~/Content/js/scrollspy.js"></script>
-    <script src="~/Content/js/js-me.js"></script>
-    <script src="~/Content/js/JavaScript.js"></script>
 
-    <script>
-        new WOW().init();
-    </script>
-    <script>
-        if ('objectFit' in document.documentElement.style === false) {
-            document.addEventListener('DOMContentLoaded', function () {
-                Array.prototype.forEach.call(document.querySelectorAll('img[data-object-fit]'), function (image) {
-                    (image.runtimeStyle || image.style).background = 'url("' + image.src + '") no-repeat 50%/' + (image.currentStyle ? image.currentStyle['object-fit'] : image.getAttribute('data-object-fit'));
 
-                    image.src = 'data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'' + image.width + '\' height=\'' + image.height + '\'%3E%3C/svg%3E';
-                });
-            });
-        }//////
 
-        // https://stackoverflow.com/questions/28220786/backgroundimage-follow-mousecursor
-        var d = $(window);
-        var bg = $("#bg");
 
-        bg.mousemove(function (event) {
-            var xPos = event.pageX;
-            var yPos = event.pageY;
 
-            var w = d.width();
-            var h = d.height();
 
-            var xShift = ((w / 2 - xPos) / w * 2) * 5;
-            var yShift = ((h / 2 - yPos) / h * 2) * 5;
-
-            bg.css('transform', 'translate3d(' + xShift + '%, ' + yShift + '%, ' + 0 + ') scale(1.1)');
-
-        });
-
-    </script>
-    <script>
-        $(document).ready(function () {
-
-            function goToByScroll(id) {
-                // Remove "link" from the ID
-                id = id.replace("link", "");
-                // Scroll
-                $('html,body').animate({
-                    scrollTop: $("#" + id).offset().top - 90
-                }, 'slow');
-            }
-
-            $("#tab-details > div > ul > li > a").click(function (e) {
-                // Prevent a page reload when a link is pressed
-                e.preventDefault();
-                // Call the scroll function
-                goToByScroll(this.id);
-            });
-        })
-    </script>
-    <script>
-        var $body = $('body');
-        var $box = $('.box');
-        for (var i = 0; i < 0; i++) {
-            $box.clone().appendTo($body);
-        }
-
-        // Helper function for add element box list in WOW
-        WOW.prototype.addBox = function (element) {
-            this.boxes.push(element);
-        };
-
-        // Init WOW.js and get instance
-        var wow = new WOW();
-        wow.init();
-
-        // Attach scrollSpy to .wow elements for detect view exit events,
-        // then reset elements and add again for animation
-        $('.wow').on('scrollSpy:exit', function () {
-            $(this).css({
-                'visibility': 'hidden',
-                'animation-name': 'none'
-            }).removeClass('animated');
-            wow.addBox(this);
-        }).scrollSpy();
-    </script>
 
 
 

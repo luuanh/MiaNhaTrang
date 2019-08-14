@@ -1,0 +1,51 @@
+﻿@using ProjectLibrary.Database
+@using TeamplateHotel.Handler
+@using TeamplateHotel.Controllers
+
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+    int i = 1;
+    List<Article> articles = CommentController.GetArticles(menu.ID);
+}
+@Html.Partial("Menu/MainMenus")
+<div id="main" role="main">
+    <section id="pressPage">
+        <div class="pContain">
+
+            <div class="mainBanner type2">
+                <div class="caption align-m">PRESS CLIPS</div>
+            </div><!-- mainBanner -->
+
+            <div class="contentHolder">
+                <div class="content-wrap">
+                    @foreach (var item in articles)
+                    {
+                        <div class="boxContent type4 noParttern shadow">
+                            <div class="row1">
+                                <div class="col col1" style="background-image: url('@item.Image')">
+                                    <img src="@item.Image" class="show-mobile">
+                                </div>
+                                <div class="col col2 content">
+                                    <div class="des">
+                                        <div class="title">@item.Title</div>
+                                        @Html.Raw(item.Description)
+                                    </div>
+
+                                    <a href="http://wanderluxe.theluxenomad.com/international-yoga-day-8-resorts-love-yoga-much/" target="_blank" class="viewMore">click to view</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div> <!-- content-wrap -->
+            </div> <!-- contentHolder -->
+            <!-- <div class="press">
+                <div class="title blue">press</div>
+            </div> -->
+
+
+        </div> <!-- end pContain -->
+    </section> <!-- section -->
+</div><!-- end main -->

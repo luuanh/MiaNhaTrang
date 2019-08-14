@@ -1,5 +1,254 @@
-
+﻿
 @import url('style/01_general.css');
 @import url('style/02_header.css');
 @import url('style/03_footer.css');
 @import url('style/04_popup.css');
+
+
+
+.nav-item {
+    margin: 15px;
+}
+
+    .nav-item a {
+        color: white !important;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+.book {
+    padding: 10px 40px !important;
+    color: white;
+    border: 1px solid rgb(240, 217, 8);
+}
+
+a.book:hover {
+    background: #fff;
+    color: rgb(233, 181, 10) !important;
+}
+
+.banner-explore {
+    background-image: url(../image/banner.jpg);
+    padding-top: 80px;
+    height: 550px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .banner-explore h1 {
+        padding-top: 10%;
+        text-align: center;
+        color: white;
+        left: 50%;
+        top: 30%;
+        font-size: 60px;
+        font-family: Trend;
+        text-transform: uppercase;
+    }
+
+    .banner-explore img {
+        position: absolute;
+        bottom: -5px;
+    }
+
+.box1 {
+    margin: auto;
+    margin-top: -50px;
+}
+
+    .box1 .col-md-6 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        border: 2px solid #fff
+    }
+
+.destinations {
+    padding-top: 50px;
+}
+
+    .destinations img {
+        position: absolute;
+        bottom: -2px;
+    }
+
+.title {
+    font-size: 29px;
+    line-height: 1.4em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(50, 198, 243);
+    text-align: center;
+    font-family: Trend;
+}
+
+.banner2 {
+    background-image: url(../image/nhatrang.jpg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+    .banner2 h1 {
+        padding-top: 120px;
+        font-family: Trend;
+        font-size: 51px;
+        text-align: left;
+        color: #Fff;
+    }
+
+.text-dest {
+    background: #Fff;
+    margin-top: 100px;
+}
+
+    .text-dest p {
+        padding: 40px;
+        text-align: justify;
+        font-size: 14px;
+        font-family: Altis;
+        color: #616161;
+    }
+
+.muine {
+    position: relative;
+    margin-top: 50px;
+    background-color: #ecbc40;
+}
+
+.img-bg {
+    position: absolute;
+    top: 0px;
+    z-index: 22222;
+}
+
+.text-muine {
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+    .text-muine h1 {
+        font-family: Altis;
+        font-size: 40px;
+        line-height: 40px;
+        color: white
+    }
+
+    .text-muine p {
+        font-size: 14px;
+        color: white;
+        line-height: 24px;
+        text-decoration: none solid rgb(255, 255, 255);
+        width: 90%;
+        text-align: left
+    }
+
+
+/* Phần Footer */
+footer {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.menu-ft {
+    background-image: url('../image/icon_parttern.svg');
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+    .menu-ft .col-md-5 {
+        margin: auto;
+        text-align: center
+    }
+
+    .menu-ft a {
+        font-family: Trend;
+        text-align: center;
+        margin-right: 60px;
+        font-size: 20px;
+        color: #616161;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+        .menu-ft a:hover {
+            text-decoration: none;
+            color: #ecbc40;
+        }
+
+.mn2 {
+    padding-top: 50px;
+}
+
+    .mn2 .col-md-5 {
+        padding-top: 20px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .mn2 a {
+        font-size: 13px;
+        font-family: Trend;
+        color: #616161;
+        margin-right: 20px;
+        text-transform: uppercase;
+    }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-ft {
+    margin: auto;
+    padding-top: 40px;
+}
+
+    .img-ft img {
+        margin-right: 15px;
+    }
+
+.end-ft {
+    padding-top: 50px;
+    font-size: 12px;
+}
+
+    .end-ft img {
+        margin-left: 22%;
+    }
+
+
+
+
+
+
+@media (max-width: 414px) {
+    .banner-explore img {
+        height: 150px;
+    }
+
+    .navbar {
+        background: rgb(3, 75, 97);
+    }
+
+    .banner-explore h1 {
+        font-size: 40px;
+    }
+
+    .menu-ft a {
+        margin: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .end-ft img {
+        margin-left: 0;
+    }
+}

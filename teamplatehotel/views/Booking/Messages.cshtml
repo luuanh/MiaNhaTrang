@@ -5,7 +5,35 @@
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
     Menu menu = ViewBag.Menu ?? new Menu();
 }
+<style>
+    .des-article, .text-center {
+        color: #462323;
+        font-size: 26px;
+    }
 
+        .text-center ul {
+            color: #db3c3c;
+        }
+
+    #wraploadding {
+        background-color: #fff;
+        opacity: 0.8;
+        z-index: 5000;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        display: none;
+    }
+
+        #wraploadding div#imgloadding {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            position: relative;
+        }
+</style>
+@Html.Partial("Menu/MainMenus")
+@Html.Partial("Slider/Slider")
 <section class="breadcrumb-area overlay-dark-2 bg-5">
     <div class="container">
         <div class="row">
@@ -33,5 +61,4 @@
     </div>
 </div>
 
-                                                
-                                              
+

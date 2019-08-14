@@ -282,5 +282,15 @@ namespace ProjectLibrary.Properties {
                 return ((string)(this["webcustomer_paoshotelConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-VGU3S9I;Initial Catalog=MiaNhaTrang;Integrated Security=True")]
+        public string MiaNhaTrangConnectionString {
+            get {
+                return ((string)(this["MiaNhaTrangConnectionString"]));
+            }
+        }
     }
 }

@@ -61,7 +61,7 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                         Status = a.a.Status,
                         Home = a.a.Home,
                         Hot = a.a.Hot,
-                        Customer = a.a.Customer,
+                         Top= a.a.Top,
                         New = a.a.New
                     }).OrderBy(a => a.Index).Skip(jtStartIndex).Take(jtPageSize).ToList();
                     //Return result to jTable
@@ -112,7 +112,7 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             Status = model.Status,
                             Home = model.Home,
                             Hot = model.Hot,
-                            Customer = model.Customer,
+                            Top = model.Top,
                             New = model.New
                         };
 
@@ -176,7 +176,7 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                     Status = detailArticle.Status,
                     Home = detailArticle.Home,
                     Hot = detailArticle.Hot,
-                    Customer = detailArticle.Customer,
+                    Top = detailArticle.Top,
                     New = detailArticle.New,
                 };
                 //lấy danh sách hình ảnh
@@ -220,7 +220,7 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             article.Status = model.Status;
                             article.Home = model.Home;
                             article.Hot = model.Hot;
-                            article.Customer = model.Customer;
+                            article.Top = model.Top;
                             article.New = model.New;
 
                             db.SubmitChanges();
@@ -298,12 +298,9 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                 MenuController.GetListMenu(0, Request.Cookies["lang_client"].Value).Where(
                     a =>
                         a.Type == SystemMenuType.Article ||
-                        a.Type==SystemMenuType.Service||
-                        a.Type == SystemMenuType.RoomRate ||
-                        a.Type==SystemMenuType.WiningDining ||
-                          a.Type == SystemMenuType.MeetingWedding ||
-                            a.Type == SystemMenuType.About ||
-                        a.Type == SystemMenuType.Location).ToList();
+                        a.Type==SystemMenuType.Fress  ||
+                        a.Type==SystemMenuType.Explore
+                        ).ToList();
 
             foreach (Menu menu in menus)
             {

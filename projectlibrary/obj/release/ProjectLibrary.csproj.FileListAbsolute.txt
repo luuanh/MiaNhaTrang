@@ -140,3 +140,15 @@ E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrar
 E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.csproj.CopyComplete
 E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.dll
 E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Release\ProjectLibrary.pdb
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Release\ProjectLibrary.dll.config
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Release\ProjectLibrary.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Release\ProjectLibrary.pdb
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Release\EntityFramework.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Release\EntityFramework.SqlServer.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Release\EntityFramework.xml
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Release\EntityFramework.SqlServer.xml
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Release\ProjectLibrary.csprojAssemblyReference.cache
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Release\ProjectLibrary.csproj.CoreCompileInputs.cache
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Release\ProjectLibrary.csproj.CopyComplete
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Release\ProjectLibrary.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Release\ProjectLibrary.pdb

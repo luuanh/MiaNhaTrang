@@ -116,11 +116,11 @@ namespace TeamplateHotel.Controllers
                             }
                         }
                     }
-                    
+
                 }
                 if (sliderIsChoise.Count == 0)
                 {
-                    sliderIsChoise = sliders.Where(a=>string.IsNullOrEmpty(a.MenuIDs)).ToList();
+                    sliderIsChoise = sliders.Where(a => string.IsNullOrEmpty(a.MenuIDs)).ToList();
                 }
                 return sliderIsChoise;
                 //lấy menu hiển thị tất cả
@@ -129,13 +129,13 @@ namespace TeamplateHotel.Controllers
         // danh sach feedback
         public static List<FeedBack> GetFeedBack(string lang)
         {
-            using(var db=new MyDbDataContext())
+            using (var db = new MyDbDataContext())
             {
                 List<FeedBack> feedBack = db.FeedBacks.Where(a => a.LanguageID == lang && a.Status == true && a.Home == true).ToList();
                 return feedBack;
             }
         }
-       
+
         public static Slider GetBaner(int menuid)
         {
             using (var db = new MyDbDataContext())
@@ -191,14 +191,14 @@ namespace TeamplateHotel.Controllers
         // show bai viet
         public static List<ShowArticle> ShowArticle(int menuID)
         {
-            using(var db = new MyDbDataContext())
+            using (var db = new MyDbDataContext())
             {
                 Menu menu = db.Menus.Where(a => a.ID == menuID && a.Status).FirstOrDefault();
                 if (menu != null)
                 {
                     List<ShowArticle> listShowArticles = new List<ShowArticle>();
                     List<Article> listArticle = db.Articles.Where(a => a.MenuID == menu.ID && a.Status).ToList();
-                    foreach(var item in listArticle)
+                    foreach (var item in listArticle)
                     {
                         Article article = item;
                         List<ArticleGallery> articleGalleries = db.ArticleGalleries.Where(a => a.ArticleID == article.ID).ToList();
@@ -217,7 +217,7 @@ namespace TeamplateHotel.Controllers
                 {
                     return null;
                 }
-               
+
             }
         }
         //Chi tiết bài viết
@@ -244,26 +244,23 @@ namespace TeamplateHotel.Controllers
         {
             using (var db = new MyDbDataContext())
             {
-              
-                
-                //var menu = db.Menus.FirstOrDefault(a => a.ID == menuId);
+
+
+
                 List<Room> rooms = db.Rooms.Where(a => a.Status && a.LanguageID == lang).OrderBy(a => a.Index).ToList();
-                //foreach (var room in rooms)
-                //{
-                //    room.MenuAlias = menu.Alias;
-                //}
+
                 return rooms;
             }
         }
         //Chi tiết phòng
-        public static DetailRoom Detail_Room(int id, int menuId)
+        public static DetailRoom Detail_Room(int id, int menuId, string lang)
         {
             using (var db = new MyDbDataContext())
             {
                 var menu = db.Menus.FirstOrDefault(a => a.ID == menuId);
                 Room room = db.Rooms.FirstOrDefault(a => a.ID == id && a.Status) ?? new Room();
                 List<RoomGallery> roomGalleries = db.RoomGalleries.Where(a => a.RoomId == room.ID).ToList();
-                List<Room> rooms = db.Rooms.Where(a => a.Status && a.ID != room.ID && a.LanguageID == menu.LanguageID).OrderBy(a => a.Index).ToList();
+                List<Room> rooms = db.Rooms.Where(a => a.Status && a.ParentID == room.ParentID && a.LanguageID == lang).OrderBy(a => a.Index).ToList();
 
                 foreach (var item in rooms)
                 {
@@ -281,7 +278,7 @@ namespace TeamplateHotel.Controllers
         // dịch vụ show home
         public static List<Service> GetServiceShowHome()
         {
-            using(var db = new MyDbDataContext())
+            using (var db = new MyDbDataContext())
             {
                 var list = db.Services.Where(a => a.Status == true && a.Home == true).ToList();
                 return list;
@@ -301,7 +298,15 @@ namespace TeamplateHotel.Controllers
                 return restaurants;
             }
         }
-
+        // danh sách ServiceGallery theo tưng dich vụ
+        public static List<ServiceGallery> GetServiceGalleries()
+        {
+            using (var db = new MyDbDataContext())
+            {
+                List<ServiceGallery> restaurantGalleries = db.ServiceGalleries.ToList();
+                return restaurantGalleries;
+            }
+        }
         //Chi tiết dich vu
         public static DetailService Detail_Service(int id)
         {
@@ -329,7 +334,7 @@ namespace TeamplateHotel.Controllers
         {
             using (var db = new MyDbDataContext())
             {
-                List<Tour> tours = db.Tours.Where(a => a.Status ).OrderBy(a => a.Index).ToList();
+                List<Tour> tours = db.Tours.Where(a => a.Status).OrderBy(a => a.Index).ToList();
                 foreach (var tour in tours)
                 {
                     tour.MenuAlias = tour.Menu.Alias;
@@ -363,6 +368,14 @@ namespace TeamplateHotel.Controllers
 
         ///////////// Trang home ////////////////////////
         //Bai viet welcome
+        public static List<PageHome> ListPageHome(string lang)
+        {
+            using(var db =new MyDbDataContext())
+            {
+                List<PageHome> list = db.PageHomes.Where(a => a.Status == true && a.LanguageID == lang).OrderBy(b => b.Index).ToList();
+                return list;
+            }
+        }
         public static ShowObject WellcomeArticle(string languageKey)
         {
             using (var db = new MyDbDataContext())
@@ -414,31 +427,34 @@ namespace TeamplateHotel.Controllers
             }
         }
         //Bai viet show home
-        public static List<ShowObject> ShowHomeArticles(string languageKey)
+        public static Menu MenuArticles(int type,string languageKey)
         {
             using (var db = new MyDbDataContext())
             {
-                List<ShowObject> articleShowHome = db.Articles.Where(a => a.Hot && a.Status)
-                        .Join(db.Menus.Where(a => a.LanguageID == languageKey), a => a.MenuID, b => b.ID,
-                            (a, b) => new ShowObject
-                            {
-                                ID = a.ID,
-                                Alias = a.Alias,
-                                MenuAlias = b.Alias,
-                                Title = a.Title,
-                                Index = a.Index,
-                                Image = a.Image,
-                                Description = a.Description,
-                            }).ToList();
-                return articleShowHome;
+                var memuUnwind =
+                    db.Menus.FirstOrDefault(a => a.Type == type && a.LanguageID == languageKey) ??
+                    new Menu();
+                //List<ShowObject> articleShowHome = db.Articles.Where(a => a.Hot && a.Status)
+                //        .Join(db.Menus.Where(a => a.LanguageID == languageKey), a => a.MenuID, b => b.ID,
+                //            (a, b) => new ShowObject
+                //            {
+                //                ID = a.ID,
+                //                Alias = a.Alias,
+                //                MenuAlias = b.Alias,
+                //                Title = a.Title,
+                //                Index = a.Index,
+                //                Image = a.Image,
+                //                Description = a.Description,
+                //            }).ToList();
+                return memuUnwind;
             }
         }
         //Bai viet Customer
-        public static List<ShowObject> CustomerArticles(string languageKey)
+        public static List<ShowObject> HotArticles(string languageKey)
         {
             using (var db = new MyDbDataContext())
             {
-                List<ShowObject> CustomerArticle = db.Articles.Where(a => a.Customer && a.Status)
+                List<ShowObject> CustomerArticle = db.Articles.Where(a => a.Hot && a.Status)
                         .Join(db.Menus.Where(a => a.LanguageID == languageKey), a => a.MenuID, b => b.ID,
                             (a, b) => new ShowObject
                             {
@@ -459,9 +475,9 @@ namespace TeamplateHotel.Controllers
             using (var db = new MyDbDataContext())
             {
                 var memu =
-                    db.Menus.FirstOrDefault(a => a.Type == SystemMenuType.Home && a.LanguageID == languageKey) ??
+                    db.Menus.FirstOrDefault(a => a.Type == SystemMenuType.RoomRate && a.LanguageID == languageKey) ??
                     new Menu();
-                List<ShowObject> roomShowHome = db.Rooms.Where(a => a.Home && a.Status && a.LanguageID == languageKey).Select(a => new ShowObject
+                List<ShowObject> roomShowHome = db.Rooms.Where(a => a.Status && a.LanguageID == languageKey).Select(a => new ShowObject
                 {
                     ID = a.ID,
                     Alias = a.Alias,
@@ -469,7 +485,8 @@ namespace TeamplateHotel.Controllers
                     Title = a.Title,
                     Index = a.Index,
                     Image = a.Image,
-                    ImageBackground=a.ImageBackground,
+                    ParentID = a.ParentID,
+                    ImageBackground = a.ImageBackground,
                     Description = a.Description,
                     Price = a.Price,
                 }).ToList();

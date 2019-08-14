@@ -14,20 +14,27 @@
 
         <div class="widget-content">
             @Html.ValidationSummary(true)
-            @using (Html.BeginForm("Create", "Room", FormMethod.Post, new {@class = "form-horizontal"}))
+            @using (Html.BeginForm("Create", "Room", FormMethod.Post, new { @class = "form-horizontal" }))
             {
+                <div class="control-group">
+                    <label class="control-label" for="Type">Loại phòng<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.DropDownListFor(c => c.ParentID, new SelectList(ViewBag.ListRoom, "Value", "Text"), new { @class = "span3" })
+                        @Html.ValidationMessageFor(c => c.ParentID)
+                    </div>
+                </div>
                 <div class="control-group">
                     <label class="control-label" for="Title">Tên Phòng<span class="asterisk">*</span></label>
                     <div class="controls">
-                        @Html.TextBoxFor(c => c.Title, new {@class = "span4"})
+                        @Html.TextBoxFor(c => c.Title, new { @class = "span4" })
                         @Html.ValidationMessageFor(c => c.Title)
                     </div>
                 </div>
 
                 <div class="control-group">
-                    @Html.LabelFor(c => c.Alias, new {@class = "control-label"})
+                    @Html.LabelFor(c => c.Alias, new { @class = "control-label" })
                     <div class="controls">
-                        @Html.TextBoxFor(c => c.Alias, new {@class = "span4"})
+                        @Html.TextBoxFor(c => c.Alias, new { @class = "span4" })
                         @Html.ValidationMessageFor(c => c.Alias)
                     </div>
                 </div>
@@ -35,7 +42,7 @@
                 <div class="control-group">
                     <label class="control-label" for="Image">Hình đại diện<span class="asterisk">*</span></label>
                     <div class="controls">
-                        @Html.TextBoxFor(c => c.Image, new {@class = "span4 inputbox upload"})
+                        @Html.TextBoxFor(c => c.Image, new { @class = "span4 inputbox upload" })
                         @Html.ValidationMessageFor(c => c.Image)
                         <p class="help-img">Nên chọn ảnh có kích thước @ConfigImage.InfoImageRoom</p>
                     </div>
@@ -44,15 +51,36 @@
                 <div class="control-group">
                     <label class="control-label" for="MaxPeople">Số người tối đa<span class="asterisk">*</span></label>
                     <div class="controls">
-                        @Html.TextBoxFor(c => c.MaxPeople, new {@class = "span4"}) <span>Người</span>
+                        @Html.TextBoxFor(c => c.MaxPeople, new { @class = "span4" }) <span>Người</span>
                         @Html.ValidationMessageFor(c => c.MaxPeople)
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="MaxPeople">Loại giường<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Bed, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.Bed)
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="MaxPeople">Hướng phòng<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.View, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.View)
                     </div>
                 </div>
 
                 <div class="control-group">
+                    <label class="control-label" for="MaxPeople">Kích thước<span class="asterisk">*</span></label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Size, new { @class = "span4" })<span> m<sup>2</sup></span>
+                        @Html.ValidationMessageFor(c => c.Size)
+                    </div>
+                </div>
+                <div class="control-group">
                     <label class="control-label" for="Price">Giá bán<span class="asterisk">*</span></label>
                     <div class="controls">
-                        @Html.TextBoxFor(c => c.Price, new {@class = "span4"}) <span>USD</span>
+                        @Html.TextBoxFor(c => c.Price, new { @class = "span4" }) <span>USD</span>
                         @Html.ValidationMessageFor(c => c.Price)
                     </div>
                 </div>
@@ -60,7 +88,7 @@
                 <div class="control-group">
                     <label class="control-label" for="PriceNet">Giá khuyến mại</label>
                     <div class="controls">
-                        @Html.TextBoxFor(c => c.PriceNet, new {@class = "span4"}) <span>USD</span>
+                        @Html.TextBoxFor(c => c.PriceNet, new { @class = "span4" }) <span>USD</span>
                         @Html.ValidationMessageFor(c => c.PriceNet)
                     </div>
                 </div>
@@ -76,25 +104,17 @@
                     <label class="control-label" for="Title">Hiển thị trang chủ</label>
                     <div class="controls">
                         <label class="radio-inline">@Html.RadioButtonFor(m => m.Home, "true")  Có</label>
-                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Home, "false", new {@checked = true}) Không</label>
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Home, "false", new { @checked = true }) Không</label>
                     </div>
                 </div>
-                 <div class="control-group" style="margin-top: 40px">
-                    <label class="control-label" for="Content">Slogan<span class="asterisk">*</span></label>
-                    <div class="controls">
-                        <p>
-                            <span class="error-login">@Html.ValidationMessageFor(a => a.Slogan)</span>
-                        </p>
-                        @Html.TextAreaFor(c => c.Slogan, new {@class = "basic-ckeditor"})
-                    </div>
-                </div>
+
                 <div class="control-group" style="margin-top: 40px">
                     <label class="control-label" for="Content">Mô tả<span class="asterisk">*</span></label>
                     <div class="controls">
                         <p>
                             <span class="error-login">@Html.ValidationMessageFor(a => a.Description)</span>
                         </p>
-                        @Html.TextAreaFor(c => c.Description, new {@class = "basic-ckeditor"})
+                        @Html.TextAreaFor(c => c.Description, new { @class = "basic-ckeditor" })
                     </div>
                 </div>
 
@@ -104,7 +124,7 @@
                         <p>
                             <span class="error-login">@Html.ValidationMessageFor(a => a.Content)</span>
                         </p>
-                        @Html.TextAreaFor(c => c.Content, new {@class = "full-ckeditor"})
+                        @Html.TextAreaFor(c => c.Content, new { @class = "full-ckeditor" })
                     </div>
                 </div>
 
@@ -125,8 +145,8 @@
                                         foreach (EGalleryITem gallery in Model.EGalleryITems)
                                         {
                                             <li>
-                                                <input id="EGalleryITems_@(flag)__Image" name="EGalleryITems[@(flag)].Image" type="hidden" value="@(gallery.Image)" />
-                                                <img src="@(gallery.Image)" width="100" />
+                                                <input id="EGalleryITems_@(flag)__Image" name="EGalleryITems[@(flag)].Icon" type="hidden" value="@(gallery.Icon)" />
+                                                <img src="@gallery.Icon" width="100" />
                                             </li>
                                             flag++;
                                         }
@@ -146,14 +166,14 @@
                     <h3 class="mg-h">Tôi ưu hoá công cụ tìm kiếm(Seo)</h3>
                     <div class="control-group">
                         @Html.LabelFor(c => c.MetaTitle)
-                        @Html.TextBoxFor(c => c.MetaTitle, new {@class = "span4"})
+                        @Html.TextBoxFor(c => c.MetaTitle, new { @class = "span4" })
                         @Html.ValidationMessageFor(p => p.MetaTitle)
                     </div>
 
                     <div class="control-group">
                         @Html.LabelFor(c => c.MetaDescription)
                         <div class="jtable-input jtable-text-input">
-                            @Html.TextAreaFor(c => c.MetaDescription, new {@class = "span4 meta-seo"})
+                            @Html.TextAreaFor(c => c.MetaDescription, new { @class = "span4 meta-seo" })
                             @Html.ValidationMessageFor(p => p.MetaDescription)
                         </div>
                     </div>
@@ -205,7 +225,7 @@
             return loadHtmlForImage(++val);
         } else {
             //console.log(val);
-            var image = '<input id="EGalleryITems_' + val + '__Image" name="EGalleryITems[' + val + '].Image" type="hidden" value="' + $('#img-thumb').val() + '"/>';
+            var image = '<input id="EGalleryITems_' + val + '__Image" name="EGalleryITems[' + val + '].Icon" type="hidden" value="' + $('#img-thumb').val() + '"/>';
             var img = '<img src="' + $('#img-thumb').val() + '" width="100" height="80" />';
             return ('<li>' + image + img + '</li>');
         }

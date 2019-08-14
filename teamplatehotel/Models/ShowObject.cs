@@ -12,5 +12,6 @@
         public int? Index { get; set; }
         public decimal? Price { get; set; }
         public string SecondMenu { get; set; }
+        public int? ParentID { get; set; }
     }
 }

@@ -33,238 +33,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Font-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link href="~/Content/css/style.css" rel="stylesheet" />
-    <link href="~/Content/css/app.css" rel="stylesheet" />
-    <link href="~/Content/css/animate.css" rel="stylesheet" />
-    <link href="~/Content/css/jquery.mmenu.all.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
-    @*<style>
-            @Html.Raw(plugin.CSS)
-        </style>
-        @Html.Raw(plugin.JS)*@
-
-
+    
 
 
 </head>
-<body>
+<body class="teamplate2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="~/Content/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/css/reset.css" rel="stylesheet" />
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+    <link href="~/Content/css/reponsive.css" rel="stylesheet" />
+    <link href="~/Content/css/ie.css" rel="stylesheet" />
+
+    <link href="~/Plugins/OwlCarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+
+    <!-- use js to load header.html -->
 
 
 
-
-    @Html.Partial("Menu/MainMenus")
-    @Html.Partial("Slider/Slider")
     @RenderBody()
-
-
-
-
-    <section class="check" id="mcontent">
-        <div class="container wow bounceInUp">
+    <footer>
+        <div class="col-md-7" style="margin: auto">
+            <div class="title">RESORT AWARDS</div>
             <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6 check01">
-                    <form action="/booking">
+                <div class="col-md-4">
+                    <img src="~/Content/images/award.png" width="100%" />
+                </div>
+                <div class="col-md-4">
+                    <img src="~/Content/images/smth.png" width="100%" />
 
+                </div>
+                <div class="col-md-4">
+                    <img src="~/Content/images/world.png" width="100%" />
 
-                        <div class="form-group">
-                            <input type="text" id="CheckIn" name="CheckIn" value="" hidden />
-                            <input type="text" id="CheckOut" name="CheckOut" value="" hidden />
-
-                            <label for="adults">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Check")</label>
-                            <input type="text" id="daterange" class="form-control" value="" />
-                        </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <div class="col-6">
-                                    <label for="">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Adult")</label>
-                                    <select name="Adult" id="adults" class="form-control">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4+</option>
-                                    </select>
-                                </div>
-                                <div class="col-6">
-                                    <label for="">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "CHILDREN")</label>
-                                    <select name="Child" id="adults" class="form-control">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4+</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <div class="col-12 check-a head-link">
-                                    <input style="min-width:10em" type="submit" value="@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "CheckAvailability")" />
-                                </div>
-                                @*<div class="check-a2">
-                                    <a href="#">Discover our Exclusive Deals</a>
-                                </div>*@
-                            </div>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="menu-ft">
+            <div class="col-md-5">
+                @foreach (var item in menufooter)
+                {
+                    <a href="/@item.Alias">@item.Title</a>
+                }
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="clockHolder">
-                        <div class="digits">
-                            <div class="col-md-6">
-                                <img src="@detailHotel.Logo" width="70%" alt="">
-                            </div>
-                            <div class="footer-i">
-                                <a href="@detailHotel.Twitter"><i class="fab fa-twitter"></i></a>
-                                <a href="@detailHotel.Facebook"><i class="fab fa-facebook-f"></i></a>
-                                <a href="@detailHotel.Instagram"><i class="fab fa-instagram"></i></a>
-                                <a href="@detailHotel.Tripadvisor"><i class="fab fa-tripadvisor"></i></a>
-                            </div>
-                            <p>
-                                @detailHotel.CopyRight
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="footer-2">
-                        <h4>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "OURADDRESS")</h4>
-                        <p>@detailHotel.Address.</p>
+
+            </div>
+        </div>
+        <div class="mn2">
+            <img src="@detailHotel.Logo" class="center" alt="" style="width:120px">
+            <div class="col-md-5">
+                @foreach (var item in menus)
+                {
+                    <a href="/@item.Alias">@item.Title</a>
+                }
+
+            </div>
+            <div class="img-ft col-md-3">
+                <a href="@detailHotel.Facebook">
+                    <img src="~/Content/images/icon_fb.svg" />
+                </a>
+                <a href="@detailHotel.Twitter">
+                    <img src="~/Content/images/icon_tw.svg" />
+                </a>
+                <a href="@detailHotel.Tripadvisor">
+                    <img src="~/Content/images/icon_trip.svg" />
+                </a>
+
+
+
+
+            </div>
+        </div>
+        <div class="end-ft">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
                         <p>
-                            @GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Phone"): @detailHotel.Tel <br>
-                            @GetLanguage.Language(Request.Cookies["LanguageID"].Value, "HotLine"): @detailHotel.Hotline <br>
-                            HaNoi Office: 0243 2006891 - 0243 2011291 - 0242 2048011 <br />
-                            Fax:@detailHotel.Fax
+                            @detailHotel.CopyRight by <a href="https://webhotel.vn/">webhotel.vn</a>
                         </p>
-                        <p>Email:@detailHotel.Email</p>
                     </div>
+
                 </div>
             </div>
         </div>
     </footer>
-    <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></i></a>
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="~/Content/js/jquery.js"></script>
-    <script src="~/Content/js/jquery.mmenu.min.all.js"></script>
-    <script src="~/Content/js/jsmenu.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+
+    <script src="~/Content/js/jquery-3.1.1.min.js"></script>
+    <script src="~/Content/js/jquery.fullPage.js"></script>
+    <script src="~/Content/js/jquery.easing.1.3.min.js"></script>
+    <script src="~/Content/js/velocity.min.js"></script>
+    <script src="~/Content/js/object-fit-videos.min.js"></script>
+    <script src="~/Content/js/common.js"></script>
+
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
- 
-    <script src="~/Content/js/wow.min.js"></script>
-    <script src="~/Content/js/scrollspy.js"></script>
-    <script src="~/Content/js/js-me.js"></script>
-    <script src="~/Content/js/JavaScript.js"></script>
+    @*<script src="~/Content/js/common30f4.js"></script>*@
+    @*<script src="~/Plugins/OwlCarousel/owl.carousel.min.js"></script>*@
 
-    <script>
-        new WOW().init();
-    </script>
-    <script>
-        if ('objectFit' in document.documentElement.style === false) {
-            document.addEventListener('DOMContentLoaded', function () {
-                Array.prototype.forEach.call(document.querySelectorAll('img[data-object-fit]'), function (image) {
-                    (image.runtimeStyle || image.style).background = 'url("' + image.src + '") no-repeat 50%/' + (image.currentStyle ? image.currentStyle['object-fit'] : image.getAttribute('data-object-fit'));
 
-                    image.src = 'data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'' + image.width + '\' height=\'' + image.height + '\'%3E%3C/svg%3E';
-                });
-            });
-        }//////
 
-        // https://stackoverflow.com/questions/28220786/backgroundimage-follow-mousecursor
-        var d = $(window);
-        var bg = $("#bg");
 
-        bg.mousemove(function (event) {
-            var xPos = event.pageX;
-            var yPos = event.pageY;
 
-            var w = d.width();
-            var h = d.height();
 
-            var xShift = ((w / 2 - xPos) / w * 2) * 5;
-            var yShift = ((h / 2 - yPos) / h * 2) * 5;
 
-            bg.css('transform', 'translate3d(' + xShift + '%, ' + yShift + '%, ' + 0 + ') scale(1.1)');
-
-        });
-
-    </script>
-    <script>
-        $(document).ready(function () {
-
-            function goToByScroll(id) {
-                // Remove "link" from the ID
-                id = id.replace("link", "");
-                // Scroll
-                $('html,body').animate({
-                    scrollTop: $("#" + id).offset().top - 90
-                }, 'slow');
-            }
-
-            $("#tab-details > div > ul > li > a").click(function (e) {
-                // Prevent a page reload when a link is pressed
-                e.preventDefault();
-                // Call the scroll function
-                goToByScroll(this.id);
-            });
-        })
-    </script>
-    <script>
-        var $body = $('body');
-        var $box = $('.box');
-        for (var i = 0; i < 0; i++) {
-            $box.clone().appendTo($body);
-        }
-
-        // Helper function for add element box list in WOW
-        WOW.prototype.addBox = function (element) {
-            this.boxes.push(element);
-        };
-
-        // Init WOW.js and get instance
-        var wow = new WOW();
-        wow.init();
-
-        // Attach scrollSpy to .wow elements for detect view exit events,
-        // then reset elements and add again for animation
-        $('.wow').on('scrollSpy:exit', function () {
-            $(this).css({
-                'visibility': 'hidden',
-                'animation-name': 'none'
-            }).removeClass('animated');
-            wow.addBox(this);
-        }).scrollSpy();
-    </script>
 
 
 

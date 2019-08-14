@@ -1,17 +1,127 @@
 ﻿@using ProjectLibrary.Database
 @using TeamplateHotel.Handler
-@model IEnumerable<Room>
+@using TeamplateHotel.Controllers
+@model List<Room>
 @{
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
     Menu menu = ViewBag.Menu ?? new Menu();
     Article article = ViewBag.ArticleByRoomRate;
+
 }
-@*<section class="breadcrumb-area overlay-dark-2 bg-3">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-               
+@Html.Partial("Menu/MainMenus")
+<div id="main" role="main">
+    <section id="sleepPage">
+        <div class="pContain">
+            <div class="row choiceHolder">
+                <ul>
+                    @foreach (var item in Model.Where(a => a.ParentID == 0))
+                    {
+                        var roomChild = Model.Where(b => b.ParentID == item.ID).OrderBy(c => c.Index).ToList();
+                        if (roomChild.Count > 0)
+                        {
+                            <li style="max-height:239px">
+
+
+
+                                <img alt="" src="@item.Image"  />
+                                <p class="title"><span>@item.Title</span></p>
+
+                                <div class="sub">
+                                    <div class="align-m subCore">
+                                        @foreach (var room in roomChild)
+                                        {
+                                            <a href="/@menu.Alias/@room.ID/@room.Alias">@room.Title</a>
+                                        }
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="noSub" style="max-height:239px">
+
+
+
+                                <img alt="" src="@item.Image" class="img-fluid" />
+                                <p class="title"><span><a href="/@menu.Alias/@item.ID/@item.Alias">@item.Title</a></span></p>
+
+                            </li>
+                        }
+
+                    }
+
+
+                </ul>
+            </div>
+            <!-- choiceHolder -->
+
+            <div class="pContain room-compare" id="room-compare">
+                <p class="title title-dark">ROOM COMPARISON CHART</p>
+                <!-- Titles -->
+                <table style="width:100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            @foreach (var item in Model.Where(a => a.ParentID == 0).Take(4))
+                            {
+                                <th class="compare-cell">@item.Title</th>
+                            }
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+
+                            <td>
+                                <img src="~/Content/images/compare/icon-compare-area.svg" style="width:3em" />
+                            </td>
+                            @foreach (var item in Model.Where(a => a.ParentID == 0).Take(4))
+                            {
+                                <td class="compare-cell">@item.Size m<sup>2</sup></td>
+                            }
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="~/Content/images/compare/icon-compare-area.svg" style="width:3em" />
+                            </td>
+                            @foreach (var item in Model.Where(a => a.ParentID == 0).Take(4))
+                            {
+                                <td class="compare-cell">@item.Bed</td>
+                            }
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="~/Content/images/compare/icon-compare-area.svg" style="width:3em" />
+                            </td>
+                            @foreach (var item in Model.Where(a => a.ParentID == 0).Take(4))
+                            {
+                                <td class="compare-cell">@item.View</td>
+                            }
+
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="pContain special-offers" id="special-offers">
+                <p class="title title-dark"></p>
+
+                <div class="special-offer-col">
+                    <div class="spo-item" data-item-title="Enjoy the Mia Escape!">
+
+                        @Html.Raw(menu.Description)
+
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>*@
+        <!-- end pContain -->
+    </section>
+    <!-- section -->
+</div>

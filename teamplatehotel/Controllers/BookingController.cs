@@ -97,7 +97,7 @@ namespace TeamplateHotel.Controllers
                     {
                         RoomId = a.ID,
                         NameRoom = a.Title,
-                        Price = (decimal) a.Price,
+                        Price = (decimal) a.PriceNet,
                         MaxPeople = a.MaxPeople,
                         Number = 0,
                         Content = a.Content
@@ -152,8 +152,9 @@ namespace TeamplateHotel.Controllers
                         {
                             if (item.Number > 0)
                             {
+                                var room = db.Rooms.Where(a => a.ID == item.RoomId).FirstOrDefault();
                                 infoBooking += item.NameRoom + " = " + item.Number + ", ";
-                                totelPrice += (decimal)item.Price*item.Number;
+                                totelPrice += (decimal)room.PriceNet*item.Number;
                             }
                         }
                         model.TotalMoney = totelPrice;

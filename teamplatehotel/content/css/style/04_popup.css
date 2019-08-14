@@ -1,0 +1,423 @@
+
+
+
+/* ----------------------- popUp ------------------------- */
+#popUp{
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 102;
+    display: none;
+}
+
+#popUp input, #popUp textarea {
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    font-family: "trend";
+}
+
+#popUp textarea.content {
+  min-height: 100px;
+}
+
+#popUp .core{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    background-color: #76A7B3;
+    box-sizing: border-box;
+    max-width: 800px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    max-height: 90%;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 20px;
+}
+
+#popUp .core form {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#popUp .core .title {
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#popUp .core .subtitle {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.btn-submit {
+  display: block;
+  width: 20%;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: "trend";
+
+}
+
+#popUp .closeBtn{
+  width:100%;
+  height:100%;
+}
+
+#popUp .closeBtn .btn{
+  width: 50px;
+  height: 50px;
+  background: url('../../images/icon_close.png') no-repeat center center;
+  background-size: 50%;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+  z-index: 10;
+  background-color: #A7C038;
+  border-radius: 50%;
+  display: none;
+}
+
+#popUp .closeBtn .btn:hover {
+   -ms-transform: rotate(90deg); /* IE 9 */
+   -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+   transform: rotate(90deg);
+}
+
+#popUp .popUpItem{
+  text-align:center;
+  font-size:16px;
+  width: 100%;
+  height: 100%;
+}
+
+#popUp .main_title{
+   font-size: 25px;
+   font-family: 'trend';
+   font-weight: 100;
+   color: #002752;
+   text-align: left;
+   border-bottom: 2px solid #C3C3C3;
+   background: #fff url('../../images/popup_bg.html') no-repeat right top;
+   padding: 30px 44px;
+   background-size: auto 100%;
+
+}
+
+#popUp .contentWarp{
+  padding: 30px 30px 50px 30px;
+  height: calc(100% - 115px);
+  overflow-x: hidden;
+}
+
+#popUp .form{
+    position: relative;
+    overflow: hidden;
+}
+
+#popUp  ul li{
+    width:50%;
+    float:left;
+    padding: 5px 20px;
+    position: relative;
+}
+
+#popUp  ul.three li{
+    width:33.3%;
+}
+
+#popUp .tf .title{
+  text-transform:uppercase;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-family: 'lato-bl';
+  text-align: left;
+  color:#878787;
+}
+
+#popUp  .tf input,
+#popUp .tf textarea,
+#popUp  .tf select{
+  transition: all 0.5s ease-out;
+  border:1px solid #878787;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-family: 'lato-r';
+  color: #878787;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  position: relative;
+}
+
+#popUp .tf .datepicker{
+  background: url('../../images/icon_calendar.html') no-repeat 11px center;
+  background-size: 25px 25px;
+  padding-left: 47px;
+}
+
+#popUp .tf .time{
+  padding-left:47px;
+}
+
+#popUp  .tf .icon{
+  width: 70px;
+  height: 43px;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  border-right: 1px solid #878787;
+  z-index: 10;
+  background: url('../../images/icon_plus.html') no-repeat center center;
+  cursor: pointer;
+}
+
+#popUp .form .tf.phone input{
+  padding-left: 90px;
+} 
+
+/*//info*/
+#popUp .info{
+    margin-top:30px;
+}
+
+#popUp .info ul{
+    overflow:hidden;
+}
+
+#popUp .info ul li{
+    width:33.3%;
+    position: relative;
+}
+
+#popUp  .tf.account select{
+   padding-left: 54px;
+}
+
+
+#popUp  .tf .icon.calendar{
+   background: url('../../images/icon_calendar.html') no-repeat center center;
+   border:none;
+   width: 60px;
+   background-size: 25px;
+   display: none;
+}
+
+#popUp  .tf .icon.login{
+   background: url('../../images/icon_login.html') no-repeat center center;
+   border:none;
+   cursor: default;
+   width: 60px;
+}
+
+#popUp .tf .icon.villas{
+   background: url('../../images/icon-villa.html') no-repeat center center;
+   border:none;
+   cursor: default;
+   width: 34px;
+   margin-left: 8px;
+}
+
+#popUp .tf .icon.clock{
+   background: url('../../images/icon_clock.html') no-repeat center center;
+   border:none;
+   cursor: default;
+   width: 50px;
+}
+
+#popUp input[name='guest-num'] {
+  padding-left: 60px;
+}
+
+#popUp .confirm{
+  overflow:hidden;
+  color: #878787;
+}
+
+#popUp .tf .yes_no{
+ border-radius: 5px;
+ border: 1px solid #9E9E9E;
+ text-transform:uppercase;
+ font-size:15px;
+ color: #878787;
+ font-weight: bold;
+ text-align: center;
+ overflow: hidden;
+}
+
+#popUp .confirm .tf .yes_no >a{
+  width:50%;
+  display:block;
+  float:left;
+  padding: 15px 0;
+}
+
+#popUp .confirm .tf .yes_no >a.active{
+  color:white;
+  background-color:#9E9E9E;
+}
+
+#popUp .confirm .price,
+#popUp .confirm .total{
+  margin-top:5px;
+  font-size: 11px;
+  text-align:left;
+  font-weight: bold;
+}
+
+#popUp .confirm .price >p{
+  width:50%;
+  float:left;
+  text-align: left;
+  color: inherit;
+}
+
+#popUp .confirm .tick{
+  border: 1px solid #878787;
+  overflow:hidden;
+  border-radius: 5px;
+}
+
+#popUp .confirm .tick >div:first-child{
+  width:20%;
+  border: none;
+  text-align: center;
+ }
+
+#popUp .confirm .tick >div{
+  float:left;
+  width:40%;
+  border-left:1px solid #878787;
+  padding: 15px 0;
+  position: relative;
+  font-weight: bold;
+ }
+
+#popUp .confirm .tick .checkBox{
+  position: absolute;
+  left: 50%;
+  margin-left: -16px;
+  margin-top: -3px;
+}
+
+#popUp .captcha >div,#popUp .captcha >a{
+  float: left;
+  width: 50%;
+}
+
+#popUp .captcha >div{
+  margin-top:18px;
+}
+
+#popUp .captcha .checkBox{
+  float:left;
+  margin-right: 10px;
+}
+
+#popUp .captcha >div span{
+  padding-top: 7px;
+  display:block;
+  float: left;
+}
+
+#popUp .submitBtn{
+  margin-top:30px;
+  margin-left: 30px;
+  vertical-align: top;
+  padding: 10px 20px;
+}
+
+#popUp .submitBtn:hover {
+    color:#002752;
+}
+
+#popUp .popup-contact {
+  display: none;
+}
+
+
+#popUp .popup-offer {
+    background-color: #fff;
+    padding-bottom: 30px;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+}
+
+#popUp .popup-offer .title {
+    color: #76A7B3;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#popUp .popup-offer .subtitle {
+    font-size: 12px;
+    color: #ccc;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+#popUp .popup-offer .offer-content {
+    color: #555;
+    font-family: "Altis";
+    text-align: left;
+    display: block;
+}
+
+#popUp .popup-offer .offer-content > li {
+    padding-left: 50px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+#popUp .popup-offer .offer-content .offer-subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Altis";
+}
+
+#popUp .popup-offer .offer-content ul.offer-list {
+
+}
+
+#popUp .popup-offer .offer-content ul.offer-list li {
+    list-style-type: circle;
+    width: 100%;
+    margin-left: 15px;
+    padding-left: 5px;
+}
+
+#popUp .popup-offer .offer-content .offer-price {
+    font-size: 24px;
+    color: #ECBC40;
+    /*padding: 5px 0;*/
+    display: block;
+}
+
+#popUp .popup-offer .offer-content .offer-price > span {
+    font-size: 14px;
+}
+
+#popUp .popup-offer .offer-footer {
+    display: block;
+    background-image: url("../../images/offer-popup-poster.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+#popUp .popup-offer .offer-footer .button {
+    margin-top: -40px;
+}

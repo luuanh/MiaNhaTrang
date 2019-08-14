@@ -1,103 +1,169 @@
 ﻿@using TeamplateHotel.Handler
-@model Room
+@model DetailRoom
 @using ProjectLibrary.Database
 @using TeamplateHotel.Models
 @using TeamplateHotel.Controllers
 
 @{
+    /**/
+
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
     Menu menu = ViewBag.Menu ?? new Menu();
     List<Room> ListRoom = CommentController.GetRooms(Request.Cookies["LanguageID"].Value);
 }
 <style>
-    .ttct-room h2 {
-        font: 400 35px/1 "Playfair Display", serif;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        margin: 0;
-        position: relative;
+    .carousel-item {
         display: block;
-        line-height: 56px;
-    }
-
-    .ttct-room li {
-        display: block;
-        padding: 5px 0;
-        /*border-bottom: 1px solid #e5e7e9;*/
     }
 </style>
-<div class="ok-text" style="top:25%">
-    <h1>@Model.Title</h1>
-    <div>
-            @Html.Raw(Model.Slogan)
-        </div>
-    @*<div class="head-link" style="margin: auto; width: 150px; padding-bottom: 10px; margin-top: 20px;">
-            <a href="/offer">Read More</a>
-        </div>*@
-</div>
+@Html.Partial("Menu/MainMenus")
+<div id="main" role="main">
+    <section id="roomPage">
+        <div class="pContain">
 
-<div class="tt-suite">
-    <div class="container">
-        <div class="text-yoga">
-            <p class="wow bounce">
-                @Html.Raw(Model.Description)
+            <div class="banner">
+                <!-- <img src="../~/Content/images/sleep/banner_640.jpg" class="show-mobile"> -->
 
-            </p>
-            <div style="height: 150px; width: 2px; background: #679334; margin: auto"></div>
-        </div>
-    </div>
-</div>
-<section class="ttct-room" style="padding-top: 50px; padding-bottom: 50px; background: #eee">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 right1 wow slideInLeft">
-                <img src="@Model.Image" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-6">
-                <div class="wow slideInRight" style="background: #fff; padding: 30px 60px 30px; margin-top: 50px;">
-                    <h2>
-                        @Model.Title
-                    </h2>
-                    <div class=" col-md-12">
-                        @Html.Raw(Model.Content)
+                <div class="room-gallery">
+                    @foreach (var item in Model.RoomGalleries)
+                    {
+                        <div class="carousel-item">
+                            <img src="@item.ImageLarge">
+                        </div>
+                    }
+                    @*<div class="carousel-item">
+                            <img src="~/Content/images/sleep/condo/family/family-condo-00.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Content/images/sleep/condo/family/family-condo-01.jpg">
+                        </div>*@
+                    @*<div class="carousel-item">
+                            <img src="~/Content/images/sleep/condo/family/family-condo-02.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Content/images/sleep/condo/family/family-condo-03.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Content/images/sleep/condo/family/family-condo-04.jpg">
+                        </div>
 
+                        <div class="carousel-item">
+                            <img src="~/Content/images/sleep/condo/family/family-condo-FP.jpg">
+                        </div>*@
+                </div>
+
+                <!-- Dot Nav -->
+                <div class="dots-nav"></div>
+
+                <div class="info">
+                    <div class="closeBtn"></div>
+                    <div class="col col1">
+
+                        <div class="bigTitle">@Model.Room.Title</div>
+                        <div class="des">
+                            @Model.Room.Description
+                        </div>
+                        <div class="bottom">
+                            <div class="houseInfo">
+                                <div class="area">Size @Model.Room.Size <sup>M2</sup> </div>
+                                <div class="view">@Model.Room.View</div>
+                                <div class="room">@Model.Room.Bed</div>
+
+                            </div>
+                            @*<div class="detailBtn">SEE MORE DETAILS</div>*@
+                        </div>
                     </div>
 
-                    <a href="/booking" target="_blank" class="inline-link inline-large q_magnet">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "BookingNow")</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="home_accommodation" class="section block-fullscreen bg-blue-dark bg-image-section-two reveal">
-
-    <div class="q-container container-inner">
-        <div class="columns">
-            <div class="column villas-container">
-                <div id="accommodations" class="accommodations column-grid-container">
-
-
-                    @foreach (var item in ListRoom.Where(a=>a.ID != Model.ID).Take(3))
-                    {
-                        <div class="accommodation-type column-item">
-                            <a href="/@item.Alias">
-                                <h4 class="accommodation-name">@item.Title</h4>
-                                <div class="accommodation-bg" style="background-image: url('@item.Image')">
-                                    <div class="accommodation-bg-change" data-src="@item.ImageBackground" style="background-image: url(@item.ImageBackground)"></div>
-                                </div>
-                            </a>
+                    <div class="col col2 moreDetail">
+                        <ul>
+                            <li>
+                                <div class="icon room"></div>
+                                <div class="copy">1x Double and 1x Twin (Twin - 2 single beds (0.9m*2m)</div>
+                            </li>
+                            <li>
+                                <div class="icon lounge"></div>
+                                <div class="copy">Inside & Outside Lounge</div>
+                            </li>
+                            <li>
+                                <div class="icon iphone"></div>
+                                <div class="copy">IPod Dock</div>
+                            </li>
+                            <!-- <li>
+                                <div class="icon robe"></div>
+                                <div class="copy">Bathrobes</div>
+                            </li> -->
+                        </ul>
+                        <div class="detail-button">
+                            <a href="" class="button type3">SPECIAL OFFERS</a>
                         </div>
+                        <div class="detail-button">
+                            <a href="" class="button type3">COMPARE ROOMS</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- banner -->
+
+            <div class="buttonHolder">
+                <a href="/booking" class="button bookNowBtn type3">BOOK NOW</a>
+            </div>
+
+            <div class="more-info">
+                <p class="title">More About Our Condos</p>
+                <p>
+                    @Model.Room.Description
+                </p>
+
+                <div class="features">
+                    <p class="title">@Model.Room.Title</p>
+                    @Html.Raw(Model.Room.Content)
+
+                </div>
+            </div><!-- more-info -->
+
+            <div class="selection">
+                <div class="title">@Model.Room.Title SELECTIONS</div>
+                <ul>
+                    @foreach (var item in Model.Rooms)
+                    {
+                        <li><a href="/@menu.Alias/@item.ID/@item.Alias"><span>@item.Title</span></a></li>
                     }
 
 
+                </ul>
+            </div><!-- selection -->
+
+            <div class="roomTypes roomType type2">
+                <div class="title">ALL ROOM TYPES</div>
+                <div class="menus">
+                    <ul>
+                        @foreach (var item in ListRoom.Where(a => a.ParentID == 0))
+                        {
+                            var roomChild = ListRoom.Where(a => a.ParentID == item.ID).OrderByDescending(b => b.Index).ToList();
+                            if (roomChild.Count > 0)
+                            {
+                                <li class="menu hasSubmenu">
+                                    <a href="#">@item.Title</a>
+                                    <div class="submenu">
+                                        @foreach (var room in roomChild)
+                                        {
+                                            <a href="/@menu.Alias/@room.ID/@room.Alias">@room.Title</a>
+                                        }
+
+
+                                    </div>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="menu"><a href="/@menu.Alias/@item.ID/@item.Alias">@item.Title</a></li>
+                            }
+                        }
+
+
+                    </ul>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-<style>
-    table {
-        display: contents
-    }
-</style>
+            </div><!-- selection -->
+
+        </div> <!-- end pContain -->
+    </section> <!-- section -->
+</div><!-- end main -->

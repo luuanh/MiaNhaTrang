@@ -22,7 +22,7 @@ namespace ProjectLibrary.Database
 	using System;
     using ProjectLibrary.Config;
 
-    [global::System.Data.Linq.Mapping.DatabaseAttribute(Name="webcustomer_paoshotel")]
+    [global::System.Data.Linq.Mapping.DatabaseAttribute(Name="MiaNhaTrang")]
 	public partial class MyDbDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -69,6 +69,9 @@ namespace ProjectLibrary.Database
     partial void InsertMenu(Menu instance);
     partial void UpdateMenu(Menu instance);
     partial void DeleteMenu(Menu instance);
+    partial void InsertPageHome(PageHome instance);
+    partial void UpdatePageHome(PageHome instance);
+    partial void DeletePageHome(PageHome instance);
     partial void InsertPlugin(Plugin instance);
     partial void UpdatePlugin(Plugin instance);
     partial void DeletePlugin(Plugin instance);
@@ -107,7 +110,7 @@ namespace ProjectLibrary.Database
 		public MyDbDataContext() : 
 				base(SystemConfig.ConnectionString, mappingSource)
 		{
-            //global::ProjectLibrary.Properties.Settings.Default.webcustomer_paoshotelConnectionString
+            //global::ProjectLibrary.Properties.Settings.Default.MiaNhaTrangConnectionString
 
             OnCreated();
 		}
@@ -237,6 +240,14 @@ namespace ProjectLibrary.Database
 			get
 			{
 				return this.GetTable<Menu>();
+			}
+		}
+		
+		public System.Data.Linq.Table<PageHome> PageHomes
+		{
+			get
+			{
+				return this.GetTable<PageHome>();
 			}
 		}
 		
@@ -838,7 +849,7 @@ namespace ProjectLibrary.Database
 		
 		private bool _Home;
 		
-		private bool _Customer;
+		private bool _Top;
 		
 		private bool _New;
 		
@@ -874,8 +885,8 @@ namespace ProjectLibrary.Database
     partial void OnHotChanged();
     partial void OnHomeChanging(bool value);
     partial void OnHomeChanged();
-    partial void OnCustomerChanging(bool value);
-    partial void OnCustomerChanged();
+    partial void OnTopChanging(bool value);
+    partial void OnTopChanged();
     partial void OnNewChanging(bool value);
     partial void OnNewChanged();
     #endregion
@@ -1150,22 +1161,22 @@ namespace ProjectLibrary.Database
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Customer", DbType="Bit NOT NULL")]
-		public bool Customer
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Top]", Storage="_Top", DbType="Bit NOT NULL")]
+		public bool Top
 		{
 			get
 			{
-				return this._Customer;
+				return this._Top;
 			}
 			set
 			{
-				if ((this._Customer != value))
+				if ((this._Top != value))
 				{
-					this.OnCustomerChanging(value);
+					this.OnTopChanging(value);
 					this.SendPropertyChanging();
-					this._Customer = value;
-					this.SendPropertyChanged("Customer");
-					this.OnCustomerChanged();
+					this._Top = value;
+					this.SendPropertyChanged("Top");
+					this.OnTopChanged();
 				}
 			}
 		}
@@ -4479,6 +4490,284 @@ namespace ProjectLibrary.Database
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.PageHome")]
+	public partial class PageHome : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
+		
+		private string _Title;
+		
+		private string _Alias;
+		
+		private string _Description;
+		
+		private System.Nullable<int> _Index;
+		
+		private string _MetaTitle;
+		
+		private string _MetaDescription;
+		
+		private System.Nullable<bool> _Status;
+		
+		private string _Video;
+		
+		private string _LanguageID;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OnTitleChanging(string value);
+    partial void OnTitleChanged();
+    partial void OnAliasChanging(string value);
+    partial void OnAliasChanged();
+    partial void OnDescriptionChanging(string value);
+    partial void OnDescriptionChanged();
+    partial void OnIndexChanging(System.Nullable<int> value);
+    partial void OnIndexChanged();
+    partial void OnMetaTitleChanging(string value);
+    partial void OnMetaTitleChanged();
+    partial void OnMetaDescriptionChanging(string value);
+    partial void OnMetaDescriptionChanged();
+    partial void OnStatusChanging(System.Nullable<bool> value);
+    partial void OnStatusChanged();
+    partial void OnVideoChanging(string value);
+    partial void OnVideoChanged();
+    partial void OnLanguageIDChanging(string value);
+    partial void OnLanguageIDChanged();
+    #endregion
+		
+		public PageHome()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Title", DbType="NVarChar(250)")]
+		public string Title
+		{
+			get
+			{
+				return this._Title;
+			}
+			set
+			{
+				if ((this._Title != value))
+				{
+					this.OnTitleChanging(value);
+					this.SendPropertyChanging();
+					this._Title = value;
+					this.SendPropertyChanged("Title");
+					this.OnTitleChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Alias", DbType="NVarChar(250)")]
+		public string Alias
+		{
+			get
+			{
+				return this._Alias;
+			}
+			set
+			{
+				if ((this._Alias != value))
+				{
+					this.OnAliasChanging(value);
+					this.SendPropertyChanging();
+					this._Alias = value;
+					this.SendPropertyChanged("Alias");
+					this.OnAliasChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Description", DbType="NVarChar(MAX)")]
+		public string Description
+		{
+			get
+			{
+				return this._Description;
+			}
+			set
+			{
+				if ((this._Description != value))
+				{
+					this.OnDescriptionChanging(value);
+					this.SendPropertyChanging();
+					this._Description = value;
+					this.SendPropertyChanged("Description");
+					this.OnDescriptionChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Index]", Storage="_Index", DbType="Int")]
+		public System.Nullable<int> Index
+		{
+			get
+			{
+				return this._Index;
+			}
+			set
+			{
+				if ((this._Index != value))
+				{
+					this.OnIndexChanging(value);
+					this.SendPropertyChanging();
+					this._Index = value;
+					this.SendPropertyChanged("Index");
+					this.OnIndexChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MetaTitle", DbType="NVarChar(250)")]
+		public string MetaTitle
+		{
+			get
+			{
+				return this._MetaTitle;
+			}
+			set
+			{
+				if ((this._MetaTitle != value))
+				{
+					this.OnMetaTitleChanging(value);
+					this.SendPropertyChanging();
+					this._MetaTitle = value;
+					this.SendPropertyChanged("MetaTitle");
+					this.OnMetaTitleChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MetaDescription", DbType="NVarChar(250)")]
+		public string MetaDescription
+		{
+			get
+			{
+				return this._MetaDescription;
+			}
+			set
+			{
+				if ((this._MetaDescription != value))
+				{
+					this.OnMetaDescriptionChanging(value);
+					this.SendPropertyChanging();
+					this._MetaDescription = value;
+					this.SendPropertyChanged("MetaDescription");
+					this.OnMetaDescriptionChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Status", DbType="Bit")]
+		public System.Nullable<bool> Status
+		{
+			get
+			{
+				return this._Status;
+			}
+			set
+			{
+				if ((this._Status != value))
+				{
+					this.OnStatusChanging(value);
+					this.SendPropertyChanging();
+					this._Status = value;
+					this.SendPropertyChanged("Status");
+					this.OnStatusChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Video", DbType="NVarChar(250)")]
+		public string Video
+		{
+			get
+			{
+				return this._Video;
+			}
+			set
+			{
+				if ((this._Video != value))
+				{
+					this.OnVideoChanging(value);
+					this.SendPropertyChanging();
+					this._Video = value;
+					this.SendPropertyChanged("Video");
+					this.OnVideoChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LanguageID", DbType="NChar(10)")]
+		public string LanguageID
+		{
+			get
+			{
+				return this._LanguageID;
+			}
+			set
+			{
+				if ((this._LanguageID != value))
+				{
+					this.OnLanguageIDChanging(value);
+					this.SendPropertyChanging();
+					this._LanguageID = value;
+					this.SendPropertyChanged("LanguageID");
+					this.OnLanguageIDChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Plugin")]
 	public partial class Plugin : INotifyPropertyChanging, INotifyPropertyChanged
 	{
@@ -4655,7 +4944,9 @@ namespace ProjectLibrary.Database
 		
 		private string _ImageBackground;
 		
-		private string _Slogan;
+		private string _View;
+		
+		private System.Nullable<int> _ParentID;
 		
 		private EntitySet<RoomGallery> _RoomGalleries;
 		
@@ -4701,8 +4992,10 @@ namespace ProjectLibrary.Database
     partial void OnHomeChanged();
     partial void OnImageBackgroundChanging(string value);
     partial void OnImageBackgroundChanged();
-    partial void OnSloganChanging(string value);
-    partial void OnSloganChanged();
+    partial void OnViewChanging(string value);
+    partial void OnViewChanged();
+    partial void OnParentIDChanging(System.Nullable<int> value);
+    partial void OnParentIDChanged();
     #endregion
 		
 		public Room()
@@ -5076,22 +5369,42 @@ namespace ProjectLibrary.Database
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Slogan", DbType="NVarChar(500)")]
-		public string Slogan
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[View]", Storage="_View", DbType="NVarChar(500)")]
+		public string View
 		{
 			get
 			{
-				return this._Slogan;
+				return this._View;
 			}
 			set
 			{
-				if ((this._Slogan != value))
+				if ((this._View != value))
 				{
-					this.OnSloganChanging(value);
+					this.OnViewChanging(value);
 					this.SendPropertyChanging();
-					this._Slogan = value;
-					this.SendPropertyChanged("Slogan");
-					this.OnSloganChanged();
+					this._View = value;
+					this.SendPropertyChanged("View");
+					this.OnViewChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ParentID", DbType="Int")]
+		public System.Nullable<int> ParentID
+		{
+			get
+			{
+				return this._ParentID;
+			}
+			set
+			{
+				if ((this._ParentID != value))
+				{
+					this.OnParentIDChanging(value);
+					this.SendPropertyChanging();
+					this._ParentID = value;
+					this.SendPropertyChanged("ParentID");
+					this.OnParentIDChanged();
 				}
 			}
 		}
@@ -5611,6 +5924,10 @@ namespace ProjectLibrary.Database
 		
 		private bool _Home;
 		
+		private System.Nullable<bool> _Activities;
+		
+		private System.Nullable<bool> _Top;
+		
 		private EntitySet<ServiceGallery> _ServiceGalleries;
 		
 		private EntityRef<Menu> _Menu;
@@ -5643,6 +5960,10 @@ namespace ProjectLibrary.Database
     partial void OnStatusChanged();
     partial void OnHomeChanging(bool value);
     partial void OnHomeChanged();
+    partial void OnActivitiesChanging(System.Nullable<bool> value);
+    partial void OnActivitiesChanged();
+    partial void OnTopChanging(System.Nullable<bool> value);
+    partial void OnTopChanged();
     #endregion
 		
 		public Service()
@@ -5896,6 +6217,46 @@ namespace ProjectLibrary.Database
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Activities", DbType="Bit")]
+		public System.Nullable<bool> Activities
+		{
+			get
+			{
+				return this._Activities;
+			}
+			set
+			{
+				if ((this._Activities != value))
+				{
+					this.OnActivitiesChanging(value);
+					this.SendPropertyChanging();
+					this._Activities = value;
+					this.SendPropertyChanged("Activities");
+					this.OnActivitiesChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Top]", Storage="_Top", DbType="Bit")]
+		public System.Nullable<bool> Top
+		{
+			get
+			{
+				return this._Top;
+			}
+			set
+			{
+				if ((this._Top != value))
+				{
+					this.OnTopChanging(value);
+					this.SendPropertyChanging();
+					this._Top = value;
+					this.SendPropertyChanged("Top");
+					this.OnTopChanged();
+				}
+			}
+		}
+		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Service_ServiceGallery", Storage="_ServiceGalleries", ThisKey="ID", OtherKey="ServiceID")]
 		public EntitySet<ServiceGallery> ServiceGalleries
 		{
@@ -5986,9 +6347,9 @@ namespace ProjectLibrary.Database
 		
 		private int _ServiceID;
 		
-		private string _ImageSmall;
+		private string _Icon;
 		
-		private string _ImageLarge;
+		private string _Name;
 		
 		private EntityRef<Service> _Service;
 		
@@ -6000,10 +6361,10 @@ namespace ProjectLibrary.Database
     partial void OnIDChanged();
     partial void OnServiceIDChanging(int value);
     partial void OnServiceIDChanged();
-    partial void OnImageSmallChanging(string value);
-    partial void OnImageSmallChanged();
-    partial void OnImageLargeChanging(string value);
-    partial void OnImageLargeChanged();
+    partial void OnIconChanging(string value);
+    partial void OnIconChanged();
+    partial void OnNameChanging(string value);
+    partial void OnNameChanged();
     #endregion
 		
 		public ServiceGallery()
@@ -6056,42 +6417,42 @@ namespace ProjectLibrary.Database
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ImageSmall", DbType="NVarChar(300) NOT NULL", CanBeNull=false)]
-		public string ImageSmall
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Icon", DbType="NVarChar(300) NOT NULL", CanBeNull=false)]
+		public string Icon
 		{
 			get
 			{
-				return this._ImageSmall;
+				return this._Icon;
 			}
 			set
 			{
-				if ((this._ImageSmall != value))
+				if ((this._Icon != value))
 				{
-					this.OnImageSmallChanging(value);
+					this.OnIconChanging(value);
 					this.SendPropertyChanging();
-					this._ImageSmall = value;
-					this.SendPropertyChanged("ImageSmall");
-					this.OnImageSmallChanged();
+					this._Icon = value;
+					this.SendPropertyChanged("Icon");
+					this.OnIconChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ImageLarge", DbType="NVarChar(300) NOT NULL", CanBeNull=false)]
-		public string ImageLarge
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Name", DbType="NVarChar(300) NOT NULL", CanBeNull=false)]
+		public string Name
 		{
 			get
 			{
-				return this._ImageLarge;
+				return this._Name;
 			}
 			set
 			{
-				if ((this._ImageLarge != value))
+				if ((this._Name != value))
 				{
-					this.OnImageLargeChanging(value);
+					this.OnNameChanging(value);
 					this.SendPropertyChanging();
-					this._ImageLarge = value;
-					this.SendPropertyChanged("ImageLarge");
-					this.OnImageLargeChanged();
+					this._Name = value;
+					this.SendPropertyChanged("Name");
+					this.OnNameChanged();
 				}
 			}
 		}

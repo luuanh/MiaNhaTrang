@@ -50,12 +50,17 @@ namespace TeamplateHotel.Areas.Administrator.EntityModel
         [DisplayName("Hiển thị trang chủ")]
         public bool Home { get; set; }
 
+        [DisplayName("Hiển thị top")]
+        public bool? Top { get; set; }
 
+        [DisplayName("Activies")]
+        public bool? Activies { get; set; }
         public List<EGalleryITem> EGalleryITems { get; set; }
     }
 
     public class EGalleryITem
     {
-        public string Image { get; set; }
+        public string Icon { get; set; }
+        public string Name { get; set; }
     }
 }

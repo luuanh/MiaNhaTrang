@@ -100,7 +100,9 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             MetaDescription =
                                 string.IsNullOrEmpty(model.MetaDescription) ? model.Title : model.MetaDescription,
                             Status = model.Status,
-                            Home = model.Home
+                            Home = model.Home,
+                            Top=model.Top,
+                            Activities=model.Activies,
                         };
 
                         db.Services.InsertOnSubmit(service);
@@ -113,8 +115,8 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             {
                                 var serviceGallery = new ServiceGallery
                                 {
-                                    ImageLarge = itemGallery.Image,
-                                    ImageSmall = ReturnSmallImage.GetImageSmall(itemGallery.Image),
+                                    Icon = itemGallery.Icon,
+                                    Name=itemGallery.Name ,
                                     ServiceID = service.ID,
                                 };
                                 db.ServiceGalleries.InsertOnSubmit(serviceGallery);
@@ -162,13 +164,16 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                     MetaTitle = service.MetaTitle,
                     MetaDescription = service.MetaDescription,
                     Status = service.Status,
-                    Home = service.Home
-                };
+                    Home = service.Home,
+                    Activies=service.Activities,
+                    Top=service.Top,
+            };
                 //lấy danh sách hình ảnh
                 eService.EGalleryITems =
                     db.ServiceGalleries.Where(a => a.ServiceID == service.ID).Select(a => new EGalleryITem
                     {
-                        Image = a.ImageLarge
+                        Icon = a.Icon,
+                        Name=a.Name,
                     }).ToList();
                 LoadData();
                 return View(eService);
@@ -200,7 +205,8 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                                 : model.MetaDescription;
                             service.Status = model.Status;
                             service.Home = model.Home;
-
+                            service.Top = model.Top;
+                            service.Activities = model.Activies;
                             db.SubmitChanges();
 
                             //xóa gallery cho phòng
@@ -213,8 +219,8 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                                 {
                                     var serviceGallery = new ServiceGallery
                                     {
-                                        ImageLarge = itemGallery.Image,
-                                        ImageSmall = ReturnSmallImage.GetImageSmall(itemGallery.Image),
+                                        Icon = itemGallery.Icon,
+                                        Name = itemGallery.Name,
                                         ServiceID = service.ID,
                                     };
                                     db.ServiceGalleries.InsertOnSubmit(serviceGallery);

@@ -1,0 +1,279 @@
+/*==================================================================================================*/
+@media screen and (max-width: 1023px){
+
+	h1{
+	  font-size: 43px;
+	}
+
+	h2{
+	  font-size: 53px;
+	}
+
+	h3{
+	  font-size: 20px;
+	}
+
+	.button{
+	  font-size:12px;
+	  padding: 10px 20px;	
+	}
+
+	header ul li{
+	  float: left;
+	  padding: 0 10px;
+	}
+
+	header ul{
+	  margin-left: 0;
+	}
+
+	header .desktop{
+		font-size: 12px;
+	}
+
+
+	.logoHolder li{
+	  padding: 0;
+	}
+
+	.container{
+	  padding: 0 50px;
+	}
+
+	.dine-banner .item .content{
+	  padding: 20px;
+	}
+
+	.dine-banner .item .content p {
+	    padding: 10px 0;
+	}
+
+	.dine-banner .item{
+	  height: 450px;
+	}
+
+	.articalHolder{
+	  padding: 50px 20px;
+	}
+
+	.articalItem{
+	  margin: 0 20px;
+	  max-width: 300px;
+	}
+
+	.boxContent .des{
+  		font-size: 12px;
+  		line-height:1.5;
+	}
+
+	.activities .act-title{
+	  font-size: 15px;
+	}
+
+	.activities .item .content{
+	  -webkit-transform: translateY(-50px);
+	  -ms-transform: translateY(-50px);
+	  transform: translateY(-50px);
+	  padding: 15px;
+	}
+
+	.activities .item .content p{
+	  padding: 10px 0;
+	}
+	
+	.activities.type2{
+	  max-width:650px;
+	  margin: 0 auto;
+	}
+	
+	.activities .item{
+	  height: 280px;
+	}
+
+	.destinations .content .title{
+	  font-size: 41px;
+	  top: 151px;
+	}
+
+	.boxContent .title{
+	  font-size: 28px;
+	}
+	
+	.boxContent.type3 .col1{
+	  width: 65%;
+	}
+
+	.boxContent.type3 .content{
+	  width:35%;
+	}
+
+
+	.boxContent.type4 .content{
+	  padding: 30px 20px;
+	  height: auto;
+	}
+
+	.boxContent.type4 .content .des{
+	  font-size: 12px;
+	}
+
+	.boxContent.type4 .title{
+	  font-size: 20px;
+	  margin-bottom: 10px;
+	}
+
+	.boxContent .viewMore{
+  		padding-right: 70px;
+	}
+
+
+	.mainBanner .caption{
+	  font-size: 45px;
+	}
+
+	.mainBanner.type2{
+	  background-size: 190px auto;
+	  background-position: 60% 30px;
+	  height: 140px;
+	}
+	
+	
+	/*thumbHolder*/
+
+	.thumbHolder .thumbCore{
+	  max-width: 600px;
+	}
+
+	.thumbHolder .thumbCore .thumbItem{
+	  height: 405px;
+	}
+
+	.more-info {
+	  max-width: 80%;	  
+	}
+
+	.choiceHolder .title{
+		font-size: 15px;
+		margin-bottom: 0;
+	}
+
+
+	.choiceHolder .sub .subCore{
+	  height: auto;
+	  padding: 0;
+	  margin: 0;
+	}
+
+	.choiceHolder .sub .subCore a{
+  		margin: 0;
+  		font-size:15px;
+  		padding: 15px 0;
+	 }
+
+	 #ytplayer {	 
+	    height: 400px;
+	}
+
+	 
+	#pressPage .contentHolder .content-wrap{
+	  padding: 0 20px;
+	}
+
+	#pressPage .contentHolder{
+	  padding: 50px 0 10px;
+	}
+
+	#galleryPage  .mainBanner.type2 .caption{
+	  top: 60%;
+	}
+	
+	#galleryPage .thumbHolder .thumbCore{
+	  top: -20px;
+	  padding-bottom: 10px;
+	}
+
+
+	#galleryPage .thumbHolder .thumbItem{
+	  margin-bottom: 50px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	.banner .info .col{
+	  width: 100% !important;
+	  opacity: 1;
+	  visibility: visible;
+	  padding-bottom: 20px;
+	  display: inline-block !important;
+	}
+
+	.room-gallery {
+	  height: 420px;
+	  position: relative;
+	}
+
+
+
+
+
+
+
+
+	.special-offer-col {
+	  width: 90%;
+	  padding: 20px;
+	}
+
+
+
+
+	.conde-nash {
+		max-width: 75%;
+	}
+
+
+
+
+
+
+
+	.room-compare {
+	  max-width: 100%;
+	  padding: 20px 50px;
+	}
+
+	.compare-icon:before {
+	  left: -20%;
+	}
+
+
+
+
+
+
+	/* Footer */
+
+	.award {
+		width: 30%;
+	}	
+
+	.secondary-nav ul li{
+	  display: inline-block;
+	  padding: 0 15px;
+	  font-family: "trend";
+	  font-size: 11pt;
+	  margin-top: 32px;
+	}
+
+
+}/* end @media screen and (max-width: 1023px)*/
+

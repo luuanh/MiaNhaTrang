@@ -6,17 +6,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>E:\IIT\WebCustomer\Dlioro\publich</_PublishTargetUrl>
+    <_PublishTargetUrl>E:\IIT\WebCustomer\MiaNhaTrang\publich</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_GlobalResources/Resource.en.resx">
-      <publishTime>07/29/2019 17:49:39</publishTime>
+      <publishTime>07/31/2019 11:32:59</publishTime>
     </File>
     <File Include="App_GlobalResources/Resource.resx">
       <publishTime>01/12/2018 10:37:50</publishTime>
     </File>
     <File Include="App_GlobalResources/Resource.vi.resx">
-      <publishTime>07/29/2019 17:44:00</publishTime>
+      <publishTime>07/31/2019 11:33:13</publishTime>
     </File>
     <File Include="Areas/Administrator/Content/css/bootstrap-responsive.min.css">
       <publishTime>10/28/2014 08:36:10</publishTime>
@@ -784,13 +784,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/24/2015 11:18:40</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Article/Create.cshtml">
-      <publishTime>07/29/2019 17:29:13</publishTime>
+      <publishTime>08/08/2019 10:35:45</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Article/Index.cshtml">
       <publishTime>07/26/2019 16:43:04</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Article/Update.cshtml">
-      <publishTime>07/26/2019 16:42:47</publishTime>
+      <publishTime>08/08/2019 10:36:31</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/BookRoom/Detail.cshtml">
       <publishTime>12/20/2016 07:54:48</publishTime>
@@ -880,10 +880,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/21/2016 04:21:46</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Menu/Update.cshtml">
-      <publishTime>07/24/2019 11:22:32</publishTime>
+      <publishTime>08/07/2019 10:55:12</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/MenuSystem/Index.cshtml">
       <publishTime>05/12/2015 18:10:16</publishTime>
+    </File>
+    <File Include="Areas/Administrator/Views/PageHome/Create.cshtml">
+      <publishTime>08/12/2019 15:03:35</publishTime>
+    </File>
+    <File Include="Areas/Administrator/Views/PageHome/Index.cshtml">
+      <publishTime>08/12/2019 11:02:31</publishTime>
+    </File>
+    <File Include="Areas/Administrator/Views/PageHome/Update.cshtml">
+      <publishTime>08/12/2019 15:22:44</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/PlugIn/CSS.cshtml">
       <publishTime>12/10/2016 07:34:44</publishTime>
@@ -895,13 +904,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/10/2016 07:40:18</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Room/Create.cshtml">
-      <publishTime>07/31/2019 11:05:16</publishTime>
+      <publishTime>08/13/2019 08:48:58</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Room/Index.cshtml">
       <publishTime>11/23/2016 09:10:20</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Room/Update.cshtml">
-      <publishTime>07/31/2019 11:04:38</publishTime>
+      <publishTime>08/13/2019 08:57:36</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/RoomInfo/Create.cshtml">
       <publishTime>05/15/2015 09:00:13</publishTime>
@@ -922,13 +931,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/08/2016 06:11:12</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Service/Create.cshtml">
-      <publishTime>12/06/2016 07:40:40</publishTime>
+      <publishTime>08/08/2019 16:08:03</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Service/Index.cshtml">
       <publishTime>12/06/2016 07:35:00</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Service/Update.cshtml">
-      <publishTime>12/06/2016 08:18:32</publishTime>
+      <publishTime>08/08/2019 16:35:52</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/ServiceInfo/Create.cshtml">
       <publishTime>05/13/2015 10:06:04</publishTime>
@@ -973,7 +982,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/15/2015 09:01:06</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Templates/_LayoutPage.cshtml">
-      <publishTime>07/26/2019 14:01:09</publishTime>
+      <publishTime>08/12/2019 13:41:35</publishTime>
     </File>
     <File Include="Areas/Administrator/Views/Tour/Create.cshtml">
       <publishTime>07/22/2019 16:56:08</publishTime>
@@ -1111,13 +1120,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/28/2014 02:26:26</publishTime>
     </File>
     <File Include="bin/ProjectLibrary.dll">
-      <publishTime>07/31/2019 11:29:25</publishTime>
+      <publishTime>08/13/2019 17:05:45</publishTime>
     </File>
     <File Include="bin/ProjectLibrary.dll.config">
-      <publishTime>07/22/2019 16:27:34</publishTime>
+      <publishTime>08/06/2019 09:15:43</publishTime>
     </File>
     <File Include="bin/ProjectLibrary.pdb">
-      <publishTime>07/31/2019 11:29:25</publishTime>
+      <publishTime>08/13/2019 17:05:45</publishTime>
     </File>
     <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
       <publishTime>08/11/2014 07:31:42</publishTime>
@@ -1165,10 +1174,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/11/2014 07:31:42</publishTime>
     </File>
     <File Include="bin/TeamplateHotel.dll">
-      <publishTime>07/31/2019 11:29:27</publishTime>
+      <publishTime>08/13/2019 17:05:48</publishTime>
     </File>
     <File Include="bin/TeamplateHotel.pdb">
-      <publishTime>07/31/2019 11:29:27</publishTime>
+      <publishTime>08/13/2019 17:05:48</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/28/2014 02:26:26</publishTime>
@@ -1243,7 +1252,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/23/2016 03:09:44</publishTime>
     </File>
     <File Include="ckfinder/config.ascx">
-      <publishTime>12/16/2016 09:26:36</publishTime>
+      <publishTime>08/12/2019 09:43:14</publishTime>
     </File>
     <File Include="ckfinder/config.js">
       <publishTime>11/23/2016 04:24:38</publishTime>
@@ -3166,7 +3175,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/12/2014 09:52:43</publishTime>
     </File>
     <File Include="Content/css/animate.css">
-      <publishTime>07/19/2019 15:11:09</publishTime>
+      <publishTime>08/09/2019 10:27:55</publishTime>
     </File>
     <File Include="Content/css/app.css">
       <publishTime>07/31/2019 09:38:49</publishTime>
@@ -3176,6 +3185,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/css/Booking.css">
       <publishTime>06/12/2017 09:57:17</publishTime>
+    </File>
+    <File Include="Content/css/ie.css">
+      <publishTime>08/01/2019 10:05:54</publishTime>
     </File>
     <File Include="Content/css/Index.css">
       <publishTime>01/11/2018 15:50:07</publishTime>
@@ -3189,8 +3201,41 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/css/Pro_AboutStyle.css">
       <publishTime>01/05/2018 11:05:09</publishTime>
     </File>
+    <File Include="Content/css/reponsive.css">
+      <publishTime>08/01/2019 10:59:12</publishTime>
+    </File>
+    <File Include="Content/css/reponsive/max1023.css">
+      <publishTime>04/12/2017 17:29:36</publishTime>
+    </File>
+    <File Include="Content/css/reponsive/max1279.css">
+      <publishTime>04/12/2017 17:29:39</publishTime>
+    </File>
+    <File Include="Content/css/reponsive/max767.css">
+      <publishTime>04/12/2017 17:29:35</publishTime>
+    </File>
+    <File Include="Content/css/reponsive/min768.css">
+      <publishTime>04/12/2017 17:29:37</publishTime>
+    </File>
+    <File Include="Content/css/reponsive/style.css">
+      <publishTime>08/12/2019 17:06:23</publishTime>
+    </File>
+    <File Include="Content/css/reset.css">
+      <publishTime>08/01/2019 10:05:54</publishTime>
+    </File>
     <File Include="Content/css/Style.css">
-      <publishTime>07/31/2019 10:24:10</publishTime>
+      <publishTime>08/09/2019 10:25:31</publishTime>
+    </File>
+    <File Include="Content/css/style/01_general.css">
+      <publishTime>08/01/2019 15:04:06</publishTime>
+    </File>
+    <File Include="Content/css/style/02_header.css">
+      <publishTime>04/05/2017 08:04:15</publishTime>
+    </File>
+    <File Include="Content/css/style/03_footer.css">
+      <publishTime>02/17/2017 18:21:24</publishTime>
+    </File>
+    <File Include="Content/css/style/04_popup.css">
+      <publishTime>04/05/2017 08:04:17</publishTime>
     </File>
     <File Include="Content/css/StyleRoom.css">
       <publishTime>10/27/2017 14:25:15</publishTime>
@@ -3783,6 +3828,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/allsl3.jpg">
       <publishTime>06/20/2019 15:45:22</publishTime>
     </File>
+    <File Include="Content/images/award-conde-nash.svg">
+      <publishTime>02/17/2017 18:07:16</publishTime>
+    </File>
+    <File Include="Content/images/award.png">
+      <publishTime>08/09/2019 11:30:28</publishTime>
+    </File>
     <File Include="Content/images/banner.jpg">
       <publishTime>05/27/2019 16:58:10</publishTime>
     </File>
@@ -3810,14 +3861,137 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/box4.jpg">
       <publishTime>05/21/2019 15:47:03</publishTime>
     </File>
+    <File Include="Content/images/browserLinks.jpg">
+      <publishTime>02/17/2017 18:12:26</publishTime>
+    </File>
     <File Include="Content/images/chungcu1_Photo - 16.jpg">
       <publishTime>05/27/2019 17:17:06</publishTime>
     </File>
     <File Include="Content/images/chungcu1_Photo - 16_Photo - 18.jpg">
       <publishTime>06/18/2019 14:01:37</publishTime>
     </File>
+    <File Include="Content/images/compare/icon-compare-area.svg">
+      <publishTime>02/17/2017 18:07:27</publishTime>
+    </File>
+    <File Include="Content/images/compare/icon-compare-beds.svg">
+      <publishTime>02/17/2017 18:07:25</publishTime>
+    </File>
+    <File Include="Content/images/compare/icon-compare-view.svg">
+      <publishTime>02/17/2017 18:07:24</publishTime>
+    </File>
+    <File Include="Content/images/dine/italian-buffet.jpg">
+      <publishTime>02/17/2017 18:08:21</publishTime>
+    </File>
+    <File Include="Content/images/dine/labaia.jpg">
+      <publishTime>02/17/2017 18:08:13</publishTime>
+    </File>
+    <File Include="Content/images/dine/mojito.jpg">
+      <publishTime>02/17/2017 18:08:16</publishTime>
+    </File>
+    <File Include="Content/images/dine/sandals.jpg">
+      <publishTime>02/17/2017 18:08:05</publishTime>
+    </File>
+    <File Include="Content/images/dine/seafood-bbq.jpg">
+      <publishTime>02/17/2017 18:08:10</publishTime>
+    </File>
+    <File Include="Content/images/dine/street-corner.jpg">
+      <publishTime>02/17/2017 18:08:02</publishTime>
+    </File>
+    <File Include="Content/images/dine/thumb1.jpg">
+      <publishTime>02/17/2017 18:08:24</publishTime>
+    </File>
+    <File Include="Content/images/dine/thumb2.jpg">
+      <publishTime>02/17/2017 18:08:00</publishTime>
+    </File>
+    <File Include="Content/images/dine/viet-buffet.jpg">
+      <publishTime>02/17/2017 18:08:07</publishTime>
+    </File>
     <File Include="Content/images/Du-lịch-Việt-Nam.jpg">
       <publishTime>06/06/2019 11:59:47</publishTime>
+    </File>
+    <File Include="Content/images/enjoyTheNight_640.jpg">
+      <publishTime>02/17/2017 18:07:52</publishTime>
+    </File>
+    <File Include="Content/images/enjoyTheNight_poster.jpg">
+      <publishTime>02/17/2017 18:14:02</publishTime>
+    </File>
+    <File Include="Content/images/explore/banner.jpg">
+      <publishTime>02/17/2017 18:07:50</publishTime>
+    </File>
+    <File Include="Content/images/explore/events.jpg">
+      <publishTime>02/17/2017 18:07:34</publishTime>
+    </File>
+    <File Include="Content/images/explore/muine.jpg">
+      <publishTime>02/17/2017 18:07:45</publishTime>
+    </File>
+    <File Include="Content/images/explore/nhatrang.jpg">
+      <publishTime>02/17/2017 18:07:40</publishTime>
+    </File>
+    <File Include="Content/images/explore/shop.jpg">
+      <publishTime>02/17/2017 18:07:43</publishTime>
+    </File>
+    <File Include="Content/images/explore/tours.jpg">
+      <publishTime>02/17/2017 18:07:30</publishTime>
+    </File>
+    <File Include="Content/images/explore/transfers.jpg">
+      <publishTime>02/17/2017 18:07:48</publishTime>
+    </File>
+    <File Include="Content/images/fountain_poster.jpg">
+      <publishTime>02/17/2017 18:15:11</publishTime>
+    </File>
+    <File Include="Content/images/gallery/slide1.jpg">
+      <publishTime>02/17/2017 18:14:40</publishTime>
+    </File>
+    <File Include="Content/images/gallery/slide2.jpg">
+      <publishTime>02/17/2017 18:14:47</publishTime>
+    </File>
+    <File Include="Content/images/gallery/slide3.jpg">
+      <publishTime>02/17/2017 18:14:20</publishTime>
+    </File>
+    <File Include="Content/images/gallery/slide4.jpg">
+      <publishTime>02/17/2017 18:14:28</publishTime>
+    </File>
+    <File Include="Content/images/gallery/slide5.jpg">
+      <publishTime>02/17/2017 18:14:49</publishTime>
+    </File>
+    <File Include="Content/images/gallery/slide6.jpg">
+      <publishTime>02/17/2017 18:14:52</publishTime>
+    </File>
+    <File Include="Content/images/gallery/slide7.jpg">
+      <publishTime>02/17/2017 18:14:44</publishTime>
+    </File>
+    <File Include="Content/images/gallery/slide8.jpg">
+      <publishTime>02/17/2017 18:14:56</publishTime>
+    </File>
+    <File Include="Content/images/gallery/thumbnail_1.jpg">
+      <publishTime>02/17/2017 18:14:32</publishTime>
+    </File>
+    <File Include="Content/images/gallery/thumbnail_2.jpg">
+      <publishTime>02/17/2017 18:14:35</publishTime>
+    </File>
+    <File Include="Content/images/gallery/thumbnail_3.jpg">
+      <publishTime>02/17/2017 18:14:22</publishTime>
+    </File>
+    <File Include="Content/images/gallery/thumbnail_4.jpg">
+      <publishTime>02/17/2017 18:14:17</publishTime>
+    </File>
+    <File Include="Content/images/gallery/thumbnail_5.jpg">
+      <publishTime>02/17/2017 18:14:24</publishTime>
+    </File>
+    <File Include="Content/images/gallery/thumbnail_6.jpg">
+      <publishTime>02/17/2017 18:14:30</publishTime>
+    </File>
+    <File Include="Content/images/gallery/thumbnail_7.jpg">
+      <publishTime>02/17/2017 18:14:37</publishTime>
+    </File>
+    <File Include="Content/images/gallery/thumbnail_8.jpg">
+      <publishTime>02/17/2017 18:14:58</publishTime>
+    </File>
+    <File Include="Content/images/getWet_640.jpg">
+      <publishTime>02/17/2017 18:12:49</publishTime>
+    </File>
+    <File Include="Content/images/getWet_poster.jpg">
+      <publishTime>02/17/2017 18:14:11</publishTime>
     </File>
     <File Include="Content/images/Ha Long.jpg">
       <publishTime>06/05/2019 10:03:38</publishTime>
@@ -3833,6 +4007,48 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/hot.jpg">
       <publishTime>06/03/2019 06:40:19</publishTime>
+    </File>
+    <File Include="Content/images/icon-beach.svg">
+      <publishTime>02/17/2017 18:14:07</publishTime>
+    </File>
+    <File Include="Content/images/icon-buffet.svg">
+      <publishTime>02/17/2017 18:14:08</publishTime>
+    </File>
+    <File Include="Content/images/icon-cooking-class.svg">
+      <publishTime>02/17/2017 18:08:26</publishTime>
+    </File>
+    <File Include="Content/images/icon-grill.svg">
+      <publishTime>02/17/2017 18:15:39</publishTime>
+    </File>
+    <File Include="Content/images/icon-iphone.svg">
+      <publishTime>02/17/2017 18:15:30</publishTime>
+    </File>
+    <File Include="Content/images/icon-noodles.svg">
+      <publishTime>02/17/2017 18:12:42</publishTime>
+    </File>
+    <File Include="Content/images/icon-pool.svg">
+      <publishTime>02/17/2017 18:12:17</publishTime>
+    </File>
+    <File Include="Content/images/icon-robe.svg">
+      <publishTime>02/17/2017 18:12:41</publishTime>
+    </File>
+    <File Include="Content/images/icon-scuba.svg">
+      <publishTime>02/17/2017 18:14:03</publishTime>
+    </File>
+    <File Include="Content/images/icon-shower.svg">
+      <publishTime>02/17/2017 18:15:16</publishTime>
+    </File>
+    <File Include="Content/images/icon-villa.html">
+      <publishTime>07/29/2019 16:53:50</publishTime>
+    </File>
+    <File Include="Content/images/icon-water-sports.svg">
+      <publishTime>02/17/2017 18:12:22</publishTime>
+    </File>
+    <File Include="Content/images/icon-xanh-spa.svg">
+      <publishTime>02/17/2017 18:06:55</publishTime>
+    </File>
+    <File Include="Content/images/icon-yoga.svg">
+      <publishTime>02/17/2017 18:12:37</publishTime>
     </File>
     <File Include="Content/images/icon/arrow-accordion.png">
       <publishTime>05/17/2019 14:54:55</publishTime>
@@ -3861,11 +4077,125 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/icon/vn_44.png">
       <publishTime>05/17/2019 14:54:55</publishTime>
     </File>
+    <File Include="Content/images/icon_area.svg">
+      <publishTime>02/17/2017 18:12:39</publishTime>
+    </File>
+    <File Include="Content/images/icon_area_2.svg">
+      <publishTime>02/17/2017 18:08:33</publishTime>
+    </File>
+    <File Include="Content/images/icon_arrow_down.svg">
+      <publishTime>02/17/2017 18:14:59</publishTime>
+    </File>
+    <File Include="Content/images/icon_arrow_down_1.svg">
+      <publishTime>02/17/2017 18:12:30</publishTime>
+    </File>
+    <File Include="Content/images/icon_arrow_down_2.svg">
+      <publishTime>02/17/2017 18:15:00</publishTime>
+    </File>
+    <File Include="Content/images/icon_arrow_down_solid.svg">
+      <publishTime>02/17/2017 18:15:04</publishTime>
+    </File>
+    <File Include="Content/images/icon_arrow_left.svg">
+      <publishTime>02/17/2017 18:12:18</publishTime>
+    </File>
+    <File Include="Content/images/icon_arrow_left_2.svg">
+      <publishTime>02/17/2017 18:14:14</publishTime>
+    </File>
+    <File Include="Content/images/icon_arrow_r.svg">
+      <publishTime>02/17/2017 18:15:41</publishTime>
+    </File>
+    <File Include="Content/images/icon_bathRoom.svg">
+      <publishTime>02/17/2017 18:15:33</publishTime>
+    </File>
+    <File Include="Content/images/icon_bathRoom_2.html">
+      <publishTime>07/29/2019 16:53:50</publishTime>
+    </File>
+    <File Include="Content/images/icon_BBQ.svg">
+      <publishTime>02/17/2017 18:07:21</publishTime>
+    </File>
+    <File Include="Content/images/icon_bedRoom.svg">
+      <publishTime>02/17/2017 18:12:54</publishTime>
+    </File>
+    <File Include="Content/images/icon_calendar.html">
+      <publishTime>07/29/2019 16:53:50</publishTime>
+    </File>
+    <File Include="Content/images/icon_clock.html">
+      <publishTime>07/29/2019 16:53:50</publishTime>
+    </File>
+    <File Include="Content/images/icon_close.png">
+      <publishTime>02/17/2017 18:12:38</publishTime>
+    </File>
+    <File Include="Content/images/icon_fb.svg">
+      <publishTime>02/17/2017 18:15:28</publishTime>
+    </File>
+    <File Include="Content/images/icon_garden_.svg">
+      <publishTime>02/12/2018 12:05:33</publishTime>
+    </File>
+    <File Include="Content/images/icon_kitchen.svg">
+      <publishTime>02/17/2017 18:14:13</publishTime>
+    </File>
+    <File Include="Content/images/icon_login.html">
+      <publishTime>07/29/2019 16:53:50</publishTime>
+    </File>
+    <File Include="Content/images/icon_long_arrow_grey.svg">
+      <publishTime>02/17/2017 18:15:20</publishTime>
+    </File>
+    <File Include="Content/images/icon_lounge.svg">
+      <publishTime>02/17/2017 18:12:32</publishTime>
+    </File>
+    <File Include="Content/images/icon_menu_mobile.png">
+      <publishTime>02/17/2017 18:15:18</publishTime>
+    </File>
+    <File Include="Content/images/icon_parttern.svg">
+      <publishTime>02/17/2017 18:15:05</publishTime>
+    </File>
+    <File Include="Content/images/icon_parttern_white.svg">
+      <publishTime>02/17/2017 18:12:43</publishTime>
+    </File>
+    <File Include="Content/images/icon_plus.html">
+      <publishTime>07/29/2019 16:53:50</publishTime>
+    </File>
+    <File Include="Content/images/icon_sun_.svg">
+      <publishTime>02/12/2018 12:05:25</publishTime>
+    </File>
+    <File Include="Content/images/icon_trip.svg">
+      <publishTime>02/17/2017 18:15:02</publishTime>
+    </File>
+    <File Include="Content/images/icon_tv_.svg">
+      <publishTime>02/12/2018 11:59:36</publishTime>
+    </File>
+    <File Include="Content/images/icon_tw.svg">
+      <publishTime>02/17/2017 18:06:53</publishTime>
+    </File>
+    <File Include="Content/images/icon_view.svg">
+      <publishTime>02/17/2017 18:15:26</publishTime>
+    </File>
+    <File Include="Content/images/induldge_640.jpg">
+      <publishTime>02/17/2017 18:15:38</publishTime>
+    </File>
+    <File Include="Content/images/induldge_poster.jpg">
+      <publishTime>02/17/2017 18:08:39</publishTime>
+    </File>
     <File Include="Content/images/logo.png">
       <publishTime>06/18/2019 15:22:21</publishTime>
     </File>
+    <File Include="Content/images/logo.svg">
+      <publishTime>08/01/2019 11:22:02</publishTime>
+    </File>
     <File Include="Content/images/logo1.png">
       <publishTime>05/21/2019 15:18:45</publishTime>
+    </File>
+    <File Include="Content/images/logo_labaia.svg">
+      <publishTime>02/17/2017 18:15:24</publishTime>
+    </File>
+    <File Include="Content/images/logo_mojito.svg">
+      <publishTime>02/17/2017 18:15:14</publishTime>
+    </File>
+    <File Include="Content/images/logo_sandals.svg">
+      <publishTime>02/17/2017 18:12:24</publishTime>
+    </File>
+    <File Include="Content/images/logo_xanh_spa_blue.svg">
+      <publishTime>02/17/2017 18:15:32</publishTime>
     </File>
     <File Include="Content/images/mas1.jpg">
       <publishTime>05/30/2019 11:15:51</publishTime>
@@ -3875,6 +4205,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/nhahang.jpg">
       <publishTime>05/30/2019 11:12:01</publishTime>
+    </File>
+    <File Include="Content/images/offer-popup-poster.jpg">
+      <publishTime>04/05/2017 08:05:41</publishTime>
     </File>
     <File Include="Content/images/phong.jpg">
       <publishTime>06/27/2019 08:37:08</publishTime>
@@ -3909,6 +4242,36 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/Phối cảnh tổng thể Hometel BeverlyHills Hạ Long.JPG">
       <publishTime>05/20/2019 10:41:57</publishTime>
     </File>
+    <File Include="Content/images/popup_bg.html">
+      <publishTime>07/29/2019 16:53:50</publishTime>
+    </File>
+    <File Include="Content/images/press/award-mr-mrs-smith.jpg">
+      <publishTime>02/17/2017 18:07:06</publishTime>
+    </File>
+    <File Include="Content/images/press/cnn-article.jpg">
+      <publishTime>02/17/2017 18:07:11</publishTime>
+    </File>
+    <File Include="Content/images/press/conde-nash.jpg">
+      <publishTime>02/17/2017 18:07:02</publishTime>
+    </File>
+    <File Include="Content/images/press/dest-zero.jpg">
+      <publishTime>02/17/2017 18:07:09</publishTime>
+    </File>
+    <File Include="Content/images/press/foody-top9.jpg">
+      <publishTime>06/26/2017 13:56:23</publishTime>
+    </File>
+    <File Include="Content/images/press/vn1.jpg">
+      <publishTime>02/17/2017 18:06:59</publishTime>
+    </File>
+    <File Include="Content/images/press/wanderluxe-yoga.jpg">
+      <publishTime>06/26/2017 13:56:19</publishTime>
+    </File>
+    <File Include="Content/images/revive_640.jpg">
+      <publishTime>02/17/2017 18:07:54</publishTime>
+    </File>
+    <File Include="Content/images/revive_poster.jpg">
+      <publishTime>02/17/2017 18:12:29</publishTime>
+    </File>
     <File Include="Content/images/rooms.jpg">
       <publishTime>05/27/2019 16:38:20</publishTime>
     </File>
@@ -3924,6 +4287,249 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/sev2.jpg">
       <publishTime>05/30/2019 09:00:14</publishTime>
     </File>
+    <File Include="Content/images/shape_2.png">
+      <publishTime>02/17/2017 18:08:35</publishTime>
+    </File>
+    <File Include="Content/images/shape_3.png">
+      <publishTime>02/17/2017 18:15:07</publishTime>
+    </File>
+    <File Include="Content/images/shape_4.png">
+      <publishTime>02/17/2017 18:07:14</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-23.jpg">
+      <publishTime>02/10/2018 16:38:21</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-28.jpg">
+      <publishTime>02/10/2018 16:38:25</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-29.jpg">
+      <publishTime>02/10/2018 16:38:30</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-34.jpg">
+      <publishTime>02/10/2018 16:38:35</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-35.jpg">
+      <publishTime>02/10/2018 16:38:45</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-39.jpg">
+      <publishTime>02/10/2018 16:38:48</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-42.jpg">
+      <publishTime>02/10/2018 16:38:57</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-51.jpg">
+      <publishTime>02/10/2018 16:39:11</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-52.jpg">
+      <publishTime>02/10/2018 16:39:30</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-60.jpg">
+      <publishTime>02/10/2018 16:39:39</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-62.jpg">
+      <publishTime>02/10/2018 16:39:48</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-64.jpg">
+      <publishTime>02/10/2018 16:40:00</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-66.jpg">
+      <publishTime>02/10/2018 16:40:10</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-69.jpg">
+      <publishTime>02/10/2018 16:40:20</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-70-.jpg">
+      <publishTime>02/10/2018 16:24:15</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-d1-.jpg">
+      <publishTime>02/12/2018 14:40:32</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-d2-.jpg">
+      <publishTime>02/12/2018 14:40:38</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-d3-.jpg">
+      <publishTime>02/12/2018 14:40:40</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-d4-.jpg">
+      <publishTime>02/12/2018 14:40:44</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-d5-.jpg">
+      <publishTime>02/12/2018 14:40:50</publishTime>
+    </File>
+    <File Include="Content/images/sleep/5br/New/5br-d6-.jpg">
+      <publishTime>02/12/2018 15:13:56</publishTime>
+    </File>
+    <File Include="Content/images/sleep/beachhouse.jpg">
+      <publishTime>02/17/2017 18:08:42</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo.jpg">
+      <publishTime>02/17/2017 18:11:45</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/family/family-condo-00.jpg">
+      <publishTime>02/17/2017 18:10:57</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/family/family-condo-01.jpg">
+      <publishTime>02/17/2017 18:10:42</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/family/family-condo-02.jpg">
+      <publishTime>02/17/2017 18:10:49</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/family/family-condo-03.jpg">
+      <publishTime>02/17/2017 18:10:55</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/family/family-condo-04.jpg">
+      <publishTime>02/17/2017 18:10:46</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/family/family-condo-FP.jpg">
+      <publishTime>02/17/2017 18:10:52</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/garden/garden-condo-00.jpg">
+      <publishTime>02/17/2017 18:11:25</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/garden/garden-condo-01.jpg">
+      <publishTime>02/17/2017 18:11:42</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/garden/garden-condo-02.jpg">
+      <publishTime>02/17/2017 18:11:32</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/garden/garden-condo-03.jpg">
+      <publishTime>02/17/2017 18:11:28</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/garden/garden-condo-04.jpg">
+      <publishTime>02/17/2017 18:11:40</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/garden/garden-condo-05.jpg">
+      <publishTime>02/17/2017 18:11:23</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/garden/garden-condo-06.jpg">
+      <publishTime>02/17/2017 18:11:34</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/garden/garden-condo-07.jpg">
+      <publishTime>02/17/2017 18:11:37</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/garden/garden-condo-FP.jpg">
+      <publishTime>02/17/2017 18:11:30</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/oceanview/oceanview-condo-00.jpg">
+      <publishTime>02/17/2017 18:11:15</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/oceanview/oceanview-condo-01.jpg">
+      <publishTime>02/17/2017 18:11:01</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/oceanview/oceanview-condo-02.jpg">
+      <publishTime>02/17/2017 18:11:17</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/oceanview/oceanview-condo-03.jpg">
+      <publishTime>02/17/2017 18:11:06</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/oceanview/oceanview-condo-04.jpg">
+      <publishTime>02/17/2017 18:11:03</publishTime>
+    </File>
+    <File Include="Content/images/sleep/condo/oceanview/oceanview-condo-FP.jpg">
+      <publishTime>02/17/2017 18:11:19</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suite/suite-00.jpg">
+      <publishTime>02/17/2017 18:12:08</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suite/suite-01.jpg">
+      <publishTime>02/17/2017 18:11:54</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suite/suite-02.jpg">
+      <publishTime>02/17/2017 18:12:14</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suite/suite-03.jpg">
+      <publishTime>02/17/2017 18:11:51</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suite/suite-04.jpg">
+      <publishTime>02/17/2017 18:11:48</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suite/suite-05.jpg">
+      <publishTime>02/17/2017 18:11:56</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suite/suite-06.jpg">
+      <publishTime>02/17/2017 18:11:59</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suite/suite-07.jpg">
+      <publishTime>02/17/2017 18:12:11</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suite/suite-08.jpg">
+      <publishTime>02/17/2017 18:12:03</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suite/suite-FP.jpg">
+      <publishTime>02/17/2017 18:12:06</publishTime>
+    </File>
+    <File Include="Content/images/sleep/suites.jpg">
+      <publishTime>02/17/2017 18:10:37</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/beachfront/beachfront-villa-00.jpg">
+      <publishTime>02/17/2017 18:09:32</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/beachfront/beachfront-villa-01.jpg">
+      <publishTime>02/17/2017 18:09:23</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/beachfront/beachfront-villa-02.jpg">
+      <publishTime>02/17/2017 18:09:40</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/beachfront/beachfront-villa-03.jpg">
+      <publishTime>02/17/2017 18:09:26</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/beachfront/beachfront-villa-04.jpg">
+      <publishTime>02/17/2017 18:09:35</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/beachfront/beachfront-villa-05.jpg">
+      <publishTime>02/17/2017 18:09:43</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/beachfront/beachfront-villa-FP.jpg">
+      <publishTime>02/17/2017 18:09:37</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/cliff/cliff-villa-00.jpg">
+      <publishTime>02/17/2017 18:10:23</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/cliff/cliff-villa-01.jpg">
+      <publishTime>02/17/2017 18:10:10</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/cliff/cliff-villa-02.jpg">
+      <publishTime>02/17/2017 18:10:13</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/cliff/cliff-villa-03.jpg">
+      <publishTime>02/17/2017 18:10:15</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/cliff/cliff-villa-04.jpg">
+      <publishTime>02/17/2017 18:10:08</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/cliff/cliff-villa-05.jpg">
+      <publishTime>02/17/2017 18:10:20</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/cliff/cliff-villa-06.jpg">
+      <publishTime>02/17/2017 18:10:26</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/cliff/cliff-villa-FP.jpg">
+      <publishTime>02/17/2017 18:10:17</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/garden/garden-villa-00.jpg">
+      <publishTime>02/17/2017 18:09:52</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/garden/garden-villa-01.jpg">
+      <publishTime>02/17/2017 18:09:58</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/garden/garden-villa-02.jpg">
+      <publishTime>02/17/2017 18:09:55</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/garden/garden-villa-03.jpg">
+      <publishTime>02/17/2017 18:09:49</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/garden/garden-villa-04.jpg">
+      <publishTime>02/17/2017 18:10:04</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/garden/garden-villa-05.jpg">
+      <publishTime>02/17/2017 18:10:01</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villa/garden/garden-villa-FP.jpg">
+      <publishTime>02/17/2017 18:09:47</publishTime>
+    </File>
+    <File Include="Content/images/sleep/villas.jpg">
+      <publishTime>02/17/2017 18:09:17</publishTime>
+    </File>
     <File Include="Content/images/slide1.jpg">
       <publishTime>05/17/2019 14:52:01</publishTime>
     </File>
@@ -3932,6 +4538,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/slider02.jpg">
       <publishTime>05/28/2019 14:47:06</publishTime>
+    </File>
+    <File Include="Content/images/smth.png">
+      <publishTime>08/09/2019 11:30:28</publishTime>
     </File>
     <File Include="Content/images/toancanh.jpg">
       <publishTime>06/18/2019 13:57:28</publishTime>
@@ -3957,11 +4566,122 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/tour4.jpg">
       <publishTime>06/03/2019 05:51:37</publishTime>
     </File>
+    <File Include="Content/images/tree.svg">
+      <publishTime>02/17/2017 18:14:06</publishTime>
+    </File>
     <File Include="Content/images/TUYEN PHO.jpg">
       <publishTime>05/20/2019 10:39:17</publishTime>
     </File>
+    <File Include="Content/images/unWind/banner.jpg">
+      <publishTime>02/17/2017 18:13:52</publishTime>
+    </File>
+    <File Include="Content/images/unWind/banner_640.jpg">
+      <publishTime>02/17/2017 18:13:06</publishTime>
+    </File>
+    <File Include="Content/images/unWind/cooking_class.jpg">
+      <publishTime>02/17/2017 18:13:01</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_bath.svg">
+      <publishTime>02/17/2017 18:13:26</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_bodyScrub.svg">
+      <publishTime>02/17/2017 18:13:57</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_body_wrap.svg">
+      <publishTime>02/17/2017 18:13:35</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_breakfast.svg">
+      <publishTime>02/17/2017 18:13:55</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_candelit.svg">
+      <publishTime>02/17/2017 18:13:09</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_facials.svg">
+      <publishTime>02/17/2017 18:13:25</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_maincure.svg">
+      <publishTime>02/17/2017 18:13:58</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_meditation.svg">
+      <publishTime>02/17/2017 18:13:19</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_message.svg">
+      <publishTime>02/17/2017 18:13:04</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_modern.svg">
+      <publishTime>02/17/2017 18:13:13</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_room_charge.svg">
+      <publishTime>02/17/2017 18:13:31</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_spa.svg">
+      <publishTime>02/17/2017 18:13:54</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_sparkling.svg">
+      <publishTime>02/17/2017 18:13:07</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_therapy.svg">
+      <publishTime>02/17/2017 18:13:02</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_tranfer.svg">
+      <publishTime>02/17/2017 18:13:17</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_waxing.svg">
+      <publishTime>02/17/2017 18:13:30</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_yoga_and_meditation.svg">
+      <publishTime>02/17/2017 18:13:10</publishTime>
+    </File>
+    <File Include="Content/images/unWind/icon_yoga_session.svg">
+      <publishTime>02/17/2017 18:13:23</publishTime>
+    </File>
+    <File Include="Content/images/unWind/meeting_and_event.jpg">
+      <publishTime>02/17/2017 18:13:16</publishTime>
+    </File>
+    <File Include="Content/images/unWind/revive.jpg">
+      <publishTime>02/17/2017 18:13:47</publishTime>
+    </File>
+    <File Include="Content/images/unWind/scube_dive.jpg">
+      <publishTime>02/17/2017 18:13:21</publishTime>
+    </File>
+    <File Include="Content/images/unWind/shape_1.png">
+      <publishTime>02/17/2017 18:13:28</publishTime>
+    </File>
+    <File Include="Content/images/unWind/sight_seeing.jpg">
+      <publishTime>02/17/2017 18:13:50</publishTime>
+    </File>
+    <File Include="Content/images/unWind/sport_facities.jpg">
+      <publishTime>02/17/2017 18:13:42</publishTime>
+    </File>
+    <File Include="Content/images/unWind/water_sport.jpg">
+      <publishTime>02/17/2017 18:12:57</publishTime>
+    </File>
+    <File Include="Content/images/unWind/wedding.jpg">
+      <publishTime>02/17/2017 18:13:34</publishTime>
+    </File>
+    <File Include="Content/images/unWind/yoga.jpg">
+      <publishTime>02/17/2017 18:13:45</publishTime>
+    </File>
     <File Include="Content/images/vietnamese.png">
       <publishTime>05/17/2019 14:52:00</publishTime>
+    </File>
+    <File Include="Content/images/wakeup_640.jpg">
+      <publishTime>02/17/2017 18:12:47</publishTime>
+    </File>
+    <File Include="Content/images/wakeup_poster.jpg">
+      <publishTime>02/17/2017 18:08:29</publishTime>
+    </File>
+    <File Include="Content/images/welcome_640.jpg">
+      <publishTime>02/17/2017 18:15:22</publishTime>
+    </File>
+    <File Include="Content/images/welcome_poster.jpg">
+      <publishTime>02/17/2017 18:12:35</publishTime>
+    </File>
+    <File Include="Content/images/world.png">
+      <publishTime>08/09/2019 11:30:28</publishTime>
+    </File>
+    <File Include="Content/images/Xanh-Spa-Menu.pdf">
+      <publishTime>02/17/2017 18:07:20</publishTime>
     </File>
     <File Include="Content/Img/aaa.png">
       <publishTime>06/19/2019 16:35:42</publishTime>
@@ -4074,8 +4794,26 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/Img/yoga.jpg">
       <publishTime>06/27/2019 14:50:55</publishTime>
     </File>
+    <File Include="Content/js/common.js">
+      <publishTime>08/01/2019 14:07:07</publishTime>
+    </File>
+    <File Include="Content/js/common30f4.js">
+      <publishTime>08/01/2019 14:32:02</publishTime>
+    </File>
     <File Include="Content/js/JavaScript.js">
       <publishTime>07/27/2019 15:13:04</publishTime>
+    </File>
+    <File Include="Content/js/jquery-3.1.1.min.js">
+      <publishTime>08/01/2019 10:07:30</publishTime>
+    </File>
+    <File Include="Content/js/jquery.address-1.6.min.js">
+      <publishTime>08/01/2019 10:07:30</publishTime>
+    </File>
+    <File Include="Content/js/jquery.easing.1.3.min.js">
+      <publishTime>08/01/2019 10:07:30</publishTime>
+    </File>
+    <File Include="Content/js/jquery.fullPage.js">
+      <publishTime>08/01/2019 10:07:30</publishTime>
     </File>
     <File Include="Content/js/jquery.js">
       <publishTime>06/19/2019 14:14:27</publishTime>
@@ -4092,8 +4830,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/js/layout_page.js">
       <publishTime>01/05/2018 10:34:44</publishTime>
     </File>
+    <File Include="Content/js/object-fit-videos.min.js">
+      <publishTime>08/01/2019 10:07:30</publishTime>
+    </File>
     <File Include="Content/js/scrollspy.js">
       <publishTime>06/18/2019 08:54:48</publishTime>
+    </File>
+    <File Include="Content/js/velocity.min.js">
+      <publishTime>08/01/2019 10:07:30</publishTime>
     </File>
     <File Include="Content/js/wow.min.js">
       <publishTime>05/24/2019 14:16:15</publishTime>
@@ -4470,8 +5214,1280 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/themes/base/minified/jquery.ui.tooltip.min.css">
       <publishTime>08/11/2014 15:31:48</publishTime>
     </File>
+    <File Include="Content/videos/Dine-web.mp4">
+      <publishTime>02/17/2017 18:18:43</publishTime>
+    </File>
+    <File Include="Content/videos/Dine-web.ogv">
+      <publishTime>02/17/2017 18:17:23</publishTime>
+    </File>
+    <File Include="Content/videos/Feet-in-water-web.mp4">
+      <publishTime>02/17/2017 18:19:01</publishTime>
+    </File>
+    <File Include="Content/videos/Feet-in-water-web.ogv">
+      <publishTime>02/17/2017 18:16:55</publishTime>
+    </File>
+    <File Include="Content/videos/Fire-web.mp4">
+      <publishTime>02/17/2017 18:17:15</publishTime>
+    </File>
+    <File Include="Content/videos/Fire-web.ogv">
+      <publishTime>02/17/2017 18:17:56</publishTime>
+    </File>
+    <File Include="Content/videos/Fountain-web.html">
+      <publishTime>07/29/2019 16:40:46</publishTime>
+    </File>
+    <File Include="Content/videos/Fountain-web.mp4">
+      <publishTime>02/17/2017 18:19:08</publishTime>
+    </File>
+    <File Include="Content/videos/Pool-web.mp4">
+      <publishTime>02/17/2017 18:18:52</publishTime>
+    </File>
+    <File Include="Content/videos/Pool-web.ogv">
+      <publishTime>02/17/2017 18:17:47</publishTime>
+    </File>
+    <File Include="Content/videos/Room-to-beach-web.mp4">
+      <publishTime>02/17/2017 18:17:32</publishTime>
+    </File>
+    <File Include="Content/videos/Room-to-beach-web.ogv">
+      <publishTime>02/17/2017 18:17:38</publishTime>
+    </File>
+    <File Include="Content/videos/Spa-web.mp4">
+      <publishTime>02/17/2017 18:18:29</publishTime>
+    </File>
+    <File Include="Content/videos/Spa-web.ogv">
+      <publishTime>02/17/2017 18:18:09</publishTime>
+    </File>
     <File Include="favicon.ico">
       <publishTime>07/25/2019 09:42:01</publishTime>
+    </File>
+    <File Include="files/files.zip">
+      <publishTime>07/31/2019 11:20:03</publishTime>
+    </File>
+    <File Include="files/files/6-1.jpg">
+      <publishTime>11/23/2016 04:55:10</publishTime>
+    </File>
+    <File Include="files/files/feedback-thumb-1.jpg">
+      <publishTime>08/05/2017 02:51:46</publishTime>
+    </File>
+    <File Include="files/files/Fire-web.mp4">
+      <publishTime>08/01/2019 09:44:10</publishTime>
+    </File>
+    <File Include="files/files/image-1.jpg">
+      <publishTime>07/22/2017 01:51:10</publishTime>
+    </File>
+    <File Include="files/files/image-2.jpg">
+      <publishTime>07/22/2017 01:51:16</publishTime>
+    </File>
+    <File Include="files/files/logo-Satek.png">
+      <publishTime>07/22/2017 01:50:18</publishTime>
+    </File>
+    <File Include="files/images/11%281%29.jpg">
+      <publishTime>07/24/2017 01:05:52</publishTime>
+    </File>
+    <File Include="files/images/11.jpg">
+      <publishTime>07/12/2017 07:24:30</publishTime>
+    </File>
+    <File Include="files/images/Article/Delux-2.jpg">
+      <publishTime>11/23/2016 04:32:18</publishTime>
+    </File>
+    <File Include="files/images/banner/banner-01.jpg">
+      <publishTime>01/13/2016 16:20:08</publishTime>
+    </File>
+    <File Include="files/images/banner/banner-02.jpg">
+      <publishTime>01/13/2016 16:20:44</publishTime>
+    </File>
+    <File Include="files/images/banner/banner-03.jpg">
+      <publishTime>01/13/2016 16:21:38</publishTime>
+    </File>
+    <File Include="files/images/banner/banner-04.jpg">
+      <publishTime>01/13/2016 16:22:20</publishTime>
+    </File>
+    <File Include="files/images/banner/image-1.jpg">
+      <publishTime>07/12/2017 07:01:16</publishTime>
+    </File>
+    <File Include="files/images/banner/image-2.jpg">
+      <publishTime>07/12/2017 07:01:04</publishTime>
+    </File>
+    <File Include="files/images/comment/English.png">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/comment/logo.png">
+      <publishTime>01/13/2016 09:05:38</publishTime>
+    </File>
+    <File Include="files/images/comment/Superior-2.jpg">
+      <publishTime>11/23/2016 04:31:52</publishTime>
+    </File>
+    <File Include="files/images/comment/vietnamese.png">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/gallery/11.jpg">
+      <publishTime>07/12/2017 07:13:36</publishTime>
+    </File>
+    <File Include="files/images/gallery/13.jpg">
+      <publishTime>07/12/2017 07:13:42</publishTime>
+    </File>
+    <File Include="files/images/gallery/banner-1.jpg">
+      <publishTime>11/23/2016 04:48:16</publishTime>
+    </File>
+    <File Include="files/images/gallery/collage_2.jpg">
+      <publishTime>11/23/2016 04:48:10</publishTime>
+    </File>
+    <File Include="files/images/gallery/collage_2_500x400.jpg">
+      <publishTime>11/23/2016 08:02:02</publishTime>
+    </File>
+    <File Include="files/images/gallery/cổng-trời-sapa-1.jpg">
+      <publishTime>02/21/2017 09:57:02</publishTime>
+    </File>
+    <File Include="files/images/logo-Satek.png">
+      <publishTime>07/12/2017 03:53:22</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/aaa.png">
+      <publishTime>07/24/2019 11:09:36</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/bannercontact.jpg">
+      <publishTime>07/24/2019 16:55:03</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/beboi1 1900 x 800.jpg">
+      <publishTime>07/23/2019 16:22:57</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/champaka.jpg">
+      <publishTime>07/23/2019 16:20:08</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/classes.jpg">
+      <publishTime>07/23/2019 16:21:04</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/deal1.jpg">
+      <publishTime>07/23/2019 17:25:13</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/halong2.jpg">
+      <publishTime>07/24/2019 10:51:57</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/halong3.jpg">
+      <publishTime>07/23/2019 17:27:38</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/logo1.png">
+      <publishTime>07/24/2019 11:08:41</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/Phoi canh sky bar %281%29 3000 x 2200.jpg">
+      <publishTime>07/23/2019 15:42:41</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/Phoi canh sky bar %282%29.jpg">
+      <publishTime>07/23/2019 15:42:41</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/Phoi canh sky bar %283%29.jpg">
+      <publishTime>07/23/2019 15:42:42</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/Phoi canh sky bar %284%29.jpg">
+      <publishTime>07/23/2019 15:42:42</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/Phoi canh sky bar %285%29.jpg">
+      <publishTime>07/23/2019 15:42:43</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/Phoi canh sky bar %286%29.jpg">
+      <publishTime>07/23/2019 15:42:43</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/Phoi canh sky bar %287%29.jpg">
+      <publishTime>07/23/2019 15:42:43</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-1-min.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-1.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-2-min.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-2.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-3-min.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-3.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-4-min.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-4.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-5-min.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-5.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-6-min.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-6.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-7-min.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-7.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-8-min.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/restaurant-8.jpg">
+      <publishTime>01/18/2016 08:21:46</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/stay02.jpg">
+      <publishTime>07/23/2019 17:28:49</publishTime>
+    </File>
+    <File Include="files/images/Restaurant/stay03.jpg">
+      <publishTime>07/23/2019 17:29:27</publishTime>
+    </File>
+    <File Include="files/images/Room/CD4 - WC.jpg">
+      <publishTime>07/22/2019 14:47:32</publishTime>
+    </File>
+    <File Include="files/images/Room/CD5 - WC.jpg">
+      <publishTime>07/22/2019 14:46:03</publishTime>
+    </File>
+    <File Include="files/images/Room/executive_rooms-gal1_1348139357.jpg">
+      <publishTime>01/13/2016 11:49:18</publishTime>
+    </File>
+    <File Include="files/images/Room/exec_family_room.jpg">
+      <publishTime>01/13/2016 11:49:28</publishTime>
+    </File>
+    <File Include="files/images/Room/Gulf-Hotel-Bahrain---Luxury-5-star-hotel-in-Bahrain---Luxury-Room-Bathroom_0.jpg">
+      <publishTime>01/13/2016 11:49:04</publishTime>
+    </File>
+    <File Include="files/images/Room/Hotel-suite-living-room.jpg">
+      <publishTime>01/13/2016 11:48:56</publishTime>
+    </File>
+    <File Include="files/images/Room/Interior_Hotel_Room_033155_.jpg">
+      <publishTime>01/13/2016 11:48:42</publishTime>
+    </File>
+    <File Include="files/images/Room/luxury-modern-hotel-room-interior-design-ideas.jpg">
+      <publishTime>01/13/2016 11:48:30</publishTime>
+    </File>
+    <File Include="files/images/Room/renaissance_room.jpg">
+      <publishTime>01/13/2016 11:48:18</publishTime>
+    </File>
+    <File Include="files/images/Room/universal-hardrock-room.jpg">
+      <publishTime>01/13/2016 11:47:26</publishTime>
+    </File>
+    <File Include="files/images/Service/images.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/Signature-Cruise.jpg">
+      <publishTime>07/24/2017 01:04:10</publishTime>
+    </File>
+    <File Include="files/images/The-Au-Co-Cruises.jpg">
+      <publishTime>07/24/2017 01:04:16</publishTime>
+    </File>
+    <File Include="files/images/tours/15.jpg">
+      <publishTime>07/25/2017 03:13:12</publishTime>
+    </File>
+    <File Include="files/images/tours/banner 3.jpg">
+      <publishTime>07/22/2019 16:09:18</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-1-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-1.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-2-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-2.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-3-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-3.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-4-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-4.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-5-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-5.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-6-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-6.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-7-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-7.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-8-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-8.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Ceramic-Village.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-1-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-1.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-2-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-2.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-3-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-3.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-4-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-4.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-5-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-5.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-8-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/battrangdongky/BatTrang.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-1-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-1.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-2-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-2.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-3-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-3.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-4-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-4.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-5-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-5.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-6-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-6.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-7-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-7.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-8-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-8.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-9-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-9.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/duong-lam.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/DuongLam.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/auco-cruise-vietnamcruisedeals.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-1-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-1.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-2-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-2.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-3-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-3.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-4-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-4.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-5-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-5.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-6-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-6.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-7%281%29.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-7-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-7.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-8-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-8.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-9-min.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-9.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Halong-tour-1-day.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/HalongBay.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/Hanoi-City-Tour-full-day-6.jpg">
+      <publishTime>01/18/2016 09:43:56</publishTime>
+    </File>
+    <File Include="files/images/tours/dailytours/hanoidailytours/halong1day/wedding-cruises-ship-sunset.jpg">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halong4.jpg">
+      <publishTime>07/22/2019 15:58:30</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/buffet-brunch.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Double.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/factsheet.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Family-Suite.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Luxury-balcony.JPG">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Luxury-twin.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Luxury-WC.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/overview.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/res.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Suite-WC.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Sundeck.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Sunrise-taichi.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Terrace-suite-inside.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Terrace-suite.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/aphroditecruise/Twin-balcony.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-1-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-1.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-10-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-10.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-11-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-11.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-12.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-2-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-2.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-3-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-3.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-4-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-4.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-5-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-5.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-6-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-6.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-7-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-7.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-8-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-8.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-9-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise-9.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/dragonpearlcruise/Dragon-Pearl-Cruise.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Elite-Family-Suite-1.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Elite-Family-Suite-3.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Elite-Family-Suite-4---connecting.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Exclusive-Family-Suite-2.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Halong-Office-1.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Jacuzzi-Bathroom-2.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Jacuzzi-Bathroom-3.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Junior-Suite-3---Twin.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Junior-Suite-Double.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Sampan.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Senior-Suite-1.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Senior-Suite-2.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/service.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/SHC-Bar-5.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/SHC-Overview-4.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/SHC-Restaurant-1.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Signature-Cruise-Pic-105.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/deluxecruises/SignatureCruise/Signature-Cruise-Pic-88.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-1-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-1.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-10-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-10.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-12-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-12.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-13-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-13.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-14-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-14.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-15-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-15.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-16.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-2-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-2.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-3.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-9-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-10-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-10.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-11-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-11.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-12.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-2-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-2.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-4-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-4.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-5-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-5.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-6-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-6.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-7-min.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-7.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-8.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line-9.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/images/tours/halongbaycruises/standardcruses/grayline/gray-line.jpg">
+      <publishTime>05/10/2015 19:51:00</publishTime>
+    </File>
+    <File Include="files/_thumbs/Files/6-1.jpg">
+      <publishTime>11/23/2016 04:55:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/Files/feedback-thumb-1.jpg">
+      <publishTime>08/05/2017 02:51:46</publishTime>
+    </File>
+    <File Include="files/_thumbs/Files/image-1.jpg">
+      <publishTime>07/22/2017 01:51:10</publishTime>
+    </File>
+    <File Include="files/_thumbs/Files/image-2.jpg">
+      <publishTime>07/22/2017 01:51:16</publishTime>
+    </File>
+    <File Include="files/_thumbs/Files/logo-Satek.png">
+      <publishTime>07/22/2017 01:50:18</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/11%281%29.jpg">
+      <publishTime>07/24/2017 01:05:52</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/11.jpg">
+      <publishTime>07/12/2017 07:24:30</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Article/Delux-2.jpg">
+      <publishTime>11/23/2016 04:32:20</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/banner/banner-01.jpg">
+      <publishTime>01/13/2016 16:26:04</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/banner/banner-02.jpg">
+      <publishTime>01/13/2016 16:26:04</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/banner/banner-03.jpg">
+      <publishTime>01/13/2016 16:26:04</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/banner/banner-04.jpg">
+      <publishTime>01/13/2016 16:26:04</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/banner/image-1.jpg">
+      <publishTime>07/12/2017 07:01:16</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/banner/image-2.jpg">
+      <publishTime>07/12/2017 07:01:04</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/comment/English.png">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/comment/logo.png">
+      <publishTime>01/13/2016 09:05:38</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/comment/Superior-2.jpg">
+      <publishTime>11/23/2016 04:31:54</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/comment/vietnamese.png">
+      <publishTime>05/10/2015 19:50:00</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/gallery/11.jpg">
+      <publishTime>07/12/2017 07:13:36</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/gallery/13.jpg">
+      <publishTime>07/12/2017 07:13:42</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/gallery/banner-1.jpg">
+      <publishTime>11/23/2016 04:48:16</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/gallery/collage_2.jpg">
+      <publishTime>11/23/2016 04:48:10</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/gallery/collage_2_500x400.jpg">
+      <publishTime>11/23/2016 08:02:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/gallery/cổng-trời-sapa-1.jpg">
+      <publishTime>02/21/2017 09:57:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/logo-Satek.png">
+      <publishTime>07/12/2017 03:53:22</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/aaa.png">
+      <publishTime>07/24/2019 11:09:36</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/bannercontact.jpg">
+      <publishTime>07/24/2019 16:55:03</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/beboi1 1900 x 800.jpg">
+      <publishTime>07/23/2019 16:22:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/champaka.jpg">
+      <publishTime>07/23/2019 16:20:08</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/classes.jpg">
+      <publishTime>07/23/2019 16:21:04</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/deal1.jpg">
+      <publishTime>07/23/2019 17:25:14</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/halong2.jpg">
+      <publishTime>07/24/2019 10:51:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/halong3.jpg">
+      <publishTime>07/23/2019 17:27:39</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/logo1.png">
+      <publishTime>07/24/2019 11:08:42</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/Phoi canh sky bar %281%29 3000 x 2200.jpg">
+      <publishTime>07/23/2019 15:42:43</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/Phoi canh sky bar %282%29.jpg">
+      <publishTime>07/23/2019 15:42:44</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/Phoi canh sky bar %283%29.jpg">
+      <publishTime>07/23/2019 15:42:44</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/Phoi canh sky bar %284%29.jpg">
+      <publishTime>07/23/2019 15:42:44</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/Phoi canh sky bar %285%29.jpg">
+      <publishTime>07/23/2019 15:42:44</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/Phoi canh sky bar %286%29.jpg">
+      <publishTime>07/23/2019 15:42:44</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/Phoi canh sky bar %287%29.jpg">
+      <publishTime>07/23/2019 16:22:25</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-1-min.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-1.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-2-min.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-2.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-3-min.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-3.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-4-min.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-4.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-5-min.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-5.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-6-min.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-6.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-7-min.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-7.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-8-min.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/restaurant-8.jpg">
+      <publishTime>01/18/2016 08:21:48</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/stay02.jpg">
+      <publishTime>07/23/2019 17:28:50</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Restaurant/stay03.jpg">
+      <publishTime>07/23/2019 17:29:28</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/CD4 - WC.jpg">
+      <publishTime>07/22/2019 14:47:32</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/CD5 - WC.jpg">
+      <publishTime>07/22/2019 14:46:03</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/executive_rooms-gal1_1348139357.jpg">
+      <publishTime>01/13/2016 09:06:08</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/exec_family_room.jpg">
+      <publishTime>01/13/2016 09:06:08</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/Gulf-Hotel-Bahrain---Luxury-5-star-hotel-in-Bahrain---Luxury-Room-Bathroom_0.jpg">
+      <publishTime>01/13/2016 11:51:54</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/Hotel-suite-living-room.jpg">
+      <publishTime>01/13/2016 09:06:08</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/Interior_Hotel_Room_033155_.jpg">
+      <publishTime>01/13/2016 09:06:08</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/luxury-modern-hotel-room-interior-design-ideas.jpg">
+      <publishTime>01/13/2016 09:06:08</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/renaissance_room.jpg">
+      <publishTime>01/13/2016 09:06:08</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/universal-hardrock-room.jpeg">
+      <publishTime>01/13/2016 09:06:08</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Room/universal-hardrock-room.jpg">
+      <publishTime>01/13/2016 11:51:54</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Service/images.jpg">
+      <publishTime>01/13/2016 09:06:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/Signature-Cruise.jpg">
+      <publishTime>07/24/2017 01:04:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/The-Au-Co-Cruises.jpg">
+      <publishTime>07/24/2017 01:04:16</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/15.jpg">
+      <publishTime>07/25/2017 03:13:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/banner 3.jpg">
+      <publishTime>07/22/2019 16:09:18</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-1-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-1.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-2-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-2.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-3-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-3.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-4-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-4.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-5-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-5.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-6-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-6.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-7-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-7.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-8-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangceramicvillagevanphucsilk/Bat-Trang-Van-Phuc-8.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Ceramic-Village.jpg">
+      <publishTime>01/18/2016 09:37:00</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-1-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-1.jpg">
+      <publishTime>01/18/2016 09:37:00</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-2-min.jpg">
+      <publishTime>01/18/2016 09:37:00</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-2.jpg">
+      <publishTime>01/18/2016 09:37:00</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-3-min.jpg">
+      <publishTime>01/18/2016 09:37:00</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-3.jpg">
+      <publishTime>01/18/2016 09:37:00</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-4-min.jpg">
+      <publishTime>01/18/2016 09:37:00</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-4.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-5-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-5.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/Bat-Trang-Dong-Ky-8-min.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/battrangdongky/BatTrang.jpg">
+      <publishTime>01/18/2016 09:37:02</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-1-min.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-1.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-2-min.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-2.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-3-min.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-3.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-4-min.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-4.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-5-min.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-5.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-6-min.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-6.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-7-min.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-7.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-8-min.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-8.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-9-min.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/Duong-Lam-Village-9.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/duong-lam.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/duonglamvillagevietancient/DuongLam.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/auco-cruise-vietnamcruisedeals.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-1-min.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-1.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-2-min.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-2.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-3-min.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-3.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-4-min.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-4.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-5-min.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-5.jpg">
+      <publishTime>01/18/2016 09:36:58</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-6-min.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-6.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-7%281%29.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-7-min.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-7.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-8-min.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-8.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-9-min.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-Tour-1-Day-9.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Halong-tour-1-day.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/HalongBay.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/Hanoi-City-Tour-full-day-6.jpg">
+      <publishTime>01/18/2016 09:43:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/dailytours/hanoidailytours/halong1day/wedding-cruises-ship-sunset.jpg">
+      <publishTime>01/18/2016 09:36:56</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halong4.jpg">
+      <publishTime>07/22/2019 15:58:30</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-1-min.jpg">
+      <publishTime>01/19/2016 04:07:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-1.jpg">
+      <publishTime>01/19/2016 04:07:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-10-min.jpg">
+      <publishTime>01/19/2016 04:07:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-10.jpg">
+      <publishTime>01/19/2016 04:07:14</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-12-min.jpg">
+      <publishTime>01/19/2016 04:07:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-12.jpg">
+      <publishTime>01/19/2016 04:07:14</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-13-min.jpg">
+      <publishTime>01/19/2016 04:07:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-13.jpg">
+      <publishTime>01/19/2016 04:07:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-14-min.jpg">
+      <publishTime>01/19/2016 04:07:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-14.jpg">
+      <publishTime>01/19/2016 04:07:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-15-min.jpg">
+      <publishTime>01/19/2016 04:07:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-15.jpg">
+      <publishTime>01/19/2016 04:07:14</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-16.jpg">
+      <publishTime>01/19/2016 04:07:14</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-2-min.jpg">
+      <publishTime>01/19/2016 04:07:12</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-2.jpg">
+      <publishTime>01/19/2016 04:07:14</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-3.jpg">
+      <publishTime>01/19/2016 04:07:14</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises-9-min.jpg">
+      <publishTime>01/19/2016 04:07:14</publishTime>
+    </File>
+    <File Include="files/_thumbs/images/tours/halongbaycruises/standardcruses/Calypsocruise/Calypso-cruises.jpg">
+      <publishTime>01/19/2016 04:07:14</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>08/11/2014 00:40:44</publishTime>
@@ -5712,6 +7728,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Plugins/isotope/isotope.pkgd.min.js">
       <publishTime>04/21/2017 01:56:56</publishTime>
     </File>
+    <File Include="Plugins/jquery-ui/AUTHORS.txt">
+      <publishTime>03/29/2017 00:05:08</publishTime>
+    </File>
     <File Include="Plugins/jquery-ui/css/jquery-ui-1.8.7.custom-blue.css">
       <publishTime>08/12/2014 06:16:04</publishTime>
     </File>
@@ -5762,6 +7781,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Plugins/jquery-ui/css/Theme/jquery-ui.theme.css">
       <publishTime>11/12/2014 07:38:10</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/external/jquery/jquery-3.2.1.min.js">
+      <publishTime>04/22/2017 03:16:34</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/external/jquery/jquery.js">
+      <publishTime>03/29/2017 00:05:08</publishTime>
     </File>
     <File Include="Plugins/jquery-ui/images/animated-overlay.gif">
       <publishTime>08/12/2014 06:16:06</publishTime>
@@ -5865,6 +7890,33 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Plugins/jquery-ui/images/ui-icons_ffffff_256x240.png">
       <publishTime>03/29/2017 00:05:08</publishTime>
     </File>
+    <File Include="Plugins/jquery-ui/index.html">
+      <publishTime>03/29/2017 00:05:08</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/jquery-ui.css">
+      <publishTime>03/29/2017 00:05:08</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/jquery-ui.js">
+      <publishTime>03/29/2017 00:05:08</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/jquery-ui.min.css">
+      <publishTime>03/29/2017 00:05:08</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/jquery-ui.min.js">
+      <publishTime>03/29/2017 00:05:10</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/jquery-ui.structure.css">
+      <publishTime>03/29/2017 00:05:10</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/jquery-ui.structure.min.css">
+      <publishTime>03/29/2017 00:05:10</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/jquery-ui.theme.css">
+      <publishTime>04/26/2017 07:27:12</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/jquery-ui.theme.min.css">
+      <publishTime>03/29/2017 00:05:10</publishTime>
+    </File>
     <File Include="Plugins/jquery-ui/js/jquery-1.9.1.js">
       <publishTime>08/12/2014 06:16:06</publishTime>
     </File>
@@ -5882,6 +7934,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Plugins/jquery-ui/js/jquery-ui.js">
       <publishTime>08/12/2014 06:16:06</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/LICENSE.txt">
+      <publishTime>03/29/2017 00:05:10</publishTime>
+    </File>
+    <File Include="Plugins/jquery-ui/package.json">
+      <publishTime>03/29/2017 00:05:10</publishTime>
     </File>
     <File Include="Plugins/Mode-check/modecheckone.css">
       <publishTime>09/29/2015 22:40:05</publishTime>
@@ -7045,10 +9103,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/24/2015 11:12:58</publishTime>
     </File>
     <File Include="Views/Booking/MakeReservation.cshtml">
-      <publishTime>07/29/2019 09:48:26</publishTime>
+      <publishTime>08/13/2019 16:30:05</publishTime>
     </File>
     <File Include="Views/Booking/Messages.cshtml">
-      <publishTime>07/26/2019 10:15:18</publishTime>
+      <publishTime>08/13/2019 14:21:00</publishTime>
     </File>
     <File Include="Views/Booking/SelectDate.cshtml">
       <publishTime>09/30/2015 16:02:18</publishTime>
@@ -7066,7 +9124,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2019 17:51:12</publishTime>
     </File>
     <File Include="Views/BookingTour/Messages.cshtml">
-      <publishTime>10/02/2017 09:22:54</publishTime>
+      <publishTime>08/06/2019 09:53:47</publishTime>
     </File>
     <File Include="Views/Home/404.cshtml">
       <publishTime>12/04/2014 08:38:25</publishTime>
@@ -7081,28 +9139,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2019 17:34:49</publishTime>
     </File>
     <File Include="Views/Home/Article/ListArticle.cshtml">
-      <publishTime>07/29/2019 17:39:55</publishTime>
+      <publishTime>08/10/2019 13:59:54</publishTime>
     </File>
     <File Include="Views/Home/Article/Meeting.cshtml">
       <publishTime>07/27/2019 17:17:46</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>07/31/2019 10:43:03</publishTime>
+      <publishTime>08/10/2019 13:59:54</publishTime>
     </File>
     <File Include="Views/Home/Error.cshtml">
       <publishTime>11/04/2014 07:07:52</publishTime>
     </File>
+    <File Include="Views/Home/Explore.cshtml">
+      <publishTime>08/10/2019 13:59:54</publishTime>
+    </File>
     <File Include="Views/Home/Gallery.cshtml">
-      <publishTime>01/18/2018 02:39:42</publishTime>
+      <publishTime>08/10/2019 13:59:54</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/31/2019 10:24:13</publishTime>
+      <publishTime>08/12/2019 16:48:22</publishTime>
     </File>
     <File Include="Views/Home/ListHotel.cshtml">
       <publishTime>09/30/2015 08:56:21</publishTime>
     </File>
     <File Include="Views/Home/Location.cshtml">
-      <publishTime>07/22/2019 11:17:46</publishTime>
+      <publishTime>08/10/2019 13:59:46</publishTime>
     </File>
     <File Include="Views/Home/Messages.cshtml">
       <publishTime>10/02/2017 09:19:58</publishTime>
@@ -7111,22 +9172,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/27/2019 17:10:54</publishTime>
     </File>
     <File Include="Views/Home/Room/DetailRoom.cshtml">
-      <publishTime>07/31/2019 11:07:15</publishTime>
+      <publishTime>08/13/2019 09:31:30</publishTime>
     </File>
     <File Include="Views/Home/Room/ListRoom.cshtml">
-      <publishTime>07/22/2019 11:15:22</publishTime>
+      <publishTime>08/13/2019 09:11:02</publishTime>
     </File>
     <File Include="Views/Home/Service/DetailService.cshtml">
       <publishTime>01/18/2018 02:38:40</publishTime>
     </File>
     <File Include="Views/Home/Service/ListService.cshtml">
-      <publishTime>07/27/2019 17:17:46</publishTime>
+      <publishTime>08/10/2019 15:01:43</publishTime>
     </File>
     <File Include="Views/Home/Tour/Booktour.cshtml">
       <publishTime>09/30/2015 15:39:45</publishTime>
     </File>
     <File Include="Views/Home/Tour/DetailTour.cshtml">
-      <publishTime>07/30/2019 08:21:05</publishTime>
+      <publishTime>08/09/2019 10:22:11</publishTime>
     </File>
     <File Include="Views/Home/Tour/ListTour.cshtml">
       <publishTime>07/29/2019 08:37:32</publishTime>
@@ -7168,7 +9229,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/24/2015 11:12:54</publishTime>
     </File>
     <File Include="Views/Shared/Menu/MainMenus.cshtml">
-      <publishTime>07/26/2019 11:42:37</publishTime>
+      <publishTime>08/09/2019 17:05:25</publishTime>
     </File>
     <File Include="Views/Shared/Menu/MenuTop.cshtml">
       <publishTime>09/29/2015 22:13:05</publishTime>
@@ -7180,16 +9241,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/05/2016 11:14:44</publishTime>
     </File>
     <File Include="Views/Shared/Slider/Slider.cshtml">
-      <publishTime>07/31/2019 10:29:08</publishTime>
+      <publishTime>08/10/2019 13:56:50</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutPage.cshtml">
-      <publishTime>07/30/2019 15:08:31</publishTime>
+      <publishTime>08/13/2019 10:36:29</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>08/28/2014 02:33:36</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/31/2019 11:29:29</publishTime>
+      <publishTime>08/13/2019 16:31:36</publishTime>
     </File>
   </ItemGroup>
 </Project>

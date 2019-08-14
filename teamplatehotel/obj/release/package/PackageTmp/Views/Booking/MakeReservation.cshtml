@@ -12,7 +12,8 @@
 <link href="~/Plugins/jquery-ui/css/Theme/jquery-ui.css" rel="stylesheet" />
 <link href="~/Plugins/Validate/jquery-validation-1.13.1/jquery-validation.css" rel="stylesheet" />
 <script src="~/Plugins/Validate/jquery-validation-1.13.1/jquery.validate.min.js"></script>
-
+<script src="~/Content/js/jquery-3.1.1.min.js"></script>
+@*<link href="~/Content/css/reponsive/style.css" rel="stylesheet" />*@
 @*<section class="breadcrumb-area overlay-dark-2 bg-2">
         <div class="container">
             <div class="row">
@@ -26,18 +27,34 @@
     .form-control, label, td, .form-group {
         font-size: 17px;
     }
-    .btn-primary{
-        padding:1em;
-        min-height:3em;
-        min-width:8em;
-        color:white;
+
+    .btn-primary {
+        padding: 1em;
+        min-height: 3em;
+        min-width: 8em;
+        color: white;
+    }
+
+    h1, label, .form-group, span {
+        color: #523737;
+    }
+    label,.form-group,span{
+        text-align:left;
+    }
+    h1{
+        font-size:36px;
+    }
+    label.error{
+        color:red !important;
     }
 </style>
+@Html.Partial("Menu/MainMenus")
+@Html.Partial("Slider/Slider")
 <div class="container" style="margin-top:2em">
     <h1>@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "BookingNow")</h1>
 </div>
-<div class="container n-ding">
-    <div class="row">
+<div class="row n-ding">
+    <div class="container ">
         <div class=" Rocks">
             <div class="send-email  " style="visibility: visible; animation-name: fadeInDown;">
                 <div id="main-contact-form" class="contact-form">
@@ -101,7 +118,7 @@
                                 </table>
                                 @for (int i = 0; i < Model.ListRoomBookings.Count; i++)
                                 {
-                                    <div id="content_@i" class="detail-info-room">
+                                    <div id="content_@i" class="detail-info-room" style="text-align:left">
                                         @Html.Raw(@Model.ListRoomBookings[i].Content);
                                     </div>
                                 }
@@ -393,7 +410,7 @@
 
                                 <div class="form-group">
                                     @GetLanguage.Language(Request.Cookies["LanguageID"].Value, "ArrivalTime")<br>
-                                    <input type="text" name="City" value="" size="40" class="form-control">
+                                    <input type="text" name="ArrivalTime" value="" size="40" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     @GetLanguage.Language(Request.Cookies["LanguageID"].Value, "OrtherRequest") <br>
@@ -409,7 +426,7 @@
                             <div class="col-md-12" style="margin-top: 20px;">
                                 <input type="submit" value="@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Send")" class="btn btn-primary">
                             </div>
-                            <div id="condition" >
+                            <div id="condition">
                                 @Html.Raw(hotel.Condition)
                             </div>
                         </div>
@@ -426,7 +443,10 @@
 <div id="wraploadding">
     <div id="imgloadding"><img src="/Areas/Administrator/Content/img/ajax-loader.gif" alt="loading" /></div>
 </div>
+
+@*<script src="~/Content/js/jquery-3.1.1.min.js"></script>*@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 <script>
 
     $(document).ready(function () {
@@ -457,89 +477,91 @@
 
 
 
-      
+
     });
 
 
 
 </script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+
 <script>
     //$(document).ready(function () {
-        function ShowDetailInfoRoom(param) {
-            var code = $(param).attr("id");
-            console.log(code);
-            var detailInfoRoom = $("#content_" + code);
-            detailInfoRoom.dialog("open");
-            $(".ui-dialog-titlebar-close").text("x");
-         
-        }
+    function ShowDetailInfoRoom(param) {
+        var code = $(param).attr("id");
+        console.log(code);
+        var detailInfoRoom = $("#content_" + code);
+        detailInfoRoom.dialog("open");
+        $(".ui-dialog-titlebar-close").text("x");
 
-        function ShowCondition() {
-            $("#condition").dialog("open");
-        }
+    }
 
-        function SelectRoom() {
-            var cout = 0;
-            $(".select-room").each(function () {
-                cout += parseInt($(this).val());
-            });
-            console.log(cout);
-            if (cout > 0) {
-                return true;
+    function ShowCondition() {
+        $("#condition").dialog("open");
+    }
+
+    function SelectRoom() {
+        var cout = 0;
+        $(".select-room").each(function () {
+            cout += parseInt($(this).val());
+        });
+        console.log(cout);
+        if (cout > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    };
+
+    $("#wraploadding").hide();
+    function LoadingSendEmail() {
+        $("#wraploadding").show();
+        $("#wraploadding").css("width", $(window).width());
+        $("#wraploadding").css("height", $(window).height());
+        $("#imgloadding").css("top", ($(window).height() / 2) - 80);
+    }
+
+    //validate
+    jQuery.validator.setDefaults({
+        debug: true,
+        success: "valid"
+    });
+    $("#book-tour").validate({
+        rules: {
+            'Gender': {
+                required: true,
+            },
+            'FullName': {
+                required: true,
+            },
+            'Email': {
+                required: true,
+                email: true
+            },
+            'Country': {
+                required: true,
+            },
+            'agree': {
+                required: true,
+            },
+        },
+        messages: {
+            'Gender': "Please select gender",
+            'FullName': "Please enter Full Name",
+            'Email': "Please enter email adress",
+            'Country': "Please select country",
+            'agree': "Please agree team conditions",
+        },
+        submitHandler: function (form) {
+            if (SelectRoom()) {
+                form.submit();
+                LoadingSendEmail();
             } else {
-                return false;
+                $(".select-room").css("border", "1px solid red");
+                alert("Please select a room");
             }
-        };
-
-        $("#wraploadding").hide();
-        function LoadingSendEmail() {
-            $("#wraploadding").show();
-            $("#wraploadding").css("width", $(window).width());
-            $("#wraploadding").css("height", $(window).height());
-            $("#imgloadding").css("top", ($(window).height() / 2) - 80);
         }
-
-        //validate
-        jQuery.validator.setDefaults({
-            debug: true,
-            success: "valid"
-        });
-        $("#book-tour").validate({
-            rules: {
-                'Gender': {
-                    required: true,
-                },
-                'FullName': {
-                    required: true,
-                },
-                'Email': {
-                    required: true,
-                    email: true
-                },
-                'Country': {
-                    required: true,
-                },
-                'agree': {
-                    required: true,
-                },
-            },
-            messages: {
-                'Gender': "Please select gender",
-                'FullName': "Please enter Full Name",
-                'Email': "Please enter email adress",
-                'Country': "Please select country",
-                'agree': "Please agree team conditions",
-            },
-            submitHandler: function (form) {
-                if (SelectRoom()) {
-                    form.submit();
-                    LoadingSendEmail();
-                } else {
-                    $(".select-room").css("border", "1px solid red");
-                    alert("Please select a room");
-                }
-            }
-        });
+    });
     //});
 </script>
 <style>

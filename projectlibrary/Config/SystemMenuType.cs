@@ -14,9 +14,9 @@ namespace ProjectLibrary.Config
         public const int Location = 8;
         public const int OutSite = 9;
         public const int Service = 10;
-        public const int About = 11;
-        public const int WiningDining = 12;
-        public const int MeetingWedding = 13;
+        public const int Explore = 11;
+        public const int Fress = 12;
+       
         public static Dictionary<int, string> CategoryType = new Dictionary<int, string>()
                                                                  {
                                                                      {Home, "Trang chủ"},
@@ -29,9 +29,8 @@ namespace ProjectLibrary.Config
                                                                      {Gallery, "Trang gallery"},
                                                                      {Location, "Trang vị trí"},
                                                                      {OutSite, "Trang link ra ngoài"},
-                                                                     {About,"Giới thiệu" },
-                                                                      {WiningDining,"Wining Dining" },
-                                                                     {MeetingWedding,"Meeting Wedding" },
+                                                                     {Explore,"Khám phá" },
+                                                                     {Fress,"Fress" },
 
                                                                  };
     }

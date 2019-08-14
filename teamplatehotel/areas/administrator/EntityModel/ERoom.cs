@@ -16,9 +16,22 @@ namespace TeamplateHotel.Areas.Administrator.EntityModel
         [Required(ErrorMessage = "Vui lòng nhập tên phòng")]
         public string Title { get; set; }
 
+        [DisplayName("Phòng ngủ")]
+        [MaxLength(250, ErrorMessage = "Tối đa 250 ký tự")]
+        [Required(ErrorMessage = "Vui lòng nhập loại giường ngủ")]
+        public string Bed { get; set; }
+
+        [DisplayName("Kích thước")]
+    
+        [Required(ErrorMessage = "Vui lòng nhập loại kích thước")]
+        public int? Size { get; set; }
+
         [DisplayName("Alias")]
         [MaxLength(250, ErrorMessage = "Tối đa 250 ký tự")]
         public string Alias { get; set; }
+         
+        [DisplayName("Thuộc loại phòng nào")]
+        public int? ParentID { get; set; }
 
         [DisplayName("Ảnh đại diện")]
         [MaxLength(300, ErrorMessage = "Tối đa 300 ký tự")]
@@ -50,9 +63,9 @@ namespace TeamplateHotel.Areas.Administrator.EntityModel
         [Required(ErrorMessage = "Vui lòng nhập mô tả")]
         public string Description { get; set; }
 
-        [DisplayName("Slogan")]
-        [Required(ErrorMessage = "Vui lòng nhập Slogan")]
-        public string Slogan { get; set; }
+        [DisplayName("View")]
+        [Required(ErrorMessage = "Vui lòng nhập hướng phòng")]
+        public string View { get; set; }
 
         [DisplayName("Mô tả chi tiết")]
         [Required(ErrorMessage = "Vui lòng nhập mô tả chi tiết")]

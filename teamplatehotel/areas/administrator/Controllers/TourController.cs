@@ -127,8 +127,8 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             {
                                 var gallery = new TourGallery
                                 {
-                                    LargeImage = itemGallery.Image,
-                                    SmallImage = ReturnSmallImage.GetImageSmall(itemGallery.Image),
+                                    LargeImage = itemGallery.Icon,
+                                    SmallImage = ReturnSmallImage.GetImageSmall(itemGallery.Icon),
                                     TourID = tour.ID,
                                 };
                                 db.TourGalleries.InsertOnSubmit(gallery);
@@ -201,7 +201,7 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
             //lấy danh sách hình ảnh
             tour.EGalleryITems = db.TourGalleries.Where(a => a.TourID == detailTour.ID).Select(a => new EGalleryITem
             {
-                Image = a.LargeImage
+                Icon = a.LargeImage
             }).ToList();
 
             //lấy danh sách tabtour
@@ -257,8 +257,8 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             {
                                 var gallery = new TourGallery
                                 {
-                                    LargeImage = itemGallery.Image,
-                                    SmallImage = ReturnSmallImage.GetImageSmall(itemGallery.Image),
+                                    LargeImage = itemGallery.Icon,
+                                    SmallImage = ReturnSmallImage.GetImageSmall(itemGallery.Icon),
                                     TourID = tour.ID,
                                 };
                                 db.TourGalleries.InsertOnSubmit(gallery);

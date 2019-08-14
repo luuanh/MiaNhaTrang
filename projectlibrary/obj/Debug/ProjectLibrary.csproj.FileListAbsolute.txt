@@ -228,7 +228,6 @@ E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrar
 E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.dll
 E:\IIT\WebCustomer\Dlioro\Dlioro\Paos hotel satek\Paos hotel satek\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
 E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\ProjectLibrary.dll.config
-E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\ProjectLibrary.dll
 E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
 E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\EntityFramework.dll
 E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\EntityFramework.SqlServer.dll
@@ -239,3 +238,4 @@ E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Debug\ProjectLibra
 E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CopyComplete
 E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Debug\ProjectLibrary.dll
 E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\ProjectLibrary\bin\Debug\ProjectLibrary.dll

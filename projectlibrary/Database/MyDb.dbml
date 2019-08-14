@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="webcustomer_paoshotel" Class="MyDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-VGU3S9I;Initial Catalog=webcustomer_paoshotel;Integrated Security=True" SettingsObjectName="ProjectLibrary.Properties.Settings" SettingsPropertyName="webcustomer_paoshotelConnectionString" Provider="System.Data.SqlClient" />
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MiaNhaTrang" Class="MyDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-VGU3S9I;Initial Catalog=MiaNhaTrang;Integrated Security=True" SettingsObjectName="ProjectLibrary.Properties.Settings" SettingsPropertyName="MiaNhaTrangConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Advertising" Member="Advertisings">
     <Type Name="Advertising">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -39,7 +39,7 @@
       <Column Name="Status" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Column Name="Hot" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Column Name="Home" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
-      <Column Name="Customer" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="[Top]" Member="Top" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Column Name="New" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Association Name="Menu_Article" Member="Menu" ThisKey="MenuID" OtherKey="ID" Type="Menu" IsForeignKey="true" />
     </Type>
@@ -200,6 +200,20 @@
       <Association Name="Language_Menu" Member="Language" ThisKey="LanguageID" OtherKey="ID" Type="Language" IsForeignKey="true" />
     </Type>
   </Table>
+  <Table Name="dbo.PageHome" Member="PageHomes">
+    <Type Name="PageHome">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Alias" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="[Index]" Member="Index" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MetaTitle" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="MetaDescription" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Video" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="LanguageID" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
   <Table Name="dbo.Plugin" Member="Plugins">
     <Type Name="Plugin">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -228,7 +242,8 @@
       <Column Name="Status" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Column Name="Home" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Column Name="ImageBackground" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
-      <Column Name="Slogan" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="[View]" Member="View" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="Room_RoomGallery" Member="RoomGalleries" ThisKey="ID" OtherKey="RoomId" Type="RoomGallery" />
       <Association Name="Language_Room" Member="Language" ThisKey="LanguageID" OtherKey="ID" Type="Language" IsForeignKey="true" />
     </Type>
@@ -268,6 +283,8 @@
       <Column Name="MetaDescription" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
       <Column Name="Status" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Column Name="Home" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Activities" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[Top]" Member="Top" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
       <Association Name="Service_ServiceGallery" Member="ServiceGalleries" ThisKey="ID" OtherKey="ServiceID" Type="ServiceGallery" />
       <Association Name="Menu_Service" Member="Menu" ThisKey="MenuID" OtherKey="ID" Type="Menu" IsForeignKey="true" />
     </Type>
@@ -276,8 +293,8 @@
     <Type Name="ServiceGallery">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="ServiceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="ImageSmall" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
-      <Column Name="ImageLarge" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="Icon" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
       <Association Name="Service_ServiceGallery" Member="Service" ThisKey="ServiceID" OtherKey="ID" Type="Service" IsForeignKey="true" />
     </Type>
   </Table>

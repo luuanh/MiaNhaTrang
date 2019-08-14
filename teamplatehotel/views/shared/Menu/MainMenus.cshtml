@@ -7,11 +7,44 @@
     Hotel hotel = CommentController.DetailHotel(Request.Cookies["LanguageID"].Value);
     List<Language> languages = CommentController.GetLanguages();
     List<Room> room = CommentController.GetRooms(Request.Cookies["languageID"].Value);
-
+  
     string alias = "";
     int i = 0;
-    int a = 0;
+   
 }
+<div>
+    <nav class=" navbar navbar-expand-lg static-top " style="background:#76A7B3">
+        <div class="container">
+            <a class="navbar-brand" href="/">
 
+                <img src="@hotel.Logo" style="width:70px" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto hovereffers">
+                    @foreach (var item in menus.Where(a => a.ParentID == 0))
+                    {
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/@item.Alias">@item.Title</a>
+                        </li>
+                    }
+
+
+
+                    @foreach (var item in languages)
+                    {
+                        <li class="nav-item">
+                            <a href="/SelectLanguge/@item.ID" class="nav-link"><img src="@item.Icon" alt="@item.Name"></a>
+                        </li>
+                    }
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
 
 

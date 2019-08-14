@@ -23,8 +23,8 @@
                         @Html.ValidationMessageFor(p => p.MenuID)
                     </div>
                 </div>
-                
-                @Html.HiddenFor(a=>a.ID)
+
+                @Html.HiddenFor(a => a.ID)
                 <div class="control-group">
                     <label class="control-label" for="Title">Tên dịch vụ<span class="asterisk">*</span></label>
                     <div class="controls">
@@ -64,7 +64,20 @@
                         <label class="radio-inline">@Html.RadioButtonFor(m => m.Home, "false") Không</label>
                     </div>
                 </div>
-
+                <div class="control-group">
+                    <label class="control-label" for="Title">Hiển thị top</label>
+                    <div class="controls">
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Top, "true")  Có</label>
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Top, "false") Không</label>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Title">Hiển thị Activies</label>
+                    <div class="controls">
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Activies, "true")  Có</label>
+                        <label class="radio-inline">@Html.RadioButtonFor(m => m.Activies, "false") Không</label>
+                    </div>
+                </div>
                 <div class="control-group" style="margin-top: 40px">
                     <label class="control-label" for="Content">Mô tả</label>
                     <div class="controls">
@@ -87,13 +100,16 @@
 
                 <div class="control-group">
                     <div class="controls">
-                        <h3 class="mg-h">Thêm hình ảnh cho dịch vụ</h3>
+                        <h3 class="mg-h">Thêm tuy chon cho dịch vụ</h3>
                         <ul class="adminformlist">
                             <li class="imgthumb">
+                                <label>Name</label>
+                                <input type="text" id="NameService" />
                                 <label>Hình ảnh </label>
+
                                 <input type="text" id="img-thumb" style="min-width: 190px" class="upload" />
                                 <button type="button" id="add" class="btn btn-primary">Insert</button>
-                                <p class="help-img">Nên chọn hình ảnh có kích thước lớn hơn 600px</p>
+                                @*<p class="help-img">Nên chọn hình ảnh có kích thước lớn hơn 600px</p>*@
                             </li>
                             <li>
                                 <ul style="clear: both; height: auto; width: 100%;" class="allImage" id="">
@@ -102,8 +118,10 @@
                                         foreach (EGalleryITem gallery in Model.EGalleryITems)
                                         {
                                             <li>
-                                                <input id="EGalleryITems_@(flag)__Image" name="EGalleryITems[@(flag)].Image" type="hidden" value="@(gallery.Image)" />
-                                                <img src="@(gallery.Image)" width="100" />
+                                                <input id="EGalleryITems_@(flag)__Name" name="EGalleryITems[@(flag)].Name" type="hidden" value="@(gallery.Name)" />
+
+                                                <input id="EGalleryITems_@(flag)__Icon" name="EGalleryITems[@(flag)].Icon" type="hidden" value="@(gallery.Icon)" />
+                                                <img src="@(gallery.Icon)" width="100" />
                                             </li>
                                             flag++;
                                         }
@@ -182,9 +200,11 @@
             return loadHtmlForImage(++val);
         } else {
             //console.log(val);
-            var image = '<input id="EGalleryITems_' + val + '__Image" name="EGalleryITems[' + val + '].Image" type="hidden" value="' + $('#img-thumb').val() + '"/>';
+            var image = '<input id="EGalleryITems_' + val + '__Icon" name="EGalleryITems[' + val + '].Icon" type="hidden" value="' + $('#img-thumb').val() + '"/>';
+            var name = '<input id="EGalleryITems_' + val + '__Name" name="EGalleryITems[' + val + '].Name" type="hidden" value="' + $('#NameService').val() + '"/>'
+
             var img = '<img src="' + $('#img-thumb').val() + '" width="100" height="80" />';
-            return ('<li>' + image + img + '</li>');
+            return ('<li>' + name + image + img + $('#NameService').val() + '</li>');
         }
     }
 
@@ -215,7 +235,7 @@
             } else {
                 var data = '';
                 while (true) {
-                    if ($('#EGalleryITems_0__Image').length == 0) {
+                    if ($('#EGalleryITems_0__Icon').length == 0) {
                         data = loadHtmlForImage(0);
                         count = 1;
                     } else {
@@ -229,6 +249,7 @@
                 $('#img-title').val('');
                 $('#img-thumb').val('');
                 $('#img').val('');
+                $('#NameService').val('');
             }
 
         });

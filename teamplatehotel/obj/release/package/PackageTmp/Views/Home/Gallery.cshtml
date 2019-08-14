@@ -1,48 +1,106 @@
 ﻿@using ProjectLibrary.Database
-@model IEnumerable<Gallery>
+@model List<Gallery>
 @{
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
     Menu menu = ViewBag.Menu ?? new Menu();
+    int i = 1;
 }
-<script src="~/Plugins/isotope/isotope.pkgd.min.js"></script>
-<!-- Css prettyphoto-master -->
-<link href="~/Plugins/prettyphoto-master/css/prettyPhoto.css" rel="stylesheet" />
-<!-- Jquery prettyphoto-master -->
-<script src="~/Plugins/prettyphoto-master/js/jquery.prettyPhoto.js"></script>
-@*<section class="breadcrumb-area overlay-dark-2 bg-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-               
-            </div>
-        </div>
-    </div>
-</section>*@
-@Html.Partial("Slider/sliderpage")
-<section>
-    <div class="col-md-8 col-md-offset-2" style="text-align:center;padding:30px 0px;">
-        <h1>We captured our sweet moment in our gallery</h1>
-        <p>Lorem Ipsum is simply dummy text the printing and typesetting Lorem Ipsum been industry's standard dummy text eversince it to make lore type specimen book</p>
-    </div>
-    <div class="gallery clearfix">
-        
-        @foreach (var item in Model)
-        {
-            <div class="col-md-4 col-sm-4 mg-border">
-                <a href="@item.LargeImage" rel="prettyPhoto[gallery2]" title="@item.Title">
-                    <img src="@item.LargeImage" alt="@item.Title" />
-                    <i class="fa fa-plus" aria-hidden="true"></i>
-                </a>
-            </div>
-          
-        }
-    </div>
-</section>
 
-<script>
-    $(document).ready(function () {
-        jQuery("a[rel^='prettyPhoto']").prettyPhoto({ animationSpeed: 'slow', theme: 'pp_default', gallery_markup: '', slideshow: 2000, social_tools: '' });
+@Html.Partial("Menu/MainMenus")
+<div id="main" role="main">
+    <section id="galleryPage">
+        <div class="pContain">
 
-    });
-</script>
+            <div class="mainBanner type2 green">
+                <div class="caption align-m">RESORT GALLERY</div>
+            </div><!-- mainBanner -->
 
+            <div class="thumbHolder">
+                <div class="thumbCore">
+
+                    @if (Model.Count > 3)
+                    {
+                        <div class="thumbItem">
+                            <div class="col col1">
+                                <div class="row r1">
+                                    <div class="colum c1">
+                                        <div class="img" photoID="0" style='background-image: url("@Model[0].LargeImage");'></div>
+                                    </div>
+                                    <div class="colum c2">
+                                        <div class="img" photoID="1" style='background-image: url("@Model[1].LargeImage");'></div>
+                                    </div>
+                                </div>
+                                <div class="row r2">
+                                    <div class="img" photoID="2" style='background-image: url("@Model[2].LargeImage");'></div>
+                                </div>
+                            </div>
+                            <div class="col col2">
+                                <div class="img" photoID="3" style='background-image: url("@Model[3].LargeImage");'></div>
+                            </div>
+                        </div><!-- thumbItem -->
+
+                    }
+
+
+
+
+
+                    @if (Model.Count > 7)
+                    {
+                        <div class="thumbItem">
+                            <div class="col col2">
+                                <div class="img" photoID="4" style='background-image: url("@Model[4].LargeImage");'></div>
+                            </div>
+
+                            <div class="col col1">
+                                <div class="row r2">
+                                    <div class="img" photoID="5" style='background-image: url("@Model[5].LargeImage");'></div>
+                                </div>
+
+                                <div class="row r1">
+                                    <div class="colum c1">
+                                        <div class="img" photoID="6" style='background-image: url("@Model[6].LargeImage");'></div>
+                                    </div>
+                                    <div class="colum c2">
+                                        <div class="img" photoID="7" style='background-image: url("@Model[7].LargeImage");'></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- thumbItem -->
+                    }
+
+
+
+                    <div class="gallery">
+                        <div class="galleryCore align-m">
+                            <div class="number"></div>
+                            <div class="galleryItem">
+                                @*<img src="Content/images/gallery/slide1.jpg" />*@
+                                @foreach (var item in Model.Take(8))
+                                {
+                                    <div class="item"><img src="@item.LargeImage"></div>
+                                }
+
+
+                            </div>
+
+                            <div class="controller">
+                                <div class="btn nextBtn"></div>
+                                <div class="btn preBtn"></div>
+                            </div>
+                        </div>
+
+                        <div class="bg"></div>
+                    </div><!-- gallery -->
+
+
+                </div><!-- thumbCore -->
+            </div><!-- thumbHolder -->
+            <!-- <div class="press">
+                <div class="title blue">press</div>
+            </div> -->
+
+
+        </div> <!-- end pContain -->
+    </section> <!-- section -->
+</div><!-- end main -->
