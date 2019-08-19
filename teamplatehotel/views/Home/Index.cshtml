@@ -100,7 +100,7 @@
                         <div class="roomType">
                             <p class="title">SELECT A ROOM TYPE</p>
                             <ul>
-                                @foreach (var item in roomShowHomes.Where(a => a.ParentID == 0))
+                                @foreach (var item in roomShowHomes.Where(a => a.ParentID == 0).Take(4))
                                 {
                                     var roomChild = roomShowHomes.Where(b => b.ParentID == item.ID).ToList();
                                     if (roomChild.Count > 0)

@@ -15,6 +15,9 @@
     .carousel-item {
         display: block;
     }
+    .features ul {
+        max-width:100%;
+    }
 </style>
 @Html.Partial("Menu/MainMenus")
 <div id="main" role="main">
@@ -61,7 +64,8 @@
 
                         <div class="bigTitle">@Model.Room.Title</div>
                         <div class="des">
-                            @Model.Room.Description
+                            @Html.Raw(Model.Room.Description)
+                          
                         </div>
                         <div class="bottom">
                             <div class="houseInfo">
@@ -110,7 +114,8 @@
             <div class="more-info">
                 <p class="title">More About Our Condos</p>
                 <p>
-                    @Model.Room.Description
+                    @Html.Raw(Model.Room.Description)
+
                 </p>
 
                 <div class="features">

@@ -1,7 +1,13 @@
 ﻿@model TeamplateHotel.Areas.Administrator.EntityModel.EArticle
+@using TeamplateHotel.Controllers
+@using ProjectLibrary.Database
+@using  ProjectLibrary.Config
 @{
     Layout = "~/Areas/Administrator/Views/Templates/_LayoutPage.cshtml";
     int flag = 0;
+    List<Menu> listMenu = CommentController.GetMenuByType(SystemMenuType.Fress, Request.Cookies["LanguageID"].Value);
+    int j = 0;
+}
 }
 <div class="span12">
     <div class="widget ">
@@ -18,7 +24,7 @@
                 <div class="control-group" id="listHotel">
                     <label class="control-label" for="MenuID">Chuyên mục bài viết<span class="asterisk">*</span></label>
                     <div class="controls">
-                        @Html.DropDownListFor(p => p.MenuID, new SelectList(ViewBag.ListMenu, "Value", "Text"), new { @class = "span3" })
+                        @Html.DropDownListFor(p => p.MenuID, new SelectList(ViewBag.ListMenu, "Value", "Text"), new { @class = "span3", @onchange = "ChaneMenuID()" })
                         @Html.ValidationMessageFor(p => p.MenuID)
                     </div>
                 </div>
@@ -46,7 +52,13 @@
                         @Html.ValidationMessageFor(c => c.Image)
                     </div>
                 </div>
-
+                <div class="control-group">
+                    @Html.LabelFor(c => c.Link, new { @class = "control-label", @id = "labelLink" })
+                    <div class="controls">
+                        @Html.TextBoxFor(c => c.Link, new { @class = "span4" })
+                        @Html.ValidationMessageFor(c => c.Link)
+                    </div>
+                </div>
                 <div class="control-group">
                     <label class="control-label" for="Title">Trạng thái hiển thị</label>
                     <div class="controls">
@@ -61,21 +73,21 @@
                         <label class="radio-inline">@Html.RadioButtonFor(m => m.Home, "false") Không</label>
                     </div>
                 </div>
-                <div class="control-group" >
+                <div class="control-group">
                     <label class="control-label" for="Title">Bài viết hot</label>
                     <div class="controls">
                         <label class="radio-inline">@Html.RadioButtonFor(m => m.Hot, "true")  Có</label>
                         <label class="radio-inline">@Html.RadioButtonFor(m => m.Hot, "false") Không</label>
                     </div>
                 </div>
-                <div class="control-group" >
+                <div class="control-group">
                     <label class="control-label" for="Title">Bài viết top</label>
                     <div class="controls">
                         <label class="radio-inline">@Html.RadioButtonFor(m => m.Top, "true")  Có</label>
                         <label class="radio-inline">@Html.RadioButtonFor(m => m.Top, "false") Không</label>
                     </div>
                 </div>
-                <div class="control-group" >
+                <div class="control-group">
                     <label class="control-label" for="Title">Bài viết nổi bật</label>
                     <div class="controls">
                         <label class="radio-inline">@Html.RadioButtonFor(m => m.New, "true")  Có</label>
@@ -207,7 +219,7 @@
         $('#context-menu').hide();
     });
     //Thêm ảnh
- 
+
     $('#add').click(function () {
         if ($('#img').val() == "") {
             alert("Xin vui lòng chọn ảnh");
@@ -238,10 +250,29 @@
         bindRightClick();
 
         //
-       
+        ChaneMenuID();
 
 
-      
+
     });
-   
+    function ChaneMenuID() {
+        var menuID = $("#MenuID").val();
+
+        for (var i = 0;i< @listMenu.Count;i++)
+        {
+            j = i;
+            console.log(menuID + @listMenu[j].ID);
+            if (menuID != @listMenu[j].ID)
+            {
+                $("#Link").css("display", "none");
+                $("#labelLink").css("display", "none");
+            }
+            else
+            {
+                $("#Link").css("display", "block");
+                $("#labelLink").css("display", "block");
+            }
+        }
+
+    }
 </script>

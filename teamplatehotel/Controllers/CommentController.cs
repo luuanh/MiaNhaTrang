@@ -31,6 +31,15 @@ namespace TeamplateHotel.Controllers
                 return hotel;
             }
         }
+        // danh sach menu theo type
+        public static List<Menu> GetMenuByType(int type,string lang)
+        {
+            using(var db =new MyDbDataContext())
+            {
+                var list = db.Menus.Where(a => a.Status == true && a.LanguageID == lang && a.Type == type).ToList();
+                return list;
+            }
+        }
         //Danh sách Main menu
         public static List<Menu> GetMainMenus(string languageKey)
         {

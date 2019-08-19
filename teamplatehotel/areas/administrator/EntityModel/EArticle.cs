@@ -58,6 +58,9 @@ namespace TeamplateHotel.Areas.Administrator.EntityModel
         [DisplayName("Bài viết nổi bật")]
         public bool New { get; set; }
 
+        [DisplayName("Link")]
+        public string Link { get; set; }
+
       public List<EGalleryArticle> EGalleryArticles { get; set; }
 
     }

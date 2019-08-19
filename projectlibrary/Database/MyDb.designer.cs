@@ -20,9 +20,9 @@ namespace ProjectLibrary.Database
 	using System.Linq.Expressions;
 	using System.ComponentModel;
 	using System;
-    using ProjectLibrary.Config;
-
-    [global::System.Data.Linq.Mapping.DatabaseAttribute(Name="MiaNhaTrang")]
+	
+	
+	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="MiaNhaTrang")]
 	public partial class MyDbDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -108,11 +108,9 @@ namespace ProjectLibrary.Database
     #endregion
 		
 		public MyDbDataContext() : 
-				base(SystemConfig.ConnectionString, mappingSource)
+				base(global::ProjectLibrary.Properties.Settings.Default.MiaNhaTrangConnectionString, mappingSource)
 		{
-            //global::ProjectLibrary.Properties.Settings.Default.MiaNhaTrangConnectionString
-
-            OnCreated();
+			OnCreated();
 		}
 		
 		public MyDbDataContext(string connection) : 
@@ -853,6 +851,8 @@ namespace ProjectLibrary.Database
 		
 		private bool _New;
 		
+		private string _Link;
+		
 		private EntityRef<Menu> _Menu;
 		
     #region Extensibility Method Definitions
@@ -889,6 +889,8 @@ namespace ProjectLibrary.Database
     partial void OnTopChanged();
     partial void OnNewChanging(bool value);
     partial void OnNewChanged();
+    partial void OnLinkChanging(string value);
+    partial void OnLinkChanged();
     #endregion
 		
 		public Article()
@@ -1197,6 +1199,26 @@ namespace ProjectLibrary.Database
 					this._New = value;
 					this.SendPropertyChanged("New");
 					this.OnNewChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Link", DbType="NVarChar(250)")]
+		public string Link
+		{
+			get
+			{
+				return this._Link;
+			}
+			set
+			{
+				if ((this._Link != value))
+				{
+					this.OnLinkChanging(value);
+					this.SendPropertyChanging();
+					this._Link = value;
+					this.SendPropertyChanged("Link");
+					this.OnLinkChanged();
 				}
 			}
 		}
@@ -2633,7 +2655,7 @@ namespace ProjectLibrary.Database
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Country", DbType="NVarChar(250) NOT NULL", CanBeNull=false)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Country", DbType="NVarChar(250)")]
 		public string Country
 		{
 			get

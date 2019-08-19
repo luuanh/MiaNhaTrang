@@ -944,3 +944,11 @@ E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\obj\Debug\TeamplateHot
 E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\obj\Debug\TeamplateHotel_satek.csproj.CopyComplete
 E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\obj\Debug\TeamplateHotel.dll
 E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\obj\Debug\TeamplateHotel.pdb
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\bin\AttributeRouting.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\bin\AttributeRouting.Web.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\bin\AttributeRouting.Web.Mvc.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\bin\WebActivator.dll
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\bin\AttributeRouting.xml
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\bin\AttributeRouting.Web.xml
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\bin\AttributeRouting.Web.Mvc.xml
+E:\IIT\WebCustomer\MiaNhaTrang\MiaNhaTrang\TeamplateHotel\bin\WebActivator.pdb

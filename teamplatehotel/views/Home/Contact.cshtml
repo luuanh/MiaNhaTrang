@@ -9,7 +9,7 @@
 <style>
     .contact {
         /*background-color: #76A7B3;*/
-        height: 650px;
+        /*height: 650px;*/
         /*overflow-y: scroll;*/
         /*border-radius: 20px;*/
         margin: auto;
@@ -49,7 +49,7 @@
             margin-bottom: 40px;
         }
 
-        .contact input {
+        .contact input, select {
             height: 50px;
             margin-bottom: 20px;
         }
@@ -65,16 +65,39 @@
             text-transform: uppercase;
             margin-top: 20px;
         }
+    label {
+        color: #785151;
+        margin-bottom:1em;
+        float:left
+    }
+    option{
+        font-family:none;
+    }
 </style>
 @Html.Partial("Menu/MainMenus")
+@Html.Partial("Slider/Slider")
 <div class="contact col-md-9">
     <div style="width: 90%; margin: auto">
         <h1>Contact Us</h1>
         <p>General Customer Request</p>
-        <form action="" method="post" style="">
-            <input type="text" placeholder="What's your name?" class="form-control">
-            <input type="email" placeholder="What's your email?" class="form-control">
-            <textarea name="message" placeholder="Message goes here" class="form-control" rows="4"></textarea>
+        <form action="Contact/SubmitContact" method="post" style="">
+            <label>Gender:</label>
+
+            <select class="form-control" name="Gender" style="height:3.5em" required>
+                <option value="">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Select")</option>
+                <option value="@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Mr")">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Mr")</option>
+
+                <option value="@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Mrs")">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Mrs")</option>
+            </select>
+
+            <label>Full Name:</label>
+            <input type="text" name="FullName" placeholder="What's your name?" class="form-control" required>
+            <label>Phone:</label>
+            <input type="text" name="Tel" class="form-control" required>
+            <label>Email:</label>
+            <input type="email" name="Email" placeholder="What's your email?" class="form-control" required>
+            <label>Message:</label>
+            <textarea name="Request" placeholder="Message goes here" class="form-control" rows="4" required></textarea>
             <button type="submit" class="btn-submit" style="">Submit</button>
         </form>
         <h3>CONTACT DETAILS</h3>

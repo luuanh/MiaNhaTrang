@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AttributeRouting.Web.Mvc;
 using ProjectLibrary.Config;
 using ProjectLibrary.Database;
 using TeamplateHotel.Models;
@@ -11,6 +12,7 @@ namespace TeamplateHotel.Controllers
 {
     public class HomeController : BasicController
     {
+  [Route]
         [HttpGet]
         public ActionResult Index(object aliasMenuSub, object idSub, object aliasSub)
         {

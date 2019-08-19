@@ -41,6 +41,7 @@
       <Column Name="Home" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Column Name="[Top]" Member="Top" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Column Name="New" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Link" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
       <Association Name="Menu_Article" Member="Menu" ThisKey="MenuID" OtherKey="ID" Type="Menu" IsForeignKey="true" />
     </Type>
   </Table>
@@ -112,7 +113,7 @@
       <Column Name="FullName" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
       <Column Name="Tel" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="Email" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
-      <Column Name="Country" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
       <Column Name="Request" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
     </Type>
   </Table>

@@ -5,16 +5,17 @@
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
     Menu menu = ViewBag.Menu ?? new Menu();
 }
-
-<section class="breadcrumb-area overlay-dark-2 bg-5">
+@Html.Partial("Menu/MainMenus")
+@Html.Partial("Slider/Slider")
+<section class="breadcrumb-area overlay-dark-2 bg-5" style="color:#926767">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="breadcrumb-text text-center">
-                    <h2>Messages</h2>
+                    <p style="font-size:60px">Messages</p>
                     <ul>
-                        <li><a href="~/Views/Home/Index.cshtml">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Home")</a></li>
-                        <li>Messages</li>
+                        <li><a href="/">@GetLanguage.Language(Request.Cookies["LanguageID"].Value, "Home")</a></li>
+                        @*<li>Messages</li>*@
                     </ul>
 
                 </div>
@@ -25,7 +26,7 @@
 <div class="container posts">
     <div class="row">
         <div class="col-md-12">
-            <h1 class="aic-titel">Messages</h1>
+            @*<h1 class="aic-titel">Messages</h1>*@
             <p style="text-align:justify">@Html.Raw(ViewBag.Messages)</p>            
         </div>
     </div>

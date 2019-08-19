@@ -103,6 +103,7 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             Title = model.Title,
                             Alias = model.Alias,
                             Image = model.Image,
+                            Link=model.Link,
                             Description = model.Description,
                             Content = model.Content,
                             Index = 0,
@@ -169,6 +170,7 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                     Title = detailArticle.Title,
                     Alias = detailArticle.Alias,
                     Image = detailArticle.Image,
+                    Link=detailArticle.Link,
                     Description = detailArticle.Description,
                     Content = detailArticle.Content,
                     MetaTitle = detailArticle.MetaTitle,
@@ -211,6 +213,7 @@ namespace TeamplateHotel.Areas.Administrator.Controllers
                             article.Title = model.Title;
                             article.Alias = model.Alias;
                             article.Image = model.Image;
+                            article.Link = model.Link;
                             article.Description = model.Description;
                             article.Content = model.Content;
                             article.MetaTitle = string.IsNullOrEmpty(model.MetaTitle) ? model.Title : model.MetaTitle;

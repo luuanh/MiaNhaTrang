@@ -46,6 +46,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="AttributeRouting, Version=3.4.2.0, Culture=neutral, PublicKeyToken=c10f85d521a011a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\AttributeRouting.Core.3.4.2\lib\net40\AttributeRouting.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributeRouting.Web, Version=3.4.2.0, Culture=neutral, PublicKeyToken=c10f85d521a011a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\AttributeRouting.Core.Web.3.4.2\lib\net40\AttributeRouting.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributeRouting.Web.Mvc, Version=3.4.2.0, Culture=neutral, PublicKeyToken=c10f85d521a011a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\AttributeRouting.3.4.2\lib\net40\AttributeRouting.Web.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="CKFinder, Version=2.6.0.2792, Culture=neutral, PublicKeyToken=579e7adc719a1423, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>ckfinder\bin\CKFinder.dll</HintPath>
@@ -132,6 +141,9 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="WebActivator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivator.1.0.0.0\lib\WebActivator.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
@@ -205,6 +217,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.vi.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_Start\AttributeRouting.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -2128,6 +2141,8 @@
     <Content Include="Areas\Administrator\Views\PageHome\Create.cshtml" />
     <Content Include="Areas\Administrator\Views\PageHome\Update.cshtml" />
     <Content Include="Plugins\jquery-ui\package.json" />
+    <Content Include="Content\font\font\Altis.otf" />
+    <Content Include="Content\font\font\TrendSansOne.otf" />
     <None Include="Properties\PublishProfiles\bien bac hotel.pubxml" />
     <None Include="Properties\PublishProfiles\Demo.pubxml" />
     <None Include="Properties\PublishProfiles\dfsdfsdf.pubxml" />
@@ -2843,7 +2858,7 @@
     <Content Include="Views\BookingTour\Messages.cshtml" />
     <Content Include="Views\Booking\BookingSmile.cshtml" />
     <Content Include="Views\Home\Explore.cshtml" />
-    <None Include="Views\Home\Fress.cshtml" />
+    <Content Include="Views\Home\Fress.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
