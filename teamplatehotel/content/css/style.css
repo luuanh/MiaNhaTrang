@@ -240,9 +240,9 @@ footer {
         height: 150px;
     }
 
-    .navbar {
+    /*.navbar {
         background: rgb(3, 75, 97);
-    }
+    }*/
 
     .banner-explore h1 {
         font-size: 40px;
@@ -274,9 +274,9 @@ footer {
     src: url('../font/font/Altis.otf') format('opentype');
 }
 
-.navbar {
+/*.navbar {
     background: rgba(3, 75, 97, 0.753);
-}
+}*/
 
 .nav-item {
     margin: 15px;

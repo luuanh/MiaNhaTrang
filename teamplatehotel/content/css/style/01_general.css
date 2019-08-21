@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'lato-b';
-  src: url('../../fonts/Lato-Boldd41d.eot?#iefix') format('embedded-opentype'),  url('../../fonts/Lato-Bold.woff') format('woff'), url('../../fonts/Lato-Bold.ttf')  format('truetype'), url('../../fonts/Lato-Bold.svg#../../fonts/Lato-Bold') format('svg');
+  /*src: url('../../fonts/Lato-Boldd41d.eot?#iefix') format('embedded-opentype'),  url('../../fonts/Lato-Bold.woff') format('woff'), url('../../fonts/Lato-Bold.ttf')  format('truetype'), url('../../fonts/Lato-Bold.svg#../../fonts/Lato-Bold') format('svg');*/
   font-weight: normal;
   font-style: normal;
 }
@@ -41,11 +41,12 @@
 }
 
 @font-face {
-  font-family: 'altis';
-  src: url('../../fonts/Altisd41d.eot?#iefix') format('embedded-opentype'),  url('../../fonts/Altis.otf')  format('opentype'),
-       url('../../fonts/Altis.woff') format('woff'), url('../../fonts/Altis.ttf')  format('truetype'), url('../../fonts/Altis.svg#../../fonts/Altis') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'altis';
+    src: url('../../font/font/Altis.otf') format('opentype');
+    /*src: url('../../fonts/Altisd41d.eot?#iefix') format('embedded-opentype'),  url('../../fonts/Altis.otf')  format('opentype'),
+       url('../../fonts/Altis.woff') format('woff'), url('../../fonts/Altis.ttf')  format('truetype'), url('../../fonts/Altis.svg#../../fonts/Altis') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -429,9 +430,10 @@ a.link-small {
 }
 
 /*thumbHolder*/
-.thumbHolder{
-  position: relative;
-  background: url(../../images/icon_parttern.svg);
+.thumbHolder {
+    position: relative;
+    background-image: url('../../images/icon_parttern.svg');
+    /*background: url(../../images/icon_parttern.svg);*/
 }
 
 .thumbHolder .thumbCore{
@@ -1919,15 +1921,15 @@ pointer-events: visible;
 }
 
 .dine-banner .item.sandals{
-  background-image: url("../../images/dine/sandals.jpg");
+  /*background-image: url("../../images/dine/sandals.jpg");*/
 }
 
 .dine-banner .item.mojito{
-  background-image: url("../../images/dine/mojito.jpg");
+  /*background-image: url("../../images/dine/mojito.jpg");*/
 }
 
 .dine-banner .item.labaia{
-  background-image: url("../../images/dine/labaia.jpg");
+  /*background-image: url("../../images/dine/labaia.jpg");*/
 }
 
 .dine-banner .item .content{
